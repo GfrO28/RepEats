@@ -1,0 +1,8989 @@
+{
+ "_fuente": "Tablas Peruanas de Composición de Alimentos, 11.ª ed. digital (2023). Instituto Nacional de Salud, Centro Nacional de Alimentación, Nutrición y Vida Saludable (CENAN), Ministerio de Salud del Perú. Valores por 100 g de parte comestible; carbohidratos disponibles cuando la tabla los reporta, si no, totales.",
+ "foods": [
+  {
+   "name": "Kiwicha, achita o achis o amaranto",
+   "kcal": 351,
+   "proteinG": 12.8,
+   "fatG": 6.6,
+   "carbsG": 59.8,
+   "unit": null
+  },
+  {
+   "name": "Arroz pilado o pulido cocido",
+   "kcal": 115,
+   "proteinG": 2.4,
+   "fatG": 0.1,
+   "carbsG": 25.2,
+   "unit": null
+  },
+  {
+   "name": "Arroz blanco corriente",
+   "kcal": 358,
+   "proteinG": 7.8,
+   "fatG": 0.7,
+   "carbsG": 77.6,
+   "unit": null
+  },
+  {
+   "name": "Arroz con cáscara",
+   "kcal": 332,
+   "proteinG": 5.9,
+   "fatG": 2.0,
+   "carbsG": 71.6,
+   "unit": null
+  },
+  {
+   "name": "Avena envasada",
+   "kcal": 380,
+   "proteinG": 13.7,
+   "fatG": 4.7,
+   "carbsG": 71.3,
+   "unit": null
+  },
+  {
+   "name": "Avena, hojuela cocida",
+   "kcal": 54,
+   "proteinG": 1.3,
+   "fatG": 0.5,
+   "carbsG": 10.9,
+   "unit": null
+  },
+  {
+   "name": "Avena, hojuela cruda",
+   "kcal": 333,
+   "proteinG": 13.3,
+   "fatG": 4.0,
+   "carbsG": 61.6,
+   "unit": null
+  },
+  {
+   "name": "Cañihua, variedad amarilla",
+   "kcal": 381,
+   "proteinG": 15.7,
+   "fatG": 7.5,
+   "carbsG": 62.5,
+   "unit": null
+  },
+  {
+   "name": "Cañihua gris",
+   "kcal": 356,
+   "proteinG": 14.0,
+   "fatG": 4.5,
+   "carbsG": 64.0,
+   "unit": null
+  },
+  {
+   "name": "Cañihua, hojuela de",
+   "kcal": 318,
+   "proteinG": 14.5,
+   "fatG": 8.9,
+   "carbsG": 45.5,
+   "unit": null
+  },
+  {
+   "name": "Cañihua parda",
+   "kcal": 355,
+   "proteinG": 13.8,
+   "fatG": 3.5,
+   "carbsG": 66.2,
+   "unit": null
+  },
+  {
+   "name": "Cebada con cáscara",
+   "kcal": 284,
+   "proteinG": 8.4,
+   "fatG": 2.0,
+   "carbsG": 60.2,
+   "unit": null
+  },
+  {
+   "name": "Cebada, llunka de (morón americano)",
+   "kcal": 249,
+   "proteinG": 1.9,
+   "fatG": 0.7,
+   "carbsG": 59.8,
+   "unit": null
+  },
+  {
+   "name": "Cebada, mashka o machica",
+   "kcal": 302,
+   "proteinG": 8.6,
+   "fatG": 0.7,
+   "carbsG": 67.3,
+   "unit": null
+  },
+  {
+   "name": "Cebada para mote, pelada",
+   "kcal": 328,
+   "proteinG": 8.2,
+   "fatG": 1.1,
+   "carbsG": 73.3,
+   "unit": null
+  },
+  {
+   "name": "Cebada tostada, harina integral",
+   "kcal": 274,
+   "proteinG": 8.7,
+   "fatG": 3.2,
+   "carbsG": 54.8,
+   "unit": null
+  },
+  {
+   "name": "Cebada perlada o resbalada cocida",
+   "kcal": 59,
+   "proteinG": 1.0,
+   "fatG": 0.1,
+   "carbsG": 13.9,
+   "unit": null
+  },
+  {
+   "name": "Cebada perlada o resbalada cruda",
+   "kcal": 277,
+   "proteinG": 5.3,
+   "fatG": 0.6,
+   "carbsG": 64.2,
+   "unit": null
+  },
+  {
+   "name": "Cebada tostada y molida (chaquepa)",
+   "kcal": 349,
+   "proteinG": 7.7,
+   "fatG": 0.8,
+   "carbsG": 79.7,
+   "unit": null
+  },
+  {
+   "name": "Chancay (bizcocho)",
+   "kcal": 355,
+   "proteinG": 8.8,
+   "fatG": 6.9,
+   "carbsG": 64.4,
+   "unit": null
+  },
+  {
+   "name": "Fideo crudo fortificado con hierro",
+   "kcal": 337,
+   "proteinG": 9.4,
+   "fatG": 0.2,
+   "carbsG": 74.5,
+   "unit": null
+  },
+  {
+   "name": "Fideo tallarín crudo fortificado con hierro",
+   "kcal": 305,
+   "proteinG": 9.5,
+   "fatG": 0.1,
+   "carbsG": 66.4,
+   "unit": null
+  },
+  {
+   "name": "Fideo tallarín sancochado fortiticado con hierro",
+   "kcal": 90,
+   "proteinG": 3.1,
+   "fatG": 0.0,
+   "carbsG": 19.5,
+   "unit": null
+  },
+  {
+   "name": "Galleta de soda (salada)",
+   "kcal": 433,
+   "proteinG": 10.1,
+   "fatG": 14.7,
+   "carbsG": 65.0,
+   "unit": null
+  },
+  {
+   "name": "Galleta de vainilla (dulce)",
+   "kcal": 434,
+   "proteinG": 6.0,
+   "fatG": 12.7,
+   "carbsG": 73.8,
+   "unit": null
+  },
+  {
+   "name": "Maíz alazán",
+   "kcal": 346,
+   "proteinG": 8.2,
+   "fatG": 3.7,
+   "carbsG": 72.7,
+   "unit": null
+  },
+  {
+   "name": "Maíz alazán, jora fresca de",
+   "kcal": 289,
+   "proteinG": 5.4,
+   "fatG": 2.8,
+   "carbsG": 62.3,
+   "unit": null
+  },
+  {
+   "name": "Maíz alazán, jora seca de",
+   "kcal": 347,
+   "proteinG": 7.0,
+   "fatG": 3.6,
+   "carbsG": 73.8,
+   "unit": null
+  },
+  {
+   "name": "Maíz amarillo",
+   "kcal": 355,
+   "proteinG": 6.7,
+   "fatG": 4.8,
+   "carbsG": 73.6,
+   "unit": null
+  },
+  {
+   "name": "Maíz blanco crudo",
+   "kcal": 343,
+   "proteinG": 5.9,
+   "fatG": 4.0,
+   "carbsG": 72.9,
+   "unit": null
+  },
+  {
+   "name": "Maíz blanco tostado",
+   "kcal": 389,
+   "proteinG": 7.2,
+   "fatG": 4.6,
+   "carbsG": 82.1,
+   "unit": null
+  },
+  {
+   "name": "Maíz cancha tostada de",
+   "kcal": 342,
+   "proteinG": 6.7,
+   "fatG": 2.7,
+   "carbsG": 74.6,
+   "unit": null
+  },
+  {
+   "name": "Maíz, chochoca de, sin moler",
+   "kcal": 349,
+   "proteinG": 5.2,
+   "fatG": 2.5,
+   "carbsG": 78.0,
+   "unit": null
+  },
+  {
+   "name": "Maíz, grano fresco (choclo)",
+   "kcal": 104,
+   "proteinG": 3.3,
+   "fatG": 0.8,
+   "carbsG": 25.1,
+   "unit": null
+  },
+  {
+   "name": "Maíz, germinado seco",
+   "kcal": 314,
+   "proteinG": 6.2,
+   "fatG": 3.2,
+   "carbsG": 67.0,
+   "unit": null
+  },
+  {
+   "name": "Maíz, harina de",
+   "kcal": 326,
+   "proteinG": 8.7,
+   "fatG": 6.5,
+   "carbsG": 61.6,
+   "unit": null
+  },
+  {
+   "name": "Maíz, maicena",
+   "kcal": 365,
+   "proteinG": 0.3,
+   "fatG": 0.1,
+   "carbsG": 90.4,
+   "unit": null
+  },
+  {
+   "name": "Maíz, morado sin coronta",
+   "kcal": 355,
+   "proteinG": 7.3,
+   "fatG": 3.4,
+   "carbsG": 76.2,
+   "unit": null
+  },
+  {
+   "name": "Maíz, mote de, sancochado",
+   "kcal": 103,
+   "proteinG": 2.6,
+   "fatG": 1.3,
+   "carbsG": 21.1,
+   "unit": null
+  },
+  {
+   "name": "Maíz, pachuco de",
+   "kcal": 349,
+   "proteinG": 7.3,
+   "fatG": 3.9,
+   "carbsG": 73.5,
+   "unit": null
+  },
+  {
+   "name": "Maíz, para mote pelado",
+   "kcal": 349,
+   "proteinG": 5.9,
+   "fatG": 2.1,
+   "carbsG": 78.3,
+   "unit": null
+  },
+  {
+   "name": "Maíz, para mote sin pelar",
+   "kcal": 345,
+   "proteinG": 5.7,
+   "fatG": 1.5,
+   "carbsG": 78.7,
+   "unit": null
+  },
+  {
+   "name": "Maíz, polenta cruda de",
+   "kcal": 324,
+   "proteinG": 8.3,
+   "fatG": 1.2,
+   "carbsG": 72.4,
+   "unit": null
+  },
+  {
+   "name": "Maíz, tocosh crudo",
+   "kcal": 205,
+   "proteinG": 2.8,
+   "fatG": 3.0,
+   "carbsG": 41.1,
+   "unit": null
+  },
+  {
+   "name": "Pan de cebada (serrano)",
+   "kcal": 295,
+   "proteinG": 7.2,
+   "fatG": 0.2,
+   "carbsG": 66.2,
+   "unit": null
+  },
+  {
+   "name": "Pan de labranza",
+   "kcal": 328,
+   "proteinG": 9.6,
+   "fatG": 0.3,
+   "carbsG": 71.8,
+   "unit": null
+  },
+  {
+   "name": "Pan de molde",
+   "kcal": 317,
+   "proteinG": 6.8,
+   "fatG": 2.5,
+   "carbsG": 66.8,
+   "unit": null
+  },
+  {
+   "name": "Pan bollo o bollitos de queso de Huancavelica",
+   "kcal": 310,
+   "proteinG": 9.5,
+   "fatG": 7.3,
+   "carbsG": 51.7,
+   "unit": null
+  },
+  {
+   "name": "Pan francés fortificado con hierro",
+   "kcal": 277,
+   "proteinG": 8.4,
+   "fatG": 0.2,
+   "carbsG": 60.5,
+   "unit": null
+  },
+  {
+   "name": "Quinua, afrecho de",
+   "kcal": 351,
+   "proteinG": 10.7,
+   "fatG": 4.5,
+   "carbsG": 65.9,
+   "unit": null
+  },
+  {
+   "name": "Quinua blanca, (Junín)",
+   "kcal": 334,
+   "proteinG": 12.5,
+   "fatG": 6.5,
+   "carbsG": 56.0,
+   "unit": null
+  },
+  {
+   "name": "Quinua blanca (Puno)",
+   "kcal": 355,
+   "proteinG": 13.3,
+   "fatG": 6.1,
+   "carbsG": 61.2,
+   "unit": null
+  },
+  {
+   "name": "Quinua cocida",
+   "kcal": 89,
+   "proteinG": 2.8,
+   "fatG": 1.3,
+   "carbsG": 16.3,
+   "unit": null
+  },
+  {
+   "name": "Quinua",
+   "kcal": 351,
+   "proteinG": 13.6,
+   "fatG": 5.8,
+   "carbsG": 60.7,
+   "unit": null
+  },
+  {
+   "name": "Quinua dulce, blanca (Junín)",
+   "kcal": 361,
+   "proteinG": 11.1,
+   "fatG": 7.7,
+   "carbsG": 61.5,
+   "unit": null
+  },
+  {
+   "name": "Quinua dulce, blanca (Puno)",
+   "kcal": 349,
+   "proteinG": 11.6,
+   "fatG": 5.3,
+   "carbsG": 63.0,
+   "unit": null
+  },
+  {
+   "name": "Quinua dulce, rosada (Junín)",
+   "kcal": 360,
+   "proteinG": 12.3,
+   "fatG": 7.2,
+   "carbsG": 61.2,
+   "unit": null
+  },
+  {
+   "name": "Quinua, harina de",
+   "kcal": 337,
+   "proteinG": 12.4,
+   "fatG": 6.0,
+   "carbsG": 57.9,
+   "unit": null
+  },
+  {
+   "name": "Quinua, hojuela de",
+   "kcal": 376,
+   "proteinG": 13.9,
+   "fatG": 7.4,
+   "carbsG": 63.1,
+   "unit": null
+  },
+  {
+   "name": "Quinua rosada (Puno)",
+   "kcal": 356,
+   "proteinG": 12.5,
+   "fatG": 6.4,
+   "carbsG": 61.7,
+   "unit": null
+  },
+  {
+   "name": "Quinua, sémola de",
+   "kcal": 362,
+   "proteinG": 19.5,
+   "fatG": 10.7,
+   "carbsG": 47.9,
+   "unit": null
+  },
+  {
+   "name": "Sorgo",
+   "kcal": 309,
+   "proteinG": 8.0,
+   "fatG": 4.0,
+   "carbsG": 66.5,
+   "unit": null
+  },
+  {
+   "name": "Trigo, harina fortificada con hierro de",
+   "kcal": 362,
+   "proteinG": 10.5,
+   "fatG": 2.0,
+   "carbsG": 73.6,
+   "unit": null
+  },
+  {
+   "name": "Trigo, llunka de",
+   "kcal": 312,
+   "proteinG": 9.1,
+   "fatG": 1.0,
+   "carbsG": 71.8,
+   "unit": null
+  },
+  {
+   "name": "Trigo, harina tostada de (machica)",
+   "kcal": 330,
+   "proteinG": 7.9,
+   "fatG": 1.2,
+   "carbsG": 77.2,
+   "unit": null
+  },
+  {
+   "name": "Trigo, mote de, sancochado",
+   "kcal": 154,
+   "proteinG": 2.5,
+   "fatG": 0.6,
+   "carbsG": 37.0,
+   "unit": null
+  },
+  {
+   "name": "Trigo para mote pelado cocido",
+   "kcal": 63,
+   "proteinG": 1.9,
+   "fatG": 0.1,
+   "carbsG": 14.7,
+   "unit": null
+  },
+  {
+   "name": "Trigo para mote pelado crudo",
+   "kcal": 325,
+   "proteinG": 9.8,
+   "fatG": 0.9,
+   "carbsG": 74.6,
+   "unit": null
+  },
+  {
+   "name": "Trigo, pelado",
+   "kcal": 330,
+   "proteinG": 8.4,
+   "fatG": 1.4,
+   "carbsG": 76.1,
+   "unit": null
+  },
+  {
+   "name": "Trigo resbalado cocido",
+   "kcal": 83,
+   "proteinG": 2.8,
+   "fatG": 0.3,
+   "carbsG": 18.6,
+   "unit": null
+  },
+  {
+   "name": "Trigo resbalado crudo",
+   "kcal": 327,
+   "proteinG": 11.4,
+   "fatG": 1.8,
+   "carbsG": 71.8,
+   "unit": null
+  },
+  {
+   "name": "Trigo, sémola de",
+   "kcal": 319,
+   "proteinG": 7.8,
+   "fatG": 1.1,
+   "carbsG": 74.5,
+   "unit": null
+  },
+  {
+   "name": "Trigo",
+   "kcal": 289,
+   "proteinG": 10.3,
+   "fatG": 1.9,
+   "carbsG": 62.5,
+   "unit": null
+  },
+  {
+   "name": "Barra de cereales (avena y arrocillo) con maní y pasas",
+   "kcal": 391,
+   "proteinG": 5.8,
+   "fatG": 9.4,
+   "carbsG": 70.9,
+   "unit": null
+  },
+  {
+   "name": "Barra de cereales con sabor a chocolate y chocochips",
+   "kcal": 386,
+   "proteinG": 4.9,
+   "fatG": 8.5,
+   "carbsG": 72.4,
+   "unit": null
+  },
+  {
+   "name": "Barra de cereales (avena, arroz) con aguaymanto",
+   "kcal": 371,
+   "proteinG": 5.3,
+   "fatG": 7.3,
+   "carbsG": 71.0,
+   "unit": null
+  },
+  {
+   "name": "Barra de cereales (maíz, trigo, arroz) sabor a miel con leche, vitaminas y minerales",
+   "kcal": 397,
+   "proteinG": 4.4,
+   "fatG": 8.5,
+   "carbsG": 75.5,
+   "unit": null
+  },
+  {
+   "name": "Bollito de maíz de Huánuco",
+   "kcal": 426,
+   "proteinG": 9.6,
+   "fatG": 17.5,
+   "carbsG": 57.5,
+   "unit": null
+  },
+  {
+   "name": "Bollito de yema de Huánuco",
+   "kcal": 384,
+   "proteinG": 9.9,
+   "fatG": 12.6,
+   "carbsG": 57.5,
+   "unit": null
+  },
+  {
+   "name": "Cañihua, harina de",
+   "kcal": 327,
+   "proteinG": 15.2,
+   "fatG": 8.3,
+   "carbsG": 48.2,
+   "unit": null
+  },
+  {
+   "name": "Cañihua, variedad roja",
+   "kcal": 381,
+   "proteinG": 15.4,
+   "fatG": 7.5,
+   "carbsG": 62.7,
+   "unit": null
+  },
+  {
+   "name": "Cañihua, variedad blanca",
+   "kcal": 382,
+   "proteinG": 15.4,
+   "fatG": 7.7,
+   "carbsG": 62.5,
+   "unit": null
+  },
+  {
+   "name": "Galleta de soda (San Jorge)",
+   "kcal": 440,
+   "proteinG": 9.3,
+   "fatG": 13.3,
+   "carbsG": 70.8,
+   "unit": null
+  },
+  {
+   "name": "Galleta de vainilla (Field)",
+   "kcal": 462,
+   "proteinG": 7.3,
+   "fatG": 15.6,
+   "carbsG": 73.1,
+   "unit": null
+  },
+  {
+   "name": "Galleta dulce con avena y base sabor a chocolate (con fibra)",
+   "kcal": 461,
+   "proteinG": 6.7,
+   "fatG": 19.8,
+   "carbsG": 64.1,
+   "unit": null
+  },
+  {
+   "name": "Galleta dulce con avena y base sabor a frutos rojos",
+   "kcal": 465,
+   "proteinG": 6.7,
+   "fatG": 20.8,
+   "carbsG": 62.8,
+   "unit": null
+  },
+  {
+   "name": "Galleta dulce con avena y granola (con fibra)",
+   "kcal": 444,
+   "proteinG": 8.0,
+   "fatG": 16.9,
+   "carbsG": 65.2,
+   "unit": null
+  },
+  {
+   "name": "Galleta dulce con avena, manzana y canela (con fibra)",
+   "kcal": 426,
+   "proteinG": 7.2,
+   "fatG": 14.3,
+   "carbsG": 67.4,
+   "unit": null
+  },
+  {
+   "name": "Galleta dulce con avena y uvas pasas (con fibra)",
+   "kcal": 433,
+   "proteinG": 7.2,
+   "fatG": 14.9,
+   "carbsG": 67.6,
+   "unit": null
+  },
+  {
+   "name": "Galleta dulce con relleno (Casino)",
+   "kcal": 499,
+   "proteinG": 4.7,
+   "fatG": 22.0,
+   "carbsG": 70.5,
+   "unit": null
+  },
+  {
+   "name": "Galleta dulce con relleno \"chocolate\" (Coronita)",
+   "kcal": 492,
+   "proteinG": 5.7,
+   "fatG": 21.1,
+   "carbsG": 69.8,
+   "unit": null
+  },
+  {
+   "name": "Galletas nutritivas de maca",
+   "kcal": 443,
+   "proteinG": 7.0,
+   "fatG": 16.1,
+   "carbsG": 67.6,
+   "unit": null
+  },
+  {
+   "name": "Hiwicto marfil oscuro",
+   "kcal": 368,
+   "proteinG": 9.0,
+   "fatG": 2.0,
+   "carbsG": 76.8,
+   "unit": null
+  },
+  {
+   "name": "Hiwicto negro",
+   "kcal": 365,
+   "proteinG": 9.0,
+   "fatG": 2.7,
+   "carbsG": 74.6,
+   "unit": null
+  },
+  {
+   "name": "Kara ceniza o kala",
+   "kcal": 367,
+   "proteinG": 11.6,
+   "fatG": 2.3,
+   "carbsG": 73.6,
+   "unit": null
+  },
+  {
+   "name": "Kara color pajizo",
+   "kcal": 366,
+   "proteinG": 7.2,
+   "fatG": 2.5,
+   "carbsG": 76.9,
+   "unit": null
+  },
+  {
+   "name": "Kiwicha, harina de",
+   "kcal": 352,
+   "proteinG": 12.2,
+   "fatG": 7.9,
+   "carbsG": 58.0,
+   "unit": null
+  },
+  {
+   "name": "Kiwicha pop de Huánuco (listo para consumo)",
+   "kcal": 370,
+   "proteinG": 13.1,
+   "fatG": 8.9,
+   "carbsG": 59.5,
+   "unit": null
+  },
+  {
+   "name": "Kiwicha, precocida, hojuela de",
+   "kcal": 400,
+   "proteinG": 13.4,
+   "fatG": 8.1,
+   "carbsG": 68.0,
+   "unit": null
+  },
+  {
+   "name": "Kiwicha, precocida, hojuela de (orgánica)",
+   "kcal": 352,
+   "proteinG": 11.9,
+   "fatG": 7.6,
+   "carbsG": 58.9,
+   "unit": null
+  },
+  {
+   "name": "Llipta sara, variedad de maíz",
+   "kcal": 370,
+   "proteinG": 7.4,
+   "fatG": 4.2,
+   "carbsG": 75.9,
+   "unit": null
+  },
+  {
+   "name": "Maíz blanco, harina",
+   "kcal": 343,
+   "proteinG": 5.5,
+   "fatG": 5.0,
+   "carbsG": 71.0,
+   "unit": null
+  },
+  {
+   "name": "Maíz blanco precocido, harina de (chochoca)",
+   "kcal": 328,
+   "proteinG": 6.8,
+   "fatG": 5.2,
+   "carbsG": 65.9,
+   "unit": null
+  },
+  {
+   "name": "Maíz morado, harina de (api)",
+   "kcal": 318,
+   "proteinG": 8.5,
+   "fatG": 4.2,
+   "carbsG": 64.5,
+   "unit": null
+  },
+  {
+   "name": "Pan árabe",
+   "kcal": 290,
+   "proteinG": 10.3,
+   "fatG": 3.5,
+   "carbsG": 54.3,
+   "unit": null
+  },
+  {
+   "name": "Pan cachanga",
+   "kcal": 445,
+   "proteinG": 7.7,
+   "fatG": 26.1,
+   "carbsG": 47.4,
+   "unit": null
+  },
+  {
+   "name": "Pan campesino de Lima",
+   "kcal": 276,
+   "proteinG": 10.0,
+   "fatG": 5.7,
+   "carbsG": 46.0,
+   "unit": null
+  },
+  {
+   "name": "Pan ciabatta",
+   "kcal": 265,
+   "proteinG": 9.2,
+   "fatG": 2.0,
+   "carbsG": 52.6,
+   "unit": null
+  },
+  {
+   "name": "Pan chapla",
+   "kcal": 321,
+   "proteinG": 9.3,
+   "fatG": 3.5,
+   "carbsG": 63.2,
+   "unit": null
+  },
+  {
+   "name": "Pan chuta",
+   "kcal": 387,
+   "proteinG": 9.5,
+   "fatG": 11.1,
+   "carbsG": 62.3,
+   "unit": null
+  },
+  {
+   "name": "Pan cortadillo de Cajamarca",
+   "kcal": 361,
+   "proteinG": 6.9,
+   "fatG": 7.1,
+   "carbsG": 67.2,
+   "unit": null
+  },
+  {
+   "name": "Pan cuay de trigo de Carhuaz",
+   "kcal": 358,
+   "proteinG": 10.0,
+   "fatG": 11.6,
+   "carbsG": 53.4,
+   "unit": null
+  },
+  {
+   "name": "Pan cuay de trigo de Huaraz",
+   "kcal": 297,
+   "proteinG": 7.6,
+   "fatG": 10.1,
+   "carbsG": 43.8,
+   "unit": null
+  },
+  {
+   "name": "Pan de calabaza de Huancavelica",
+   "kcal": 274,
+   "proteinG": 11.5,
+   "fatG": 3.9,
+   "carbsG": 48.4,
+   "unit": null
+  },
+  {
+   "name": "Pan de chicharrón de Chiclayo",
+   "kcal": 338,
+   "proteinG": 9.9,
+   "fatG": 9.0,
+   "carbsG": 54.3,
+   "unit": null
+  },
+  {
+   "name": "Pan de girasol de Lima",
+   "kcal": 267,
+   "proteinG": 10.7,
+   "fatG": 7.7,
+   "carbsG": 38.7,
+   "unit": null
+  },
+  {
+   "name": "Pan de hamburguesa de Iquitos",
+   "kcal": 316,
+   "proteinG": 10.8,
+   "fatG": 4.7,
+   "carbsG": 57.7,
+   "unit": null
+  },
+  {
+   "name": "Pan de huevo",
+   "kcal": 336,
+   "proteinG": 9.3,
+   "fatG": 6.9,
+   "carbsG": 59.4,
+   "unit": null
+  },
+  {
+   "name": "Pan de maíz",
+   "kcal": 319,
+   "proteinG": 7.7,
+   "fatG": 8.7,
+   "carbsG": 52.6,
+   "unit": null
+  },
+  {
+   "name": "Pan de maíz de Carhuaz",
+   "kcal": 323,
+   "proteinG": 9.2,
+   "fatG": 8.0,
+   "carbsG": 53.5,
+   "unit": null
+  },
+  {
+   "name": "Pan de maíz de Huaraz",
+   "kcal": 359,
+   "proteinG": 8.0,
+   "fatG": 15.2,
+   "carbsG": 47.5,
+   "unit": null
+  },
+  {
+   "name": "Pan de quinua de Lima",
+   "kcal": 241,
+   "proteinG": 9.5,
+   "fatG": 1.7,
+   "carbsG": 47.0,
+   "unit": null
+  },
+  {
+   "name": "Pan de trigo artesanal de Carhuaz",
+   "kcal": 286,
+   "proteinG": 8.8,
+   "fatG": 4.6,
+   "carbsG": 52.4,
+   "unit": null
+  },
+  {
+   "name": "Pan de yema",
+   "kcal": 321,
+   "proteinG": 9.4,
+   "fatG": 8.1,
+   "carbsG": 52.5,
+   "unit": null
+  },
+  {
+   "name": "Pan de yema de Cajamarca",
+   "kcal": 365,
+   "proteinG": 9.2,
+   "fatG": 12.9,
+   "carbsG": 52.9,
+   "unit": null
+  },
+  {
+   "name": "Pan dulce de Lima",
+   "kcal": 290,
+   "proteinG": 11.9,
+   "fatG": 5.0,
+   "carbsG": 49.5,
+   "unit": null
+  },
+  {
+   "name": "Pan huaro",
+   "kcal": 338,
+   "proteinG": 9.9,
+   "fatG": 5.5,
+   "carbsG": 62.2,
+   "unit": null
+  },
+  {
+   "name": "Pan Huascarán de Lima",
+   "kcal": 265,
+   "proteinG": 9.4,
+   "fatG": 4.8,
+   "carbsG": 46.3,
+   "unit": null
+  },
+  {
+   "name": "Pan integral",
+   "kcal": 339,
+   "proteinG": 9.1,
+   "fatG": 9.0,
+   "carbsG": 55.5,
+   "unit": null
+  },
+  {
+   "name": "Pan marraqueta de Chiclayo",
+   "kcal": 321,
+   "proteinG": 6.4,
+   "fatG": 2.2,
+   "carbsG": 68.9,
+   "unit": null
+  },
+  {
+   "name": "Pan mestizo de Huánuco",
+   "kcal": 399,
+   "proteinG": 9.6,
+   "fatG": 15.7,
+   "carbsG": 54.8,
+   "unit": null
+  },
+  {
+   "name": "Pan mishtishongo de Huánuco",
+   "kcal": 410,
+   "proteinG": 9.1,
+   "fatG": 20.0,
+   "carbsG": 48.5,
+   "unit": null
+  },
+  {
+   "name": "Pan mollete de Chiclayo",
+   "kcal": 284,
+   "proteinG": 10.2,
+   "fatG": 3.8,
+   "carbsG": 52.3,
+   "unit": null
+  },
+  {
+   "name": "Pan mollete, \"chico\"de Huaraz",
+   "kcal": 364,
+   "proteinG": 9.6,
+   "fatG": 16.3,
+   "carbsG": 44.7,
+   "unit": null
+  },
+  {
+   "name": "Pan torta de Cajamarca",
+   "kcal": 355,
+   "proteinG": 9.4,
+   "fatG": 8.0,
+   "carbsG": 61.5,
+   "unit": null
+  },
+  {
+   "name": "Pan 3 granos (quinua, cañihua y kiwicha) de Lima",
+   "kcal": 219,
+   "proteinG": 8.6,
+   "fatG": 2.5,
+   "carbsG": 40.5,
+   "unit": null
+  },
+  {
+   "name": "Pan vico",
+   "kcal": 343,
+   "proteinG": 9.3,
+   "fatG": 9.1,
+   "carbsG": 56.1,
+   "unit": null
+  },
+  {
+   "name": "Pan vico de Iquitos",
+   "kcal": 333,
+   "proteinG": 11.6,
+   "fatG": 4.1,
+   "carbsG": 62.4,
+   "unit": null
+  },
+  {
+   "name": "Pasta con huevo sin fortificar, cruda",
+   "kcal": 375,
+   "proteinG": 14.2,
+   "fatG": 4.4,
+   "carbsG": 68.0,
+   "unit": null
+  },
+  {
+   "name": "Pasta con huevo fortificada, cruda",
+   "kcal": 375,
+   "proteinG": 14.2,
+   "fatG": 4.4,
+   "carbsG": 68.0,
+   "unit": null
+  },
+  {
+   "name": "Pasta fortificada, cruda",
+   "kcal": 360,
+   "proteinG": 13.0,
+   "fatG": 1.5,
+   "carbsG": 71.5,
+   "unit": null
+  },
+  {
+   "name": "Pasta sin fortificar, cruda",
+   "kcal": 360,
+   "proteinG": 13.0,
+   "fatG": 1.5,
+   "carbsG": 71.5,
+   "unit": null
+  },
+  {
+   "name": "Quinua, variedad real",
+   "kcal": 331,
+   "proteinG": 14.2,
+   "fatG": 5.1,
+   "carbsG": 56.7,
+   "unit": null
+  },
+  {
+   "name": "Quinua, variedad Ayara (Puno)",
+   "kcal": 276,
+   "proteinG": 14.0,
+   "fatG": 6.3,
+   "carbsG": 41.1,
+   "unit": null
+  },
+  {
+   "name": "Quinua, variedad blanca de Juli (Puno)",
+   "kcal": 347,
+   "proteinG": 11.6,
+   "fatG": 4.8,
+   "carbsG": 63.7,
+   "unit": null
+  },
+  {
+   "name": "Quinua, variedad CICA-18 (Puno)",
+   "kcal": 345,
+   "proteinG": 14.4,
+   "fatG": 5.7,
+   "carbsG": 58.7,
+   "unit": null
+  },
+  {
+   "name": "Quinua, variedad CICA-127 (Puno)",
+   "kcal": 360,
+   "proteinG": 15.8,
+   "fatG": 5.2,
+   "carbsG": 62.0,
+   "unit": null
+  },
+  {
+   "name": "Quinua, variedad Cuchiwilla (Puno)",
+   "kcal": 317,
+   "proteinG": 15.2,
+   "fatG": 5.2,
+   "carbsG": 52.1,
+   "unit": null
+  },
+  {
+   "name": "Quinua, variedad Choclito (Puno)",
+   "kcal": 342,
+   "proteinG": 13.4,
+   "fatG": 5.2,
+   "carbsG": 59.9,
+   "unit": null
+  },
+  {
+   "name": "Quinua, variedad Chullpi- roja (Puno)",
+   "kcal": 330,
+   "proteinG": 13.7,
+   "fatG": 5.5,
+   "carbsG": 55.9,
+   "unit": null
+  },
+  {
+   "name": "Quinua, variedad Misa Jiura (Puno)",
+   "kcal": 349,
+   "proteinG": 12.3,
+   "fatG": 5.4,
+   "carbsG": 62.2,
+   "unit": null
+  },
+  {
+   "name": "Quinua, variedad Pasankalla -roja (Puno)",
+   "kcal": 355,
+   "proteinG": 12.7,
+   "fatG": 6.2,
+   "carbsG": 61.6,
+   "unit": null
+  },
+  {
+   "name": "Quinua, variedad Q' OITU-negra (Puno)",
+   "kcal": 308,
+   "proteinG": 11.6,
+   "fatG": 4.9,
+   "carbsG": 53.9,
+   "unit": null
+  },
+  {
+   "name": "Quinua, variedad Wariponcho (Puno)",
+   "kcal": 347,
+   "proteinG": 12.6,
+   "fatG": 5.5,
+   "carbsG": 61.2,
+   "unit": null
+  },
+  {
+   "name": "Quinua, variedad Witulla (Puno)",
+   "kcal": 350,
+   "proteinG": 13.7,
+   "fatG": 5.9,
+   "carbsG": 60.2,
+   "unit": null
+  },
+  {
+   "name": "Rosquita de almidón de Iquitos",
+   "kcal": 469,
+   "proteinG": 1.8,
+   "fatG": 18.3,
+   "carbsG": 74.2,
+   "unit": null
+  },
+  {
+   "name": "Siete harinas (trigo, habas, arvejas, kiwicha, cañihua, cebada, quinua)",
+   "kcal": 347,
+   "proteinG": 8.8,
+   "fatG": 3.2,
+   "carbsG": 70.8,
+   "unit": null
+  },
+  {
+   "name": "Trigo, hojuela de (chaque)",
+   "kcal": 322,
+   "proteinG": 10.0,
+   "fatG": 2.5,
+   "carbsG": 70.2,
+   "unit": null
+  },
+  {
+   "name": "Trigo sin tostar (chaquepa)",
+   "kcal": 338,
+   "proteinG": 7.0,
+   "fatG": 2.2,
+   "carbsG": 77.9,
+   "unit": null
+  },
+  {
+   "name": "Trigo tostado (chaquepa)",
+   "kcal": 369,
+   "proteinG": 7.6,
+   "fatG": 2.5,
+   "carbsG": 84.9,
+   "unit": null
+  },
+  {
+   "name": "Alfajor con relleno de leche y maní cubierto con chocolate, envasado",
+   "kcal": 502,
+   "proteinG": 8.1,
+   "fatG": 26.5,
+   "carbsG": 57.6,
+   "unit": null
+  },
+  {
+   "name": "Avena cañihua, hojuela de",
+   "kcal": 347,
+   "proteinG": 12.2,
+   "fatG": 10.2,
+   "carbsG": 53.2,
+   "unit": null
+  },
+  {
+   "name": "Avena con chía, hojuela precocida de",
+   "kcal": 381,
+   "proteinG": 11.2,
+   "fatG": 16.5,
+   "carbsG": 49.5,
+   "unit": null
+  },
+  {
+   "name": "Avena con kiwicha, canela y clavo en polvo, hojuela precocida de",
+   "kcal": 342,
+   "proteinG": 12.4,
+   "fatG": 7.7,
+   "carbsG": 56.9,
+   "unit": null
+  },
+  {
+   "name": "Avena con maca, hojuela precocida de",
+   "kcal": 365,
+   "proteinG": 10.6,
+   "fatG": 11.0,
+   "carbsG": 57.4,
+   "unit": null
+  },
+  {
+   "name": "Avena con cereales andinos (cañihua, kiwicha y quinua), hojuela precocida de",
+   "kcal": 349,
+   "proteinG": 11.2,
+   "fatG": 10.4,
+   "carbsG": 54.3,
+   "unit": null
+  },
+  {
+   "name": "Avena con quinua, hojuela precocida de",
+   "kcal": 369,
+   "proteinG": 11.1,
+   "fatG": 10.8,
+   "carbsG": 58.3,
+   "unit": null
+  },
+  {
+   "name": "Avena con quinua, canela y clavo en polvo, hojuela precocida de",
+   "kcal": 337,
+   "proteinG": 11.9,
+   "fatG": 7.3,
+   "carbsG": 57.0,
+   "unit": null
+  },
+  {
+   "name": "Croissant de mantequilla o cachito de mantequilla",
+   "kcal": 373,
+   "proteinG": 8.3,
+   "fatG": 18.5,
+   "carbsG": 43.4,
+   "unit": null
+  },
+  {
+   "name": "Galletas con salvado de trigo con sabor a miel",
+   "kcal": 429,
+   "proteinG": 7.6,
+   "fatG": 15.9,
+   "carbsG": 63.9,
+   "unit": null
+  },
+  {
+   "name": "Galleta cubierta con higo,confites, grageas y miel (Turrón de Doña Pepa). envasado",
+   "kcal": 473,
+   "proteinG": 5.7,
+   "fatG": 23.4,
+   "carbsG": 59.9,
+   "unit": null
+  },
+  {
+   "name": "Galleta de agua",
+   "kcal": 411,
+   "proteinG": 10.0,
+   "fatG": 5.9,
+   "carbsG": 79.4,
+   "unit": null
+  },
+  {
+   "name": "Granola de avena con cebada, pasas, maní y almendras",
+   "kcal": 450,
+   "proteinG": 10.8,
+   "fatG": 20.0,
+   "carbsG": 56.7,
+   "unit": null
+  },
+  {
+   "name": "Galleta de soda con cobertura sabor a chocolate",
+   "kcal": 497,
+   "proteinG": 5.0,
+   "fatG": 21.8,
+   "carbsG": 70.3,
+   "unit": null
+  },
+  {
+   "name": "Galleta dulce, rellena con crema sabor coco",
+   "kcal": 499,
+   "proteinG": 4.4,
+   "fatG": 21.4,
+   "carbsG": 72.1,
+   "unit": null
+  },
+  {
+   "name": "Galleta sabor chocolate, rellena con crema sabor vainilla",
+   "kcal": 480,
+   "proteinG": 5.3,
+   "fatG": 18.2,
+   "carbsG": 73.7,
+   "unit": null
+  },
+  {
+   "name": "Kiwicha pop de Lima (listo para consumo)",
+   "kcal": 410,
+   "proteinG": 14.0,
+   "fatG": 6.7,
+   "carbsG": 73.5,
+   "unit": null
+  },
+  {
+   "name": "Kiwicha tostada, harina de",
+   "kcal": 364,
+   "proteinG": 13.2,
+   "fatG": 8.6,
+   "carbsG": 59.7,
+   "unit": null
+  },
+  {
+   "name": "Maíz, extruído con cocoa, sabor chocolate (listo para consumo)",
+   "kcal": 384,
+   "proteinG": 7.0,
+   "fatG": 1.8,
+   "carbsG": 85.1,
+   "unit": null
+  },
+  {
+   "name": "Maíz, hojuela azucarada (listo para consumo)",
+   "kcal": 376,
+   "proteinG": 6.4,
+   "fatG": 0.2,
+   "carbsG": 87.2,
+   "unit": null
+  },
+  {
+   "name": "Maíz, hojuela para desayuno (listo para consumo)",
+   "kcal": 381,
+   "proteinG": 7.5,
+   "fatG": 1.6,
+   "carbsG": 84.3,
+   "unit": null
+  },
+  {
+   "name": "Maíz pop corn, para cancha, crudo",
+   "kcal": 308,
+   "proteinG": 9.6,
+   "fatG": 3.5,
+   "carbsG": 58.7,
+   "unit": null
+  },
+  {
+   "name": "Masa para wantán, cruda",
+   "kcal": 288,
+   "proteinG": 8.6,
+   "fatG": 1.0,
+   "carbsG": 59.9,
+   "unit": null
+  },
+  {
+   "name": "Palitos de harina de trigo con ajonjolí, envasado",
+   "kcal": 443,
+   "proteinG": 14.2,
+   "fatG": 16.1,
+   "carbsG": 60.3,
+   "unit": null
+  },
+  {
+   "name": "Palomitas de maíz, sabor natural con sal y aceite vegetal, para microondas (Pop corn)",
+   "kcal": 401,
+   "proteinG": 8.4,
+   "fatG": 18.6,
+   "carbsG": 50.1,
+   "unit": null
+  },
+  {
+   "name": "Pan de molde integral",
+   "kcal": 274,
+   "proteinG": 12.4,
+   "fatG": 5.9,
+   "carbsG": 42.8,
+   "unit": null
+  },
+  {
+   "name": "Pan pita, envasado",
+   "kcal": 238,
+   "proteinG": 16.1,
+   "fatG": 0.7,
+   "carbsG": 41.8,
+   "unit": null
+  },
+  {
+   "name": "Pastel sabor chocolate, relleno con crema sabor vainilla y decorado con glase, envasado",
+   "kcal": 340,
+   "proteinG": 4.7,
+   "fatG": 7.6,
+   "carbsG": 63.2,
+   "unit": null
+  },
+  {
+   "name": "Panetón relleno con chispas de chocolate",
+   "kcal": 381,
+   "proteinG": 8.9,
+   "fatG": 17.1,
+   "carbsG": 47.9,
+   "unit": null
+  },
+  {
+   "name": "Panetón relleno de pasas y frutas confitadas",
+   "kcal": 365,
+   "proteinG": 7.6,
+   "fatG": 13.4,
+   "carbsG": 53.4,
+   "unit": null
+  },
+  {
+   "name": "Queque marmoleado con sabor chocolate y vainilla, envasado",
+   "kcal": 323,
+   "proteinG": 6.5,
+   "fatG": 10.6,
+   "carbsG": 50.3,
+   "unit": null
+  },
+  {
+   "name": "Queque sabor naranja, envasado",
+   "kcal": 336,
+   "proteinG": 6.4,
+   "fatG": 10.3,
+   "carbsG": 54.5,
+   "unit": null
+  },
+  {
+   "name": "Queque sabor vainilla, mezcla en polvo para preparar, envasado",
+   "kcal": 380,
+   "proteinG": 6.1,
+   "fatG": 9.9,
+   "carbsG": 66.5,
+   "unit": null
+  },
+  {
+   "name": "Queque sabor vainilla, sin relleno, envasado",
+   "kcal": 352,
+   "proteinG": 6.9,
+   "fatG": 11.4,
+   "carbsG": 55.3,
+   "unit": null
+  },
+  {
+   "name": "Tostada de pan blanco, envasada",
+   "kcal": 401,
+   "proteinG": 12.7,
+   "fatG": 4.9,
+   "carbsG": 76.7,
+   "unit": null
+  },
+  {
+   "name": "Trigo, inflado sin miel (listo para consumo)",
+   "kcal": 367,
+   "proteinG": 14.7,
+   "fatG": 1.1,
+   "carbsG": 74.7,
+   "unit": null
+  },
+  {
+   "name": "Trigo, \"tortilla\" de harina de, precocida, envasada",
+   "kcal": 290,
+   "proteinG": 7.4,
+   "fatG": 7.8,
+   "carbsG": 47.4,
+   "unit": null
+  },
+  {
+   "name": "Wafer relleno con crema sabor vainilla",
+   "kcal": 503,
+   "proteinG": 3.5,
+   "fatG": 22.2,
+   "carbsG": 72.5,
+   "unit": null
+  },
+  {
+   "name": "Acelga, hojas de, sin tallo",
+   "kcal": 8,
+   "proteinG": 2.1,
+   "fatG": 0.1,
+   "carbsG": 0.8,
+   "unit": null
+  },
+  {
+   "name": "Acelga, tallos de",
+   "kcal": 9,
+   "proteinG": 0.7,
+   "fatG": 0.3,
+   "carbsG": 1.2,
+   "unit": null
+  },
+  {
+   "name": "Ají amarillo fresco",
+   "kcal": 39,
+   "proteinG": 0.9,
+   "fatG": 0.7,
+   "carbsG": 8.8,
+   "unit": null
+  },
+  {
+   "name": "Ají amarillo fresco, molido sin sal",
+   "kcal": 52,
+   "proteinG": 1.9,
+   "fatG": 1.7,
+   "carbsG": 9.2,
+   "unit": null
+  },
+  {
+   "name": "Ají amarillo seco",
+   "kcal": 199,
+   "proteinG": 7.3,
+   "fatG": 6.3,
+   "carbsG": 36.1,
+   "unit": null
+  },
+  {
+   "name": "Ají panca",
+   "kcal": 189,
+   "proteinG": 7.0,
+   "fatG": 7.8,
+   "carbsG": 29.8,
+   "unit": null
+  },
+  {
+   "name": "Ají colorado, no picante, molido con sal",
+   "kcal": 43,
+   "proteinG": 1.9,
+   "fatG": 1.3,
+   "carbsG": 7.7,
+   "unit": null
+  },
+  {
+   "name": "Ají colorado, picante molido con sal",
+   "kcal": 37,
+   "proteinG": 2.1,
+   "fatG": 1.0,
+   "carbsG": 6.5,
+   "unit": null
+  },
+  {
+   "name": "Ají de mesa",
+   "kcal": 40,
+   "proteinG": 1.8,
+   "fatG": 1.2,
+   "carbsG": 7.2,
+   "unit": null
+  },
+  {
+   "name": "Ají de vaina",
+   "kcal": 58,
+   "proteinG": 2.6,
+   "fatG": 1.1,
+   "carbsG": 11.9,
+   "unit": null
+  },
+  {
+   "name": "Ají dulce",
+   "kcal": 17,
+   "proteinG": 0.9,
+   "fatG": 0.5,
+   "carbsG": 3.1,
+   "unit": null
+  },
+  {
+   "name": "Ají verde",
+   "kcal": 57,
+   "proteinG": 2.5,
+   "fatG": 0.8,
+   "carbsG": 12.4,
+   "unit": null
+  },
+  {
+   "name": "Ajo sin cáscara",
+   "kcal": 121,
+   "proteinG": 5.6,
+   "fatG": 0.8,
+   "carbsG": 28.3,
+   "unit": null
+  },
+  {
+   "name": "Albahaca sin tallo",
+   "kcal": 29,
+   "proteinG": 2.9,
+   "fatG": 1.2,
+   "carbsG": 3.4,
+   "unit": null
+  },
+  {
+   "name": "Alcachofa",
+   "kcal": 24,
+   "proteinG": 2.2,
+   "fatG": 0.2,
+   "carbsG": 4.9,
+   "unit": null
+  },
+  {
+   "name": "Alfalfa brotes tiernos",
+   "kcal": 20,
+   "proteinG": 4.0,
+   "fatG": 0.7,
+   "carbsG": 1.3,
+   "unit": null
+  },
+  {
+   "name": "Apio, tallo sin hojas",
+   "kcal": 8,
+   "proteinG": 1.0,
+   "fatG": 0.2,
+   "carbsG": 1.1,
+   "unit": null
+  },
+  {
+   "name": "Berenjena",
+   "kcal": 12,
+   "proteinG": 1.0,
+   "fatG": 0.1,
+   "carbsG": 2.3,
+   "unit": null
+  },
+  {
+   "name": "Berenjena Costeña o tomate de árbol",
+   "kcal": 41,
+   "proteinG": 1.3,
+   "fatG": 0.3,
+   "carbsG": 9.8,
+   "unit": null
+  },
+  {
+   "name": "Berro",
+   "kcal": 31,
+   "proteinG": 3.4,
+   "fatG": 0.8,
+   "carbsG": 4.5,
+   "unit": null
+  },
+  {
+   "name": "Brocoli",
+   "kcal": 32,
+   "proteinG": 3.9,
+   "fatG": 1.3,
+   "carbsG": 3.3,
+   "unit": null
+  },
+  {
+   "name": "Caigua",
+   "kcal": 15,
+   "proteinG": 0.5,
+   "fatG": 0.2,
+   "carbsG": 3.3,
+   "unit": null
+  },
+  {
+   "name": "Caigua serrana",
+   "kcal": 19,
+   "proteinG": 1.5,
+   "fatG": 0.1,
+   "carbsG": 4.1,
+   "unit": null
+  },
+  {
+   "name": "Calabaza china",
+   "kcal": 13,
+   "proteinG": 0.7,
+   "fatG": 0.1,
+   "carbsG": 2.9,
+   "unit": null
+  },
+  {
+   "name": "Calabaza italiana",
+   "kcal": 15,
+   "proteinG": 0.5,
+   "fatG": 0.3,
+   "carbsG": 3.2,
+   "unit": null
+  },
+  {
+   "name": "Cebolla blanca",
+   "kcal": 24,
+   "proteinG": 0.9,
+   "fatG": 0.1,
+   "carbsG": 6.0,
+   "unit": null
+  },
+  {
+   "name": "Cebolla chilena",
+   "kcal": 19,
+   "proteinG": 0.8,
+   "fatG": 0.1,
+   "carbsG": 4.5,
+   "unit": null
+  },
+  {
+   "name": "Cebollita china",
+   "kcal": 36,
+   "proteinG": 2.3,
+   "fatG": 0.4,
+   "carbsG": 7.5,
+   "unit": null
+  },
+  {
+   "name": "Cebolla de cabeza",
+   "kcal": 40,
+   "proteinG": 1.4,
+   "fatG": 0.2,
+   "carbsG": 9.9,
+   "unit": null
+  },
+  {
+   "name": "Cebolla de cola",
+   "kcal": 26,
+   "proteinG": 0.9,
+   "fatG": 0.1,
+   "carbsG": 6.4,
+   "unit": null
+  },
+  {
+   "name": "Col blanca",
+   "kcal": 19,
+   "proteinG": 1.0,
+   "fatG": 1.1,
+   "carbsG": 2.3,
+   "unit": null
+  },
+  {
+   "name": "Col crespa o repollo, sin cogollo",
+   "kcal": 15,
+   "proteinG": 1.5,
+   "fatG": 0.3,
+   "carbsG": 2.6,
+   "unit": null
+  },
+  {
+   "name": "Col china sin tallo",
+   "kcal": 22,
+   "proteinG": 1.8,
+   "fatG": 0.3,
+   "carbsG": 4.3,
+   "unit": null
+  },
+  {
+   "name": "Col de \"Bruselas\"",
+   "kcal": 45,
+   "proteinG": 4.6,
+   "fatG": 0.4,
+   "carbsG": 8.5,
+   "unit": null
+  },
+  {
+   "name": "Col, hojas de",
+   "kcal": 32,
+   "proteinG": 2.7,
+   "fatG": 0.6,
+   "carbsG": 5.6,
+   "unit": null
+  },
+  {
+   "name": "Col negra",
+   "kcal": 14,
+   "proteinG": 1.7,
+   "fatG": 0.4,
+   "carbsG": 1.9,
+   "unit": null
+  },
+  {
+   "name": "Col silvestre",
+   "kcal": 54,
+   "proteinG": 2.5,
+   "fatG": 0.6,
+   "carbsG": 12.1,
+   "unit": null
+  },
+  {
+   "name": "Coliflor sin tallo y sin hojas",
+   "kcal": 17,
+   "proteinG": 2.2,
+   "fatG": 0.6,
+   "carbsG": 1.9,
+   "unit": null
+  },
+  {
+   "name": "Culantro sin tallo",
+   "kcal": 34,
+   "proteinG": 3.3,
+   "fatG": 1.3,
+   "carbsG": 4.2,
+   "unit": null
+  },
+  {
+   "name": "Chiclayo, calabaza",
+   "kcal": 16,
+   "proteinG": 0.6,
+   "fatG": 0.1,
+   "carbsG": 3.9,
+   "unit": null
+  },
+  {
+   "name": "Chonta",
+   "kcal": 49,
+   "proteinG": 3.4,
+   "fatG": 0.7,
+   "carbsG": 9.7,
+   "unit": null
+  },
+  {
+   "name": "Escarola",
+   "kcal": 7,
+   "proteinG": 1.2,
+   "fatG": 0.2,
+   "carbsG": 0.7,
+   "unit": null
+  },
+  {
+   "name": "Esparragos",
+   "kcal": 15,
+   "proteinG": 2.2,
+   "fatG": 0.3,
+   "carbsG": 2.1,
+   "unit": null
+  },
+  {
+   "name": "Espinaca blanca",
+   "kcal": 24,
+   "proteinG": 1.9,
+   "fatG": 0.6,
+   "carbsG": 4.1,
+   "unit": null
+  },
+  {
+   "name": "Espinaca negra sin tronco",
+   "kcal": 24,
+   "proteinG": 2.8,
+   "fatG": 0.9,
+   "carbsG": 2.7,
+   "unit": null
+  },
+  {
+   "name": "Frejolito chino germinado",
+   "kcal": 9,
+   "proteinG": 1.4,
+   "fatG": 0.1,
+   "carbsG": 1.5,
+   "unit": null
+  },
+  {
+   "name": "Hierbabuena",
+   "kcal": 41,
+   "proteinG": 3.1,
+   "fatG": 1.0,
+   "carbsG": 7.0,
+   "unit": null
+  },
+  {
+   "name": "Huacatay sin tallo",
+   "kcal": 50,
+   "proteinG": 5.0,
+   "fatG": 0.8,
+   "carbsG": 8.8,
+   "unit": null
+  },
+  {
+   "name": "Janchoy, hojas de",
+   "kcal": 27,
+   "proteinG": 1.6,
+   "fatG": 0.2,
+   "carbsG": 6.0,
+   "unit": null
+  },
+  {
+   "name": "Jetka. hojas de",
+   "kcal": 66,
+   "proteinG": 7.3,
+   "fatG": 1.7,
+   "carbsG": 9.5,
+   "unit": null
+  },
+  {
+   "name": "Kailán, hojas de",
+   "kcal": 48,
+   "proteinG": 3.2,
+   "fatG": 0.9,
+   "carbsG": 9.1,
+   "unit": null
+  },
+  {
+   "name": "Kailán, tallos de",
+   "kcal": 24,
+   "proteinG": 1.2,
+   "fatG": 0.3,
+   "carbsG": 5.2,
+   "unit": null
+  },
+  {
+   "name": "Lechuga americana",
+   "kcal": 7,
+   "proteinG": 0.6,
+   "fatG": 0.1,
+   "carbsG": 1.2,
+   "unit": null
+  },
+  {
+   "name": "Lechuga larga",
+   "kcal": 12,
+   "proteinG": 1.5,
+   "fatG": 0.2,
+   "carbsG": 1.8,
+   "unit": null
+  },
+  {
+   "name": "Lechuga redonda",
+   "kcal": 8,
+   "proteinG": 1.3,
+   "fatG": 0.2,
+   "carbsG": 0.8,
+   "unit": null
+  },
+  {
+   "name": "Manchay",
+   "kcal": 53,
+   "proteinG": 0.4,
+   "fatG": 0.1,
+   "carbsG": 14.4,
+   "unit": null
+  },
+  {
+   "name": "Mastuerzo, hojas de",
+   "kcal": 44,
+   "proteinG": 1.8,
+   "fatG": 1.3,
+   "carbsG": 8.1,
+   "unit": null
+  },
+  {
+   "name": "Mostaza, hojas de",
+   "kcal": 21,
+   "proteinG": 3.5,
+   "fatG": 0.6,
+   "carbsG": 2.1,
+   "unit": null
+  },
+  {
+   "name": "Muña, seca",
+   "kcal": 268,
+   "proteinG": 3.2,
+   "fatG": 2.8,
+   "carbsG": 66.3,
+   "unit": null
+  },
+  {
+   "name": "Nabo",
+   "kcal": 10,
+   "proteinG": 0.6,
+   "fatG": 0.2,
+   "carbsG": 1.8,
+   "unit": null
+  },
+  {
+   "name": "Nabo, hojas de",
+   "kcal": 24,
+   "proteinG": 2.9,
+   "fatG": 0.4,
+   "carbsG": 3.8,
+   "unit": null
+  },
+  {
+   "name": "Orégano fresco",
+   "kcal": 48,
+   "proteinG": 1.6,
+   "fatG": 0.5,
+   "carbsG": 11.3,
+   "unit": null
+  },
+  {
+   "name": "Pacchoy, hojas de",
+   "kcal": 25,
+   "proteinG": 1.3,
+   "fatG": 0.3,
+   "carbsG": 5.3,
+   "unit": null
+  },
+  {
+   "name": "Pacchoy, tallos de",
+   "kcal": 18,
+   "proteinG": 0.4,
+   "fatG": 0.2,
+   "carbsG": 4.4,
+   "unit": null
+  },
+  {
+   "name": "Paico",
+   "kcal": 41,
+   "proteinG": 5.0,
+   "fatG": 1.1,
+   "carbsG": 5.4,
+   "unit": null
+  },
+  {
+   "name": "Pajuro",
+   "kcal": 120,
+   "proteinG": 2.1,
+   "fatG": 0.3,
+   "carbsG": 31.5,
+   "unit": null
+  },
+  {
+   "name": "Pepinillo sin cáscara",
+   "kcal": 9,
+   "proteinG": 0.5,
+   "fatG": 0.1,
+   "carbsG": 1.9,
+   "unit": null
+  },
+  {
+   "name": "Perejil sin tallo",
+   "kcal": 41,
+   "proteinG": 4.8,
+   "fatG": 0.7,
+   "carbsG": 6.6,
+   "unit": null
+  },
+  {
+   "name": "Pimiento rojo",
+   "kcal": 27,
+   "proteinG": 1.2,
+   "fatG": 1.3,
+   "carbsG": 3.7,
+   "unit": null
+  },
+  {
+   "name": "Pirca",
+   "kcal": 42,
+   "proteinG": 4.0,
+   "fatG": 0.6,
+   "carbsG": 7.6,
+   "unit": null
+  },
+  {
+   "name": "Poro sin hojas",
+   "kcal": 34,
+   "proteinG": 2.7,
+   "fatG": 0.8,
+   "carbsG": 5.8,
+   "unit": null
+  },
+  {
+   "name": "Quinua, hojas de",
+   "kcal": 50,
+   "proteinG": 4.7,
+   "fatG": 0.6,
+   "carbsG": 9.5,
+   "unit": null
+  },
+  {
+   "name": "Rabanitos",
+   "kcal": 7,
+   "proteinG": 0.8,
+   "fatG": 0.1,
+   "carbsG": 1.3,
+   "unit": null
+  },
+  {
+   "name": "Rabicol",
+   "kcal": 22,
+   "proteinG": 2.0,
+   "fatG": 0.2,
+   "carbsG": 4.2,
+   "unit": null
+  },
+  {
+   "name": "Radicheta o achicoria",
+   "kcal": 17,
+   "proteinG": 1.9,
+   "fatG": 0.5,
+   "carbsG": 2.2,
+   "unit": null
+  },
+  {
+   "name": "Rocoto fresco",
+   "kcal": 36,
+   "proteinG": 1.2,
+   "fatG": 0.5,
+   "carbsG": 8.2,
+   "unit": null
+  },
+  {
+   "name": "Ruda",
+   "kcal": 82,
+   "proteinG": 4.1,
+   "fatG": 1.7,
+   "carbsG": 16.1,
+   "unit": null
+  },
+  {
+   "name": "Siuca culantro",
+   "kcal": 28,
+   "proteinG": 1.9,
+   "fatG": 0.5,
+   "carbsG": 5.3,
+   "unit": null
+  },
+  {
+   "name": "Tomate",
+   "kcal": 15,
+   "proteinG": 0.8,
+   "fatG": 0.2,
+   "carbsG": 3.1,
+   "unit": null
+  },
+  {
+   "name": "Tomate italiano",
+   "kcal": 12,
+   "proteinG": 0.8,
+   "fatG": 0.2,
+   "carbsG": 2.4,
+   "unit": null
+  },
+  {
+   "name": "Tomate, con carne salsa de",
+   "kcal": 106,
+   "proteinG": 2.7,
+   "fatG": 5.7,
+   "carbsG": 11.0,
+   "unit": null
+  },
+  {
+   "name": "Tomate, salsa de",
+   "kcal": 18,
+   "proteinG": 1.5,
+   "fatG": 0.7,
+   "carbsG": 2.4,
+   "unit": null
+  },
+  {
+   "name": "Tomate, salsa concentrada de",
+   "kcal": 75,
+   "proteinG": 2.7,
+   "fatG": 1.0,
+   "carbsG": 16.8,
+   "unit": null
+  },
+  {
+   "name": "Vainitas",
+   "kcal": 25,
+   "proteinG": 2.4,
+   "fatG": 0.3,
+   "carbsG": 4.7,
+   "unit": null
+  },
+  {
+   "name": "Zanahoria",
+   "kcal": 19,
+   "proteinG": 1.0,
+   "fatG": 0.3,
+   "carbsG": 3.6,
+   "unit": null
+  },
+  {
+   "name": "Zanahoria, harina de",
+   "kcal": 293,
+   "proteinG": 7.3,
+   "fatG": 1.5,
+   "carbsG": 67.7,
+   "unit": null
+  },
+  {
+   "name": "Zapallo italiano",
+   "kcal": 14,
+   "proteinG": 0.9,
+   "fatG": 0.2,
+   "carbsG": 2.9,
+   "unit": null
+  },
+  {
+   "name": "Zapallo loche",
+   "kcal": 58,
+   "proteinG": 2.6,
+   "fatG": 0.2,
+   "carbsG": 13.9,
+   "unit": null
+  },
+  {
+   "name": "Zapallo macre",
+   "kcal": 47,
+   "proteinG": 2.2,
+   "fatG": 0.1,
+   "carbsG": 11.4,
+   "unit": null
+  },
+  {
+   "name": "Ají charapita, con pepas y sin tronco",
+   "kcal": 30,
+   "proteinG": 2.4,
+   "fatG": 2.1,
+   "carbsG": 1.7,
+   "unit": null
+  },
+  {
+   "name": "Ají cerezo, sin pepas y sin tronco",
+   "kcal": 30,
+   "proteinG": 1.8,
+   "fatG": 0.8,
+   "carbsG": 5.2,
+   "unit": null
+  },
+  {
+   "name": "Ají colorado seco, sin pepas",
+   "kcal": 179,
+   "proteinG": 12.5,
+   "fatG": 6.3,
+   "carbsG": 26.8,
+   "unit": null
+  },
+  {
+   "name": "Ají uña de pava",
+   "kcal": 57,
+   "proteinG": 3.0,
+   "fatG": 0.7,
+   "carbsG": 12.5,
+   "unit": null
+  },
+  {
+   "name": "Ajos variedad Barranquino",
+   "kcal": 115,
+   "proteinG": 6.2,
+   "fatG": 0.3,
+   "carbsG": 27.2,
+   "unit": null
+  },
+  {
+   "name": "Ajos variedad Napuri",
+   "kcal": 115,
+   "proteinG": 7.7,
+   "fatG": 0.3,
+   "carbsG": 26.4,
+   "unit": null
+  },
+  {
+   "name": "Ajos variedad Napuri fresco, molido en aceite sin sal",
+   "kcal": 203,
+   "proteinG": 5.1,
+   "fatG": 9.1,
+   "carbsG": 31.9,
+   "unit": null
+  },
+  {
+   "name": "Ajos variedad Napuri fresco, molido en aceite con sal",
+   "kcal": 185,
+   "proteinG": 4.8,
+   "fatG": 5.2,
+   "carbsG": 36.3,
+   "unit": null
+  },
+  {
+   "name": "Ajos variedad Napuri fresco, molido en agua sin sal",
+   "kcal": 77,
+   "proteinG": 4.9,
+   "fatG": 0.2,
+   "carbsG": 17.8,
+   "unit": null
+  },
+  {
+   "name": "Ajos variedad Napuri fresco, molido en agua con sal",
+   "kcal": 84,
+   "proteinG": 5.0,
+   "fatG": 0.3,
+   "carbsG": 19.6,
+   "unit": null
+  },
+  {
+   "name": "Alcaparras",
+   "kcal": 31,
+   "proteinG": 2.3,
+   "fatG": 0.6,
+   "carbsG": 5.8,
+   "unit": null
+  },
+  {
+   "name": "Cebolla variedad americana",
+   "kcal": 22,
+   "proteinG": 1.4,
+   "fatG": 0.4,
+   "carbsG": 4.4,
+   "unit": null
+  },
+  {
+   "name": "Cebolla variedad perilla",
+   "kcal": 28,
+   "proteinG": 1.4,
+   "fatG": 0.4,
+   "carbsG": 6.0,
+   "unit": null
+  },
+  {
+   "name": "Chijchipa",
+   "kcal": 45,
+   "proteinG": 3.3,
+   "fatG": 0.4,
+   "carbsG": 9.3,
+   "unit": null
+  },
+  {
+   "name": "Chullcos, ajos silvestres",
+   "kcal": 92,
+   "proteinG": 1.8,
+   "fatG": 0.5,
+   "carbsG": 23.5,
+   "unit": null
+  },
+  {
+   "name": "Col china con hoja y tallo",
+   "kcal": 15,
+   "proteinG": 1.4,
+   "fatG": 1.1,
+   "carbsG": 0.7,
+   "unit": null
+  },
+  {
+   "name": "Coliflor con tallo y sin hojas",
+   "kcal": 20,
+   "proteinG": 2.1,
+   "fatG": 0.6,
+   "carbsG": 2.9,
+   "unit": null
+  },
+  {
+   "name": "Culantro, con hojas y tallo",
+   "kcal": 15,
+   "proteinG": 3.5,
+   "fatG": 0.2,
+   "carbsG": 1.2,
+   "unit": null
+  },
+  {
+   "name": "Espinaca, hojas sin tallo",
+   "kcal": 30,
+   "proteinG": 4.8,
+   "fatG": 1.4,
+   "carbsG": 1.9,
+   "unit": null
+  },
+  {
+   "name": "Estragón, secos",
+   "kcal": 269,
+   "proteinG": 22.8,
+   "fatG": 7.2,
+   "carbsG": 42.8,
+   "unit": null
+  },
+  {
+   "name": "Hinojo, tallo, fresco, crudo",
+   "kcal": 19,
+   "proteinG": 1.9,
+   "fatG": 0.2,
+   "carbsG": 3.6,
+   "unit": null
+  },
+  {
+   "name": "Kión sin cáscara",
+   "kcal": 49,
+   "proteinG": 0.1,
+   "fatG": 0.4,
+   "carbsG": 11.8,
+   "unit": null
+  },
+  {
+   "name": "Lechuga de seda",
+   "kcal": 10,
+   "proteinG": 1.3,
+   "fatG": 0.1,
+   "carbsG": 1.7,
+   "unit": null
+  },
+  {
+   "name": "Llampun Cjana \"Cjana-cjana\"",
+   "kcal": 254,
+   "proteinG": 29.5,
+   "fatG": 6.0,
+   "carbsG": 36.8,
+   "unit": null
+  },
+  {
+   "name": "Pacchoy con hojas y tallo",
+   "kcal": 5,
+   "proteinG": 1.0,
+   "fatG": 0.3,
+   "carbsG": 0.1,
+   "unit": null
+  },
+  {
+   "name": "Paico, hojas de",
+   "kcal": 28,
+   "proteinG": 5.7,
+   "fatG": 0.3,
+   "carbsG": 3.2,
+   "unit": null
+  },
+  {
+   "name": "Pimiento verde",
+   "kcal": 19,
+   "proteinG": 1.1,
+   "fatG": 0.1,
+   "carbsG": 4.3,
+   "unit": null
+  },
+  {
+   "name": "Rocoto fresco, molido con cáscara, en agua sin sal",
+   "kcal": 17,
+   "proteinG": 0.2,
+   "fatG": 0.1,
+   "carbsG": 4.2,
+   "unit": null
+  },
+  {
+   "name": "Romero fresco",
+   "kcal": 81,
+   "proteinG": 3.3,
+   "fatG": 5.9,
+   "carbsG": 6.6,
+   "unit": null
+  },
+  {
+   "name": "Tomate de palito",
+   "kcal": 44,
+   "proteinG": 1.6,
+   "fatG": 0.2,
+   "carbsG": 10.8,
+   "unit": null
+  },
+  {
+   "name": "Tomate redondo, con cáscara",
+   "kcal": 18,
+   "proteinG": 0.7,
+   "fatG": 0.3,
+   "carbsG": 4.0,
+   "unit": null
+  },
+  {
+   "name": "Tomillo seco",
+   "kcal": 181,
+   "proteinG": 9.1,
+   "fatG": 7.4,
+   "carbsG": 26.9,
+   "unit": null
+  },
+  {
+   "name": "Zapallito",
+   "kcal": 57,
+   "proteinG": 1.9,
+   "fatG": 0.1,
+   "carbsG": 14.3,
+   "unit": null
+  },
+  {
+   "name": "Zapallo avinca",
+   "kcal": 15,
+   "proteinG": 0.5,
+   "fatG": 0.0,
+   "carbsG": 3.9,
+   "unit": null
+  },
+  {
+   "name": "Zapallo criollo",
+   "kcal": 28,
+   "proteinG": 0.6,
+   "fatG": 0.2,
+   "carbsG": 7.1,
+   "unit": null
+  },
+  {
+   "name": "Zapallo ombligo",
+   "kcal": 21,
+   "proteinG": 0.9,
+   "fatG": 0.2,
+   "carbsG": 4.8,
+   "unit": null
+  },
+  {
+   "name": "Atago, hojas sin tallo",
+   "kcal": 15,
+   "proteinG": 2.5,
+   "fatG": 0.2,
+   "carbsG": 1.9,
+   "unit": null
+  },
+  {
+   "name": "Col morada, hojas sin tallo",
+   "kcal": 24,
+   "proteinG": 1.9,
+   "fatG": 0.1,
+   "carbsG": 5.0,
+   "unit": null
+  },
+  {
+   "name": "Lechuga morada, hojas sin tallo",
+   "kcal": 11,
+   "proteinG": 1.2,
+   "fatG": 0.1,
+   "carbsG": 1.9,
+   "unit": null
+  },
+  {
+   "name": "Orégano, seco",
+   "kcal": 306,
+   "proteinG": 11.0,
+   "fatG": 10.3,
+   "carbsG": 21.6,
+   "unit": null
+  },
+  {
+   "name": "Pepinillo japonés con cáscara y pepas",
+   "kcal": 7,
+   "proteinG": 0.9,
+   "fatG": 0.0,
+   "carbsG": 1.3,
+   "unit": null
+  },
+  {
+   "name": "Pimiento amarillo",
+   "kcal": 24,
+   "proteinG": 1.0,
+   "fatG": 0.2,
+   "carbsG": 5.5,
+   "unit": null
+  },
+  {
+   "name": "Tomate italiano, sin pepas, sin cáscara",
+   "kcal": 18,
+   "proteinG": 0.8,
+   "fatG": 0.1,
+   "carbsG": 4.2,
+   "unit": null
+  },
+  {
+   "name": "Vainita, sancochada, sin sal",
+   "kcal": 17,
+   "proteinG": 2.2,
+   "fatG": 0.1,
+   "carbsG": 3.1,
+   "unit": null
+  },
+  {
+   "name": "Abridores",
+   "kcal": 57,
+   "proteinG": 0.8,
+   "fatG": 0.1,
+   "carbsG": 14.9,
+   "unit": null
+  },
+  {
+   "name": "Aceituna de botija",
+   "kcal": 298,
+   "proteinG": 0.8,
+   "fatG": 32.1,
+   "carbsG": 7.3,
+   "unit": null
+  },
+  {
+   "name": "Aceitunas negras preparadas",
+   "kcal": 292,
+   "proteinG": 2.2,
+   "fatG": 22.4,
+   "carbsG": 27.1,
+   "unit": null
+  },
+  {
+   "name": "Airampo",
+   "kcal": 51,
+   "proteinG": 1.8,
+   "fatG": 0.5,
+   "carbsG": 11.2,
+   "unit": null
+  },
+  {
+   "name": "Aguaje, pulpa de",
+   "kcal": 74,
+   "proteinG": 1.9,
+   "fatG": 3.6,
+   "carbsG": 10.4,
+   "unit": null
+  },
+  {
+   "name": "Anona",
+   "kcal": 45,
+   "proteinG": 1.1,
+   "fatG": 0.4,
+   "carbsG": 10.5,
+   "unit": null
+  },
+  {
+   "name": "Durazno-Melocotón",
+   "kcal": 43,
+   "proteinG": 0.8,
+   "fatG": 0.2,
+   "carbsG": 10.8,
+   "unit": null
+  },
+  {
+   "name": "Caimito",
+   "kcal": 49,
+   "proteinG": 1.8,
+   "fatG": 0.5,
+   "carbsG": 10.8,
+   "unit": null
+  },
+  {
+   "name": "Camu-camu",
+   "kcal": 24,
+   "proteinG": 0.5,
+   "fatG": 0.1,
+   "carbsG": 5.9,
+   "unit": null
+  },
+  {
+   "name": "Capulí",
+   "kcal": 63,
+   "proteinG": 0.7,
+   "fatG": 0.4,
+   "carbsG": 15.9,
+   "unit": null
+  },
+  {
+   "name": "Chambiro",
+   "kcal": 118,
+   "proteinG": 1.5,
+   "fatG": 7.3,
+   "carbsG": 14.5,
+   "unit": null
+  },
+  {
+   "name": "Chirimoya",
+   "kcal": 72,
+   "proteinG": 1.9,
+   "fatG": 0.3,
+   "carbsG": 17.7,
+   "unit": null
+  },
+  {
+   "name": "Ciruela",
+   "kcal": 82,
+   "proteinG": 1.0,
+   "fatG": 0.2,
+   "carbsG": 21.5,
+   "unit": null
+  },
+  {
+   "name": "Coco",
+   "kcal": 286,
+   "proteinG": 3.4,
+   "fatG": 28.1,
+   "carbsG": 10.8,
+   "unit": null
+  },
+  {
+   "name": "Coco, agua de",
+   "kcal": 10,
+   "proteinG": 0.7,
+   "fatG": 0.1,
+   "carbsG": 2.0,
+   "unit": null
+  },
+  {
+   "name": "Cocona",
+   "kcal": 42,
+   "proteinG": 0.9,
+   "fatG": 0.7,
+   "carbsG": 9.2,
+   "unit": null
+  },
+  {
+   "name": "Dátiles",
+   "kcal": 195,
+   "proteinG": 1.4,
+   "fatG": 0.5,
+   "carbsG": 51.8,
+   "unit": null
+  },
+  {
+   "name": "Fresa",
+   "kcal": 34,
+   "proteinG": 0.7,
+   "fatG": 0.8,
+   "carbsG": 6.9,
+   "unit": null
+  },
+  {
+   "name": "Granada",
+   "kcal": 66,
+   "proteinG": 0.5,
+   "fatG": 0.1,
+   "carbsG": 17.7,
+   "unit": null
+  },
+  {
+   "name": "Granadilla",
+   "kcal": 51,
+   "proteinG": 2.5,
+   "fatG": 2.7,
+   "carbsG": 5.7,
+   "unit": null
+  },
+  {
+   "name": "Granadilla, jugo enlatado de",
+   "kcal": 62,
+   "proteinG": 1.1,
+   "fatG": 0.0,
+   "carbsG": 16.1,
+   "unit": null
+  },
+  {
+   "name": "Guanábana",
+   "kcal": 44,
+   "proteinG": 0.9,
+   "fatG": 0.2,
+   "carbsG": 11.0,
+   "unit": null
+  },
+  {
+   "name": "Guayaba",
+   "kcal": 37,
+   "proteinG": 0.5,
+   "fatG": 0.1,
+   "carbsG": 9.5,
+   "unit": null
+  },
+  {
+   "name": "Guayaba amarilla con cáscara",
+   "kcal": 13,
+   "proteinG": 1.2,
+   "fatG": 0.3,
+   "carbsG": 1.8,
+   "unit": null
+  },
+  {
+   "name": "Guayaba rosada",
+   "kcal": 37,
+   "proteinG": 0.5,
+   "fatG": 0.2,
+   "carbsG": 9.3,
+   "unit": null
+  },
+  {
+   "name": "Guayaba verde",
+   "kcal": 36,
+   "proteinG": 0.5,
+   "fatG": 0.1,
+   "carbsG": 9.3,
+   "unit": null
+  },
+  {
+   "name": "Higo negro",
+   "kcal": 65,
+   "proteinG": 0.9,
+   "fatG": 0.1,
+   "carbsG": 17.0,
+   "unit": null
+  },
+  {
+   "name": "Higo seco",
+   "kcal": 146,
+   "proteinG": 3.6,
+   "fatG": 0.2,
+   "carbsG": 36.8,
+   "unit": null
+  },
+  {
+   "name": "Huito",
+   "kcal": 55,
+   "proteinG": 1.2,
+   "fatG": 0.1,
+   "carbsG": 14.0,
+   "unit": null
+  },
+  {
+   "name": "Humarí / Umari, sin pepa y sin cáscara",
+   "kcal": 163,
+   "proteinG": 1.6,
+   "fatG": 8.1,
+   "carbsG": 25.0,
+   "unit": null
+  },
+  {
+   "name": "Kaki",
+   "kcal": 64,
+   "proteinG": 0.5,
+   "fatG": 0.1,
+   "carbsG": 17.2,
+   "unit": null
+  },
+  {
+   "name": "Kumuvi",
+   "kcal": 101,
+   "proteinG": 0.7,
+   "fatG": 0.6,
+   "carbsG": 25.9,
+   "unit": null
+  },
+  {
+   "name": "Lima",
+   "kcal": 13,
+   "proteinG": 0.6,
+   "fatG": 0.4,
+   "carbsG": 3.1,
+   "unit": null
+  },
+  {
+   "name": "Limón, jugo de",
+   "kcal": 28,
+   "proteinG": 0.5,
+   "fatG": 0.2,
+   "carbsG": 9.3,
+   "unit": null
+  },
+  {
+   "name": "Lúcuma",
+   "kcal": 97,
+   "proteinG": 2.1,
+   "fatG": 0.2,
+   "carbsG": 24.7,
+   "unit": null
+  },
+  {
+   "name": "Lúcuma, harina de",
+   "kcal": 329,
+   "proteinG": 4.0,
+   "fatG": 2.4,
+   "carbsG": 82.0,
+   "unit": null
+  },
+  {
+   "name": "Macambo, pulpa y semilla",
+   "kcal": 177,
+   "proteinG": 6.7,
+   "fatG": 9.2,
+   "carbsG": 21.5,
+   "unit": null
+  },
+  {
+   "name": "Macambo, pulpa de",
+   "kcal": 44,
+   "proteinG": 2.1,
+   "fatG": 0.8,
+   "carbsG": 8.3,
+   "unit": null
+  },
+  {
+   "name": "Mamey maduro",
+   "kcal": 27,
+   "proteinG": 0.5,
+   "fatG": 0.1,
+   "carbsG": 6.7,
+   "unit": null
+  },
+  {
+   "name": "Mandarina",
+   "kcal": 29,
+   "proteinG": 0.6,
+   "fatG": 0.3,
+   "carbsG": 6.8,
+   "unit": null
+  },
+  {
+   "name": "Mango",
+   "kcal": 54,
+   "proteinG": 0.4,
+   "fatG": 0.2,
+   "carbsG": 14.1,
+   "unit": null
+  },
+  {
+   "name": "Manzana nacional",
+   "kcal": 50,
+   "proteinG": 0.3,
+   "fatG": 0.1,
+   "carbsG": 13.3,
+   "unit": null
+  },
+  {
+   "name": "Maracuyá, jugo puro de",
+   "kcal": 61,
+   "proteinG": 0.9,
+   "fatG": 0.1,
+   "carbsG": 15.9,
+   "unit": null
+  },
+  {
+   "name": "Marañón",
+   "kcal": 35,
+   "proteinG": 0.8,
+   "fatG": 0.5,
+   "carbsG": 7.8,
+   "unit": null
+  },
+  {
+   "name": "Melón",
+   "kcal": 21,
+   "proteinG": 0.5,
+   "fatG": 0.1,
+   "carbsG": 5.0,
+   "unit": null
+  },
+  {
+   "name": "Melón enano",
+   "kcal": 20,
+   "proteinG": 0.6,
+   "fatG": 0.2,
+   "carbsG": 4.4,
+   "unit": null
+  },
+  {
+   "name": "Membrillo",
+   "kcal": 36,
+   "proteinG": 0.3,
+   "fatG": 0.1,
+   "carbsG": 9.6,
+   "unit": null
+  },
+  {
+   "name": "Naranja",
+   "kcal": 31,
+   "proteinG": 0.6,
+   "fatG": 0.2,
+   "carbsG": 7.7,
+   "unit": null
+  },
+  {
+   "name": "Naranja agria, jugo de",
+   "kcal": 32,
+   "proteinG": 0.5,
+   "fatG": 0.2,
+   "carbsG": 8.0,
+   "unit": null
+  },
+  {
+   "name": "Naranja de Guayaquil",
+   "kcal": 31,
+   "proteinG": 0.5,
+   "fatG": 0.2,
+   "carbsG": 7.8,
+   "unit": null
+  },
+  {
+   "name": "Naranja de Huando",
+   "kcal": 36,
+   "proteinG": 1.2,
+   "fatG": 0.2,
+   "carbsG": 8.5,
+   "unit": null
+  },
+  {
+   "name": "Níspero",
+   "kcal": 41,
+   "proteinG": 0.3,
+   "fatG": 0.0,
+   "carbsG": 11.0,
+   "unit": null
+  },
+  {
+   "name": "Nuzive",
+   "kcal": 138,
+   "proteinG": 2.7,
+   "fatG": 7.8,
+   "carbsG": 17.7,
+   "unit": null
+  },
+  {
+   "name": "Pacae o Guaba",
+   "kcal": 56,
+   "proteinG": 0.6,
+   "fatG": 0.1,
+   "carbsG": 14.8,
+   "unit": null
+  },
+  {
+   "name": "Palta",
+   "kcal": 130,
+   "proteinG": 1.7,
+   "fatG": 12.5,
+   "carbsG": 5.6,
+   "unit": null
+  },
+  {
+   "name": "Pan de árbol con semilla",
+   "kcal": 117,
+   "proteinG": 4.5,
+   "fatG": 1.8,
+   "carbsG": 24.1,
+   "unit": null
+  },
+  {
+   "name": "Pan de árbol sin semilla",
+   "kcal": 30,
+   "proteinG": 1.6,
+   "fatG": 0.5,
+   "carbsG": 5.6,
+   "unit": null
+  },
+  {
+   "name": "Pan-Meo",
+   "kcal": 78,
+   "proteinG": 1.3,
+   "fatG": 0.2,
+   "carbsG": 19.9,
+   "unit": null
+  },
+  {
+   "name": "Papaya",
+   "kcal": 25,
+   "proteinG": 0.4,
+   "fatG": 0.1,
+   "carbsG": 6.4,
+   "unit": null
+  },
+  {
+   "name": "Pasa sin pepa",
+   "kcal": 228,
+   "proteinG": 2.4,
+   "fatG": 0.4,
+   "carbsG": 60.1,
+   "unit": null
+  },
+  {
+   "name": "Pepino dulce",
+   "kcal": 26,
+   "proteinG": 0.3,
+   "fatG": 0.0,
+   "carbsG": 7.0,
+   "unit": null
+  },
+  {
+   "name": "Pera chilena",
+   "kcal": 38,
+   "proteinG": 0.3,
+   "fatG": 0.1,
+   "carbsG": 10.1,
+   "unit": null
+  },
+  {
+   "name": "Pera de agua",
+   "kcal": 42,
+   "proteinG": 0.4,
+   "fatG": 0.6,
+   "carbsG": 9.9,
+   "unit": null
+  },
+  {
+   "name": "Pera nacional",
+   "kcal": 55,
+   "proteinG": 0.4,
+   "fatG": 0.2,
+   "carbsG": 14.5,
+   "unit": null
+  },
+  {
+   "name": "Pera perilla",
+   "kcal": 58,
+   "proteinG": 0.6,
+   "fatG": 0.5,
+   "carbsG": 14.4,
+   "unit": null
+  },
+  {
+   "name": "Pero",
+   "kcal": 50,
+   "proteinG": 0.4,
+   "fatG": 0.7,
+   "carbsG": 12.0,
+   "unit": null
+  },
+  {
+   "name": "Pijuayo",
+   "kcal": 184,
+   "proteinG": 2.8,
+   "fatG": 3.2,
+   "carbsG": 41.0,
+   "unit": null
+  },
+  {
+   "name": "Pijuayo sancochado, sin cáscara y sin pepas",
+   "kcal": 120,
+   "proteinG": 2.1,
+   "fatG": 4.0,
+   "carbsG": 22.1,
+   "unit": null
+  },
+  {
+   "name": "Piña",
+   "kcal": 33,
+   "proteinG": 0.4,
+   "fatG": 0.2,
+   "carbsG": 8.4,
+   "unit": null
+  },
+  {
+   "name": "Plátano de isla",
+   "kcal": 75,
+   "proteinG": 1.2,
+   "fatG": 0.1,
+   "carbsG": 19.5,
+   "unit": null
+  },
+  {
+   "name": "Plátano de seda",
+   "kcal": 74,
+   "proteinG": 1.5,
+   "fatG": 0.3,
+   "carbsG": 18.4,
+   "unit": null
+  },
+  {
+   "name": "Plátano guineo",
+   "kcal": 111,
+   "proteinG": 1.4,
+   "fatG": 0.2,
+   "carbsG": 29.1,
+   "unit": null
+  },
+  {
+   "name": "Plátano manzano",
+   "kcal": 90,
+   "proteinG": 1.2,
+   "fatG": 0.1,
+   "carbsG": 23.7,
+   "unit": null
+  },
+  {
+   "name": "Plátano, harina de",
+   "kcal": 302,
+   "proteinG": 4.0,
+   "fatG": 0.4,
+   "carbsG": 79.3,
+   "unit": null
+  },
+  {
+   "name": "Plátano maduro",
+   "kcal": 103,
+   "proteinG": 1.2,
+   "fatG": 0.2,
+   "carbsG": 27.0,
+   "unit": null
+  },
+  {
+   "name": "Plátano morado",
+   "kcal": 97,
+   "proteinG": 1.0,
+   "fatG": 0.2,
+   "carbsG": 25.5,
+   "unit": null
+  },
+  {
+   "name": "Plátano seco (orejón)",
+   "kcal": 232,
+   "proteinG": 3.7,
+   "fatG": 1.2,
+   "carbsG": 58.3,
+   "unit": null
+  },
+  {
+   "name": "Plátano verde",
+   "kcal": 144,
+   "proteinG": 1.0,
+   "fatG": 0.2,
+   "carbsG": 38.6,
+   "unit": null
+  },
+  {
+   "name": "Plátano verde asado",
+   "kcal": 243,
+   "proteinG": 1.5,
+   "fatG": 0.2,
+   "carbsG": 65.7,
+   "unit": null
+  },
+  {
+   "name": "Plátano verde sancochado",
+   "kcal": 129,
+   "proteinG": 0.7,
+   "fatG": 0.3,
+   "carbsG": 34.5,
+   "unit": null
+  },
+  {
+   "name": "Pomarosa",
+   "kcal": 33,
+   "proteinG": 0.5,
+   "fatG": 0.4,
+   "carbsG": 7.9,
+   "unit": null
+  },
+  {
+   "name": "Purunkari",
+   "kcal": 151,
+   "proteinG": 2.7,
+   "fatG": 1.4,
+   "carbsG": 36.3,
+   "unit": null
+  },
+  {
+   "name": "Sandia",
+   "kcal": 23,
+   "proteinG": 0.7,
+   "fatG": 0.1,
+   "carbsG": 5.5,
+   "unit": null
+  },
+  {
+   "name": "Shiwawaco, semilla",
+   "kcal": 249,
+   "proteinG": 6.6,
+   "fatG": 7.5,
+   "carbsG": 45.5,
+   "unit": null
+  },
+  {
+   "name": "Tamarindo",
+   "kcal": 221,
+   "proteinG": 2.8,
+   "fatG": 0.6,
+   "carbsG": 57.4,
+   "unit": null
+  },
+  {
+   "name": "Mango ciruelo o taperibá",
+   "kcal": 56,
+   "proteinG": 0.6,
+   "fatG": 0.3,
+   "carbsG": 14.2,
+   "unit": null
+  },
+  {
+   "name": "Toronja",
+   "kcal": 33,
+   "proteinG": 0.6,
+   "fatG": 0.4,
+   "carbsG": 7.7,
+   "unit": null
+  },
+  {
+   "name": "Tumbo costeño",
+   "kcal": 22,
+   "proteinG": 0.4,
+   "fatG": 0.0,
+   "carbsG": 5.8,
+   "unit": null
+  },
+  {
+   "name": "Tumbo serrano sin cáscara o poro poro",
+   "kcal": 37,
+   "proteinG": 2.1,
+   "fatG": 0.4,
+   "carbsG": 7.4,
+   "unit": null
+  },
+  {
+   "name": "Tuna",
+   "kcal": 46,
+   "proteinG": 0.8,
+   "fatG": 0.0,
+   "carbsG": 12.1,
+   "unit": null
+  },
+  {
+   "name": "Tuna roja",
+   "kcal": 36,
+   "proteinG": 1.3,
+   "fatG": 0.2,
+   "carbsG": 8.3,
+   "unit": null
+  },
+  {
+   "name": "Ungurauy, unguraui o ungurahui",
+   "kcal": 307,
+   "proteinG": 2.8,
+   "fatG": 21.1,
+   "carbsG": 33.6,
+   "unit": null
+  },
+  {
+   "name": "Uva blanca",
+   "kcal": 40,
+   "proteinG": 0.3,
+   "fatG": 0.2,
+   "carbsG": 10.4,
+   "unit": null
+  },
+  {
+   "name": "Uva borgoña",
+   "kcal": 79,
+   "proteinG": 0.9,
+   "fatG": 0.3,
+   "carbsG": 20.4,
+   "unit": null
+  },
+  {
+   "name": "Uva italia",
+   "kcal": 63,
+   "proteinG": 0.4,
+   "fatG": 0.1,
+   "carbsG": 16.8,
+   "unit": null
+  },
+  {
+   "name": "Uva negra",
+   "kcal": 63,
+   "proteinG": 0.2,
+   "fatG": 0.1,
+   "carbsG": 17.2,
+   "unit": null
+  },
+  {
+   "name": "Uva quebranta",
+   "kcal": 66,
+   "proteinG": 0.5,
+   "fatG": 0.1,
+   "carbsG": 17.7,
+   "unit": null
+  },
+  {
+   "name": "Uvilla",
+   "kcal": 64,
+   "proteinG": 0.3,
+   "fatG": 0.3,
+   "carbsG": 16.7,
+   "unit": null
+  },
+  {
+   "name": "Zapote",
+   "kcal": 73,
+   "proteinG": 0.9,
+   "fatG": 0.3,
+   "carbsG": 18.8,
+   "unit": null
+  },
+  {
+   "name": "Aguaymanto",
+   "kcal": 51,
+   "proteinG": 1.9,
+   "fatG": 0.0,
+   "carbsG": 12.4,
+   "unit": null
+  },
+  {
+   "name": "Blanquillo",
+   "kcal": 47,
+   "proteinG": 1.0,
+   "fatG": 0.3,
+   "carbsG": 11.6,
+   "unit": null
+  },
+  {
+   "name": "Carambola",
+   "kcal": 23,
+   "proteinG": 1.0,
+   "fatG": 0.5,
+   "carbsG": 4.5,
+   "unit": null
+  },
+  {
+   "name": "Carambola, refresco natural, cocido, sin azúcar",
+   "kcal": 6,
+   "proteinG": 0.2,
+   "fatG": 0.3,
+   "carbsG": 0.9,
+   "unit": null
+  },
+  {
+   "name": "Carambola, refresco natural, crudo, sin azúcar",
+   "kcal": 5,
+   "proteinG": 0.2,
+   "fatG": 0.3,
+   "carbsG": 0.5,
+   "unit": null
+  },
+  {
+   "name": "Coco rallado",
+   "kcal": 596,
+   "proteinG": 7.4,
+   "fatG": 66.8,
+   "carbsG": 3.3,
+   "unit": null
+  },
+  {
+   "name": "Cocona, jugo natural, cocido, sin azúcar",
+   "kcal": 0,
+   "proteinG": 0.0,
+   "fatG": 0.0,
+   "carbsG": 0.1,
+   "unit": null
+  },
+  {
+   "name": "Durazno, néctar envasado",
+   "kcal": 6,
+   "proteinG": 0.0,
+   "fatG": 0.0,
+   "carbsG": 1.4,
+   "unit": null
+  },
+  {
+   "name": "Granadilla, jugo natural, sin azúcar",
+   "kcal": 25,
+   "proteinG": 1.1,
+   "fatG": 0.2,
+   "carbsG": 5.4,
+   "unit": null
+  },
+  {
+   "name": "Guindón sin pepa",
+   "kcal": 201,
+   "proteinG": 2.3,
+   "fatG": 0.2,
+   "carbsG": 53.3,
+   "unit": null
+  },
+  {
+   "name": "Kiwi, sin cáscara",
+   "kcal": 39,
+   "proteinG": 2.9,
+   "fatG": 0.3,
+   "carbsG": 7.3,
+   "unit": null
+  },
+  {
+   "name": "Limón dulce, sin cáscara",
+   "kcal": 20,
+   "proteinG": 1.4,
+   "fatG": 0.4,
+   "carbsG": 4.8,
+   "unit": null
+  },
+  {
+   "name": "Limón, néctar envasado",
+   "kcal": 57,
+   "proteinG": 0.0,
+   "fatG": 0.0,
+   "carbsG": 14.1,
+   "unit": null
+  },
+  {
+   "name": "Mango, néctar envasado",
+   "kcal": 44,
+   "proteinG": 0.0,
+   "fatG": 0.0,
+   "carbsG": 11.0,
+   "unit": null
+  },
+  {
+   "name": "Manzana chilena verde con cáscara",
+   "kcal": 38,
+   "proteinG": 0.2,
+   "fatG": 0.3,
+   "carbsG": 9.7,
+   "unit": null
+  },
+  {
+   "name": "Manzana delicia \"helada\" con cáscara",
+   "kcal": 47,
+   "proteinG": 0.2,
+   "fatG": 0.1,
+   "carbsG": 12.6,
+   "unit": null
+  },
+  {
+   "name": "Manzana delicia roja con cáscara",
+   "kcal": 52,
+   "proteinG": 0.3,
+   "fatG": 0.1,
+   "carbsG": 14.0,
+   "unit": null
+  },
+  {
+   "name": "Manzana israel con cáscara",
+   "kcal": 40,
+   "proteinG": 0.4,
+   "fatG": 0.1,
+   "carbsG": 10.5,
+   "unit": null
+  },
+  {
+   "name": "Manzana, jugo natural, envasado",
+   "kcal": 43,
+   "proteinG": 0.0,
+   "fatG": 0.0,
+   "carbsG": 10.7,
+   "unit": null
+  },
+  {
+   "name": "Manzana, néctar envasado",
+   "kcal": 38,
+   "proteinG": 0.0,
+   "fatG": 0.0,
+   "carbsG": 9.5,
+   "unit": null
+  },
+  {
+   "name": "Manzana pero con cáscara (para agua)",
+   "kcal": 31,
+   "proteinG": 0.3,
+   "fatG": 0.1,
+   "carbsG": 8.3,
+   "unit": null
+  },
+  {
+   "name": "Manzana santa rosa, golden o caña con cáscara",
+   "kcal": 53,
+   "proteinG": 0.2,
+   "fatG": 0.1,
+   "carbsG": 14.4,
+   "unit": null
+  },
+  {
+   "name": "Manzana winter con cáscara",
+   "kcal": 44,
+   "proteinG": 0.3,
+   "fatG": 0.1,
+   "carbsG": 12.0,
+   "unit": null
+  },
+  {
+   "name": "Maracuyá, jugo natural, envasado",
+   "kcal": 35,
+   "proteinG": 0.0,
+   "fatG": 0.0,
+   "carbsG": 8.7,
+   "unit": null
+  },
+  {
+   "name": "Maracuyá, néctar envasado",
+   "kcal": 9,
+   "proteinG": 0.0,
+   "fatG": 0.0,
+   "carbsG": 2.1,
+   "unit": null
+  },
+  {
+   "name": "Naranja, bebida envasada",
+   "kcal": 56,
+   "proteinG": 0.0,
+   "fatG": 0.0,
+   "carbsG": 14.0,
+   "unit": null
+  },
+  {
+   "name": "Naranja, jugo natural, envasado",
+   "kcal": 16,
+   "proteinG": 0.0,
+   "fatG": 0.0,
+   "carbsG": 4.1,
+   "unit": null
+  },
+  {
+   "name": "Naranja, néctar envasado",
+   "kcal": 43,
+   "proteinG": 0.0,
+   "fatG": 0.0,
+   "carbsG": 10.7,
+   "unit": null
+  },
+  {
+   "name": "Naranja tangelo",
+   "kcal": 24,
+   "proteinG": 1.0,
+   "fatG": 0.2,
+   "carbsG": 5.2,
+   "unit": null
+  },
+  {
+   "name": "Naranja tangelo, jugo natural",
+   "kcal": 16,
+   "proteinG": 0.7,
+   "fatG": 0.2,
+   "carbsG": 3.5,
+   "unit": null
+  },
+  {
+   "name": "Naranjilla",
+   "kcal": 28,
+   "proteinG": 0.7,
+   "fatG": 0.1,
+   "carbsG": 6.8,
+   "unit": null
+  },
+  {
+   "name": "Palta \"fuerte\"",
+   "kcal": 104,
+   "proteinG": 1.9,
+   "fatG": 8.9,
+   "carbsG": 6.5,
+   "unit": null
+  },
+  {
+   "name": "Papaya arequipeña",
+   "kcal": 17,
+   "proteinG": 1.0,
+   "fatG": 0.3,
+   "carbsG": 3.3,
+   "unit": null
+  },
+  {
+   "name": "Pera, néctar envasado",
+   "kcal": 46,
+   "proteinG": 0.0,
+   "fatG": 0.0,
+   "carbsG": 11.4,
+   "unit": null
+  },
+  {
+   "name": "Piña, bebida envasada",
+   "kcal": 29,
+   "proteinG": 0.0,
+   "fatG": 0.0,
+   "carbsG": 7.2,
+   "unit": null
+  },
+  {
+   "name": "Plátano \"bellaco\"",
+   "kcal": 102,
+   "proteinG": 1.3,
+   "fatG": 0.1,
+   "carbsG": 26.9,
+   "unit": null
+  },
+  {
+   "name": "Plátano \"moquicho\"",
+   "kcal": 100,
+   "proteinG": 1.2,
+   "fatG": 0.1,
+   "carbsG": 26.5,
+   "unit": null
+  },
+  {
+   "name": "Plátano palillo",
+   "kcal": 105,
+   "proteinG": 0.9,
+   "fatG": 0.3,
+   "carbsG": 27.8,
+   "unit": null
+  },
+  {
+   "name": "Plátano palillo maduro, harina de",
+   "kcal": 293,
+   "proteinG": 4.1,
+   "fatG": 1.1,
+   "carbsG": 75.1,
+   "unit": null
+  },
+  {
+   "name": "Plátano palillo verde, harina de",
+   "kcal": 295,
+   "proteinG": 3.3,
+   "fatG": 0.2,
+   "carbsG": 78.3,
+   "unit": null
+  },
+  {
+   "name": "Sancayo",
+   "kcal": 17,
+   "proteinG": 0.8,
+   "fatG": 0.6,
+   "carbsG": 2.7,
+   "unit": null
+  },
+  {
+   "name": "Warr'a",
+   "kcal": 102,
+   "proteinG": 1.5,
+   "fatG": 0.2,
+   "carbsG": 26.4,
+   "unit": null
+  },
+  {
+   "name": "Yak'u",
+   "kcal": 116,
+   "proteinG": 1.8,
+   "fatG": 2.2,
+   "carbsG": 25.3,
+   "unit": null
+  },
+  {
+   "name": "Aceituna verde",
+   "kcal": 186,
+   "proteinG": 1.4,
+   "fatG": 21.7,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Aguaje, néctar natural, sin azúcar",
+   "kcal": 7,
+   "proteinG": 0.1,
+   "fatG": 0.6,
+   "carbsG": 0.3,
+   "unit": null
+  },
+  {
+   "name": "Arándano",
+   "kcal": 51,
+   "proteinG": 0.6,
+   "fatG": 0.1,
+   "carbsG": 13.2,
+   "unit": null
+  },
+  {
+   "name": "Arándano, néctar natural, con cáscara, sin azúcar",
+   "kcal": 20,
+   "proteinG": 0.3,
+   "fatG": 0.3,
+   "carbsG": 4.3,
+   "unit": null
+  },
+  {
+   "name": "Cereza",
+   "kcal": 30,
+   "proteinG": 1.2,
+   "fatG": 0.0,
+   "carbsG": 7.3,
+   "unit": null
+  },
+  {
+   "name": "Ciruela albaricoque, con cáscara, sin pepa",
+   "kcal": 34,
+   "proteinG": 0.4,
+   "fatG": 0.1,
+   "carbsG": 8.8,
+   "unit": null
+  },
+  {
+   "name": "Cidra o limón cidra, sin cáscara, sin pepas",
+   "kcal": 19,
+   "proteinG": 0.7,
+   "fatG": 0.0,
+   "carbsG": 6.8,
+   "unit": null
+  },
+  {
+   "name": "Frambuesa",
+   "kcal": 31,
+   "proteinG": 1.6,
+   "fatG": 0.8,
+   "carbsG": 5.2,
+   "unit": null
+  },
+  {
+   "name": "Mango criollo",
+   "kcal": 66,
+   "proteinG": 0.4,
+   "fatG": 0.2,
+   "carbsG": 17.4,
+   "unit": null
+  },
+  {
+   "name": "Mango Edward",
+   "kcal": 69,
+   "proteinG": 0.6,
+   "fatG": 0.3,
+   "carbsG": 17.9,
+   "unit": null
+  },
+  {
+   "name": "Mango Edward, néctar natural, sin cáscara, sin azúcar",
+   "kcal": 29,
+   "proteinG": 0.1,
+   "fatG": 0.4,
+   "carbsG": 6.5,
+   "unit": null
+  },
+  {
+   "name": "Mango kafro",
+   "kcal": 64,
+   "proteinG": 0.7,
+   "fatG": 0.4,
+   "carbsG": 16.4,
+   "unit": null
+  },
+  {
+   "name": "Mango kent",
+   "kcal": 65,
+   "proteinG": 0.7,
+   "fatG": 0.0,
+   "carbsG": 17.5,
+   "unit": null
+  },
+  {
+   "name": "Manzana Royal o gala",
+   "kcal": 55,
+   "proteinG": 0.4,
+   "fatG": 0.0,
+   "carbsG": 14.8,
+   "unit": null
+  },
+  {
+   "name": "Manzana verde nacional, refresco natural, cocido, sin azúcar",
+   "kcal": 2,
+   "proteinG": 0.3,
+   "fatG": 0.2,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Mora o zarzamora",
+   "kcal": 27,
+   "proteinG": 2.1,
+   "fatG": 0.5,
+   "carbsG": 4.4,
+   "unit": null
+  },
+  {
+   "name": "Noni, con cáscara, sin pepas",
+   "kcal": 25,
+   "proteinG": 0.8,
+   "fatG": 0.5,
+   "carbsG": 5.1,
+   "unit": null
+  },
+  {
+   "name": "Palta dedo o cocktail",
+   "kcal": 166,
+   "proteinG": 1.8,
+   "fatG": 19.1,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Palta Hass",
+   "kcal": 204,
+   "proteinG": 1.0,
+   "fatG": 23.5,
+   "carbsG": 1.0,
+   "unit": null
+  },
+  {
+   "name": "Papaya, néctar natural, sin azúcar",
+   "kcal": 15,
+   "proteinG": 0.4,
+   "fatG": 0.5,
+   "carbsG": 2.4,
+   "unit": null
+  },
+  {
+   "name": "Pasa rubia",
+   "kcal": 265,
+   "proteinG": 2.4,
+   "fatG": 1.0,
+   "carbsG": 68.9,
+   "unit": null
+  },
+  {
+   "name": "Piña Golden o baby golden",
+   "kcal": 55,
+   "proteinG": 0.6,
+   "fatG": 0.1,
+   "carbsG": 14.3,
+   "unit": null
+  },
+  {
+   "name": "Piña Hawaiana",
+   "kcal": 44,
+   "proteinG": 0.6,
+   "fatG": 0.4,
+   "carbsG": 10.7,
+   "unit": null
+  },
+  {
+   "name": "Piña Selva",
+   "kcal": 30,
+   "proteinG": 0.5,
+   "fatG": 0.4,
+   "carbsG": 7.1,
+   "unit": null
+  },
+  {
+   "name": "Piña Selva, néctar natural, sin azúcar",
+   "kcal": 19,
+   "proteinG": 0.2,
+   "fatG": 0.5,
+   "carbsG": 3.5,
+   "unit": null
+  },
+  {
+   "name": "Pitajaya roja",
+   "kcal": 56,
+   "proteinG": 0.8,
+   "fatG": 0.7,
+   "carbsG": 13.2,
+   "unit": null
+  },
+  {
+   "name": "Plátano bellaco maduro, frito en aceite vegetal",
+   "kcal": 173,
+   "proteinG": 1.1,
+   "fatG": 3.7,
+   "carbsG": 33.7,
+   "unit": null
+  },
+  {
+   "name": "Uva Red Globe, con cáscara, sin pepas",
+   "kcal": 52,
+   "proteinG": 0.6,
+   "fatG": 0.4,
+   "carbsG": 12.8,
+   "unit": null
+  },
+  {
+   "name": "Aceite compuesto (vegetal 70% pescado 30%)",
+   "kcal": 884,
+   "proteinG": 0.0,
+   "fatG": 100.0,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Aceite de pescado, hidrogenado",
+   "kcal": 884,
+   "proteinG": 0.0,
+   "fatG": 100.0,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Aceite vegetal de algodón",
+   "kcal": 884,
+   "proteinG": 0.0,
+   "fatG": 100.0,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Aceite vegetal de girasol",
+   "kcal": 884,
+   "proteinG": 0.0,
+   "fatG": 100.0,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Aceite vegetal de maíz",
+   "kcal": 884,
+   "proteinG": 0.0,
+   "fatG": 100.0,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Aceite vegetal de maní",
+   "kcal": 884,
+   "proteinG": 0.0,
+   "fatG": 100.0,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Aceite vegetal de olivo",
+   "kcal": 884,
+   "proteinG": 0.0,
+   "fatG": 100.0,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Aceite vegetal de palma",
+   "kcal": 884,
+   "proteinG": 0.0,
+   "fatG": 100.0,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Aceite vegetal de soya",
+   "kcal": 884,
+   "proteinG": 0.0,
+   "fatG": 100.0,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Almendra",
+   "kcal": 554,
+   "proteinG": 19.4,
+   "fatG": 54.1,
+   "carbsG": 8.4,
+   "unit": null
+  },
+  {
+   "name": "Avellana",
+   "kcal": 498,
+   "proteinG": 10.6,
+   "fatG": 52.9,
+   "carbsG": 4.5,
+   "unit": null
+  },
+  {
+   "name": "Cacao, semillas secas",
+   "kcal": 570,
+   "proteinG": 12.0,
+   "fatG": 46.3,
+   "carbsG": 34.7,
+   "unit": null
+  },
+  {
+   "name": "Castaña peruana o nuez de Brasil",
+   "kcal": 647,
+   "proteinG": 13.0,
+   "fatG": 69.0,
+   "carbsG": 6.0,
+   "unit": null
+  },
+  {
+   "name": "Maní crudo, sin cáscara con piel",
+   "kcal": 559,
+   "proteinG": 24.1,
+   "fatG": 48.2,
+   "carbsG": 9.2,
+   "unit": null
+  },
+  {
+   "name": "Maní sancochado",
+   "kcal": 374,
+   "proteinG": 15.9,
+   "fatG": 27.5,
+   "carbsG": 13.1,
+   "unit": null
+  },
+  {
+   "name": "Maní tostado, sin piel",
+   "kcal": 590,
+   "proteinG": 27.1,
+   "fatG": 51.0,
+   "carbsG": 8.9,
+   "unit": null
+  },
+  {
+   "name": "Manteca de cerdo",
+   "kcal": 879,
+   "proteinG": 0.0,
+   "fatG": 99.4,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Manteca vegetal",
+   "kcal": 880,
+   "proteinG": 0.0,
+   "fatG": 99.5,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Mantequilla",
+   "kcal": 729,
+   "proteinG": 2.0,
+   "fatG": 82.0,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Mantequilla con sal",
+   "kcal": 717,
+   "proteinG": 0.9,
+   "fatG": 81.1,
+   "carbsG": 0.1,
+   "unit": null
+  },
+  {
+   "name": "Margarina vegetal con sal",
+   "kcal": 720,
+   "proteinG": 0.6,
+   "fatG": 81.0,
+   "carbsG": 0.3,
+   "unit": null
+  },
+  {
+   "name": "Nuez",
+   "kcal": 654,
+   "proteinG": 14.8,
+   "fatG": 69.1,
+   "carbsG": 6.0,
+   "unit": null
+  },
+  {
+   "name": "Cashú o castaña de cashú",
+   "kcal": 574,
+   "proteinG": 16.5,
+   "fatG": 51.1,
+   "carbsG": 21.8,
+   "unit": null
+  },
+  {
+   "name": "Chía, semilla de",
+   "kcal": 362,
+   "proteinG": 19.9,
+   "fatG": 32.5,
+   "carbsG": 5.2,
+   "unit": null
+  },
+  {
+   "name": "Linaza, semilla de",
+   "kcal": 420,
+   "proteinG": 17.8,
+   "fatG": 42.5,
+   "carbsG": 0.7,
+   "unit": null
+  },
+  {
+   "name": "Margarina, Astra de La Danesa 60% grasa vegetal",
+   "kcal": 506,
+   "proteinG": 0.0,
+   "fatG": 57.2,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Margarina, Dorina Batida al 70% de grasa",
+   "kcal": 597,
+   "proteinG": 0.0,
+   "fatG": 67.6,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Margarina, Dorina Clásica al 70% de grasa",
+   "kcal": 578,
+   "proteinG": 0.0,
+   "fatG": 65.4,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Margarina, Dorina Light al 50% de grasa",
+   "kcal": 409,
+   "proteinG": 0.0,
+   "fatG": 46.2,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Margarina, La Danesa 70% de grasa vegetal",
+   "kcal": 590,
+   "proteinG": 0.0,
+   "fatG": 66.8,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Margarina, La Preferida 70% grasa",
+   "kcal": 598,
+   "proteinG": 0.0,
+   "fatG": 67.6,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Margarina, Manty 40% de grasa vegetal",
+   "kcal": 325,
+   "proteinG": 0.0,
+   "fatG": 36.8,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Margarina, Sello de Oro",
+   "kcal": 607,
+   "proteinG": 0.0,
+   "fatG": 68.6,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Margarina, Swis Light",
+   "kcal": 407,
+   "proteinG": 0.0,
+   "fatG": 46.1,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Margarina, Swis 60% de grasa",
+   "kcal": 479,
+   "proteinG": 0.0,
+   "fatG": 54.1,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Ñuña tostada",
+   "kcal": 385,
+   "proteinG": 17.2,
+   "fatG": 13.1,
+   "carbsG": 53.1,
+   "unit": null
+  },
+  {
+   "name": "Pecana",
+   "kcal": 670,
+   "proteinG": 9.1,
+   "fatG": 73.8,
+   "carbsG": 5.2,
+   "unit": null
+  },
+  {
+   "name": "Sacha Inchi tostado",
+   "kcal": 574,
+   "proteinG": 25.6,
+   "fatG": 54.4,
+   "carbsG": 7.4,
+   "unit": null
+  },
+  {
+   "name": "Ajonjolí, semilla de",
+   "kcal": 525,
+   "proteinG": 17.7,
+   "fatG": 49.7,
+   "carbsG": 11.7,
+   "unit": null
+  },
+  {
+   "name": "Ajonjolí negro, semilla de",
+   "kcal": 501,
+   "proteinG": 16.0,
+   "fatG": 51.3,
+   "carbsG": 3.8,
+   "unit": null
+  },
+  {
+   "name": "Girasol, semilla de",
+   "kcal": 587,
+   "proteinG": 20.2,
+   "fatG": 58.6,
+   "carbsG": 6.6,
+   "unit": null
+  },
+  {
+   "name": "Aceite vegetal de girasol con adición de EPA y DHA",
+   "kcal": 883,
+   "proteinG": 0.0,
+   "fatG": 99.9,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Aceite vegetal de girasol con canola",
+   "kcal": 883,
+   "proteinG": 0.0,
+   "fatG": 99.9,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Aceite vegetal de oliva extravirgen",
+   "kcal": 883,
+   "proteinG": 0.0,
+   "fatG": 99.9,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Aceite vegetal de sacha Inchi",
+   "kcal": 883,
+   "proteinG": 0.0,
+   "fatG": 99.9,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Mantequilla sin sal",
+   "kcal": 746,
+   "proteinG": 0.2,
+   "fatG": 84.7,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Maní tostado, acaramelado con ajonjolí, envasado",
+   "kcal": 473,
+   "proteinG": 13.4,
+   "fatG": 23.0,
+   "carbsG": 53.0,
+   "unit": null
+  },
+  {
+   "name": "Pasta untable de maní con sal",
+   "kcal": 642,
+   "proteinG": 26.0,
+   "fatG": 51.6,
+   "carbsG": 18.5,
+   "unit": null
+  },
+  {
+   "name": "Pistasho",
+   "kcal": 582,
+   "proteinG": 19.2,
+   "fatG": 54.2,
+   "carbsG": 15.3,
+   "unit": null
+  },
+  {
+   "name": "Almeja blanca",
+   "kcal": 71,
+   "proteinG": 14.4,
+   "fatG": 1.1,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Aska (crustáceo), al estado natural",
+   "kcal": 462,
+   "proteinG": 56.6,
+   "fatG": 19.4,
+   "carbsG": 11.1,
+   "unit": null
+  },
+  {
+   "name": "Aska, sometido a cocción (crustáceo)",
+   "kcal": 467,
+   "proteinG": 56.0,
+   "fatG": 20.3,
+   "carbsG": 10.9,
+   "unit": null
+  },
+  {
+   "name": "Barquillos",
+   "kcal": 89,
+   "proteinG": 18.5,
+   "fatG": 0.5,
+   "carbsG": 1.3,
+   "unit": null
+  },
+  {
+   "name": "Camaroncito seco (chino)",
+   "kcal": 247,
+   "proteinG": 52.3,
+   "fatG": 1.9,
+   "carbsG": 1.6,
+   "unit": null
+  },
+  {
+   "name": "Camarones frescos",
+   "kcal": 88,
+   "proteinG": 17.8,
+   "fatG": 0.2,
+   "carbsG": 2.6,
+   "unit": null
+  },
+  {
+   "name": "Cangrejo",
+   "kcal": 94,
+   "proteinG": 19.8,
+   "fatG": 0.6,
+   "carbsG": 1.1,
+   "unit": null
+  },
+  {
+   "name": "Cangrejo cocido",
+   "kcal": 97,
+   "proteinG": 14.8,
+   "fatG": 2.9,
+   "carbsG": 1.9,
+   "unit": null
+  },
+  {
+   "name": "Caracol",
+   "kcal": 87,
+   "proteinG": 16.9,
+   "fatG": 0.8,
+   "carbsG": 1.9,
+   "unit": null
+  },
+  {
+   "name": "Chanque, loco o tolina",
+   "kcal": 104,
+   "proteinG": 21.9,
+   "fatG": 0.3,
+   "carbsG": 1.8,
+   "unit": null
+  },
+  {
+   "name": "Choros",
+   "kcal": 91,
+   "proteinG": 13.0,
+   "fatG": 2.3,
+   "carbsG": 3.7,
+   "unit": null
+  },
+  {
+   "name": "Concha de abanico",
+   "kcal": 92,
+   "proteinG": 15.9,
+   "fatG": 1.8,
+   "carbsG": 1.9,
+   "unit": null
+  },
+  {
+   "name": "Erizo",
+   "kcal": 147,
+   "proteinG": 16.3,
+   "fatG": 7.9,
+   "carbsG": 1.4,
+   "unit": null
+  },
+  {
+   "name": "Langostino blanco",
+   "kcal": 69,
+   "proteinG": 14.5,
+   "fatG": 0.8,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Lapas",
+   "kcal": 86,
+   "proteinG": 18.5,
+   "fatG": 0.4,
+   "carbsG": 0.9,
+   "unit": null
+  },
+  {
+   "name": "Machas",
+   "kcal": 130,
+   "proteinG": 23.2,
+   "fatG": 1.3,
+   "carbsG": 4.7,
+   "unit": null
+  },
+  {
+   "name": "Pescado acarabuazú, salado deshidratado",
+   "kcal": 292,
+   "proteinG": 47.5,
+   "fatG": 9.9,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado anchoveta",
+   "kcal": 156,
+   "proteinG": 19.1,
+   "fatG": 8.2,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado atún, en conserva",
+   "kcal": 181,
+   "proteinG": 22.9,
+   "fatG": 9.9,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado atún, enlatado en agua",
+   "kcal": 116,
+   "proteinG": 25.5,
+   "fatG": 0.8,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado atún, enlatado en aceite",
+   "kcal": 186,
+   "proteinG": 26.5,
+   "fatG": 8.1,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado atún, fresco",
+   "kcal": 141,
+   "proteinG": 23.3,
+   "fatG": 4.6,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado ayanque o cachema",
+   "kcal": 88,
+   "proteinG": 19.6,
+   "fatG": 0.5,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado bacalao fresco",
+   "kcal": 82,
+   "proteinG": 17.8,
+   "fatG": 0.7,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado bacalao seco salado",
+   "kcal": 290,
+   "proteinG": 62.8,
+   "fatG": 2.4,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado bagre",
+   "kcal": 80,
+   "proteinG": 15.2,
+   "fatG": 1.7,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado bonito",
+   "kcal": 138,
+   "proteinG": 23.4,
+   "fatG": 4.2,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado bonito, huevera de",
+   "kcal": 101,
+   "proteinG": 17.2,
+   "fatG": 3.0,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado bonito fresco, músculo claro",
+   "kcal": 115,
+   "proteinG": 23.5,
+   "fatG": 1.3,
+   "carbsG": 0.7,
+   "unit": null
+  },
+  {
+   "name": "Pescado bonito fresco, músculo oscuro",
+   "kcal": 106,
+   "proteinG": 23.1,
+   "fatG": 0.7,
+   "carbsG": 0.2,
+   "unit": null
+  },
+  {
+   "name": "Pescado bonito, pulpa asada",
+   "kcal": 136,
+   "proteinG": 24.0,
+   "fatG": 3.7,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado bonito, seco salado",
+   "kcal": 184,
+   "proteinG": 32.3,
+   "fatG": 5.1,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado boquichico, salado deshidratado",
+   "kcal": 287,
+   "proteinG": 47.9,
+   "fatG": 9.1,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado caballa, en conserva",
+   "kcal": 225,
+   "proteinG": 24.8,
+   "fatG": 14.0,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado caballa, fresco",
+   "kcal": 182,
+   "proteinG": 21.5,
+   "fatG": 10.0,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado caballa, salado",
+   "kcal": 132,
+   "proteinG": 21.4,
+   "fatG": 4.1,
+   "carbsG": 0.8,
+   "unit": null
+  },
+  {
+   "name": "Pescado cabinza",
+   "kcal": 96,
+   "proteinG": 19.1,
+   "fatG": 1.6,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado cabrilla",
+   "kcal": 96,
+   "proteinG": 18.6,
+   "fatG": 1.8,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado carachama",
+   "kcal": 64,
+   "proteinG": 14.2,
+   "fatG": 0.4,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado cazón",
+   "kcal": 98,
+   "proteinG": 21.8,
+   "fatG": 0.5,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado chita",
+   "kcal": 88,
+   "proteinG": 19.8,
+   "fatG": 0.4,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado chita, huevera de",
+   "kcal": 62,
+   "proteinG": 12.3,
+   "fatG": 1.0,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado chita, pulpa asada",
+   "kcal": 99,
+   "proteinG": 21.0,
+   "fatG": 1.0,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado coco",
+   "kcal": 99,
+   "proteinG": 17.4,
+   "fatG": 2.7,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado cojinova",
+   "kcal": 103,
+   "proteinG": 20.7,
+   "fatG": 1.6,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado congrio",
+   "kcal": 73,
+   "proteinG": 15.7,
+   "fatG": 0.7,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado corvina",
+   "kcal": 124,
+   "proteinG": 19.5,
+   "fatG": 4.5,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado fuasaco, con espinas",
+   "kcal": 72,
+   "proteinG": 16.3,
+   "fatG": 0.3,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado jurel, en conserva",
+   "kcal": 127,
+   "proteinG": 23.2,
+   "fatG": 3.8,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado jurel, fresco",
+   "kcal": 121,
+   "proteinG": 22.2,
+   "fatG": 2.7,
+   "carbsG": 0.3,
+   "unit": null
+  },
+  {
+   "name": "Pescado lenguado",
+   "kcal": 91,
+   "proteinG": 18.8,
+   "fatG": 1.2,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado lisa",
+   "kcal": 119,
+   "proteinG": 20.8,
+   "fatG": 3.3,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado lorna, fresco",
+   "kcal": 96,
+   "proteinG": 18.5,
+   "fatG": 1.9,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado lorna, pulpa seca salada",
+   "kcal": 150,
+   "proteinG": 30.9,
+   "fatG": 2.0,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado machete",
+   "kcal": 136,
+   "proteinG": 20.5,
+   "fatG": 5.4,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado maparate, con espinas",
+   "kcal": 73,
+   "proteinG": 15.1,
+   "fatG": 0.9,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado merluza, fresco",
+   "kcal": 72,
+   "proteinG": 15.8,
+   "fatG": 0.5,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado merluza, seco",
+   "kcal": 363,
+   "proteinG": 73.8,
+   "fatG": 5.3,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado mero, fresco",
+   "kcal": 85,
+   "proteinG": 18.6,
+   "fatG": 0.6,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado paiche, seco",
+   "kcal": 247,
+   "proteinG": 38.2,
+   "fatG": 9.3,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado pampanito",
+   "kcal": 106,
+   "proteinG": 19.2,
+   "fatG": 2.7,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado paña, salado deshidratado",
+   "kcal": 288,
+   "proteinG": 54.3,
+   "fatG": 6.2,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado pejerrey",
+   "kcal": 105,
+   "proteinG": 19.6,
+   "fatG": 2.4,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado pejesapo",
+   "kcal": 101,
+   "proteinG": 22.1,
+   "fatG": 0.7,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado pejesapo, pulpa asada",
+   "kcal": 87,
+   "proteinG": 19.5,
+   "fatG": 0.4,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado pejesapo, pulpa sancochada",
+   "kcal": 83,
+   "proteinG": 18.7,
+   "fatG": 0.3,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado perico, fresco, pulpa sin piel",
+   "kcal": 91,
+   "proteinG": 20.2,
+   "fatG": 0.5,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado pintadilla",
+   "kcal": 85,
+   "proteinG": 18.8,
+   "fatG": 0.5,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado ractacara, con espinas",
+   "kcal": 87,
+   "proteinG": 15.4,
+   "fatG": 2.3,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado raya, pulpa asada",
+   "kcal": 136,
+   "proteinG": 31.1,
+   "fatG": 0.4,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado róbalo",
+   "kcal": 95,
+   "proteinG": 21.3,
+   "fatG": 0.5,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado sardina, en aceite vegetal, conserva",
+   "kcal": 242,
+   "proteinG": 20.6,
+   "fatG": 17.7,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado sardina, en salsa de tomate, conserva",
+   "kcal": 85,
+   "proteinG": 14.9,
+   "fatG": 1.6,
+   "carbsG": 2.8,
+   "unit": null
+  },
+  {
+   "name": "Pescado sardina, en grated, conserva",
+   "kcal": 171,
+   "proteinG": 22.4,
+   "fatG": 9.0,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado sardina, filete, conserva",
+   "kcal": 202,
+   "proteinG": 25.8,
+   "fatG": 11.0,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado sardina, fresco",
+   "kcal": 146,
+   "proteinG": 20.2,
+   "fatG": 6.6,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado Tilapia, fresco",
+   "kcal": 100,
+   "proteinG": 18.4,
+   "fatG": 2.1,
+   "carbsG": 0.7,
+   "unit": null
+  },
+  {
+   "name": "Pescado toyo, fresco",
+   "kcal": 89,
+   "proteinG": 19.5,
+   "fatG": 0.6,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado toyo, seco salado",
+   "kcal": 186,
+   "proteinG": 38.6,
+   "fatG": 2.3,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado tramboyo",
+   "kcal": 85,
+   "proteinG": 19.2,
+   "fatG": 0.3,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado trucha rosada",
+   "kcal": 110,
+   "proteinG": 20.9,
+   "fatG": 2.3,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado trucha, en conserva",
+   "kcal": 167,
+   "proteinG": 21.5,
+   "fatG": 9.0,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado trucha, fresca",
+   "kcal": 111,
+   "proteinG": 19.5,
+   "fatG": 3.1,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado yahuarachi, con espinas",
+   "kcal": 86,
+   "proteinG": 15.5,
+   "fatG": 2.2,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado yuliya, con espinas",
+   "kcal": 85,
+   "proteinG": 16.9,
+   "fatG": 1.4,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado zúngaro, salado deshidratado",
+   "kcal": 286,
+   "proteinG": 47.3,
+   "fatG": 9.3,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pique",
+   "kcal": 78,
+   "proteinG": 15.9,
+   "fatG": 1.1,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pota",
+   "kcal": 91,
+   "proteinG": 16.0,
+   "fatG": 1.1,
+   "carbsG": 3.1,
+   "unit": null
+  },
+  {
+   "name": "Pota, concentrado proteico de",
+   "kcal": 396,
+   "proteinG": 91.8,
+   "fatG": 0.3,
+   "carbsG": 0.5,
+   "unit": null
+  },
+  {
+   "name": "Pulpo",
+   "kcal": 80,
+   "proteinG": 13.6,
+   "fatG": 1.4,
+   "carbsG": 2.2,
+   "unit": null
+  },
+  {
+   "name": "Choro, pulpa cocida, envasado",
+   "kcal": 101,
+   "proteinG": 17.2,
+   "fatG": 1.5,
+   "carbsG": 4.6,
+   "unit": null
+  },
+  {
+   "name": "Mixtura de mariscos: langostino, mejillones, caracol, concha de abanico, calamar, pota, envasado",
+   "kcal": 80,
+   "proteinG": 15.3,
+   "fatG": 0.9,
+   "carbsG": 2.8,
+   "unit": null
+  },
+  {
+   "name": "Pescado ayanque o cachema, pulpa con piel, sancochado sin sal",
+   "kcal": 159,
+   "proteinG": 20.8,
+   "fatG": 7.7,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado Boquichico, fresco",
+   "kcal": 95,
+   "proteinG": 18.3,
+   "fatG": 1.8,
+   "carbsG": 0.1,
+   "unit": null
+  },
+  {
+   "name": "Pescado Cojinova, pulpa con piel, sancochado sin sal",
+   "kcal": 120,
+   "proteinG": 26.8,
+   "fatG": 0.6,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado Doncella, fresco",
+   "kcal": 84,
+   "proteinG": 18.8,
+   "fatG": 0.4,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado jurel, pulpa con piel, frita en aceite vegetal, sin sal",
+   "kcal": 159,
+   "proteinG": 26.8,
+   "fatG": 3.9,
+   "carbsG": 4.2,
+   "unit": null
+  },
+  {
+   "name": "Pescado Jurel, pulpa con piel, sancochado sin sal",
+   "kcal": 151,
+   "proteinG": 26.5,
+   "fatG": 4.0,
+   "carbsG": 0.4,
+   "unit": null
+  },
+  {
+   "name": "Pescado Paco, fresco",
+   "kcal": 83,
+   "proteinG": 18.6,
+   "fatG": 0.4,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado Palometa, fresco",
+   "kcal": 124,
+   "proteinG": 18.0,
+   "fatG": 5.2,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado Reyneta, fresco",
+   "kcal": 94,
+   "proteinG": 20.3,
+   "fatG": 0.9,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pez espada, fresco",
+   "kcal": 211,
+   "proteinG": 19.8,
+   "fatG": 14.0,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pescado trucha rosada, pulpa con piel, sancochado sin sal",
+   "kcal": 168,
+   "proteinG": 22.3,
+   "fatG": 8.0,
+   "carbsG": 0.1,
+   "unit": null
+  },
+  {
+   "name": "Ballena, carne pulpa de",
+   "kcal": 90,
+   "proteinG": 18.6,
+   "fatG": 1.2,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Carnero, cabeza sancochada de",
+   "kcal": 111,
+   "proteinG": 14.2,
+   "fatG": 5.6,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Carnero, corazón de",
+   "kcal": 115,
+   "proteinG": 15.9,
+   "fatG": 4.6,
+   "carbsG": 1.4,
+   "unit": null
+  },
+  {
+   "name": "Carnero, hígado de",
+   "kcal": 131,
+   "proteinG": 19.9,
+   "fatG": 4.0,
+   "carbsG": 2.6,
+   "unit": null
+  },
+  {
+   "name": "Carnero, panza de (mondongo)",
+   "kcal": 72,
+   "proteinG": 15.7,
+   "fatG": 0.6,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Carnero, patas sancochadas de",
+   "kcal": 108,
+   "proteinG": 20.9,
+   "fatG": 2.1,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Carnero, pulmón de (bofe)",
+   "kcal": 77,
+   "proteinG": 13.4,
+   "fatG": 2.2,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Carnero, riñón",
+   "kcal": 109,
+   "proteinG": 18.0,
+   "fatG": 3.2,
+   "carbsG": 0.8,
+   "unit": null
+  },
+  {
+   "name": "Carnero, sesos de",
+   "kcal": 113,
+   "proteinG": 10.0,
+   "fatG": 7.8,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Carnero, pulpa gorda",
+   "kcal": 267,
+   "proteinG": 16.9,
+   "fatG": 21.6,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Carnero, pulpa muy magra",
+   "kcal": 136,
+   "proteinG": 19.0,
+   "fatG": 6.1,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Carnero, pulpa semigorda",
+   "kcal": 253,
+   "proteinG": 18.2,
+   "fatG": 19.4,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Cerdo, carne sin hueso",
+   "kcal": 198,
+   "proteinG": 14.4,
+   "fatG": 15.1,
+   "carbsG": 0.1,
+   "unit": null
+  },
+  {
+   "name": "Cerdo, hígado de",
+   "kcal": 128,
+   "proteinG": 18.5,
+   "fatG": 4.7,
+   "carbsG": 1.7,
+   "unit": null
+  },
+  {
+   "name": "Cerdo, patas semigordas",
+   "kcal": 284,
+   "proteinG": 20.0,
+   "fatG": 22.0,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Cerdo, pulmón de (bofe)",
+   "kcal": 79,
+   "proteinG": 13.5,
+   "fatG": 2.4,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Cerdo, riñón de",
+   "kcal": 139,
+   "proteinG": 13.9,
+   "fatG": 8.8,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Chivo, carne pulpa de",
+   "kcal": 115,
+   "proteinG": 19.4,
+   "fatG": 3.6,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Conejo, carne pulpa de",
+   "kcal": 136,
+   "proteinG": 20.1,
+   "fatG": 5.6,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Gallina, pechuga de, sin piel",
+   "kcal": 108,
+   "proteinG": 19.2,
+   "fatG": 2.9,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Gallina, pierna de, sin piel",
+   "kcal": 120,
+   "proteinG": 20.6,
+   "fatG": 3.6,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Majaz, carne pulpa de",
+   "kcal": 108,
+   "proteinG": 21.4,
+   "fatG": 1.2,
+   "carbsG": 1.4,
+   "unit": null
+  },
+  {
+   "name": "Motelo, carne pulpa de",
+   "kcal": 113,
+   "proteinG": 21.4,
+   "fatG": 1.8,
+   "carbsG": 1.4,
+   "unit": null
+  },
+  {
+   "name": "Pato, carne de",
+   "kcal": 326,
+   "proteinG": 16.0,
+   "fatG": 28.6,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pavo, carne de",
+   "kcal": 160,
+   "proteinG": 20.4,
+   "fatG": 8.0,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pollo, carne pulpa",
+   "kcal": 119,
+   "proteinG": 21.4,
+   "fatG": 3.1,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pollo, corazón de",
+   "kcal": 157,
+   "proteinG": 15.6,
+   "fatG": 9.3,
+   "carbsG": 1.6,
+   "unit": null
+  },
+  {
+   "name": "Pollo, hígado de",
+   "kcal": 125,
+   "proteinG": 18.0,
+   "fatG": 3.9,
+   "carbsG": 3.4,
+   "unit": null
+  },
+  {
+   "name": "Pollo, sangre de, sancochada sin sal",
+   "kcal": 89,
+   "proteinG": 19.8,
+   "fatG": 0.3,
+   "carbsG": 0.5,
+   "unit": null
+  },
+  {
+   "name": "Pollo, sangre cruda de",
+   "kcal": 65,
+   "proteinG": 15.0,
+   "fatG": 0.1,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Rana, carne de",
+   "kcal": 73,
+   "proteinG": 16.4,
+   "fatG": 0.3,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Tortuga charapa, carne de",
+   "kcal": 79,
+   "proteinG": 16.4,
+   "fatG": 0.9,
+   "carbsG": 0.1,
+   "unit": null
+  },
+  {
+   "name": "Res, bazo de",
+   "kcal": 92,
+   "proteinG": 18.9,
+   "fatG": 1.2,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Res, cabeza sancochada de",
+   "kcal": 111,
+   "proteinG": 18.6,
+   "fatG": 3.4,
+   "carbsG": 0.2,
+   "unit": null
+  },
+  {
+   "name": "Res, carne pulpa de",
+   "kcal": 105,
+   "proteinG": 21.3,
+   "fatG": 1.6,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Res, corazón de",
+   "kcal": 103,
+   "proteinG": 16.6,
+   "fatG": 3.5,
+   "carbsG": 0.1,
+   "unit": null
+  },
+  {
+   "name": "Res, criadillas de",
+   "kcal": 60,
+   "proteinG": 9.8,
+   "fatG": 1.8,
+   "carbsG": 0.4,
+   "unit": null
+  },
+  {
+   "name": "Res, hígado de",
+   "kcal": 140,
+   "proteinG": 20.0,
+   "fatG": 4.6,
+   "carbsG": 3.3,
+   "unit": null
+  },
+  {
+   "name": "Res, lengua de",
+   "kcal": 173,
+   "proteinG": 16.5,
+   "fatG": 11.2,
+   "carbsG": 0.3,
+   "unit": null
+  },
+  {
+   "name": "Res, panza de (mondongo)",
+   "kcal": 104,
+   "proteinG": 16.9,
+   "fatG": 3.5,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Res, pata sancochada de",
+   "kcal": 152,
+   "proteinG": 23.7,
+   "fatG": 5.6,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Res, pulmón de (bofe)",
+   "kcal": 83,
+   "proteinG": 17.2,
+   "fatG": 1.1,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Res, riñón de",
+   "kcal": 92,
+   "proteinG": 15.1,
+   "fatG": 2.9,
+   "carbsG": 0.3,
+   "unit": null
+  },
+  {
+   "name": "Res, sesos de",
+   "kcal": 135,
+   "proteinG": 11.3,
+   "fatG": 9.6,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Res, ubre de",
+   "kcal": 233,
+   "proteinG": 14.1,
+   "fatG": 19.2,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Carnero, carne seca sin hueso (chalona)",
+   "kcal": 320,
+   "proteinG": 50.3,
+   "fatG": 11.7,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Chicharrón de cerdo, cocido",
+   "kcal": 602,
+   "proteinG": 11.3,
+   "fatG": 61.4,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Chicharrón de prensa",
+   "kcal": 438,
+   "proteinG": 23.9,
+   "fatG": 37.2,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Chorizo",
+   "kcal": 287,
+   "proteinG": 21.0,
+   "fatG": 21.9,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Jamón del país",
+   "kcal": 344,
+   "proteinG": 24.7,
+   "fatG": 26.4,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Jamonada",
+   "kcal": 344,
+   "proteinG": 15.7,
+   "fatG": 29.5,
+   "carbsG": 2.8,
+   "unit": null
+  },
+  {
+   "name": "Mortadela",
+   "kcal": 256,
+   "proteinG": 9.8,
+   "fatG": 19.7,
+   "carbsG": 9.4,
+   "unit": null
+  },
+  {
+   "name": "Paté",
+   "kcal": 500,
+   "proteinG": 10.9,
+   "fatG": 49.8,
+   "carbsG": 1.1,
+   "unit": null
+  },
+  {
+   "name": "Queso de chancho",
+   "kcal": 242,
+   "proteinG": 20.1,
+   "fatG": 17.3,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Relleno",
+   "kcal": 119,
+   "proteinG": 14.4,
+   "fatG": 5.0,
+   "carbsG": 3.2,
+   "unit": null
+  },
+  {
+   "name": "Salchicha blanca chica",
+   "kcal": 449,
+   "proteinG": 12.0,
+   "fatG": 43.2,
+   "carbsG": 2.0,
+   "unit": null
+  },
+  {
+   "name": "Salchicha blanca grande",
+   "kcal": 363,
+   "proteinG": 13.6,
+   "fatG": 32.3,
+   "carbsG": 3.5,
+   "unit": null
+  },
+  {
+   "name": "Hot Dog",
+   "kcal": 364,
+   "proteinG": 11.0,
+   "fatG": 34.3,
+   "carbsG": 2.1,
+   "unit": null
+  },
+  {
+   "name": "Salchicha de \"Huacho\"",
+   "kcal": 461,
+   "proteinG": 12.9,
+   "fatG": 44.0,
+   "carbsG": 2.4,
+   "unit": null
+  },
+  {
+   "name": "Tocino",
+   "kcal": 493,
+   "proteinG": 13.5,
+   "fatG": 47.9,
+   "carbsG": 0.8,
+   "unit": null
+  },
+  {
+   "name": "Alpaca, carne pulpa de",
+   "kcal": 109,
+   "proteinG": 24.1,
+   "fatG": 0.5,
+   "carbsG": 0.3,
+   "unit": null
+  },
+  {
+   "name": "Carnero, criadillas fritas",
+   "kcal": 97,
+   "proteinG": 15.8,
+   "fatG": 3.0,
+   "carbsG": 1.6,
+   "unit": null
+  },
+  {
+   "name": "Carnero, panza cocida (mondongo)",
+   "kcal": 92,
+   "proteinG": 12.3,
+   "fatG": 3.1,
+   "carbsG": 3.7,
+   "unit": null
+  },
+  {
+   "name": "Carnero, pierna cocida",
+   "kcal": 260,
+   "proteinG": 24.8,
+   "fatG": 17.6,
+   "carbsG": 0.5,
+   "unit": null
+  },
+  {
+   "name": "Carnero, sangre cocida",
+   "kcal": 122,
+   "proteinG": 20.4,
+   "fatG": 4.5,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Cerdo, carne magra, cruda",
+   "kcal": 143,
+   "proteinG": 21.4,
+   "fatG": 5.7,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Cerdo, corazón de",
+   "kcal": 131,
+   "proteinG": 15.9,
+   "fatG": 6.2,
+   "carbsG": 2.9,
+   "unit": null
+  },
+  {
+   "name": "Cerdo, costilla con piel y grasa, crudo",
+   "kcal": 298,
+   "proteinG": 17.6,
+   "fatG": 24.7,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Cerdo, cuero o pellejo crocante",
+   "kcal": 527,
+   "proteinG": 58.5,
+   "fatG": 30.5,
+   "carbsG": 4.6,
+   "unit": null
+  },
+  {
+   "name": "Cerdo, cuero",
+   "kcal": 505,
+   "proteinG": 48.4,
+   "fatG": 34.6,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Cerdo, lengua cocida de",
+   "kcal": 325,
+   "proteinG": 6.1,
+   "fatG": 27.5,
+   "carbsG": 13.0,
+   "unit": null
+  },
+  {
+   "name": "Cordero, pierna cruda",
+   "kcal": 128,
+   "proteinG": 20.6,
+   "fatG": 4.5,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Codorniz, carne cocida de",
+   "kcal": 199,
+   "proteinG": 21.1,
+   "fatG": 8.4,
+   "carbsG": 9.6,
+   "unit": null
+  },
+  {
+   "name": "Cuy, carne de",
+   "kcal": 96,
+   "proteinG": 19.0,
+   "fatG": 1.6,
+   "carbsG": 0.1,
+   "unit": null
+  },
+  {
+   "name": "Llama, carne fresca de",
+   "kcal": 130,
+   "proteinG": 22.5,
+   "fatG": 3.3,
+   "carbsG": 2.7,
+   "unit": null
+  },
+  {
+   "name": "Llama, carne seca de (charqui)",
+   "kcal": 279,
+   "proteinG": 57.7,
+   "fatG": 3.6,
+   "carbsG": 1.1,
+   "unit": null
+  },
+  {
+   "name": "Pate de hígado de pollo, envasado",
+   "kcal": 201,
+   "proteinG": 13.5,
+   "fatG": 13.1,
+   "carbsG": 6.6,
+   "unit": null
+  },
+  {
+   "name": "Pollo, alas con piel, crudas",
+   "kcal": 222,
+   "proteinG": 18.3,
+   "fatG": 16.0,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pollo, molleja, cruda",
+   "kcal": 94,
+   "proteinG": 17.7,
+   "fatG": 2.1,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pollo, molleja de, sancochada sin sal",
+   "kcal": 144,
+   "proteinG": 29.1,
+   "fatG": 2.2,
+   "carbsG": 0.1,
+   "unit": null
+  },
+  {
+   "name": "Pollo, pata de, con piel, cruda",
+   "kcal": 205,
+   "proteinG": 19.3,
+   "fatG": 13.6,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pollo, pechuga de, sin piel, sancochada sin sal",
+   "kcal": 150,
+   "proteinG": 30.4,
+   "fatG": 2.2,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pollo, pechuga de, sin piel, frita en aceite vegetal, sin sal",
+   "kcal": 201,
+   "proteinG": 34.9,
+   "fatG": 5.7,
+   "carbsG": 0.1,
+   "unit": null
+  },
+  {
+   "name": "Pollo, pierna de, con piel, sancochada sin sal",
+   "kcal": 175,
+   "proteinG": 23.5,
+   "fatG": 8.3,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pollo, pierna de, con piel, frita en aceite vegetal, sin sal",
+   "kcal": 185,
+   "proteinG": 24.9,
+   "fatG": 8.8,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pollo, vísceras o menudencia cruda",
+   "kcal": 168,
+   "proteinG": 17.9,
+   "fatG": 9.2,
+   "carbsG": 2.1,
+   "unit": null
+  },
+  {
+   "name": "Res, bazo de, sancochado sin sal",
+   "kcal": 107,
+   "proteinG": 20.8,
+   "fatG": 2.0,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Res, carne frita",
+   "kcal": 182,
+   "proteinG": 15.4,
+   "fatG": 10.7,
+   "carbsG": 6.1,
+   "unit": null
+  },
+  {
+   "name": "Res, carne molida de, cruda",
+   "kcal": 164,
+   "proteinG": 21.0,
+   "fatG": 8.3,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Res, carne molida de, frita en aceite vegetal, sin sal",
+   "kcal": 277,
+   "proteinG": 27.3,
+   "fatG": 17.7,
+   "carbsG": 0.1,
+   "unit": null
+  },
+  {
+   "name": "Res, charque crudo",
+   "kcal": 292,
+   "proteinG": 62.4,
+   "fatG": 4.1,
+   "carbsG": 1.4,
+   "unit": null
+  },
+  {
+   "name": "Res, cuadril, churrasco",
+   "kcal": 133,
+   "proteinG": 22.0,
+   "fatG": 5.0,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Res (ternera), costilla cruda",
+   "kcal": 95,
+   "proteinG": 20.0,
+   "fatG": 1.7,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Res, hígado de, frito en aceite vegetal, sin sal",
+   "kcal": 161,
+   "proteinG": 21.5,
+   "fatG": 6.5,
+   "carbsG": 2.7,
+   "unit": null
+  },
+  {
+   "name": "Res, lengua cocida",
+   "kcal": 269,
+   "proteinG": 16.6,
+   "fatG": 18.2,
+   "carbsG": 9.5,
+   "unit": null
+  },
+  {
+   "name": "Res, panza de (mondongo), sancochado sin sal",
+   "kcal": 67,
+   "proteinG": 10.6,
+   "fatG": 2.4,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Res, pata de, con piel y grasa, cruda",
+   "kcal": 141,
+   "proteinG": 24.9,
+   "fatG": 3.9,
+   "carbsG": 0.1,
+   "unit": null
+  },
+  {
+   "name": "Res, sangre cocida",
+   "kcal": 137,
+   "proteinG": 19.5,
+   "fatG": 6.6,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Res, sangre cruda",
+   "kcal": 135,
+   "proteinG": 19.8,
+   "fatG": 6.2,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Sajino, carne pulpa de",
+   "kcal": 106,
+   "proteinG": 21.4,
+   "fatG": 1.1,
+   "carbsG": 1.3,
+   "unit": null
+  },
+  {
+   "name": "Venado, carne pulpa de",
+   "kcal": 110,
+   "proteinG": 22.9,
+   "fatG": 0.8,
+   "carbsG": 1.4,
+   "unit": null
+  },
+  {
+   "name": "Venado, carne seca de",
+   "kcal": 160,
+   "proteinG": 32.4,
+   "fatG": 1.4,
+   "carbsG": 2.4,
+   "unit": null
+  },
+  {
+   "name": "Ziqui - zapa (hormiga)",
+   "kcal": 487,
+   "proteinG": 36.3,
+   "fatG": 28.9,
+   "carbsG": 18.4,
+   "unit": null
+  },
+  {
+   "name": "Cabanossi, embutido cocido y ahumado",
+   "kcal": 345,
+   "proteinG": 28.9,
+   "fatG": 24.2,
+   "carbsG": 2.8,
+   "unit": null
+  },
+  {
+   "name": "Carnero, pulpa de, sin piel, sancochada sin sal",
+   "kcal": 229,
+   "proteinG": 31.6,
+   "fatG": 10.3,
+   "carbsG": 0.1,
+   "unit": null
+  },
+  {
+   "name": "Cecina",
+   "kcal": 171,
+   "proteinG": 30.1,
+   "fatG": 4.8,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Cerdo, chuleta de, con piel, frita en aceite vegetal, sin sal",
+   "kcal": 299,
+   "proteinG": 26.6,
+   "fatG": 20.5,
+   "carbsG": 0.1,
+   "unit": null
+  },
+  {
+   "name": "Cerdo, pulpa de, sin piel, sancochada sin sal",
+   "kcal": 202,
+   "proteinG": 32.3,
+   "fatG": 7.1,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Cerdo, sangre de, cocida, envasada",
+   "kcal": 115,
+   "proteinG": 25.8,
+   "fatG": 0.5,
+   "carbsG": 0.1,
+   "unit": null
+  },
+  {
+   "name": "Chorizo, embutido de carne de cerdo, frito en aceite vegetal",
+   "kcal": 338,
+   "proteinG": 13.6,
+   "fatG": 27.8,
+   "carbsG": 7.3,
+   "unit": null
+  },
+  {
+   "name": "Cuy, pecho de, pulpa con piel, cruda",
+   "kcal": 269,
+   "proteinG": 16.0,
+   "fatG": 18.7,
+   "carbsG": 8.1,
+   "unit": null
+  },
+  {
+   "name": "Cuy, pierna de, pulpa con piel, cruda",
+   "kcal": 219,
+   "proteinG": 16.6,
+   "fatG": 16.0,
+   "carbsG": 0.8,
+   "unit": null
+  },
+  {
+   "name": "Gallina, pierna y encuentro de, pulpa con piel, sancochada sin sal",
+   "kcal": 209,
+   "proteinG": 27.3,
+   "fatG": 10.2,
+   "carbsG": 0.1,
+   "unit": null
+  },
+  {
+   "name": "Hot dog, embutido de carne de pollo, cerdo y pavo, frito en aceite vegetal",
+   "kcal": 202,
+   "proteinG": 10.3,
+   "fatG": 14.3,
+   "carbsG": 7.2,
+   "unit": null
+  },
+  {
+   "name": "Jamonada especial",
+   "kcal": 155,
+   "proteinG": 12.1,
+   "fatG": 9.3,
+   "carbsG": 4.9,
+   "unit": null
+  },
+  {
+   "name": "Majaz, pulpa ahumada de, sancochada sin sal",
+   "kcal": 219,
+   "proteinG": 41.4,
+   "fatG": 4.7,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Paté de hígado de pollo, pavo y carne de cerdo",
+   "kcal": 195,
+   "proteinG": 13.5,
+   "fatG": 15.3,
+   "carbsG": 0.8,
+   "unit": null
+  },
+  {
+   "name": "Pavo, pechuga de, con piel",
+   "kcal": 94,
+   "proteinG": 17.7,
+   "fatG": 1.3,
+   "carbsG": 1.6,
+   "unit": null
+  },
+  {
+   "name": "Pavo, pierna de, con piel",
+   "kcal": 105,
+   "proteinG": 16.4,
+   "fatG": 2.6,
+   "carbsG": 2.8,
+   "unit": null
+  },
+  {
+   "name": "Pollo, ala de, con piel, sancochada sin sal (brazuelo, centro y punta)",
+   "kcal": 262,
+   "proteinG": 20.1,
+   "fatG": 19.1,
+   "carbsG": 1.2,
+   "unit": null
+  },
+  {
+   "name": "Pollo, corazón de, sancochado sin sal",
+   "kcal": 154,
+   "proteinG": 25.7,
+   "fatG": 4.9,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Pollo, encuentro de, con piel, frito en aceite vegetal, sin sal",
+   "kcal": 202,
+   "proteinG": 26.0,
+   "fatG": 9.9,
+   "carbsG": 0.4,
+   "unit": null
+  },
+  {
+   "name": "Pollo, encuentro de, con piel, sancochado sin sal",
+   "kcal": 198,
+   "proteinG": 23.4,
+   "fatG": 10.8,
+   "carbsG": 0.1,
+   "unit": null
+  },
+  {
+   "name": "Pollo, hamburguesa de, cruda, envasada",
+   "kcal": 208,
+   "proteinG": 13.6,
+   "fatG": 12.2,
+   "carbsG": 10.0,
+   "unit": null
+  },
+  {
+   "name": "Pollo, hígado de, sancochado sin sal",
+   "kcal": 157,
+   "proteinG": 23.9,
+   "fatG": 4.9,
+   "carbsG": 2.9,
+   "unit": null
+  },
+  {
+   "name": "Pollo, nuggets de pechuga de, crudo, envasado",
+   "kcal": 185,
+   "proteinG": 11.2,
+   "fatG": 10.8,
+   "carbsG": 9.8,
+   "unit": null
+  },
+  {
+   "name": "Pollo, pecho y ala de, con piel a la brasa",
+   "kcal": 170,
+   "proteinG": 25.8,
+   "fatG": 6.4,
+   "carbsG": 2.3,
+   "unit": null
+  },
+  {
+   "name": "Pollo, pierna y encuentro de, con piel a la brasa",
+   "kcal": 213,
+   "proteinG": 20.9,
+   "fatG": 12.7,
+   "carbsG": 3.7,
+   "unit": null
+  },
+  {
+   "name": "Res, bofe de, con verduras, cocido, envasado",
+   "kcal": 107,
+   "proteinG": 18.8,
+   "fatG": 2.8,
+   "carbsG": 0.4,
+   "unit": null
+  },
+  {
+   "name": "Res, hamburguesa de carne de, cruda, envasada",
+   "kcal": 219,
+   "proteinG": 12.1,
+   "fatG": 15.7,
+   "carbsG": 6.4,
+   "unit": null
+  },
+  {
+   "name": "Res, osobuco de",
+   "kcal": 121,
+   "proteinG": 22.5,
+   "fatG": 2.7,
+   "carbsG": 0.1,
+   "unit": null
+  },
+  {
+   "name": "Sajino ahumado, pulpa de, sancochada sin sal",
+   "kcal": 173,
+   "proteinG": 32.0,
+   "fatG": 4.0,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Salchicha de Huacho, frita en aceite vegetal",
+   "kcal": 498,
+   "proteinG": 15.5,
+   "fatG": 47.5,
+   "carbsG": 0.9,
+   "unit": null
+  },
+  {
+   "name": "Tocino, sancochado",
+   "kcal": 350,
+   "proteinG": 25.0,
+   "fatG": 27.0,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Crema de leche, espesa",
+   "kcal": 345,
+   "proteinG": 2.1,
+   "fatG": 37.0,
+   "carbsG": 2.8,
+   "unit": null
+  },
+  {
+   "name": "Crema de leche, rala",
+   "kcal": 195,
+   "proteinG": 2.7,
+   "fatG": 19.3,
+   "carbsG": 3.7,
+   "unit": null
+  },
+  {
+   "name": "Leche condensada endulzada",
+   "kcal": 322,
+   "proteinG": 7.9,
+   "fatG": 9.2,
+   "carbsG": 53.7,
+   "unit": null
+  },
+  {
+   "name": "Leche en polvo descremada",
+   "kcal": 362,
+   "proteinG": 36.2,
+   "fatG": 0.8,
+   "carbsG": 52.0,
+   "unit": null
+  },
+  {
+   "name": "Leche en polvo entera",
+   "kcal": 484,
+   "proteinG": 27.0,
+   "fatG": 26.1,
+   "carbsG": 36.1,
+   "unit": null
+  },
+  {
+   "name": "Leche evaporada descremada",
+   "kcal": 79,
+   "proteinG": 7.1,
+   "fatG": 0.9,
+   "carbsG": 10.5,
+   "unit": null
+  },
+  {
+   "name": "Leche evaporada entera",
+   "kcal": 133,
+   "proteinG": 6.3,
+   "fatG": 7.7,
+   "carbsG": 10.9,
+   "unit": null
+  },
+  {
+   "name": "Leche fresca c/menos de 1% grasa",
+   "kcal": 43,
+   "proteinG": 3.5,
+   "fatG": 1.0,
+   "carbsG": 4.7,
+   "unit": null
+  },
+  {
+   "name": "Leche fresca entera (Plusa)",
+   "kcal": 64,
+   "proteinG": 3.2,
+   "fatG": 3.2,
+   "carbsG": 5.1,
+   "unit": null
+  },
+  {
+   "name": "Leche fresca de cabra",
+   "kcal": 66,
+   "proteinG": 3.2,
+   "fatG": 3.8,
+   "carbsG": 5.0,
+   "unit": null
+  },
+  {
+   "name": "Leche fresca de vaca",
+   "kcal": 63,
+   "proteinG": 3.1,
+   "fatG": 3.5,
+   "carbsG": 4.9,
+   "unit": null
+  },
+  {
+   "name": "Leche materna",
+   "kcal": 70,
+   "proteinG": 1.0,
+   "fatG": 4.4,
+   "carbsG": 6.9,
+   "unit": null
+  },
+  {
+   "name": "Queso fresco de cabra",
+   "kcal": 173,
+   "proteinG": 16.3,
+   "fatG": 10.3,
+   "carbsG": 3.4,
+   "unit": null
+  },
+  {
+   "name": "Queso fresco de vaca",
+   "kcal": 265,
+   "proteinG": 17.2,
+   "fatG": 20.2,
+   "carbsG": 3.6,
+   "unit": null
+  },
+  {
+   "name": "Queso mantecoso",
+   "kcal": 322,
+   "proteinG": 19.5,
+   "fatG": 26.5,
+   "carbsG": 1.5,
+   "unit": null
+  },
+  {
+   "name": "Queso parmesano duro",
+   "kcal": 440,
+   "proteinG": 39.1,
+   "fatG": 30.3,
+   "carbsG": 1.8,
+   "unit": null
+  },
+  {
+   "name": "Yogurt de leche entera",
+   "kcal": 61,
+   "proteinG": 3.5,
+   "fatG": 3.3,
+   "carbsG": 4.7,
+   "unit": null
+  },
+  {
+   "name": "Yogurt frutado de leche semidescremada",
+   "kcal": 97,
+   "proteinG": 4.1,
+   "fatG": 2.8,
+   "carbsG": 18.2,
+   "unit": null
+  },
+  {
+   "name": "Yogurt frutado de leche descremada",
+   "kcal": 95,
+   "proteinG": 4.4,
+   "fatG": 0.2,
+   "carbsG": 19.0,
+   "unit": null
+  },
+  {
+   "name": "Yogurt natural de leche descremada",
+   "kcal": 56,
+   "proteinG": 5.7,
+   "fatG": 0.2,
+   "carbsG": 7.7,
+   "unit": null
+  },
+  {
+   "name": "Leche fresca de vaca, descremada",
+   "kcal": 30,
+   "proteinG": 2.5,
+   "fatG": 0.0,
+   "carbsG": 5.0,
+   "unit": null
+  },
+  {
+   "name": "Leche parcialmente descremada sabor \"chocolate\" UHT",
+   "kcal": 82,
+   "proteinG": 3.0,
+   "fatG": 2.8,
+   "carbsG": 11.3,
+   "unit": null
+  },
+  {
+   "name": "Queso andino",
+   "kcal": 375,
+   "proteinG": 22.6,
+   "fatG": 31.4,
+   "carbsG": 0.6,
+   "unit": null
+  },
+  {
+   "name": "Queso paria",
+   "kcal": 298,
+   "proteinG": 19.2,
+   "fatG": 24.5,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Yogurt bebible descremado durazno con calcio",
+   "kcal": 50,
+   "proteinG": 4.1,
+   "fatG": 0.1,
+   "carbsG": 8.1,
+   "unit": null
+  },
+  {
+   "name": "Yogurt bebible de fresa",
+   "kcal": 78,
+   "proteinG": 2.7,
+   "fatG": 1.2,
+   "carbsG": 14.5,
+   "unit": null
+  },
+  {
+   "name": "Leche concentrada endulzada, enriquecida con DHA, zinc y vitaminas",
+   "kcal": 124,
+   "proteinG": 5.5,
+   "fatG": 6.0,
+   "carbsG": 12.5,
+   "unit": null
+  },
+  {
+   "name": "Leche concentrada, sin lactosa",
+   "kcal": 89,
+   "proteinG": 7.2,
+   "fatG": 3.7,
+   "carbsG": 6.8,
+   "unit": null
+  },
+  {
+   "name": "Queso cabaña (cottage)",
+   "kcal": 106,
+   "proteinG": 12.5,
+   "fatG": 4.8,
+   "carbsG": 2.8,
+   "unit": null
+  },
+  {
+   "name": "Queso edam",
+   "kcal": 330,
+   "proteinG": 24.4,
+   "fatG": 25.3,
+   "carbsG": 1.0,
+   "unit": null
+  },
+  {
+   "name": "Queso fresco, parcialmente descremado, reducido en grasa",
+   "kcal": 153,
+   "proteinG": 17.6,
+   "fatG": 7.7,
+   "carbsG": 2.6,
+   "unit": null
+  },
+  {
+   "name": "Queso Mozarella",
+   "kcal": 301,
+   "proteinG": 24.2,
+   "fatG": 21.6,
+   "carbsG": 2.1,
+   "unit": null
+  },
+  {
+   "name": "Queso ricotta",
+   "kcal": 115,
+   "proteinG": 13.5,
+   "fatG": 4.2,
+   "carbsG": 5.3,
+   "unit": null
+  },
+  {
+   "name": "Yogurt bebible descremado, endulzado con stevia, linaza en almibar y frutos secos",
+   "kcal": 55,
+   "proteinG": 4.0,
+   "fatG": 0.8,
+   "carbsG": 7.9,
+   "unit": null
+  },
+  {
+   "name": "Yogurt bebible parcialmente descremado con mora",
+   "kcal": 65,
+   "proteinG": 3.3,
+   "fatG": 1.7,
+   "carbsG": 9.1,
+   "unit": null
+  },
+  {
+   "name": "Yogurt bebible parcialmente descremado con sauco",
+   "kcal": 72,
+   "proteinG": 2.6,
+   "fatG": 2.7,
+   "carbsG": 9.5,
+   "unit": null
+  },
+  {
+   "name": "Yogurt griego descremado con fresas",
+   "kcal": 74,
+   "proteinG": 4.2,
+   "fatG": 0.3,
+   "carbsG": 14.0,
+   "unit": null
+  },
+  {
+   "name": "Yogurt griego natural sin azúcar",
+   "kcal": 79,
+   "proteinG": 4.0,
+   "fatG": 3.9,
+   "carbsG": 7.2,
+   "unit": null
+  },
+  {
+   "name": "Cerveza",
+   "kcal": 36,
+   "proteinG": 0.3,
+   "fatG": 0.0,
+   "carbsG": 5.1,
+   "unit": null
+  },
+  {
+   "name": "Chicha de aguaje",
+   "kcal": 54,
+   "proteinG": 0.4,
+   "fatG": 0.8,
+   "carbsG": 11.2,
+   "unit": null
+  },
+  {
+   "name": "Chicha de cebada",
+   "kcal": 24,
+   "proteinG": 0.1,
+   "fatG": 0.2,
+   "carbsG": 5.5,
+   "unit": null
+  },
+  {
+   "name": "Chicha de jora",
+   "kcal": 28,
+   "proteinG": 0.4,
+   "fatG": 0.3,
+   "carbsG": 5.8,
+   "unit": null
+  },
+  {
+   "name": "Chicha de maíz morado con azúcar",
+   "kcal": 20,
+   "proteinG": 0.0,
+   "fatG": 0.0,
+   "carbsG": 4.9,
+   "unit": null
+  },
+  {
+   "name": "Chicha de maní",
+   "kcal": 34,
+   "proteinG": 0.5,
+   "fatG": 0.8,
+   "carbsG": 6.3,
+   "unit": null
+  },
+  {
+   "name": "Chicha de pijuayo",
+   "kcal": 47,
+   "proteinG": 0.8,
+   "fatG": 0.1,
+   "carbsG": 10.6,
+   "unit": null
+  },
+  {
+   "name": "Chicha de soya",
+   "kcal": 41,
+   "proteinG": 0.6,
+   "fatG": 0.2,
+   "carbsG": 9.1,
+   "unit": null
+  },
+  {
+   "name": "Chicha de yuca (masato)",
+   "kcal": 37,
+   "proteinG": 0.2,
+   "fatG": 0.1,
+   "carbsG": 8.9,
+   "unit": null
+  },
+  {
+   "name": "Coca Cola",
+   "kcal": 39,
+   "proteinG": 0.0,
+   "fatG": 0.0,
+   "carbsG": 10.5,
+   "unit": null
+  },
+  {
+   "name": "Inca Kola",
+   "kcal": 41,
+   "proteinG": 0.0,
+   "fatG": 0.0,
+   "carbsG": 11.0,
+   "unit": null
+  },
+  {
+   "name": "Bebida de soya",
+   "kcal": 38,
+   "proteinG": 3.0,
+   "fatG": 1.4,
+   "carbsG": 2.5,
+   "unit": null
+  },
+  {
+   "name": "Té sin azúcar",
+   "kcal": 1,
+   "proteinG": 0.1,
+   "fatG": 0.0,
+   "carbsG": 0.2,
+   "unit": null
+  },
+  {
+   "name": "Café sin azúcar",
+   "kcal": 2,
+   "proteinG": 0.1,
+   "fatG": 0.0,
+   "carbsG": 0.6,
+   "unit": null
+  },
+  {
+   "name": "Ajonjolí, bebida de, natural, sin azúcar",
+   "kcal": 46,
+   "proteinG": 1.6,
+   "fatG": 4.2,
+   "carbsG": 0.3,
+   "unit": null
+  },
+  {
+   "name": "Almendra, bebida de, natural, sin azúcar",
+   "kcal": 73,
+   "proteinG": 3.0,
+   "fatG": 6.4,
+   "carbsG": 0.7,
+   "unit": null
+  },
+  {
+   "name": "Arándano y uva, bebida de, envasada",
+   "kcal": 17,
+   "proteinG": 0.0,
+   "fatG": 0.0,
+   "carbsG": 4.3,
+   "unit": null
+  },
+  {
+   "name": "Avellana, bebida de, natural, sin azúcar",
+   "kcal": 58,
+   "proteinG": 1.4,
+   "fatG": 5.7,
+   "carbsG": 0.3,
+   "unit": null
+  },
+  {
+   "name": "Carambola, refresco de, con azúcar",
+   "kcal": 30,
+   "proteinG": 0.0,
+   "fatG": 0.0,
+   "carbsG": 7.3,
+   "unit": null
+  },
+  {
+   "name": "Cebada, agua de, natural, sin azúcar",
+   "kcal": 3,
+   "proteinG": 0.1,
+   "fatG": 0.1,
+   "carbsG": 0.3,
+   "unit": null
+  },
+  {
+   "name": "Cebada, refresco de, con azúcar",
+   "kcal": 22,
+   "proteinG": 0.1,
+   "fatG": 0.0,
+   "carbsG": 5.4,
+   "unit": null
+  },
+  {
+   "name": "Emoliente, con azúcar",
+   "kcal": 15,
+   "proteinG": 0.1,
+   "fatG": 0.3,
+   "carbsG": 3.0,
+   "unit": null
+  },
+  {
+   "name": "Infusión de hierbas, con azúcar",
+   "kcal": 28,
+   "proteinG": 0.0,
+   "fatG": 0.2,
+   "carbsG": 6.7,
+   "unit": null
+  },
+  {
+   "name": "Infusión de hierba luisa, con azúcar",
+   "kcal": 14,
+   "proteinG": 0.0,
+   "fatG": 0.0,
+   "carbsG": 3.5,
+   "unit": null
+  },
+  {
+   "name": "Maíz morado, chicha de, natural, sin azúcar, sin limón",
+   "kcal": 2,
+   "proteinG": 0.1,
+   "fatG": 0.2,
+   "carbsG": 0.2,
+   "unit": null
+  },
+  {
+   "name": "Malta, bebida de, sin alcohol, envasada",
+   "kcal": 32,
+   "proteinG": 0.3,
+   "fatG": 0.0,
+   "carbsG": 7.6,
+   "unit": null
+  },
+  {
+   "name": "Manzana, refresco de, con azúcar",
+   "kcal": 34,
+   "proteinG": 0.1,
+   "fatG": 0.1,
+   "carbsG": 8.2,
+   "unit": null
+  },
+  {
+   "name": "Maracuyá, refresco de, con azúcar",
+   "kcal": 34,
+   "proteinG": 0.1,
+   "fatG": 0.2,
+   "carbsG": 7.9,
+   "unit": null
+  },
+  {
+   "name": "Naranja, mandarina y limón, bebida sabor a, envasada",
+   "kcal": 12,
+   "proteinG": 0.0,
+   "fatG": 0.0,
+   "carbsG": 3.1,
+   "unit": null
+  },
+  {
+   "name": "Piña, néctar de, con edulcorante, envasada",
+   "kcal": 15,
+   "proteinG": 0.1,
+   "fatG": 0.0,
+   "carbsG": 3.7,
+   "unit": null
+  },
+  {
+   "name": "Huevo de charapa",
+   "kcal": 222,
+   "proteinG": 16.3,
+   "fatG": 16.0,
+   "carbsG": 1.8,
+   "unit": null
+  },
+  {
+   "name": "Huevo de gallina, clara de",
+   "kcal": 51,
+   "proteinG": 10.9,
+   "fatG": 0.2,
+   "carbsG": 0.7,
+   "unit": null
+  },
+  {
+   "name": "Huevo de gallina entero, sancochado en agua",
+   "kcal": 148,
+   "proteinG": 12.8,
+   "fatG": 9.9,
+   "carbsG": 0.8,
+   "unit": null
+  },
+  {
+   "name": "Huevo de gallina entero, crudo",
+   "kcal": 166,
+   "proteinG": 12.7,
+   "fatG": 11.1,
+   "carbsG": 2.9,
+   "unit": null
+  },
+  {
+   "name": "Huevo de gallina, yema de",
+   "kcal": 354,
+   "proteinG": 15.6,
+   "fatG": 30.9,
+   "carbsG": 1.9,
+   "unit": null
+  },
+  {
+   "name": "Huevo de tortuga motelo",
+   "kcal": 143,
+   "proteinG": 16.4,
+   "fatG": 7.3,
+   "carbsG": 1.6,
+   "unit": null
+  },
+  {
+   "name": "Huevo de pata",
+   "kcal": 166,
+   "proteinG": 13.1,
+   "fatG": 11.1,
+   "carbsG": 2.3,
+   "unit": null
+  },
+  {
+   "name": "Huevo de pata, yema de",
+   "kcal": 426,
+   "proteinG": 15.1,
+   "fatG": 38.8,
+   "carbsG": 2.8,
+   "unit": null
+  },
+  {
+   "name": "Huevo de tortuga taricaya",
+   "kcal": 178,
+   "proteinG": 15.1,
+   "fatG": 11.3,
+   "carbsG": 2.9,
+   "unit": null
+  },
+  {
+   "name": "Huevo de gallina, clara sancochada en agua",
+   "kcal": 59,
+   "proteinG": 11.9,
+   "fatG": 0.3,
+   "carbsG": 1.0,
+   "unit": null
+  },
+  {
+   "name": "Huevo de gallina, yema sancochada en agua",
+   "kcal": 364,
+   "proteinG": 16.3,
+   "fatG": 32.1,
+   "carbsG": 1.0,
+   "unit": null
+  },
+  {
+   "name": "Huevo de codorniz, entero crudo",
+   "kcal": 162,
+   "proteinG": 12.6,
+   "fatG": 9.4,
+   "carbsG": 6.0,
+   "unit": null
+  },
+  {
+   "name": "Huevo de codorniz, entero sancochado en agua",
+   "kcal": 182,
+   "proteinG": 12.7,
+   "fatG": 12.4,
+   "carbsG": 3.9,
+   "unit": null
+  },
+  {
+   "name": "Huevo de codorniz, clara sancochada en agua",
+   "kcal": 55,
+   "proteinG": 10.6,
+   "fatG": 0.1,
+   "carbsG": 2.2,
+   "unit": null
+  },
+  {
+   "name": "Huevo de codorniz, yema sancochada en agua",
+   "kcal": 326,
+   "proteinG": 13.5,
+   "fatG": 26.2,
+   "carbsG": 8.4,
+   "unit": null
+  },
+  {
+   "name": "Huevo de gallina, entero, frito en aceite vegetal, sin sal",
+   "kcal": 176,
+   "proteinG": 13.8,
+   "fatG": 12.5,
+   "carbsG": 2.3,
+   "unit": null
+  },
+  {
+   "name": "Azúcar granulada o refinada",
+   "kcal": 384,
+   "proteinG": 0.0,
+   "fatG": 0.0,
+   "carbsG": 99.2,
+   "unit": null
+  },
+  {
+   "name": "Azúcar rubia",
+   "kcal": 380,
+   "proteinG": 0.0,
+   "fatG": 0.0,
+   "carbsG": 97.5,
+   "unit": null
+  },
+  {
+   "name": "Chancaca",
+   "kcal": 324,
+   "proteinG": 0.0,
+   "fatG": 0.0,
+   "carbsG": 83.9,
+   "unit": null
+  },
+  {
+   "name": "Miel de abeja",
+   "kcal": 330,
+   "proteinG": 0.0,
+   "fatG": 0.0,
+   "carbsG": 85.4,
+   "unit": null
+  },
+  {
+   "name": "Miel de caña",
+   "kcal": 282,
+   "proteinG": 0.3,
+   "fatG": 0.2,
+   "carbsG": 72.0,
+   "unit": null
+  },
+  {
+   "name": "Mermelada de durazno",
+   "kcal": 196,
+   "proteinG": 0.6,
+   "fatG": 0.1,
+   "carbsG": 50.7,
+   "unit": null
+  },
+  {
+   "name": "Mermelada frutilla",
+   "kcal": 229,
+   "proteinG": 0.4,
+   "fatG": 0.2,
+   "carbsG": 59.4,
+   "unit": null
+  },
+  {
+   "name": "Mermelada de sauco",
+   "kcal": 268,
+   "proteinG": 0.4,
+   "fatG": 0.1,
+   "carbsG": 66.6,
+   "unit": null
+  },
+  {
+   "name": "Achiote seco",
+   "kcal": 388,
+   "proteinG": 11.3,
+   "fatG": 5.3,
+   "carbsG": 74.9,
+   "unit": null
+  },
+  {
+   "name": "Algas",
+   "kcal": 249,
+   "proteinG": 67.8,
+   "fatG": 6.5,
+   "carbsG": 15.3,
+   "unit": null
+  },
+  {
+   "name": "Azafrán de raíz, cúrcuma o palillo fresco, sin cáscara",
+   "kcal": 71,
+   "proteinG": 1.3,
+   "fatG": 0.4,
+   "carbsG": 16.7,
+   "unit": null
+  },
+  {
+   "name": "Café grano sin tostar",
+   "kcal": 203,
+   "proteinG": 11.7,
+   "fatG": 10.8,
+   "carbsG": 68.2,
+   "unit": null
+  },
+  {
+   "name": "Cochayuyo fresco",
+   "kcal": 20,
+   "proteinG": 1.7,
+   "fatG": 0.4,
+   "carbsG": 2.5,
+   "unit": null
+  },
+  {
+   "name": "Cocoa",
+   "kcal": 404,
+   "proteinG": 19.0,
+   "fatG": 17.1,
+   "carbsG": 47.8,
+   "unit": null
+  },
+  {
+   "name": "Cominos",
+   "kcal": 375,
+   "proteinG": 17.8,
+   "fatG": 22.3,
+   "carbsG": 33.7,
+   "unit": null
+  },
+  {
+   "name": "Extracto de algarrobo en polvo",
+   "kcal": 340,
+   "proteinG": 12.0,
+   "fatG": 3.2,
+   "carbsG": 65.8,
+   "unit": null
+  },
+  {
+   "name": "Champiñones u hongos (Callampa)",
+   "kcal": 22,
+   "proteinG": 3.0,
+   "fatG": 0.4,
+   "carbsG": 1.7,
+   "unit": null
+  },
+  {
+   "name": "Laurel",
+   "kcal": 188,
+   "proteinG": 4.2,
+   "fatG": 1.2,
+   "carbsG": 47.1,
+   "unit": null
+  },
+  {
+   "name": "Pimienta negra",
+   "kcal": 255,
+   "proteinG": 11.0,
+   "fatG": 3.3,
+   "carbsG": 44.5,
+   "unit": null
+  },
+  {
+   "name": "Té hojas secas",
+   "kcal": 308,
+   "proteinG": 8.0,
+   "fatG": 4.0,
+   "carbsG": 71.4,
+   "unit": null
+  },
+  {
+   "name": "Yuyo fresco",
+   "kcal": 41,
+   "proteinG": 2.1,
+   "fatG": 0.1,
+   "carbsG": 8.0,
+   "unit": null
+  },
+  {
+   "name": "Ají dulce seco, molido (paprika)",
+   "kcal": 362,
+   "proteinG": 14.5,
+   "fatG": 17.9,
+   "carbsG": 49.5,
+   "unit": null
+  },
+  {
+   "name": "Algarrobina, líquida",
+   "kcal": 368,
+   "proteinG": 5.2,
+   "fatG": 0.2,
+   "carbsG": 85.5,
+   "unit": null
+  },
+  {
+   "name": "Anís, semilla",
+   "kcal": 337,
+   "proteinG": 17.6,
+   "fatG": 15.9,
+   "carbsG": 35.4,
+   "unit": null
+  },
+  {
+   "name": "Caldo de res",
+   "kcal": 40,
+   "proteinG": 1.2,
+   "fatG": 2.4,
+   "carbsG": 3.3,
+   "unit": null
+  },
+  {
+   "name": "Caldo de pollo, o gallina",
+   "kcal": 89,
+   "proteinG": 0.2,
+   "fatG": 9.8,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Clavo de olor, molido",
+   "kcal": 323,
+   "proteinG": 6.0,
+   "fatG": 20.1,
+   "carbsG": 27.0,
+   "unit": null
+  },
+  {
+   "name": "Canela, molida",
+   "kcal": 261,
+   "proteinG": 3.9,
+   "fatG": 3.2,
+   "carbsG": 25.6,
+   "unit": null
+  },
+  {
+   "name": "Condimentos o especies molidas no especificadas",
+   "kcal": 263,
+   "proteinG": 6.1,
+   "fatG": 8.7,
+   "carbsG": 50.5,
+   "unit": null
+  },
+  {
+   "name": "Cushuro o nostoc deshidratada (alga)",
+   "kcal": 242,
+   "proteinG": 29.0,
+   "fatG": 0.5,
+   "carbsG": 46.9,
+   "unit": null
+  },
+  {
+   "name": "Levadura fresca para pan",
+   "kcal": 113,
+   "proteinG": 13.4,
+   "fatG": 0.3,
+   "carbsG": 14.2,
+   "unit": null
+  },
+  {
+   "name": "Levadura seca",
+   "kcal": 359,
+   "proteinG": 41.6,
+   "fatG": 1.2,
+   "carbsG": 45.5,
+   "unit": null
+  },
+  {
+   "name": "Nuez moscada, molida",
+   "kcal": 440,
+   "proteinG": 5.8,
+   "fatG": 36.3,
+   "carbsG": 28.5,
+   "unit": null
+  },
+  {
+   "name": "Pimienta blanca",
+   "kcal": 296,
+   "proteinG": 10.4,
+   "fatG": 2.1,
+   "carbsG": 42.4,
+   "unit": null
+  },
+  {
+   "name": "Salsa envasada, inglesa",
+   "kcal": 67,
+   "proteinG": 0.0,
+   "fatG": 0.0,
+   "carbsG": 19.5,
+   "unit": null
+  },
+  {
+   "name": "Setas",
+   "kcal": 19,
+   "proteinG": 2.3,
+   "fatG": 0.1,
+   "carbsG": 2.1,
+   "unit": null
+  },
+  {
+   "name": "Vainilla, extracto",
+   "kcal": 288,
+   "proteinG": 0.1,
+   "fatG": 0.1,
+   "carbsG": 12.7,
+   "unit": null
+  },
+  {
+   "name": "Alimento granulado con malta, leche, cacao y azúcar, en polvo, para bebida",
+   "kcal": 366,
+   "proteinG": 9.8,
+   "fatG": 7.3,
+   "carbsG": 65.5,
+   "unit": null
+  },
+  {
+   "name": "Azafrán de raíz, cúrcuma o palillo en polvo",
+   "kcal": 324,
+   "proteinG": 7.3,
+   "fatG": 5.1,
+   "carbsG": 68.0,
+   "unit": null
+  },
+  {
+   "name": "Cachanga, frita en aceite",
+   "kcal": 422,
+   "proteinG": 8.4,
+   "fatG": 19.8,
+   "carbsG": 52.4,
+   "unit": null
+  },
+  {
+   "name": "Caldo de ave, tabletas",
+   "kcal": 314,
+   "proteinG": 13.2,
+   "fatG": 25.2,
+   "carbsG": 6.3,
+   "unit": null
+  },
+  {
+   "name": "Caldo de carne, tabletas",
+   "kcal": 300,
+   "proteinG": 5.8,
+   "fatG": 24.7,
+   "carbsG": 13.7,
+   "unit": null
+  },
+  {
+   "name": "Camote, hojuela frita en aceite vegetal, endulzado, envasado",
+   "kcal": 483,
+   "proteinG": 4.6,
+   "fatG": 26.0,
+   "carbsG": 57.5,
+   "unit": null
+  },
+  {
+   "name": "\"Chicharrón\" (piel de cerdo, frito en aceite vegetal con sal), envasado",
+   "kcal": 554,
+   "proteinG": 62.8,
+   "fatG": 33.7,
+   "carbsG": 0.0,
+   "unit": null
+  },
+  {
+   "name": "Chocolate con leche y maní, barra, envasado",
+   "kcal": 534,
+   "proteinG": 9.5,
+   "fatG": 33.5,
+   "carbsG": 48.6,
+   "unit": null
+  },
+  {
+   "name": "Chocolate simple con azúcar (para taza)",
+   "kcal": 248,
+   "proteinG": 3.8,
+   "fatG": 16.8,
+   "carbsG": 75.1,
+   "unit": null
+  },
+  {
+   "name": "Churro relleno con crema pastelera, frito en aceite",
+   "kcal": 330,
+   "proteinG": 4.8,
+   "fatG": 14.3,
+   "carbsG": 45.3,
+   "unit": null
+  },
+  {
+   "name": "Churro relleno con majarblanco, frito en aceite",
+   "kcal": 378,
+   "proteinG": 7.9,
+   "fatG": 13.4,
+   "carbsG": 56.5,
+   "unit": null
+  },
+  {
+   "name": "Haba, frita en aceite vegetal con sal, envasada",
+   "kcal": 413,
+   "proteinG": 25.1,
+   "fatG": 18.1,
+   "carbsG": 37.5,
+   "unit": null
+  },
+  {
+   "name": "Mayonesa con sal, envasada",
+   "kcal": 390,
+   "proteinG": 0.9,
+   "fatG": 33.4,
+   "carbsG": 23.9,
+   "unit": null
+  },
+  {
+   "name": "Papa, al hilo frita en aceite vegetal con sal, envasada",
+   "kcal": 512,
+   "proteinG": 4.9,
+   "fatG": 32.0,
+   "carbsG": 51.1,
+   "unit": null
+  },
+  {
+   "name": "Papa, hojuela frita en aceite vegetal con sal, envasada",
+   "kcal": 524,
+   "proteinG": 6.1,
+   "fatG": 35.1,
+   "carbsG": 46.1,
+   "unit": null
+  },
+  {
+   "name": "Pizza americana, (listo para consumo)",
+   "kcal": 260,
+   "proteinG": 9.7,
+   "fatG": 10.4,
+   "carbsG": 31.8,
+   "unit": null
+  },
+  {
+   "name": "Plátano, hojuela frita en aceite vegetal con sal (chifles), envasado",
+   "kcal": 500,
+   "proteinG": 2.1,
+   "fatG": 30.1,
+   "carbsG": 55.0,
+   "unit": null
+  },
+  {
+   "name": "Ravioles relleno con carne, crudo, envasado",
+   "kcal": 186,
+   "proteinG": 9.6,
+   "fatG": 1.8,
+   "carbsG": 33.0,
+   "unit": null
+  },
+  {
+   "name": "Salsa de soya",
+   "kcal": 60,
+   "proteinG": 10.5,
+   "fatG": 0.1,
+   "carbsG": 4.8,
+   "unit": null
+  },
+  {
+   "name": "Sopa con fideo precocido y sazonador en polvo sabor a pollo, envasado",
+   "kcal": 420,
+   "proteinG": 11.1,
+   "fatG": 16.0,
+   "carbsG": 57.9,
+   "unit": null
+  },
+  {
+   "name": "Vinagre",
+   "kcal": 21,
+   "proteinG": 0.0,
+   "fatG": 0.0,
+   "carbsG": 6.0,
+   "unit": null
+  },
+  {
+   "name": "\"Yuquita\" de harina, frita en aceite con sal",
+   "kcal": 343,
+   "proteinG": 8.3,
+   "fatG": 7.3,
+   "carbsG": 60.9,
+   "unit": null
+  },
+  {
+   "name": "Al 110 maternizada",
+   "kcal": 502,
+   "proteinG": 14.0,
+   "fatG": 25.0,
+   "carbsG": 55.3,
+   "unit": null
+  },
+  {
+   "name": "Cerelac manzana",
+   "kcal": 414,
+   "proteinG": 11.0,
+   "fatG": 7.4,
+   "carbsG": 75.6,
+   "unit": null
+  },
+  {
+   "name": "Cerelac trigo",
+   "kcal": 425,
+   "proteinG": 11.5,
+   "fatG": 7.8,
+   "carbsG": 77.2,
+   "unit": null
+  },
+  {
+   "name": "Eledón maternizada",
+   "kcal": 417,
+   "proteinG": 27.9,
+   "fatG": 12.0,
+   "carbsG": 49.8,
+   "unit": null
+  },
+  {
+   "name": "Nan maternizada",
+   "kcal": 509,
+   "proteinG": 11.4,
+   "fatG": 26.0,
+   "carbsG": 57.7,
+   "unit": null
+  },
+  {
+   "name": "Nestúm cereal mixto",
+   "kcal": 380,
+   "proteinG": 9.4,
+   "fatG": 1.2,
+   "carbsG": 82.9,
+   "unit": null
+  },
+  {
+   "name": "Nestúm tres cereales",
+   "kcal": 376,
+   "proteinG": 10.7,
+   "fatG": 2.4,
+   "carbsG": 77.8,
+   "unit": null
+  },
+  {
+   "name": "Pelargón maternizada",
+   "kcal": 458,
+   "proteinG": 16.5,
+   "fatG": 17.1,
+   "carbsG": 59.6,
+   "unit": null
+  },
+  {
+   "name": "Alimento instantáneo en polvo, a base de harina de arroz, para niños a partir de 6 meses de edad",
+   "kcal": 370,
+   "proteinG": 7.4,
+   "fatG": 0.6,
+   "carbsG": 83.8,
+   "unit": null
+  },
+  {
+   "name": "Alimento complementario en polvo, a base de leche descremada, maltodextrina, vitaminas y minerales, para mayores de 2 años de edad",
+   "kcal": 398,
+   "proteinG": 14.5,
+   "fatG": 21.2,
+   "carbsG": 37.4,
+   "unit": null
+  },
+  {
+   "name": "Alimento lácteo en polvo con leche descremada, prebióticos, probióticos, vitaminas y minerales, para mayores de 2 años de edad",
+   "kcal": 392,
+   "proteinG": 17.4,
+   "fatG": 22.8,
+   "carbsG": 29.4,
+   "unit": null
+  },
+  {
+   "name": "Fórmula infantil, en polvo con DHA, prebióticos, vitaminas y minerales, sin sacarosa y fructosa, niños en crecimiento",
+   "kcal": 389,
+   "proteinG": 11.4,
+   "fatG": 14.8,
+   "carbsG": 52.5,
+   "unit": null
+  },
+  {
+   "name": "Fórmula láctea infantil, líquida con hierro y prebióticos; a partir de los 6 meses de edad",
+   "kcal": 112,
+   "proteinG": 4.0,
+   "fatG": 5.3,
+   "carbsG": 12.2,
+   "unit": null
+  },
+  {
+   "name": "Fórmula láctea infantil, en polvo con hierro y probióticos, lactantes a partir de los 6 meses de edad",
+   "kcal": 399,
+   "proteinG": 14.3,
+   "fatG": 21.0,
+   "carbsG": 38.2,
+   "unit": null
+  },
+  {
+   "name": "Fórmula láctea para lactantes, a base de leche; en polvo, de 0 a 6 meses de edad",
+   "kcal": 418,
+   "proteinG": 10.1,
+   "fatG": 28.3,
+   "carbsG": 30.8,
+   "unit": null
+  },
+  {
+   "name": "Fórmula láctea para lactantes, a base de leche; en polvo, lactantes a partir de 6 meses de edad",
+   "kcal": 399,
+   "proteinG": 14.8,
+   "fatG": 23.5,
+   "carbsG": 32.2,
+   "unit": null
+  },
+  {
+   "name": "Fórmula láctea para lactantes, en polvo con DHA, ARA, hierro,vitaminas y minerales; de 0 a 12 meses de edad",
+   "kcal": 408,
+   "proteinG": 11.3,
+   "fatG": 26.9,
+   "carbsG": 30.0,
+   "unit": null
+  },
+  {
+   "name": "Mezcla de cereales instantánea en polvo (harinas de trigo, arroz, maíz, cebada y avena) con leche descremada en polvo, a partir de 6 meses de edad",
+   "kcal": 374,
+   "proteinG": 15.9,
+   "fatG": 8.0,
+   "carbsG": 59.5,
+   "unit": null
+  },
+  {
+   "name": "Arveja partida, harina de",
+   "kcal": 346,
+   "proteinG": 21.6,
+   "fatG": 1.1,
+   "carbsG": 64.4,
+   "unit": null
+  },
+  {
+   "name": "Arveja, fresca sin vaina",
+   "kcal": 85,
+   "proteinG": 7.1,
+   "fatG": 0.6,
+   "carbsG": 13.7,
+   "unit": null
+  },
+  {
+   "name": "Arveja, seca sin cáscara",
+   "kcal": 247,
+   "proteinG": 21.7,
+   "fatG": 3.2,
+   "carbsG": 35.6,
+   "unit": null
+  },
+  {
+   "name": "Arvejón",
+   "kcal": 238,
+   "proteinG": 21.4,
+   "fatG": 1.9,
+   "carbsG": 36.4,
+   "unit": null
+  },
+  {
+   "name": "Frejol aguisho",
+   "kcal": 231,
+   "proteinG": 22.7,
+   "fatG": 1.6,
+   "carbsG": 34.2,
+   "unit": null
+  },
+  {
+   "name": "Frejol amarillo común",
+   "kcal": 232,
+   "proteinG": 21.1,
+   "fatG": 1.5,
+   "carbsG": 35.9,
+   "unit": null
+  },
+  {
+   "name": "Frejol bayo",
+   "kcal": 244,
+   "proteinG": 20.3,
+   "fatG": 2.2,
+   "carbsG": 38.1,
+   "unit": null
+  },
+  {
+   "name": "Frejol bayo americano",
+   "kcal": 232,
+   "proteinG": 20.3,
+   "fatG": 1.5,
+   "carbsG": 36.6,
+   "unit": null
+  },
+  {
+   "name": "Frejol zarandaja, chileno, cancate, bocón",
+   "kcal": 236,
+   "proteinG": 21.7,
+   "fatG": 1.8,
+   "carbsG": 35.7,
+   "unit": null
+  },
+  {
+   "name": "Frejol bountiful bean",
+   "kcal": 334,
+   "proteinG": 17.3,
+   "fatG": 0.9,
+   "carbsG": 65.2,
+   "unit": null
+  },
+  {
+   "name": "Frejol bush bean",
+   "kcal": 227,
+   "proteinG": 24.2,
+   "fatG": 1.6,
+   "carbsG": 31.9,
+   "unit": null
+  },
+  {
+   "name": "Frejol caballero",
+   "kcal": 267,
+   "proteinG": 22.9,
+   "fatG": 1.5,
+   "carbsG": 43.1,
+   "unit": null
+  },
+  {
+   "name": "Frejol caballero o blanco cocido",
+   "kcal": 67,
+   "proteinG": 5.1,
+   "fatG": 0.4,
+   "carbsG": 11.2,
+   "unit": null
+  },
+  {
+   "name": "Frejol california",
+   "kcal": 232,
+   "proteinG": 20.7,
+   "fatG": 2.1,
+   "carbsG": 35.0,
+   "unit": null
+  },
+  {
+   "name": "Frejol canario",
+   "kcal": 236,
+   "proteinG": 21.9,
+   "fatG": 2.1,
+   "carbsG": 35.0,
+   "unit": null
+  },
+  {
+   "name": "Frejol canario cocido",
+   "kcal": 43,
+   "proteinG": 5.2,
+   "fatG": 0.5,
+   "carbsG": 5.1,
+   "unit": null
+  },
+  {
+   "name": "Frejol canario, fresco (frejol verde)",
+   "kcal": 102,
+   "proteinG": 9.7,
+   "fatG": 0.6,
+   "carbsG": 15.6,
+   "unit": null
+  },
+  {
+   "name": "Frejol canario serranito",
+   "kcal": 238,
+   "proteinG": 19.2,
+   "fatG": 1.8,
+   "carbsG": 38.4,
+   "unit": null
+  },
+  {
+   "name": "Frejol caraotas",
+   "kcal": 228,
+   "proteinG": 21.2,
+   "fatG": 1.4,
+   "carbsG": 35.1,
+   "unit": null
+  },
+  {
+   "name": "Frejol castilla",
+   "kcal": 227,
+   "proteinG": 23.3,
+   "fatG": 2.7,
+   "carbsG": 30.5,
+   "unit": null
+  },
+  {
+   "name": "Frejol chavín",
+   "kcal": 234,
+   "proteinG": 19.2,
+   "fatG": 1.4,
+   "carbsG": 38.2,
+   "unit": null
+  },
+  {
+   "name": "Frejol chiclayo",
+   "kcal": 223,
+   "proteinG": 21.4,
+   "fatG": 1.6,
+   "carbsG": 33.3,
+   "unit": null
+  },
+  {
+   "name": "Frejol chiclayo dosmesino fresco",
+   "kcal": 100,
+   "proteinG": 8.4,
+   "fatG": 0.4,
+   "carbsG": 16.6,
+   "unit": null
+  },
+  {
+   "name": "Frejol cocacho",
+   "kcal": 230,
+   "proteinG": 21.3,
+   "fatG": 1.2,
+   "carbsG": 35.9,
+   "unit": null
+  },
+  {
+   "name": "Frejol dulce (Ancash)",
+   "kcal": 236,
+   "proteinG": 19.4,
+   "fatG": 1.8,
+   "carbsG": 37.8,
+   "unit": null
+  },
+  {
+   "name": "Frejol negro",
+   "kcal": 270,
+   "proteinG": 18.2,
+   "fatG": 1.3,
+   "carbsG": 48.2,
+   "unit": null
+  },
+  {
+   "name": "Frejol nucya blanco",
+   "kcal": 237,
+   "proteinG": 20.0,
+   "fatG": 1.9,
+   "carbsG": 37.2,
+   "unit": null
+  },
+  {
+   "name": "Frejol nucya plomo",
+   "kcal": 233,
+   "proteinG": 19.8,
+   "fatG": 1.6,
+   "carbsG": 37.1,
+   "unit": null
+  },
+  {
+   "name": "Frejol palo",
+   "kcal": 345,
+   "proteinG": 18.4,
+   "fatG": 1.4,
+   "carbsG": 66.1,
+   "unit": null
+  },
+  {
+   "name": "Frejol palo, fresco (Lenteja verde)",
+   "kcal": 82,
+   "proteinG": 7.0,
+   "fatG": 0.8,
+   "carbsG": 12.5,
+   "unit": null
+  },
+  {
+   "name": "Frejol panamito",
+   "kcal": 235,
+   "proteinG": 21.5,
+   "fatG": 1.7,
+   "carbsG": 35.8,
+   "unit": null
+  },
+  {
+   "name": "Frejol plomo",
+   "kcal": 236,
+   "proteinG": 20.1,
+   "fatG": 1.8,
+   "carbsG": 37.1,
+   "unit": null
+  },
+  {
+   "name": "Frejol pole bean",
+   "kcal": 229,
+   "proteinG": 22.4,
+   "fatG": 1.2,
+   "carbsG": 34.8,
+   "unit": null
+  },
+  {
+   "name": "Frejol red kidney",
+   "kcal": 270,
+   "proteinG": 19.2,
+   "fatG": 1.2,
+   "carbsG": 47.4,
+   "unit": null
+  },
+  {
+   "name": "Frejol shimpe fresco",
+   "kcal": 51,
+   "proteinG": 3.7,
+   "fatG": 0.1,
+   "carbsG": 9.1,
+   "unit": null
+  },
+  {
+   "name": "Frejol soya",
+   "kcal": 369,
+   "proteinG": 33.7,
+   "fatG": 18.7,
+   "carbsG": 23.4,
+   "unit": null
+  },
+  {
+   "name": "Frejol tarhui o chocho cocido con cáscara",
+   "kcal": 140,
+   "proteinG": 11.6,
+   "fatG": 8.6,
+   "carbsG": 6.7,
+   "unit": null
+  },
+  {
+   "name": "Frejol tarhui o chocho, harina de",
+   "kcal": 458,
+   "proteinG": 49.6,
+   "fatG": 27.9,
+   "carbsG": 12.9,
+   "unit": null
+  },
+  {
+   "name": "Frejol tarhui o chocho, seco",
+   "kcal": 277,
+   "proteinG": 17.3,
+   "fatG": 17.5,
+   "carbsG": 17.3,
+   "unit": null
+  },
+  {
+   "name": "Frejol terciopelo",
+   "kcal": 358,
+   "proteinG": 21.0,
+   "fatG": 5.6,
+   "carbsG": 58.5,
+   "unit": null
+  },
+  {
+   "name": "Frejol vacapaleta",
+   "kcal": 226,
+   "proteinG": 18.3,
+   "fatG": 2.4,
+   "carbsG": 35.2,
+   "unit": null
+  },
+  {
+   "name": "Frejol white kidney",
+   "kcal": 268,
+   "proteinG": 22.1,
+   "fatG": 1.1,
+   "carbsG": 44.7,
+   "unit": null
+  },
+  {
+   "name": "Garbanzo, cocido",
+   "kcal": 127,
+   "proteinG": 6.9,
+   "fatG": 2.5,
+   "carbsG": 20.2,
+   "unit": null
+  },
+  {
+   "name": "Garbanzo",
+   "kcal": 293,
+   "proteinG": 17.6,
+   "fatG": 5.4,
+   "carbsG": 45.9,
+   "unit": null
+  },
+  {
+   "name": "Guaba fresco",
+   "kcal": 141,
+   "proteinG": 10.7,
+   "fatG": 0.7,
+   "carbsG": 24.0,
+   "unit": null
+  },
+  {
+   "name": "Guaba seco",
+   "kcal": 346,
+   "proteinG": 20.3,
+   "fatG": 2.1,
+   "carbsG": 63.3,
+   "unit": null
+  },
+  {
+   "name": "Habas frescas, sin cáscara y sin vaina",
+   "kcal": 134,
+   "proteinG": 11.3,
+   "fatG": 0.8,
+   "carbsG": 21.7,
+   "unit": null
+  },
+  {
+   "name": "Habas secas con cáscara cruda",
+   "kcal": 340,
+   "proteinG": 23.8,
+   "fatG": 1.5,
+   "carbsG": 60.1,
+   "unit": null
+  },
+  {
+   "name": "Habas secas sin cáscara",
+   "kcal": 233,
+   "proteinG": 25.9,
+   "fatG": 2.4,
+   "carbsG": 30.3,
+   "unit": null
+  },
+  {
+   "name": "Habas secas sin cáscara cocida",
+   "kcal": 83,
+   "proteinG": 7.3,
+   "fatG": 0.5,
+   "carbsG": 13.1,
+   "unit": null
+  },
+  {
+   "name": "Habas, harina de",
+   "kcal": 310,
+   "proteinG": 22.4,
+   "fatG": 2.3,
+   "carbsG": 52.5,
+   "unit": null
+  },
+  {
+   "name": "Lentejas chicas",
+   "kcal": 211,
+   "proteinG": 22.6,
+   "fatG": 1.0,
+   "carbsG": 30.5,
+   "unit": null
+  },
+  {
+   "name": "Lentejas chicas cocidas",
+   "kcal": 65,
+   "proteinG": 6.4,
+   "fatG": 0.1,
+   "carbsG": 10.4,
+   "unit": null
+  },
+  {
+   "name": "Lentejas grandes",
+   "kcal": 214,
+   "proteinG": 23.2,
+   "fatG": 1.1,
+   "carbsG": 30.5,
+   "unit": null
+  },
+  {
+   "name": "Pallar morado",
+   "kcal": 259,
+   "proteinG": 20.0,
+   "fatG": 1.3,
+   "carbsG": 43.8,
+   "unit": null
+  },
+  {
+   "name": "Pallar seco",
+   "kcal": 253,
+   "proteinG": 20.4,
+   "fatG": 1.2,
+   "carbsG": 42.4,
+   "unit": null
+  },
+  {
+   "name": "Pallar sin cáscara",
+   "kcal": 260,
+   "proteinG": 21.6,
+   "fatG": 1.4,
+   "carbsG": 42.6,
+   "unit": null
+  },
+  {
+   "name": "Pallar cocido, con cáscara",
+   "kcal": 94,
+   "proteinG": 7.7,
+   "fatG": 0.8,
+   "carbsG": 14.9,
+   "unit": null
+  },
+  {
+   "name": "Arveja colantao, fresca",
+   "kcal": 35,
+   "proteinG": 3.1,
+   "fatG": 0.1,
+   "carbsG": 5.9,
+   "unit": null
+  },
+  {
+   "name": "Arveja, harina de",
+   "kcal": 306,
+   "proteinG": 19.9,
+   "fatG": 2.4,
+   "carbsG": 53.3,
+   "unit": null
+  },
+  {
+   "name": "Arveja verde partida, sancochada sin sal",
+   "kcal": 120,
+   "proteinG": 10.1,
+   "fatG": 1.8,
+   "carbsG": 17.3,
+   "unit": null
+  },
+  {
+   "name": "Caza o parka",
+   "kcal": 342,
+   "proteinG": 25.1,
+   "fatG": 2.0,
+   "carbsG": 58.6,
+   "unit": null
+  },
+  {
+   "name": "Frejol bayo sancochado sin sal",
+   "kcal": 111,
+   "proteinG": 9.8,
+   "fatG": 0.9,
+   "carbsG": 16.9,
+   "unit": null
+  },
+  {
+   "name": "Frejol castilla sancochado sin sal",
+   "kcal": 119,
+   "proteinG": 10.1,
+   "fatG": 1.8,
+   "carbsG": 17.1,
+   "unit": null
+  },
+  {
+   "name": "Frejol chiclayo marrón",
+   "kcal": 334,
+   "proteinG": 22.6,
+   "fatG": 2.1,
+   "carbsG": 58.4,
+   "unit": null
+  },
+  {
+   "name": "Frejol chiclayo pindayllo",
+   "kcal": 343,
+   "proteinG": 25.1,
+   "fatG": 2.9,
+   "carbsG": 57.0,
+   "unit": null
+  },
+  {
+   "name": "Frejol chiclayo rojo",
+   "kcal": 335,
+   "proteinG": 21.8,
+   "fatG": 2.5,
+   "carbsG": 58.8,
+   "unit": null
+  },
+  {
+   "name": "Frejol de Iberia",
+   "kcal": 343,
+   "proteinG": 22.7,
+   "fatG": 1.3,
+   "carbsG": 62.3,
+   "unit": null
+  },
+  {
+   "name": "Frejol negro sancochado sin sal",
+   "kcal": 104,
+   "proteinG": 9.8,
+   "fatG": 1.7,
+   "carbsG": 13.8,
+   "unit": null
+  },
+  {
+   "name": "Frejol ñuña",
+   "kcal": 271,
+   "proteinG": 19.1,
+   "fatG": 1.2,
+   "carbsG": 47.9,
+   "unit": null
+  },
+  {
+   "name": "Frejol panamito sancochado sin sal",
+   "kcal": 106,
+   "proteinG": 9.5,
+   "fatG": 1.4,
+   "carbsG": 15.1,
+   "unit": null
+  },
+  {
+   "name": "Frejol soya, bebida de, (\"leche\" de soya UHT)",
+   "kcal": 49,
+   "proteinG": 3.0,
+   "fatG": 1.8,
+   "carbsG": 6.0,
+   "unit": null
+  },
+  {
+   "name": "Frejol soya, cocido",
+   "kcal": 176,
+   "proteinG": 15.3,
+   "fatG": 9.2,
+   "carbsG": 11.1,
+   "unit": null
+  },
+  {
+   "name": "Frejol soya, harina integral",
+   "kcal": 359,
+   "proteinG": 37.4,
+   "fatG": 23.0,
+   "carbsG": 9.2,
+   "unit": null
+  },
+  {
+   "name": "Frejol soya, harina integral tostada",
+   "kcal": 433,
+   "proteinG": 40.5,
+   "fatG": 23.4,
+   "carbsG": 23.9,
+   "unit": null
+  },
+  {
+   "name": "Frejol ucayalino",
+   "kcal": 334,
+   "proteinG": 21.7,
+   "fatG": 2.3,
+   "carbsG": 58.8,
+   "unit": null
+  },
+  {
+   "name": "Frejol zarandaja, chileno, cancate o bocón, sancochado sin sal",
+   "kcal": 114,
+   "proteinG": 9.9,
+   "fatG": 1.0,
+   "carbsG": 17.6,
+   "unit": null
+  },
+  {
+   "name": "Gigante rojo, cáscara del grano",
+   "kcal": 348,
+   "proteinG": 4.4,
+   "fatG": 0.7,
+   "carbsG": 80.3,
+   "unit": null
+  },
+  {
+   "name": "Gigante rojo, cáscara fresca del grano",
+   "kcal": 125,
+   "proteinG": 2.7,
+   "fatG": 0.2,
+   "carbsG": 28.0,
+   "unit": null
+  },
+  {
+   "name": "Gigante rojo, pulpa fresca",
+   "kcal": 166,
+   "proteinG": 16.3,
+   "fatG": 0.6,
+   "carbsG": 25.7,
+   "unit": null
+  },
+  {
+   "name": "Gigante rojo, pulpa seca",
+   "kcal": 333,
+   "proteinG": 31.6,
+   "fatG": 1.3,
+   "carbsG": 52.3,
+   "unit": null
+  },
+  {
+   "name": "Hemico leguminoso",
+   "kcal": 331,
+   "proteinG": 25.6,
+   "fatG": 1.7,
+   "carbsG": 56.1,
+   "unit": null
+  },
+  {
+   "name": "Pallar del río Manú",
+   "kcal": 329,
+   "proteinG": 22.0,
+   "fatG": 0.9,
+   "carbsG": 60.2,
+   "unit": null
+  },
+  {
+   "name": "Poroto de cumbasa",
+   "kcal": 357,
+   "proteinG": 22.5,
+   "fatG": 5.5,
+   "carbsG": 57.3,
+   "unit": null
+  },
+  {
+   "name": "Proteínas, (proteína de soya)",
+   "kcal": 350,
+   "proteinG": 49.3,
+   "fatG": 0.5,
+   "carbsG": 36.0,
+   "unit": null
+  },
+  {
+   "name": "Arverja verde, partida, seca",
+   "kcal": 290,
+   "proteinG": 21.2,
+   "fatG": 1.6,
+   "carbsG": 49.9,
+   "unit": null
+  },
+  {
+   "name": "Frejol chuyo",
+   "kcal": 265,
+   "proteinG": 18.0,
+   "fatG": 1.4,
+   "carbsG": 46.8,
+   "unit": null
+  },
+  {
+   "name": "Tofu o \"queso\" de soya, crudo",
+   "kcal": 128,
+   "proteinG": 11.0,
+   "fatG": 9.7,
+   "carbsG": 2.2,
+   "unit": null
+  },
+  {
+   "name": "Arracacha o racacha",
+   "kcal": 94,
+   "proteinG": 1.1,
+   "fatG": 0.3,
+   "carbsG": 22.9,
+   "unit": null
+  },
+  {
+   "name": "Ashipa",
+   "kcal": 170,
+   "proteinG": 1.4,
+   "fatG": 0.3,
+   "carbsG": 40.8,
+   "unit": null
+  },
+  {
+   "name": "Camote amarillo sin cáscara",
+   "kcal": 95,
+   "proteinG": 2.0,
+   "fatG": 0.0,
+   "carbsG": 20.5,
+   "unit": null
+  },
+  {
+   "name": "Camote blanco",
+   "kcal": 114,
+   "proteinG": 1.7,
+   "fatG": 0.1,
+   "carbsG": 28.3,
+   "unit": null
+  },
+  {
+   "name": "Camote morado sin cáscara",
+   "kcal": 105,
+   "proteinG": 1.4,
+   "fatG": 0.3,
+   "carbsG": 25.7,
+   "unit": null
+  },
+  {
+   "name": "Camote, harina de",
+   "kcal": 341,
+   "proteinG": 2.1,
+   "fatG": 0.9,
+   "carbsG": 81.3,
+   "unit": null
+  },
+  {
+   "name": "Curao",
+   "kcal": 62,
+   "proteinG": 1.6,
+   "fatG": 0.1,
+   "carbsG": 14.7,
+   "unit": null
+  },
+  {
+   "name": "Koshñipa",
+   "kcal": 135,
+   "proteinG": 1.6,
+   "fatG": 0.2,
+   "carbsG": 33.6,
+   "unit": null
+  },
+  {
+   "name": "Kuros",
+   "kcal": 93,
+   "proteinG": 1.8,
+   "fatG": 0.2,
+   "carbsG": 22.6,
+   "unit": null
+  },
+  {
+   "name": "Llacón",
+   "kcal": 51,
+   "proteinG": 0.3,
+   "fatG": 0.3,
+   "carbsG": 12.5,
+   "unit": null
+  },
+  {
+   "name": "Maca (tubérculo seco)",
+   "kcal": 301,
+   "proteinG": 11.8,
+   "fatG": 1.6,
+   "carbsG": 66.3,
+   "unit": null
+  },
+  {
+   "name": "Maca silvestre",
+   "kcal": 69,
+   "proteinG": 3.5,
+   "fatG": 1.0,
+   "carbsG": 13.2,
+   "unit": null
+  },
+  {
+   "name": "Maca, afrechillo",
+   "kcal": 316,
+   "proteinG": 10.5,
+   "fatG": 0.6,
+   "carbsG": 73.4,
+   "unit": null
+  },
+  {
+   "name": "Maca, almidón",
+   "kcal": 350,
+   "proteinG": 6.1,
+   "fatG": 1.2,
+   "carbsG": 80.1,
+   "unit": null
+  },
+  {
+   "name": "Maca, pasta integral",
+   "kcal": 310,
+   "proteinG": 14.0,
+   "fatG": 1.0,
+   "carbsG": 68.4,
+   "unit": null
+  },
+  {
+   "name": "Mashua o isaño",
+   "kcal": 32,
+   "proteinG": 0.7,
+   "fatG": 0.1,
+   "carbsG": 7.7,
+   "unit": null
+  },
+  {
+   "name": "Olluco sin cáscara",
+   "kcal": 59,
+   "proteinG": 1.1,
+   "fatG": 0.1,
+   "carbsG": 14.3,
+   "unit": null
+  },
+  {
+   "name": "Papa amarilla sin cáscara",
+   "kcal": 101,
+   "proteinG": 2.0,
+   "fatG": 0.4,
+   "carbsG": 22.9,
+   "unit": null
+  },
+  {
+   "name": "Papa blanca",
+   "kcal": 87,
+   "proteinG": 2.1,
+   "fatG": 0.1,
+   "carbsG": 19.9,
+   "unit": null
+  },
+  {
+   "name": "Papa chuño negro",
+   "kcal": 333,
+   "proteinG": 4.0,
+   "fatG": 0.2,
+   "carbsG": 79.4,
+   "unit": null
+  },
+  {
+   "name": "Papa color morado deshidratada",
+   "kcal": 324,
+   "proteinG": 8.7,
+   "fatG": 0.2,
+   "carbsG": 74.1,
+   "unit": null
+  },
+  {
+   "name": "Papa helada amarga",
+   "kcal": 180,
+   "proteinG": 1.8,
+   "fatG": 0.6,
+   "carbsG": 42.1,
+   "unit": null
+  },
+  {
+   "name": "Papa huayro con cáscara",
+   "kcal": 71,
+   "proteinG": 1.9,
+   "fatG": 0.1,
+   "carbsG": 15.9,
+   "unit": null
+  },
+  {
+   "name": "Papa moraya chuño pelado",
+   "kcal": 323,
+   "proteinG": 1.9,
+   "fatG": 0.5,
+   "carbsG": 77.7,
+   "unit": null
+  },
+  {
+   "name": "Papa seca",
+   "kcal": 322,
+   "proteinG": 8.2,
+   "fatG": 0.7,
+   "carbsG": 72.8,
+   "unit": null
+  },
+  {
+   "name": "Papa, harina de",
+   "kcal": 308,
+   "proteinG": 6.4,
+   "fatG": 0.4,
+   "carbsG": 71.2,
+   "unit": null
+  },
+  {
+   "name": "Papas deshidratadas con lejía",
+   "kcal": 319,
+   "proteinG": 8.0,
+   "fatG": 0.3,
+   "carbsG": 73.1,
+   "unit": null
+  },
+  {
+   "name": "Pituca o taro",
+   "kcal": 82,
+   "proteinG": 1.6,
+   "fatG": 0.5,
+   "carbsG": 19.1,
+   "unit": null
+  },
+  {
+   "name": "Pituca, harina de",
+   "kcal": 342,
+   "proteinG": 8.1,
+   "fatG": 0.3,
+   "carbsG": 78.6,
+   "unit": null
+  },
+  {
+   "name": "Radiche",
+   "kcal": 77,
+   "proteinG": 1.8,
+   "fatG": 0.1,
+   "carbsG": 18.6,
+   "unit": null
+  },
+  {
+   "name": "Betarraga",
+   "kcal": 18,
+   "proteinG": 2.0,
+   "fatG": 0.3,
+   "carbsG": 2.7,
+   "unit": null
+  },
+  {
+   "name": "Sachapapa",
+   "kcal": 96,
+   "proteinG": 1.8,
+   "fatG": 1.5,
+   "carbsG": 19.4,
+   "unit": null
+  },
+  {
+   "name": "Sachapapa blanca, bulbo",
+   "kcal": 126,
+   "proteinG": 2.5,
+   "fatG": 0.1,
+   "carbsG": 29.4,
+   "unit": null
+  },
+  {
+   "name": "Yuca amarilla fresca sin cáscara",
+   "kcal": 147,
+   "proteinG": 0.6,
+   "fatG": 0.2,
+   "carbsG": 37.3,
+   "unit": null
+  },
+  {
+   "name": "Yuca asada",
+   "kcal": 168,
+   "proteinG": 0.6,
+   "fatG": 0.3,
+   "carbsG": 42.6,
+   "unit": null
+  },
+  {
+   "name": "Yuca blanca fresca sin cáscara",
+   "kcal": 115,
+   "proteinG": 0.7,
+   "fatG": 0.5,
+   "carbsG": 28.3,
+   "unit": null
+  },
+  {
+   "name": "Yuca blanca sancochada",
+   "kcal": 136,
+   "proteinG": 0.5,
+   "fatG": 0.2,
+   "carbsG": 34.6,
+   "unit": null
+  },
+  {
+   "name": "Yuca, harina de",
+   "kcal": 333,
+   "proteinG": 0.3,
+   "fatG": 0.1,
+   "carbsG": 82.1,
+   "unit": null
+  },
+  {
+   "name": "Achira blanca (rizoma, raíz)",
+   "kcal": 96,
+   "proteinG": 1.4,
+   "fatG": 0.1,
+   "carbsG": 23.8,
+   "unit": null
+  },
+  {
+   "name": "Achira morada (rizoma, raíz)",
+   "kcal": 94,
+   "proteinG": 1.4,
+   "fatG": 0.1,
+   "carbsG": 23.2,
+   "unit": null
+  },
+  {
+   "name": "Camote de Huarayoc",
+   "kcal": 106,
+   "proteinG": 1.6,
+   "fatG": 0.2,
+   "carbsG": 26.1,
+   "unit": null
+  },
+  {
+   "name": "Camote deshidratado",
+   "kcal": 333,
+   "proteinG": 3.7,
+   "fatG": 0.7,
+   "carbsG": 82.4,
+   "unit": null
+  },
+  {
+   "name": "Camote deshidratado tratado con lejía",
+   "kcal": 327,
+   "proteinG": 5.3,
+   "fatG": 0.8,
+   "carbsG": 79.6,
+   "unit": null
+  },
+  {
+   "name": "Cushusho (tubérculo)",
+   "kcal": 287,
+   "proteinG": 16.3,
+   "fatG": 0.5,
+   "carbsG": 61.9,
+   "unit": null
+  },
+  {
+   "name": "Dale - Dale (tubérculo)",
+   "kcal": 115,
+   "proteinG": 4.3,
+   "fatG": 0.2,
+   "carbsG": 26.5,
+   "unit": null
+  },
+  {
+   "name": "Iguana papa (tubérculo)",
+   "kcal": 77,
+   "proteinG": 5.0,
+   "fatG": 0.2,
+   "carbsG": 15.3,
+   "unit": null
+  },
+  {
+   "name": "Maca, harina de",
+   "kcal": 328,
+   "proteinG": 8.7,
+   "fatG": 4.1,
+   "carbsG": 70.3,
+   "unit": null
+  },
+  {
+   "name": "Nopu - zumaca (tubérculo)",
+   "kcal": 143,
+   "proteinG": 7.1,
+   "fatG": 0.4,
+   "carbsG": 31.1,
+   "unit": null
+  },
+  {
+   "name": "Oca deshidratada (ccaya)",
+   "kcal": 311,
+   "proteinG": 4.3,
+   "fatG": 1.1,
+   "carbsG": 75.4,
+   "unit": null
+  },
+  {
+   "name": "Oca sin cáscara",
+   "kcal": 53,
+   "proteinG": 0.7,
+   "fatG": 0.0,
+   "carbsG": 13.1,
+   "unit": null
+  },
+  {
+   "name": "Oca variedad nativa ccaya oga con cáscara",
+   "kcal": 29,
+   "proteinG": 0.8,
+   "fatG": 0.4,
+   "carbsG": 6.2,
+   "unit": null
+  },
+  {
+   "name": "Oca variedad nativa garwuaricra con cáscara",
+   "kcal": 28,
+   "proteinG": 0.9,
+   "fatG": 0.4,
+   "carbsG": 5.9,
+   "unit": null
+  },
+  {
+   "name": "Papa canchan",
+   "kcal": 66,
+   "proteinG": 2.4,
+   "fatG": 0.1,
+   "carbsG": 14.4,
+   "unit": null
+  },
+  {
+   "name": "Papa, chuño negro, harina de",
+   "kcal": 322,
+   "proteinG": 5.8,
+   "fatG": 0.1,
+   "carbsG": 75.6,
+   "unit": null
+  },
+  {
+   "name": "Papa moraya, harina de",
+   "kcal": 332,
+   "proteinG": 2.3,
+   "fatG": 0.1,
+   "carbsG": 80.6,
+   "unit": null
+  },
+  {
+   "name": "Papa negra andina",
+   "kcal": 63,
+   "proteinG": 1.8,
+   "fatG": 0.4,
+   "carbsG": 13.6,
+   "unit": null
+  },
+  {
+   "name": "Papa sin cáscara, variedad amarilis",
+   "kcal": 64,
+   "proteinG": 2.1,
+   "fatG": 0.1,
+   "carbsG": 14.4,
+   "unit": null
+  },
+  {
+   "name": "Papa sin cáscara, variedad huevo de indio",
+   "kcal": 84,
+   "proteinG": 2.1,
+   "fatG": 0.2,
+   "carbsG": 19.1,
+   "unit": null
+  },
+  {
+   "name": "Papa sin cáscara, variedad tumbay",
+   "kcal": 86,
+   "proteinG": 2.0,
+   "fatG": 0.1,
+   "carbsG": 19.8,
+   "unit": null
+  },
+  {
+   "name": "Papa sin cáscara, variedad única",
+   "kcal": 77,
+   "proteinG": 2.3,
+   "fatG": 0.2,
+   "carbsG": 17.1,
+   "unit": null
+  },
+  {
+   "name": "Papa sin cáscara, variedad Yungay",
+   "kcal": 86,
+   "proteinG": 2.1,
+   "fatG": 0.1,
+   "carbsG": 19.9,
+   "unit": null
+  },
+  {
+   "name": "Papa variedad nativa capulí con cáscara",
+   "kcal": 115,
+   "proteinG": 1.2,
+   "fatG": 0.3,
+   "carbsG": 27.1,
+   "unit": null
+  },
+  {
+   "name": "Papa variedad nativa caramarquina con cáscara",
+   "kcal": 98,
+   "proteinG": 1.7,
+   "fatG": 0.3,
+   "carbsG": 22.4,
+   "unit": null
+  },
+  {
+   "name": "Papa variedad nativa chimbina amarilla con cáscara",
+   "kcal": 68,
+   "proteinG": 2.3,
+   "fatG": 0.2,
+   "carbsG": 14.8,
+   "unit": null
+  },
+  {
+   "name": "Papa variedad nativa huagalina con cáscara",
+   "kcal": 54,
+   "proteinG": 2.4,
+   "fatG": 0.2,
+   "carbsG": 11.2,
+   "unit": null
+  },
+  {
+   "name": "Papa variedad nativa hualash con cáscara",
+   "kcal": 54,
+   "proteinG": 2.0,
+   "fatG": 0.4,
+   "carbsG": 11.0,
+   "unit": null
+  },
+  {
+   "name": "Papa variedad nativa huayro con cáscara",
+   "kcal": 76,
+   "proteinG": 1.7,
+   "fatG": 0.2,
+   "carbsG": 17.3,
+   "unit": null
+  },
+  {
+   "name": "Papa variedad nativa huevo de toro con cáscara",
+   "kcal": 72,
+   "proteinG": 2.4,
+   "fatG": 0.3,
+   "carbsG": 15.6,
+   "unit": null
+  },
+  {
+   "name": "Papa variedad nativa limeña con cáscara",
+   "kcal": 68,
+   "proteinG": 2.5,
+   "fatG": 0.3,
+   "carbsG": 14.6,
+   "unit": null
+  },
+  {
+   "name": "Papa variedad nativa maga blanca con cáscara",
+   "kcal": 65,
+   "proteinG": 3.0,
+   "fatG": 0.3,
+   "carbsG": 13.5,
+   "unit": null
+  },
+  {
+   "name": "Papa variedad nativa peruanita con cáscara",
+   "kcal": 78,
+   "proteinG": 2.0,
+   "fatG": 0.3,
+   "carbsG": 17.3,
+   "unit": null
+  },
+  {
+   "name": "Papa variedad nativa puca pampamachay con cáscara",
+   "kcal": 81,
+   "proteinG": 2.0,
+   "fatG": 0.2,
+   "carbsG": 18.3,
+   "unit": null
+  },
+  {
+   "name": "Papa variedad nativa puca pishgosh con cáscara",
+   "kcal": 99,
+   "proteinG": 1.9,
+   "fatG": 0.5,
+   "carbsG": 22.4,
+   "unit": null
+  },
+  {
+   "name": "Papa variedad nativa quinuapa tulum con cáscara",
+   "kcal": 70,
+   "proteinG": 1.9,
+   "fatG": 0.5,
+   "carbsG": 15.1,
+   "unit": null
+  },
+  {
+   "name": "Papa variedad nativa sapa negra con cáscara",
+   "kcal": 72,
+   "proteinG": 2.2,
+   "fatG": 0.3,
+   "carbsG": 15.7,
+   "unit": null
+  },
+  {
+   "name": "Papa variedad nativa yana shaque con cáscara",
+   "kcal": 108,
+   "proteinG": 1.8,
+   "fatG": 0.4,
+   "carbsG": 24.7,
+   "unit": null
+  },
+  {
+   "name": "Quillu uncucha (tubérculo)",
+   "kcal": 146,
+   "proteinG": 4.5,
+   "fatG": 0.2,
+   "carbsG": 34.3,
+   "unit": null
+  },
+  {
+   "name": "Sachapapa, bulbo aéreo",
+   "kcal": 138,
+   "proteinG": 2.3,
+   "fatG": 0.3,
+   "carbsG": 32.0,
+   "unit": null
+  },
+  {
+   "name": "Tallapaqui culli (tubérculo)",
+   "kcal": 72,
+   "proteinG": 2.0,
+   "fatG": 0.2,
+   "carbsG": 16.9,
+   "unit": null
+  },
+  {
+   "name": "Tallapaqui yurak (tubérculo)",
+   "kcal": 88,
+   "proteinG": 2.0,
+   "fatG": 0.1,
+   "carbsG": 21.2,
+   "unit": null
+  },
+  {
+   "name": "Yuca de moja",
+   "kcal": 160,
+   "proteinG": 1.5,
+   "fatG": 0.2,
+   "carbsG": 40.2,
+   "unit": null
+  },
+  {
+   "name": "Papa \"cóctel\", con cáscara, cruda",
+   "kcal": 49,
+   "proteinG": 2.2,
+   "fatG": 0.0,
+   "carbsG": 10.6,
+   "unit": null
+  },
+  {
+   "name": "Papa, prefrita en aceite vegetal, congelada, envasada",
+   "kcal": 92,
+   "proteinG": 2.2,
+   "fatG": 0.9,
+   "carbsG": 19.5,
+   "unit": null
+  },
+  {
+   "name": "Papa, chuño de, envasado (almidón de papa o fécula de papa)",
+   "kcal": 326,
+   "proteinG": 0.2,
+   "fatG": 0.0,
+   "carbsG": 80.8,
+   "unit": null
+  },
+  {
+   "name": "Papa morada sin cáscara",
+   "kcal": 120,
+   "proteinG": 2.1,
+   "fatG": 0.0,
+   "carbsG": 28.4,
+   "unit": null
+  },
+  {
+   "name": "Papa, tocosh fresco",
+   "kcal": 172,
+   "proteinG": 0.9,
+   "fatG": 0.0,
+   "carbsG": 42.2,
+   "unit": null
+  },
+  {
+   "name": "Papa, tocosh harina",
+   "kcal": 332,
+   "proteinG": 3.1,
+   "fatG": 0.3,
+   "carbsG": 79.5,
+   "unit": null
+  }
+ ]
+}

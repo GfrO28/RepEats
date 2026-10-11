@@ -1,0 +1,5108 @@
+{
+ "_fuente": "Tablas Peruanas de Composición de Alimentos, 11.ª ed. digital (2023), grupo S (alimentos preparados). Instituto Nacional de Salud, CENAN, Ministerio de Salud del Perú. Por 100 g de preparación; promedio de los estratos socioeconómicos A-E de restaurantes de Lima y Callao (encuesta INEI-CENAN). La tabla no indica ingredientes ni el peso del plato.",
+ "foods": [
+  {
+   "name": "Adobo de cerdo con arroz (restaurante)",
+   "kcal": 174,
+   "proteinG": 6.3,
+   "fatG": 1.9,
+   "carbsG": 31.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Adobo de cerdo con menestra y arroz (restaurante)",
+   "kcal": 165,
+   "proteinG": 9.7,
+   "fatG": 3.4,
+   "carbsG": 23.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Adobo de cerdo con puré y arroz (restaurante)",
+   "kcal": 146,
+   "proteinG": 4.8,
+   "fatG": 5.0,
+   "carbsG": 20.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Adobo de pollo con arroz (restaurante)",
+   "kcal": 138,
+   "proteinG": 7.3,
+   "fatG": 1.8,
+   "carbsG": 23.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Adobo de pollo con ensalada y arroz (restaurante)",
+   "kcal": 145,
+   "proteinG": 4.9,
+   "fatG": 2.2,
+   "carbsG": 26.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Adobo de res con arroz y puré (restaurante)",
+   "kcal": 126,
+   "proteinG": 5.6,
+   "fatG": 1.8,
+   "carbsG": 22.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Adobo de res con menestra y arroz (restaurante)",
+   "kcal": 155,
+   "proteinG": 7.7,
+   "fatG": 1.7,
+   "carbsG": 27.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Aeropuerto de pollo (restaurante)",
+   "kcal": 212,
+   "proteinG": 6.5,
+   "fatG": 2.5,
+   "carbsG": 39.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Aeropuerto tacon pa (restaurante)",
+   "kcal": 177,
+   "proteinG": 7.6,
+   "fatG": 3.4,
+   "carbsG": 28.7,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Aguadito de pescado (restaurante)",
+   "kcal": 32,
+   "proteinG": 1.4,
+   "fatG": 0.4,
+   "carbsG": 5.7,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Aguadito de pollo (restaurante)",
+   "kcal": 42,
+   "proteinG": 2.4,
+   "fatG": 0.9,
+   "carbsG": 6.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Ajiaco de papa con huevo duro y arroz blanco (restaurante)",
+   "kcal": 106,
+   "proteinG": 4.7,
+   "fatG": 1.8,
+   "carbsG": 17.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Ají de gallina con papa blanca más arroz (restaurante)",
+   "kcal": 111,
+   "proteinG": 3.7,
+   "fatG": 1.9,
+   "carbsG": 19.7,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Ají de pollo con arroz (restaurante)",
+   "kcal": 151,
+   "proteinG": 5.5,
+   "fatG": 3.1,
+   "carbsG": 24.7,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Ají de pollo con zanahoria más arroz blanco (restaurante)",
+   "kcal": 124,
+   "proteinG": 5.2,
+   "fatG": 1.5,
+   "carbsG": 22.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Albóndigas en salsa con arroz (restaurante)",
+   "kcal": 133,
+   "proteinG": 6.3,
+   "fatG": 3.6,
+   "carbsG": 18.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Alita broaster con ensalada de lechuga (restaurante)",
+   "kcal": 143,
+   "proteinG": 8.2,
+   "fatG": 6.7,
+   "carbsG": 12.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Alita broaster con papas fritas y arroz (restaurante)",
+   "kcal": 272,
+   "proteinG": 5.7,
+   "fatG": 18.7,
+   "carbsG": 20.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Ancoquis en salsa roja (restaurante)",
+   "kcal": 127,
+   "proteinG": 5.2,
+   "fatG": 4.4,
+   "carbsG": 17.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Anticucho con papa y arroz (restaurante)",
+   "kcal": 112,
+   "proteinG": 9.6,
+   "fatG": 3.2,
+   "carbsG": 11.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Arroz a la jardinera con pollo (restaurante)",
+   "kcal": 134,
+   "proteinG": 7.1,
+   "fatG": 1.7,
+   "carbsG": 21.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Arroz a la jardinera con pollo frito (restaurante)",
+   "kcal": 165,
+   "proteinG": 4.3,
+   "fatG": 3.9,
+   "carbsG": 28.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Arroz arabe con pollo (restaurante)",
+   "kcal": 135,
+   "proteinG": 5.8,
+   "fatG": 1.2,
+   "carbsG": 25.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Arroz blanco con filete de pollo, papas sancochadas y ensalada (restaurante)",
+   "kcal": 146,
+   "proteinG": 6.5,
+   "fatG": 2.5,
+   "carbsG": 23.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Arroz blanco con guiso de pota (restaurante)",
+   "kcal": 103,
+   "proteinG": 3.3,
+   "fatG": 1.4,
+   "carbsG": 19.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Arroz blanco con tortilla de atún (restaurante)",
+   "kcal": 210,
+   "proteinG": 6.7,
+   "fatG": 7.6,
+   "carbsG": 28.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Arroz blanco con tortilla de atún con pota (restaurante)",
+   "kcal": 210,
+   "proteinG": 7.2,
+   "fatG": 8.4,
+   "carbsG": 26.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Arroz chaufa con pollo al tamarindo (restaurante)",
+   "kcal": 129,
+   "proteinG": 6.3,
+   "fatG": 1.4,
+   "carbsG": 22.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Arroz chaufa con pollo chijaukay (restaurante)",
+   "kcal": 188,
+   "proteinG": 7.3,
+   "fatG": 7.3,
+   "carbsG": 22.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Arroz chaufa con pollo taypa especial (restaurante)",
+   "kcal": 124,
+   "proteinG": 8.9,
+   "fatG": 4.4,
+   "carbsG": 11.7,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Arroz chaufa de cerdo (restaurante)",
+   "kcal": 194,
+   "proteinG": 6.8,
+   "fatG": 4.9,
+   "carbsG": 29.6,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Arroz chaufa de mariscos (restaurante)",
+   "kcal": 141,
+   "proteinG": 6.6,
+   "fatG": 2.4,
+   "carbsG": 22.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Arroz chaufa de pollo (restaurante)",
+   "kcal": 174,
+   "proteinG": 6.3,
+   "fatG": 2.8,
+   "carbsG": 29.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Arroz chaufa de res (restaurante)",
+   "kcal": 217,
+   "proteinG": 7.0,
+   "fatG": 10.4,
+   "carbsG": 23.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Arroz chaufa especial (restaurante)",
+   "kcal": 205,
+   "proteinG": 10.5,
+   "fatG": 7.5,
+   "carbsG": 23.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Arroz con carne (restaurante)",
+   "kcal": 119,
+   "proteinG": 4.9,
+   "fatG": 0.5,
+   "carbsG": 23.6,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Arroz con cerdo y sarsa criolla (restaurante)",
+   "kcal": 140,
+   "proteinG": 4.1,
+   "fatG": 2.9,
+   "carbsG": 24.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Arroz con frejol y seco de res (restaurante)",
+   "kcal": 137,
+   "proteinG": 7.0,
+   "fatG": 2.1,
+   "carbsG": 22.6,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Arroz con frejoles y seco de pollo (restaurante)",
+   "kcal": 130,
+   "proteinG": 7.1,
+   "fatG": 1.7,
+   "carbsG": 21.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Arroz con leche (restaurante)",
+   "kcal": 156,
+   "proteinG": 2.3,
+   "fatG": 1.3,
+   "carbsG": 33.6,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Arroz con lentejas y churrasco (restaurante)",
+   "kcal": 157,
+   "proteinG": 9.4,
+   "fatG": 2.9,
+   "carbsG": 23.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Arroz con mariscos (restaurante)",
+   "kcal": 145,
+   "proteinG": 5.8,
+   "fatG": 2.7,
+   "carbsG": 23.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Arroz con pato (restaurante)",
+   "kcal": 174,
+   "proteinG": 5.6,
+   "fatG": 7.1,
+   "carbsG": 21.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Arroz con pollo (restaurante)",
+   "kcal": 142,
+   "proteinG": 6.9,
+   "fatG": 2.3,
+   "carbsG": 22.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Arroz tapado (restaurante)",
+   "kcal": 157,
+   "proteinG": 7.3,
+   "fatG": 4.4,
+   "carbsG": 21.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Arroz zambito (restaurante)",
+   "kcal": 214,
+   "proteinG": 3.4,
+   "fatG": 1.4,
+   "carbsG": 47.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Arvejita con papa e hígado empimentado con arroz (restaurante)",
+   "kcal": 114,
+   "proteinG": 5.5,
+   "fatG": 0.7,
+   "carbsG": 21.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Arvejita con papa e hígado entomatado (restaurante)",
+   "kcal": 124,
+   "proteinG": 7.4,
+   "fatG": 2.0,
+   "carbsG": 19.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Arvejita verde partida con arroz blanco y ceviche de pollo (restaurante)",
+   "kcal": 129,
+   "proteinG": 6.2,
+   "fatG": 1.9,
+   "carbsG": 22.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Arvejita verde partida con croquetas de pescado y arroz blanco (restaurante)",
+   "kcal": 130,
+   "proteinG": 5.3,
+   "fatG": 1.4,
+   "carbsG": 24.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Arvejita verde partida con estofado de pollo y arroz (restaurante)",
+   "kcal": 142,
+   "proteinG": 8.8,
+   "fatG": 2.8,
+   "carbsG": 20.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Arvejita verde partida con guiso de pollo y arroz (restaurante)",
+   "kcal": 143,
+   "proteinG": 7.8,
+   "fatG": 1.2,
+   "carbsG": 24.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Arvejita verde partida con hígado entomatado más arroz blanco (restaurante)",
+   "kcal": 123,
+   "proteinG": 6.0,
+   "fatG": 2.3,
+   "carbsG": 19.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Arvejita verde partida con hígado frito y arroz (restaurante)",
+   "kcal": 150,
+   "proteinG": 4.6,
+   "fatG": 1.1,
+   "carbsG": 29.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Arvejita verde partida con papa e hígado frito más arroz blanco (restaurante)",
+   "kcal": 133,
+   "proteinG": 5.5,
+   "fatG": 3.1,
+   "carbsG": 20.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Arvejita verde partida con pescado frito y arroz (restaurante)",
+   "kcal": 219,
+   "proteinG": 6.8,
+   "fatG": 9.2,
+   "carbsG": 27.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Arvejita verde partida con pollo al horno y arroz (restaurante)",
+   "kcal": 124,
+   "proteinG": 7.3,
+   "fatG": 3.4,
+   "carbsG": 15.6,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Arverjita verde partida con guiso de pescado y arroz (restaurante)",
+   "kcal": 143,
+   "proteinG": 6.8,
+   "fatG": 2.9,
+   "carbsG": 22.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Asado de cerdo con arvejita verde y arroz (restaurante)",
+   "kcal": 140,
+   "proteinG": 8.3,
+   "fatG": 1.9,
+   "carbsG": 22.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Asado de cerdo con menestra y arroz (restaurante)",
+   "kcal": 153,
+   "proteinG": 8.0,
+   "fatG": 2.2,
+   "carbsG": 24.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Asado de pollo con arroz (restaurante)",
+   "kcal": 152,
+   "proteinG": 8.7,
+   "fatG": 3.2,
+   "carbsG": 21.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Asado de pollo con menestra y arroz (restaurante)",
+   "kcal": 135,
+   "proteinG": 8.5,
+   "fatG": 1.7,
+   "carbsG": 21.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Asado de pollo con puré y arroz (restaurante)",
+   "kcal": 148,
+   "proteinG": 6.4,
+   "fatG": 2.7,
+   "carbsG": 23.7,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Asado de res con arroz (restaurante)",
+   "kcal": 132,
+   "proteinG": 5.2,
+   "fatG": 0.6,
+   "carbsG": 26.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Asado de res con menestra y arroz (restaurante)",
+   "kcal": 112,
+   "proteinG": 6.5,
+   "fatG": 1.4,
+   "carbsG": 18.6,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Asado de res con puré y arroz (restaurante)",
+   "kcal": 118,
+   "proteinG": 5.4,
+   "fatG": 1.6,
+   "carbsG": 20.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Atún vegano (restaurante)",
+   "kcal": 152,
+   "proteinG": 11.9,
+   "fatG": 3.1,
+   "carbsG": 21.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Bisteck de res a lo pobre con arroz (restaurante)",
+   "kcal": 168,
+   "proteinG": 6.2,
+   "fatG": 5.9,
+   "carbsG": 22.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Bisteck de res con arroz (restaurante)",
+   "kcal": 151,
+   "proteinG": 7.1,
+   "fatG": 4.7,
+   "carbsG": 19.6,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Bisteck de res con papas fritas y arroz (restaurante)",
+   "kcal": 96,
+   "proteinG": 3.4,
+   "fatG": 3.1,
+   "carbsG": 13.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Budín de pan (restaurante)",
+   "kcal": 200,
+   "proteinG": 4.0,
+   "fatG": 4.6,
+   "carbsG": 35.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Cabrito a la norteña con arroz (restaurante)",
+   "kcal": 110,
+   "proteinG": 5.5,
+   "fatG": 1.2,
+   "carbsG": 19.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Cabrito con frejoles y arroz (restaurante)",
+   "kcal": 146,
+   "proteinG": 7.2,
+   "fatG": 3.6,
+   "carbsG": 20.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Caldo (restaurante)",
+   "kcal": 38,
+   "proteinG": 2.2,
+   "fatG": 0.2,
+   "carbsG": 6.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Caldo de carne (restaurante)",
+   "kcal": 30,
+   "proteinG": 1.8,
+   "fatG": 0.1,
+   "carbsG": 5.6,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Caldo de cordero (restaurante)",
+   "kcal": 47,
+   "proteinG": 2.6,
+   "fatG": 1.5,
+   "carbsG": 5.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Caldo de gallina (restaurante)",
+   "kcal": 47,
+   "proteinG": 3.1,
+   "fatG": 0.5,
+   "carbsG": 7.6,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Caldo de mote (restaurante)",
+   "kcal": 79,
+   "proteinG": 3.1,
+   "fatG": 0.6,
+   "carbsG": 15.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Caldo de pescado (restaurante)",
+   "kcal": 32,
+   "proteinG": 1.0,
+   "fatG": 0.1,
+   "carbsG": 6.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Caldo de pollo (restaurante)",
+   "kcal": 40,
+   "proteinG": 2.2,
+   "fatG": 0.8,
+   "carbsG": 5.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Caldo de res (restaurante)",
+   "kcal": 50,
+   "proteinG": 1.9,
+   "fatG": 0.1,
+   "carbsG": 10.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Carapulcra con arroz (restaurante)",
+   "kcal": 151,
+   "proteinG": 6.1,
+   "fatG": 4.0,
+   "carbsG": 24.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Carapulcra de cerdo con arroz (restaurante)",
+   "kcal": 164,
+   "proteinG": 7.1,
+   "fatG": 2.6,
+   "carbsG": 27.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Carapulcra de morón con pollo y yuca (restaurante)",
+   "kcal": 76,
+   "proteinG": 2.4,
+   "fatG": 0.9,
+   "carbsG": 14.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Carapulcra de trigo con papa y pollo más arroz (restaurante)",
+   "kcal": 101,
+   "proteinG": 4.3,
+   "fatG": 0.5,
+   "carbsG": 19.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Carne de res con ensalada y arroz (restaurante)",
+   "kcal": 215,
+   "proteinG": 6.9,
+   "fatG": 10.5,
+   "carbsG": 22.7,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Carpaccio de pescado (restaurante)",
+   "kcal": 88,
+   "proteinG": 14.0,
+   "fatG": 1.9,
+   "carbsG": 3.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Cau cau con arroz (restaurante)",
+   "kcal": 112,
+   "proteinG": 4.6,
+   "fatG": 1.8,
+   "carbsG": 19.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Cau cau de pollo e hígado de pollo con arroz (restaurante)",
+   "kcal": 122,
+   "proteinG": 5.8,
+   "fatG": 2.3,
+   "carbsG": 19.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Causa (restaurante)",
+   "kcal": 95,
+   "proteinG": 4.7,
+   "fatG": 2.5,
+   "carbsG": 13.6,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Causa con pollo al horno y arroz (restaurante)",
+   "kcal": 130,
+   "proteinG": 3.3,
+   "fatG": 2.3,
+   "carbsG": 24.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Causa criolla (restaurante)",
+   "kcal": 174,
+   "proteinG": 2.4,
+   "fatG": 10.7,
+   "carbsG": 17.6,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Causa de palta (restaurante)",
+   "kcal": 140,
+   "proteinG": 1.4,
+   "fatG": 11.9,
+   "carbsG": 4.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Causa de pescado (restaurante)",
+   "kcal": 118,
+   "proteinG": 3.3,
+   "fatG": 3.9,
+   "carbsG": 17.6,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Causa de pollo (restaurante)",
+   "kcal": 130,
+   "proteinG": 3.6,
+   "fatG": 6.2,
+   "carbsG": 15.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Causa de pulpa de cangrejo (restaurante)",
+   "kcal": 215,
+   "proteinG": 6.7,
+   "fatG": 17.6,
+   "carbsG": 8.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Causa rellena (restaurante)",
+   "kcal": 108,
+   "proteinG": 3.3,
+   "fatG": 4.3,
+   "carbsG": 14.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Cazuela (restaurante)",
+   "kcal": 33,
+   "proteinG": 1.9,
+   "fatG": 0.8,
+   "carbsG": 4.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Cazuela de pollo (restaurante)",
+   "kcal": 39,
+   "proteinG": 2.2,
+   "fatG": 0.6,
+   "carbsG": 6.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Cazuela de res (restaurante)",
+   "kcal": 34,
+   "proteinG": 1.5,
+   "fatG": 0.2,
+   "carbsG": 6.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Cebiche con chicharrón (restaurante)",
+   "kcal": 172,
+   "proteinG": 10.1,
+   "fatG": 9.0,
+   "carbsG": 12.6,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Cebiche de pescado (entrada) (restaurante)",
+   "kcal": 90,
+   "proteinG": 7.6,
+   "fatG": 1.5,
+   "carbsG": 11.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Cebiche de pescado (segundo) (restaurante)",
+   "kcal": 124,
+   "proteinG": 8.4,
+   "fatG": 2.8,
+   "carbsG": 16.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Cebiche de pescado con chicharrón de pota (restaurante)",
+   "kcal": 147,
+   "proteinG": 6.9,
+   "fatG": 2.7,
+   "carbsG": 23.7,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Cebiche de pescado con pota (restaurante)",
+   "kcal": 69,
+   "proteinG": 4.4,
+   "fatG": 0.2,
+   "carbsG": 14.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Cebiche de pollo con arroz (restaurante)",
+   "kcal": 138,
+   "proteinG": 7.6,
+   "fatG": 2.3,
+   "carbsG": 21.7,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Cebiche de pota (restaurante)",
+   "kcal": 53,
+   "proteinG": 5.1,
+   "fatG": 0.4,
+   "carbsG": 6.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Cebiche mixto (restaurante)",
+   "kcal": 96,
+   "proteinG": 8.5,
+   "fatG": 1.8,
+   "carbsG": 11.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Cebiche y chilcano de pescado (restaurante)",
+   "kcal": 77,
+   "proteinG": 6.3,
+   "fatG": 2.9,
+   "carbsG": 5.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Cerdo al horno con arroz (restaurante)",
+   "kcal": 161,
+   "proteinG": 7.7,
+   "fatG": 3.5,
+   "carbsG": 23.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Chanfainita con arroz (restaurante)",
+   "kcal": 151,
+   "proteinG": 4.3,
+   "fatG": 1.8,
+   "carbsG": 28.6,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Chanfainita con tallarín (restaurante)",
+   "kcal": 153,
+   "proteinG": 5.8,
+   "fatG": 0.7,
+   "carbsG": 31.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Chaque (restaurante)",
+   "kcal": 66,
+   "proteinG": 5.5,
+   "fatG": 0.6,
+   "carbsG": 9.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Chicha blanca (restaurante)",
+   "kcal": 41,
+   "proteinG": 0.3,
+   "fatG": 0.2,
+   "carbsG": 9.7,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Chicha de jora (restaurante)",
+   "kcal": 34,
+   "proteinG": 0.3,
+   "fatG": 0.2,
+   "carbsG": 7.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Chicha morada (restaurante)",
+   "kcal": 44,
+   "proteinG": 0.5,
+   "fatG": 0.2,
+   "carbsG": 10.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Chicharron de pescado con yuca frita y arroz (restaurante)",
+   "kcal": 231,
+   "proteinG": 7.4,
+   "fatG": 12.2,
+   "carbsG": 22.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Chicharron de pota (restaurante)",
+   "kcal": 316,
+   "proteinG": 7.5,
+   "fatG": 20.7,
+   "carbsG": 25.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Chicharrón con sarsa criolla y leche de tigre (restaurante)",
+   "kcal": 66,
+   "proteinG": 5.7,
+   "fatG": 0.7,
+   "carbsG": 9.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Chicharrón de pescado (restaurante)",
+   "kcal": 186,
+   "proteinG": 6.8,
+   "fatG": 10.1,
+   "carbsG": 15.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Chicharrón de pescado con arroz (restaurante)",
+   "kcal": 208,
+   "proteinG": 5.5,
+   "fatG": 8.7,
+   "carbsG": 26.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Chicharrón de pescado con ensalada y arroz (restaurante)",
+   "kcal": 241,
+   "proteinG": 6.8,
+   "fatG": 10.5,
+   "carbsG": 29.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Chicharrón de pescado con frejoles y arroz (restaurante)",
+   "kcal": 135,
+   "proteinG": 5.4,
+   "fatG": 1.7,
+   "carbsG": 24.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Chicharrón de pescado con yucas doradas (restaurante)",
+   "kcal": 195,
+   "proteinG": 9.9,
+   "fatG": 6.9,
+   "carbsG": 23.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Chicharrón de pollo (restaurante)",
+   "kcal": 100,
+   "proteinG": 2.7,
+   "fatG": 1.6,
+   "carbsG": 20.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Chicharrón de pollo con ensalada y arroz (restaurante)",
+   "kcal": 190,
+   "proteinG": 6.7,
+   "fatG": 6.8,
+   "carbsG": 25.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Chicharrón mixto (restaurante)",
+   "kcal": 222,
+   "proteinG": 9.3,
+   "fatG": 14.1,
+   "carbsG": 14.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Chicharrón mixto con sarsa criolla y arroz (restaurante)",
+   "kcal": 168,
+   "proteinG": 6.3,
+   "fatG": 3.8,
+   "carbsG": 26.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Chicharrón mixto con yuca frita (restaurante)",
+   "kcal": 168,
+   "proteinG": 10.5,
+   "fatG": 8.8,
+   "carbsG": 12.6,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Chicken quesadilla (restaurante)",
+   "kcal": 193,
+   "proteinG": 12.2,
+   "fatG": 9.9,
+   "carbsG": 14.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Chilcano de pescado (restaurante)",
+   "kcal": 19,
+   "proteinG": 0.8,
+   "fatG": 1.1,
+   "carbsG": 1.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Choclo a la huancaína (restaurante)",
+   "kcal": 111,
+   "proteinG": 5.4,
+   "fatG": 5.4,
+   "carbsG": 11.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Choclo con queso (restaurante)",
+   "kcal": 151,
+   "proteinG": 8.9,
+   "fatG": 9.4,
+   "carbsG": 8.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Choritos a la chalaca (restaurante)",
+   "kcal": 65,
+   "proteinG": 6.2,
+   "fatG": 1.2,
+   "carbsG": 7.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Chuleta a la parrilla con arroz (restaurante)",
+   "kcal": 111,
+   "proteinG": 6.3,
+   "fatG": 1.8,
+   "carbsG": 17.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Chuleta de cerdo con papas fritas y arroz (restaurante)",
+   "kcal": 178,
+   "proteinG": 6.7,
+   "fatG": 8.0,
+   "carbsG": 19.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Chupe de camarón (restaurante)",
+   "kcal": 67,
+   "proteinG": 3.4,
+   "fatG": 1.4,
+   "carbsG": 10.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Chupe de cangrejo (restaurante)",
+   "kcal": 37,
+   "proteinG": 2.2,
+   "fatG": 0.6,
+   "carbsG": 6.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Chupe de chochoca (restaurante)",
+   "kcal": 53,
+   "proteinG": 1.6,
+   "fatG": 1.6,
+   "carbsG": 8.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Chupe de choro (restaurante)",
+   "kcal": 52,
+   "proteinG": 2.5,
+   "fatG": 1.2,
+   "carbsG": 7.6,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Chupe de habas (restaurante)",
+   "kcal": 39,
+   "proteinG": 1.6,
+   "fatG": 0.5,
+   "carbsG": 7.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Chupe de mariscos (restaurante)",
+   "kcal": 47,
+   "proteinG": 2.7,
+   "fatG": 0.9,
+   "carbsG": 7.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Chupe de pescado (restaurante)",
+   "kcal": 48,
+   "proteinG": 2.4,
+   "fatG": 1.3,
+   "carbsG": 7.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Chupe de pollo (restaurante)",
+   "kcal": 36,
+   "proteinG": 2.8,
+   "fatG": 0.9,
+   "carbsG": 4.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Chupe de trigo (restaurante)",
+   "kcal": 16,
+   "proteinG": 0.6,
+   "fatG": 0.3,
+   "carbsG": 2.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Chupe mixto (restaurante)",
+   "kcal": 15,
+   "proteinG": 1.4,
+   "fatG": 0.4,
+   "carbsG": 1.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Churrasco con arroz (restaurante)",
+   "kcal": 100,
+   "proteinG": 3.8,
+   "fatG": 0.7,
+   "carbsG": 19.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Churrasco con frejoles y arroz (restaurante)",
+   "kcal": 171,
+   "proteinG": 10.9,
+   "fatG": 6.4,
+   "carbsG": 17.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Churrasco con papas fritas, ensalada y arroz (restaurante)",
+   "kcal": 156,
+   "proteinG": 4.6,
+   "fatG": 4.3,
+   "carbsG": 24.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Combinado de pollo (restaurante)",
+   "kcal": 163,
+   "proteinG": 5.6,
+   "fatG": 1.4,
+   "carbsG": 32.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Combinado de res (restaurante)",
+   "kcal": 151,
+   "proteinG": 4.5,
+   "fatG": 3.8,
+   "carbsG": 24.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Combinado de tallarín rojo con frejoles y arroz (restaurante)",
+   "kcal": 193,
+   "proteinG": 10.4,
+   "fatG": 3.6,
+   "carbsG": 29.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Compota de frutas (restaurante)",
+   "kcal": 82,
+   "proteinG": 0.4,
+   "fatG": 0.1,
+   "carbsG": 21.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Consomé de pollo (restaurante)",
+   "kcal": 30,
+   "proteinG": 2.6,
+   "fatG": 1.1,
+   "carbsG": 2.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Cordero a la norteña con frejoles y arroz (restaurante)",
+   "kcal": 165,
+   "proteinG": 8.8,
+   "fatG": 4.8,
+   "carbsG": 22.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Costillas a la norteña con frejoles y arroz (restaurante)",
+   "kcal": 152,
+   "proteinG": 8.0,
+   "fatG": 3.3,
+   "carbsG": 22.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Costillas barbiquiu con arroz y camote (restaurante)",
+   "kcal": 190,
+   "proteinG": 6.5,
+   "fatG": 8.2,
+   "carbsG": 22.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Costillas con papa y arroz (restaurante)",
+   "kcal": 166,
+   "proteinG": 8.3,
+   "fatG": 5.7,
+   "carbsG": 20.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Crema de arveja (restaurante)",
+   "kcal": 40,
+   "proteinG": 2.4,
+   "fatG": 0.8,
+   "carbsG": 5.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Crema de ocopa (restaurante)",
+   "kcal": 109,
+   "proteinG": 3.1,
+   "fatG": 3.6,
+   "carbsG": 15.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Crema de pimiento (restaurante)",
+   "kcal": 114,
+   "proteinG": 4.1,
+   "fatG": 4.0,
+   "carbsG": 15.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Crema de rocoto (restaurante)",
+   "kcal": 126,
+   "proteinG": 3.5,
+   "fatG": 4.8,
+   "carbsG": 18.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Crema de verdura (restaurante)",
+   "kcal": 24,
+   "proteinG": 0.9,
+   "fatG": 1.1,
+   "carbsG": 3.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Crema de zapallo (restaurante)",
+   "kcal": 24,
+   "proteinG": 0.6,
+   "fatG": 1.1,
+   "carbsG": 3.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Crema volteada (restaurante)",
+   "kcal": 198,
+   "proteinG": 8.7,
+   "fatG": 8.7,
+   "carbsG": 21.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Croquetas (restaurante)",
+   "kcal": 175,
+   "proteinG": 4.2,
+   "fatG": 11.6,
+   "carbsG": 15.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Dulce de cañihua (restaurante)",
+   "kcal": 45,
+   "proteinG": 1.5,
+   "fatG": 1.6,
+   "carbsG": 6.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Durazno al almibar (restaurante)",
+   "kcal": 208,
+   "proteinG": 0.2,
+   "fatG": 0.1,
+   "carbsG": 53.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Emoliente (restaurante)",
+   "kcal": 33,
+   "proteinG": 0.2,
+   "fatG": 0.2,
+   "carbsG": 7.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Encebollado de hígado con frejoles y arroz (restaurante)",
+   "kcal": 161,
+   "proteinG": 8.8,
+   "fatG": 6.2,
+   "carbsG": 17.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Ensalada (restaurante)",
+   "kcal": 78,
+   "proteinG": 1.4,
+   "fatG": 6.5,
+   "carbsG": 3.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Ensalada cesar (restaurante)",
+   "kcal": 76,
+   "proteinG": 4.7,
+   "fatG": 4.8,
+   "carbsG": 3.6,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Ensalada de atún (restaurante)",
+   "kcal": 82,
+   "proteinG": 3.9,
+   "fatG": 1.3,
+   "carbsG": 14.6,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Ensalada de cocona (restaurante)",
+   "kcal": 45,
+   "proteinG": 1.2,
+   "fatG": 0.4,
+   "carbsG": 9.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Ensalada de fideos (restaurante)",
+   "kcal": 273,
+   "proteinG": 5.9,
+   "fatG": 11.4,
+   "carbsG": 36.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Ensalada de frutas (restaurante)",
+   "kcal": 66,
+   "proteinG": 0.7,
+   "fatG": 0.5,
+   "carbsG": 14.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Ensalada de lechuga (restaurante)",
+   "kcal": 62,
+   "proteinG": 0.6,
+   "fatG": 5.7,
+   "carbsG": 2.6,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Ensalada de palta (restaurante)",
+   "kcal": 36,
+   "proteinG": 1.0,
+   "fatG": 3.0,
+   "carbsG": 1.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Ensalada de verduras (restaurante)",
+   "kcal": 82,
+   "proteinG": 1.4,
+   "fatG": 6.8,
+   "carbsG": 4.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Ensalada rusa (restaurante)",
+   "kcal": 60,
+   "proteinG": 1.5,
+   "fatG": 2.7,
+   "carbsG": 6.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Ensalada rusa con pollo a la brasa y arroz (restaurante)",
+   "kcal": 146,
+   "proteinG": 8.8,
+   "fatG": 3.4,
+   "carbsG": 19.7,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Ensalada rusa con pollo al horno y arroz (restaurante)",
+   "kcal": 131,
+   "proteinG": 8.4,
+   "fatG": 2.3,
+   "carbsG": 18.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Ensalada rusa con pollo broaster y arroz (restaurante)",
+   "kcal": 157,
+   "proteinG": 8.8,
+   "fatG": 4.9,
+   "carbsG": 19.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Ensalada rusa con pollo frito y arroz (restaurante)",
+   "kcal": 156,
+   "proteinG": 7.2,
+   "fatG": 5.5,
+   "carbsG": 19.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Escabeche de pescado con arroz (restaurante)",
+   "kcal": 189,
+   "proteinG": 6.6,
+   "fatG": 7.7,
+   "carbsG": 23.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Escabeche de pollo con arroz (restaurante)",
+   "kcal": 139,
+   "proteinG": 7.0,
+   "fatG": 2.4,
+   "carbsG": 21.7,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Espesado de res con arroz (restaurante)",
+   "kcal": 212,
+   "proteinG": 6.8,
+   "fatG": 2.0,
+   "carbsG": 41.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Estofado de lengua con arroz (restaurante)",
+   "kcal": 133,
+   "proteinG": 4.9,
+   "fatG": 5.1,
+   "carbsG": 17.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Estofado de pavita con arroz y ensalada (restaurante)",
+   "kcal": 138,
+   "proteinG": 5.7,
+   "fatG": 2.7,
+   "carbsG": 22.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Estofado de pollo con arroz (restaurante)",
+   "kcal": 125,
+   "proteinG": 6.5,
+   "fatG": 1.5,
+   "carbsG": 21.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Estofado de pollo con arroz y ensalada (restaurante)",
+   "kcal": 118,
+   "proteinG": 5.7,
+   "fatG": 1.8,
+   "carbsG": 19.6,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Estofado de pollo con menestra y arroz (restaurante)",
+   "kcal": 146,
+   "proteinG": 7.6,
+   "fatG": 1.7,
+   "carbsG": 24.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Estofado de res con arroz (restaurante)",
+   "kcal": 140,
+   "proteinG": 7.5,
+   "fatG": 1.1,
+   "carbsG": 24.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Estofado de res con menestra y arroz (restaurante)",
+   "kcal": 126,
+   "proteinG": 6.6,
+   "fatG": 1.1,
+   "carbsG": 22.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Fetuccini a lo alfredo (restaurante)",
+   "kcal": 339,
+   "proteinG": 9.9,
+   "fatG": 19.9,
+   "carbsG": 30.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Filete de pescado con arroz (restaurante)",
+   "kcal": 207,
+   "proteinG": 5.8,
+   "fatG": 11.5,
+   "carbsG": 19.7,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Filete de pescado con menestra y arroz (restaurante)",
+   "kcal": 209,
+   "proteinG": 8.5,
+   "fatG": 6.3,
+   "carbsG": 29.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Filete de pescado con papas fritas, sarsa criolla y arroz (restaurante)",
+   "kcal": 138,
+   "proteinG": 5.5,
+   "fatG": 1.3,
+   "carbsG": 25.6,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Filete de pescado en salsa de mariscos (restaurante)",
+   "kcal": 136,
+   "proteinG": 6.4,
+   "fatG": 0.8,
+   "carbsG": 25.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Filete de pollo a la parrilla con ensalada y arroz (restaurante)",
+   "kcal": 162,
+   "proteinG": 8.1,
+   "fatG": 2.4,
+   "carbsG": 26.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Filete de pollo con papas fritas y arroz (restaurante)",
+   "kcal": 139,
+   "proteinG": 8.1,
+   "fatG": 3.8,
+   "carbsG": 17.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Filete de pollo con papas fritas, ensalada y arroz (restaurante)",
+   "kcal": 169,
+   "proteinG": 5.5,
+   "fatG": 10.2,
+   "carbsG": 13.6,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Flan (restaurante)",
+   "kcal": 76,
+   "proteinG": 1.8,
+   "fatG": 2.0,
+   "carbsG": 12.6,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Flauta rellena (restaurante)",
+   "kcal": 123,
+   "proteinG": 13.3,
+   "fatG": 3.2,
+   "carbsG": 10.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Frejol panamito con papa y sangrecita entomatada (restaurante)",
+   "kcal": 118,
+   "proteinG": 5.3,
+   "fatG": 1.9,
+   "carbsG": 20.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Frejol panamíto con atún al jugo más arroz blanco (restaurante)",
+   "kcal": 127,
+   "proteinG": 5.6,
+   "fatG": 3.0,
+   "carbsG": 19.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Frejoles con asado de carne y arroz (restaurante)",
+   "kcal": 119,
+   "proteinG": 6.1,
+   "fatG": 2.3,
+   "carbsG": 18.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Frejoles con bisteck y arroz (restaurante)",
+   "kcal": 140,
+   "proteinG": 8.6,
+   "fatG": 1.5,
+   "carbsG": 23.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Frejoles con cabrito a la norteña y arroz (restaurante)",
+   "kcal": 161,
+   "proteinG": 9.1,
+   "fatG": 5.6,
+   "carbsG": 18.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Frejoles con pescado y arroz (restaurante)",
+   "kcal": 164,
+   "proteinG": 7.0,
+   "fatG": 5.4,
+   "carbsG": 22.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Frejoles con pescado, ensalada y arroz (restaurante)",
+   "kcal": 205,
+   "proteinG": 6.9,
+   "fatG": 9.5,
+   "carbsG": 23.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Frejoles con pollo a la norteña y arroz (restaurante)",
+   "kcal": 114,
+   "proteinG": 7.0,
+   "fatG": 1.9,
+   "carbsG": 17.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Frejoles con pollo al vino (restaurante)",
+   "kcal": 158,
+   "proteinG": 4.1,
+   "fatG": 2.2,
+   "carbsG": 30.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Frejoles con seco a la norteña y arroz (restaurante)",
+   "kcal": 125,
+   "proteinG": 7.9,
+   "fatG": 1.4,
+   "carbsG": 20.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Frejoles con seco y arroz (restaurante)",
+   "kcal": 176,
+   "proteinG": 7.9,
+   "fatG": 2.7,
+   "carbsG": 30.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Frejoles con seco, ensalada y arroz (restaurante)",
+   "kcal": 153,
+   "proteinG": 7.7,
+   "fatG": 4.3,
+   "carbsG": 20.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Garbanzo con arroz y chuleta frita (restaurante)",
+   "kcal": 193,
+   "proteinG": 8.3,
+   "fatG": 3.8,
+   "carbsG": 31.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Garbanzo con chuleta y arroz (restaurante)",
+   "kcal": 174,
+   "proteinG": 6.9,
+   "fatG": 4.6,
+   "carbsG": 26.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Garbanzo con churrasco, ensalada y arroz (restaurante)",
+   "kcal": 141,
+   "proteinG": 6.0,
+   "fatG": 3.3,
+   "carbsG": 22.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Garbanzo con pescado y arroz (restaurante)",
+   "kcal": 137,
+   "proteinG": 6.7,
+   "fatG": 3.0,
+   "carbsG": 20.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Garbanzo con pollo y arroz (restaurante)",
+   "kcal": 130,
+   "proteinG": 5.8,
+   "fatG": 3.5,
+   "carbsG": 18.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Gelatina (restaurante)",
+   "kcal": 68,
+   "proteinG": 1.8,
+   "fatG": 0.0,
+   "carbsG": 15.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Guiso de caigua con arroz (restaurante)",
+   "kcal": 136,
+   "proteinG": 6.7,
+   "fatG": 2.0,
+   "carbsG": 22.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Guiso de caigua con pollo (restaurante)",
+   "kcal": 117,
+   "proteinG": 5.2,
+   "fatG": 3.4,
+   "carbsG": 16.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Guiso de frejol panamito con atún más ensalada de pepinillo (restaurante)",
+   "kcal": 163,
+   "proteinG": 6.8,
+   "fatG": 6.2,
+   "carbsG": 20.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Guiso de frejol panamito con pescado frito más ensalada de pepinillo (restaurante)",
+   "kcal": 132,
+   "proteinG": 6.6,
+   "fatG": 1.7,
+   "carbsG": 22.6,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Guiso de habas con churrasco y arroz (restaurante)",
+   "kcal": 173,
+   "proteinG": 5.2,
+   "fatG": 1.2,
+   "carbsG": 34.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Guiso de quinua con pescado y arroz (restaurante)",
+   "kcal": 179,
+   "proteinG": 4.8,
+   "fatG": 8.2,
+   "carbsG": 21.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Guiso de trigo con lomo de socona y arroz (restaurante)",
+   "kcal": 78,
+   "proteinG": 2.5,
+   "fatG": 1.0,
+   "carbsG": 14.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Guiso de trigo con pollo y arroz (restaurante)",
+   "kcal": 109,
+   "proteinG": 6.4,
+   "fatG": 1.9,
+   "carbsG": 15.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Guiso de vainita con pollo y arroz (restaurante)",
+   "kcal": 95,
+   "proteinG": 4.3,
+   "fatG": 0.7,
+   "carbsG": 18.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Hojuela de cereal, con avena precocida, bebida de (restaurante)",
+   "kcal": 17,
+   "proteinG": 1.3,
+   "fatG": 0.4,
+   "carbsG": 2.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Hojuela de cereal, con canela, bebida de (restaurante)",
+   "kcal": 26,
+   "proteinG": 1.2,
+   "fatG": 0.6,
+   "carbsG": 3.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Hojuela de cereal, con cocoa, clavo de olor y canela, bebida de (restaurante)",
+   "kcal": 22,
+   "proteinG": 1.4,
+   "fatG": 0.4,
+   "carbsG": 3.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Hojuela de cereal, con leche evaporada entera UHT, avena, clavo de olor, canela y vainilla, bebida de (restaurante)",
+   "kcal": 55,
+   "proteinG": 2.1,
+   "fatG": 2.0,
+   "carbsG": 7.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Hojuela de cereal, con leche evaporada entera UHT, bebida de (restaurante)",
+   "kcal": 35,
+   "proteinG": 1.3,
+   "fatG": 1.4,
+   "carbsG": 4.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Hojuela de cereal, con membrillo, bebida de (restaurante)",
+   "kcal": 26,
+   "proteinG": 1.3,
+   "fatG": 0.4,
+   "carbsG": 4.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Hojuela de cereales con soya precocidos con leche evaporada, bebida de (restaurante)",
+   "kcal": 38,
+   "proteinG": 1.5,
+   "fatG": 1.7,
+   "carbsG": 4.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Hojuela de quinua con cereales, leche evaporada entera UHT, azúcar rubia,clavo de olor y canela, bebida de (restaurante)",
+   "kcal": 63,
+   "proteinG": 2.0,
+   "fatG": 2.2,
+   "carbsG": 8.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Hojuela de quinua con cereales, leche evaporada entera, canela y clavo de olor, bebida de (restaurante)",
+   "kcal": 43,
+   "proteinG": 1.6,
+   "fatG": 1.6,
+   "carbsG": 5.6,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Huevitos en salsa golf (restaurante)",
+   "kcal": 130,
+   "proteinG": 1.7,
+   "fatG": 9.1,
+   "carbsG": 11.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Huevo a la rusa (restaurante)",
+   "kcal": 94,
+   "proteinG": 3.6,
+   "fatG": 4.6,
+   "carbsG": 10.6,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Hummus (restaurante)",
+   "kcal": 212,
+   "proteinG": 7.0,
+   "fatG": 3.9,
+   "carbsG": 38.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Hígado encebollado con arroz (restaurante)",
+   "kcal": 108,
+   "proteinG": 3.9,
+   "fatG": 1.7,
+   "carbsG": 20.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Hígado frito con arroz (restaurante)",
+   "kcal": 174,
+   "proteinG": 5.4,
+   "fatG": 5.1,
+   "carbsG": 26.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Infusión de hierbas (restaurante)",
+   "kcal": 25,
+   "proteinG": 0.0,
+   "fatG": 0.0,
+   "carbsG": 6.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Jalea con yuca frita (restaurante)",
+   "kcal": 210,
+   "proteinG": 10.4,
+   "fatG": 13.3,
+   "carbsG": 12.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Jalea de pescado con arroz (restaurante)",
+   "kcal": 108,
+   "proteinG": 5.0,
+   "fatG": 2.8,
+   "carbsG": 15.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Jalea de pescado con yuca frita (restaurante)",
+   "kcal": 190,
+   "proteinG": 6.8,
+   "fatG": 9.6,
+   "carbsG": 19.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Jalea mixta (restaurante)",
+   "kcal": 177,
+   "proteinG": 9.5,
+   "fatG": 9.3,
+   "carbsG": 14.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Jalea mixta con yuca frita (restaurante)",
+   "kcal": 234,
+   "proteinG": 8.3,
+   "fatG": 16.3,
+   "carbsG": 14.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Kam lu wantán con arroz chaufa (restaurante)",
+   "kcal": 149,
+   "proteinG": 6.0,
+   "fatG": 5.7,
+   "carbsG": 18.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Lasagna de res (restaurante)",
+   "kcal": 298,
+   "proteinG": 13.2,
+   "fatG": 13.2,
+   "carbsG": 36.6,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Leche asada (restaurante)",
+   "kcal": 152,
+   "proteinG": 7.3,
+   "fatG": 7.0,
+   "carbsG": 14.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Lenteja con adobo y arroz (restaurante)",
+   "kcal": 128,
+   "proteinG": 7.5,
+   "fatG": 0.3,
+   "carbsG": 23.7,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Lenteja con bisteck y arroz (restaurante)",
+   "kcal": 183,
+   "proteinG": 9.9,
+   "fatG": 1.2,
+   "carbsG": 33.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Lenteja con chuleta y arroz (restaurante)",
+   "kcal": 150,
+   "proteinG": 8.0,
+   "fatG": 2.9,
+   "carbsG": 22.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Lenteja con estofado y arroz (restaurante)",
+   "kcal": 133,
+   "proteinG": 7.9,
+   "fatG": 1.9,
+   "carbsG": 21.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Lenteja con filete de pechuga y arroz (restaurante)",
+   "kcal": 140,
+   "proteinG": 8.4,
+   "fatG": 5.4,
+   "carbsG": 14.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Lenteja con hígado y arroz (restaurante)",
+   "kcal": 179,
+   "proteinG": 8.8,
+   "fatG": 2.4,
+   "carbsG": 30.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Lenteja con lomito y arroz (restaurante)",
+   "kcal": 137,
+   "proteinG": 7.2,
+   "fatG": 1.5,
+   "carbsG": 23.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Lenteja con milanesa y arroz (restaurante)",
+   "kcal": 154,
+   "proteinG": 9.3,
+   "fatG": 2.1,
+   "carbsG": 23.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Lenteja con pescado y arroz (restaurante)",
+   "kcal": 162,
+   "proteinG": 7.1,
+   "fatG": 4.2,
+   "carbsG": 23.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Lentejas con ensalada de atún y arroz blanco (restaurante)",
+   "kcal": 132,
+   "proteinG": 6.1,
+   "fatG": 2.0,
+   "carbsG": 22.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Lentejas con huevo sancochado y ensalada de zanahoria más arroz blanco (restaurante)",
+   "kcal": 115,
+   "proteinG": 5.6,
+   "fatG": 2.2,
+   "carbsG": 18.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Lentejas con pollo e hígado de pollo al jugo con arroz (restaurante)",
+   "kcal": 119,
+   "proteinG": 6.4,
+   "fatG": 1.7,
+   "carbsG": 19.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Lentejas y papa con guiso de sangrecita más arroz blanco (restaurante)",
+   "kcal": 120,
+   "proteinG": 5.0,
+   "fatG": 2.1,
+   "carbsG": 20.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Limonada (restaurante)",
+   "kcal": 28,
+   "proteinG": 0.0,
+   "fatG": 0.0,
+   "carbsG": 7.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Locro con hígado frito y arroz (restaurante)",
+   "kcal": 134,
+   "proteinG": 3.1,
+   "fatG": 5.6,
+   "carbsG": 18.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Locro de zapallo con bisteck y arroz (restaurante)",
+   "kcal": 116,
+   "proteinG": 4.1,
+   "fatG": 3.1,
+   "carbsG": 18.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Locro de zapallo con filete de pollo y arroz (restaurante)",
+   "kcal": 134,
+   "proteinG": 5.8,
+   "fatG": 2.8,
+   "carbsG": 20.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Locro de zapallo con huevo sancochado y arroz blanco (restaurante)",
+   "kcal": 113,
+   "proteinG": 4.9,
+   "fatG": 2.6,
+   "carbsG": 17.6,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Locro de zapallo con leche, habas frescas y guiso de hígado con arroz blanco (restaurante)",
+   "kcal": 125,
+   "proteinG": 4.2,
+   "fatG": 2.2,
+   "carbsG": 22.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Lomito de atún con arroz (restaurante)",
+   "kcal": 162,
+   "proteinG": 4.6,
+   "fatG": 3.6,
+   "carbsG": 27.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Lomito saltado con hígado (restaurante)",
+   "kcal": 166,
+   "proteinG": 6.2,
+   "fatG": 3.3,
+   "carbsG": 27.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Lomito saltado con sangrecita e hígado (restaurante)",
+   "kcal": 179,
+   "proteinG": 5.9,
+   "fatG": 5.0,
+   "carbsG": 27.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Lomo a lo strogonof con arroz (restaurante)",
+   "kcal": 149,
+   "proteinG": 9.3,
+   "fatG": 1.9,
+   "carbsG": 22.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Lomo al jugo con menestra y arroz (restaurante)",
+   "kcal": 112,
+   "proteinG": 5.0,
+   "fatG": 1.4,
+   "carbsG": 19.7,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Lomo saltado con arroz (restaurante)",
+   "kcal": 166,
+   "proteinG": 5.3,
+   "fatG": 6.6,
+   "carbsG": 20.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Lomo saltado con menestra y arroz (restaurante)",
+   "kcal": 159,
+   "proteinG": 6.0,
+   "fatG": 4.6,
+   "carbsG": 23.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Macarrones con pollo (restaurante)",
+   "kcal": 145,
+   "proteinG": 7.8,
+   "fatG": 3.1,
+   "carbsG": 21.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Macarrones con res (restaurante)",
+   "kcal": 174,
+   "proteinG": 6.4,
+   "fatG": 2.3,
+   "carbsG": 31.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Malaya dorada con arroz (restaurante)",
+   "kcal": 149,
+   "proteinG": 6.6,
+   "fatG": 0.9,
+   "carbsG": 28.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Mazamorra de frutas (restaurante)",
+   "kcal": 52,
+   "proteinG": 0.4,
+   "fatG": 0.1,
+   "carbsG": 13.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Mazamorra de maizena (restaurante)",
+   "kcal": 76,
+   "proteinG": 1.0,
+   "fatG": 1.2,
+   "carbsG": 15.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Mazamorra de sémola (restaurante)",
+   "kcal": 118,
+   "proteinG": 1.7,
+   "fatG": 0.5,
+   "carbsG": 27.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Mazamorra morada (restaurante)",
+   "kcal": 62,
+   "proteinG": 0.6,
+   "fatG": 0.2,
+   "carbsG": 14.7,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Menestrón con pollo (restaurante)",
+   "kcal": 85,
+   "proteinG": 4.2,
+   "fatG": 1.2,
+   "carbsG": 13.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Menestrón con res (restaurante)",
+   "kcal": 45,
+   "proteinG": 2.3,
+   "fatG": 0.4,
+   "carbsG": 7.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Milanesa con arroz (restaurante)",
+   "kcal": 175,
+   "proteinG": 5.4,
+   "fatG": 7.3,
+   "carbsG": 21.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Milanesa con ensalada y arroz (restaurante)",
+   "kcal": 155,
+   "proteinG": 5.1,
+   "fatG": 4.2,
+   "carbsG": 23.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Milanesa con menestra y arroz (restaurante)",
+   "kcal": 155,
+   "proteinG": 9.3,
+   "fatG": 3.6,
+   "carbsG": 20.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Milanesa con papas fritas y arroz (restaurante)",
+   "kcal": 156,
+   "proteinG": 4.8,
+   "fatG": 6.2,
+   "carbsG": 20.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Molleja saltada con arroz (restaurante)",
+   "kcal": 98,
+   "proteinG": 7.0,
+   "fatG": 1.2,
+   "carbsG": 14.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Mondonguito a la italiana con arroz (restaurante)",
+   "kcal": 138,
+   "proteinG": 5.2,
+   "fatG": 2.8,
+   "carbsG": 22.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Naranjada (restaurante)",
+   "kcal": 19,
+   "proteinG": 0.0,
+   "fatG": 0.0,
+   "carbsG": 4.7,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Ocopa a la arequipeña (restaurante)",
+   "kcal": 125,
+   "proteinG": 3.8,
+   "fatG": 4.6,
+   "carbsG": 17.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Olluquito con arroz integral (restaurante)",
+   "kcal": 126,
+   "proteinG": 5.1,
+   "fatG": 2.4,
+   "carbsG": 21.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Olluquito de charqui con arroz (restaurante)",
+   "kcal": 161,
+   "proteinG": 6.2,
+   "fatG": 3.1,
+   "carbsG": 26.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Olluquito de res con arroz (restaurante)",
+   "kcal": 129,
+   "proteinG": 5.0,
+   "fatG": 0.5,
+   "carbsG": 25.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pachamanca a la olla con arroz (restaurante)",
+   "kcal": 131,
+   "proteinG": 8.5,
+   "fatG": 1.9,
+   "carbsG": 19.7,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pallares con chuleta y arroz (restaurante)",
+   "kcal": 119,
+   "proteinG": 6.2,
+   "fatG": 1.3,
+   "carbsG": 20.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pallares con guiso de pollo y arroz (restaurante)",
+   "kcal": 172,
+   "proteinG": 9.5,
+   "fatG": 2.8,
+   "carbsG": 26.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pallares con pescado y arroz (restaurante)",
+   "kcal": 148,
+   "proteinG": 6.8,
+   "fatG": 2.4,
+   "carbsG": 24.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pallares con pollo y arroz (restaurante)",
+   "kcal": 157,
+   "proteinG": 8.7,
+   "fatG": 2.7,
+   "carbsG": 24.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Palta rellena (restaurante)",
+   "kcal": 138,
+   "proteinG": 3.3,
+   "fatG": 9.5,
+   "carbsG": 8.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pan al ajo (restaurante)",
+   "kcal": 226,
+   "proteinG": 3.4,
+   "fatG": 14.1,
+   "carbsG": 23.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Panqueque relleno (restaurante)",
+   "kcal": 180,
+   "proteinG": 3.9,
+   "fatG": 3.2,
+   "carbsG": 34.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Papa a la huancaína (restaurante)",
+   "kcal": 118,
+   "proteinG": 3.5,
+   "fatG": 3.9,
+   "carbsG": 18.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Papa con huevo (restaurante)",
+   "kcal": 116,
+   "proteinG": 6.3,
+   "fatG": 7.1,
+   "carbsG": 6.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Papa rellena (restaurante)",
+   "kcal": 162,
+   "proteinG": 4.2,
+   "fatG": 9.7,
+   "carbsG": 14.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Papa rellena con ensalada (restaurante)",
+   "kcal": 135,
+   "proteinG": 3.3,
+   "fatG": 6.0,
+   "carbsG": 17.6,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Papa rellena con sarsa criolla (restaurante)",
+   "kcal": 160,
+   "proteinG": 3.9,
+   "fatG": 9.6,
+   "carbsG": 16.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Papas a la rioja (restaurante)",
+   "kcal": 60,
+   "proteinG": 2.5,
+   "fatG": 1.7,
+   "carbsG": 8.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Papas fritas (restaurante)",
+   "kcal": 359,
+   "proteinG": 1.4,
+   "fatG": 33.4,
+   "carbsG": 13.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Parihuela (restaurante)",
+   "kcal": 67,
+   "proteinG": 4.8,
+   "fatG": 3.2,
+   "carbsG": 6.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pasta al pesto (restaurante)",
+   "kcal": 115,
+   "proteinG": 5.8,
+   "fatG": 1.8,
+   "carbsG": 18.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pasta otros (restaurante)",
+   "kcal": 119,
+   "proteinG": 8.6,
+   "fatG": 3.0,
+   "carbsG": 15.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pastel de papa (restaurante)",
+   "kcal": 138,
+   "proteinG": 6.2,
+   "fatG": 6.1,
+   "carbsG": 14.7,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Patasca (restaurante)",
+   "kcal": 74,
+   "proteinG": 3.8,
+   "fatG": 2.6,
+   "carbsG": 8.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Patita con maní y arroz (restaurante)",
+   "kcal": 134,
+   "proteinG": 4.1,
+   "fatG": 1.7,
+   "carbsG": 25.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pavita a la norteña con arroz (restaurante)",
+   "kcal": 147,
+   "proteinG": 5.7,
+   "fatG": 2.3,
+   "carbsG": 26.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pavita al horno con arroz (restaurante)",
+   "kcal": 142,
+   "proteinG": 6.3,
+   "fatG": 5.5,
+   "carbsG": 17.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pavita al vino con arroz (restaurante)",
+   "kcal": 161,
+   "proteinG": 4.4,
+   "fatG": 1.3,
+   "carbsG": 32.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pavita con ensalada y arroz (restaurante)",
+   "kcal": 234,
+   "proteinG": 4.5,
+   "fatG": 15.2,
+   "carbsG": 19.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pavita con menestra y arroz (restaurante)",
+   "kcal": 143,
+   "proteinG": 6.6,
+   "fatG": 3.2,
+   "carbsG": 21.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pavita con puré y arroz (restaurante)",
+   "kcal": 154,
+   "proteinG": 7.2,
+   "fatG": 4.8,
+   "carbsG": 19.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pechuga a la parrilla + 1 chorizo + 1 anticucho de corazón de pollo + papas fritas (restaurante)",
+   "kcal": 198,
+   "proteinG": 9.2,
+   "fatG": 12.8,
+   "carbsG": 11.6,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pechuga a la plancha con ensalada y arroz (restaurante)",
+   "kcal": 132,
+   "proteinG": 6.7,
+   "fatG": 3.7,
+   "carbsG": 17.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pejerrey arrebosado (restaurante)",
+   "kcal": 172,
+   "proteinG": 6.9,
+   "fatG": 9.3,
+   "carbsG": 15.7,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pescado a la chorrillana con arroz (restaurante)",
+   "kcal": 224,
+   "proteinG": 5.4,
+   "fatG": 12.3,
+   "carbsG": 22.7,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pescado a lo macho con arroz (restaurante)",
+   "kcal": 167,
+   "proteinG": 7.3,
+   "fatG": 5.7,
+   "carbsG": 21.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pescado con arroz (restaurante)",
+   "kcal": 148,
+   "proteinG": 6.7,
+   "fatG": 3.6,
+   "carbsG": 21.7,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pescado con ensalada y arroz (restaurante)",
+   "kcal": 155,
+   "proteinG": 7.6,
+   "fatG": 2.6,
+   "carbsG": 24.7,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pescado con menestra y arroz (restaurante)",
+   "kcal": 176,
+   "proteinG": 7.7,
+   "fatG": 5.2,
+   "carbsG": 24.7,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pescado en salsa de champiñones con arroz (restaurante)",
+   "kcal": 183,
+   "proteinG": 6.7,
+   "fatG": 9.0,
+   "carbsG": 19.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pescado en salsa de langostinos con arroz (restaurante)",
+   "kcal": 178,
+   "proteinG": 6.1,
+   "fatG": 5.0,
+   "carbsG": 27.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Picante de cuy con arroz (restaurante)",
+   "kcal": 194,
+   "proteinG": 4.3,
+   "fatG": 9.1,
+   "carbsG": 24.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Picante de pollo con arroz (restaurante)",
+   "kcal": 375,
+   "proteinG": 13.1,
+   "fatG": 32.1,
+   "carbsG": 8.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Picante de res con arroz (restaurante)",
+   "kcal": 118,
+   "proteinG": 4.9,
+   "fatG": 1.6,
+   "carbsG": 20.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pizza americana personal (restaurante)",
+   "kcal": 203,
+   "proteinG": 7.7,
+   "fatG": 7.3,
+   "carbsG": 26.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo a la brasa + 1 palito de anticucho con papas fritas (restaurante)",
+   "kcal": 146,
+   "proteinG": 9.7,
+   "fatG": 7.9,
+   "carbsG": 10.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo a la brasa con papas fritas (restaurante)",
+   "kcal": 177,
+   "proteinG": 8.1,
+   "fatG": 9.7,
+   "carbsG": 14.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo a la chiclayana con arroz (restaurante)",
+   "kcal": 137,
+   "proteinG": 8.7,
+   "fatG": 1.5,
+   "carbsG": 21.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo a la chiclayana con menestra y arroz (restaurante)",
+   "kcal": 121,
+   "proteinG": 7.5,
+   "fatG": 1.0,
+   "carbsG": 20.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo a la huachana con menestra y arroz (restaurante)",
+   "kcal": 134,
+   "proteinG": 7.4,
+   "fatG": 3.2,
+   "carbsG": 18.7,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo a la leña (restaurante)",
+   "kcal": 163,
+   "proteinG": 3.3,
+   "fatG": 9.8,
+   "carbsG": 15.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo a la naranja con arroz (restaurante)",
+   "kcal": 128,
+   "proteinG": 10.1,
+   "fatG": 2.7,
+   "carbsG": 15.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo a la norteña con arroz (restaurante)",
+   "kcal": 137,
+   "proteinG": 8.8,
+   "fatG": 1.9,
+   "carbsG": 20.7,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo a la norteña con menestra y arroz (restaurante)",
+   "kcal": 117,
+   "proteinG": 8.4,
+   "fatG": 2.0,
+   "carbsG": 16.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo a la olla con arroz (restaurante)",
+   "kcal": 150,
+   "proteinG": 7.3,
+   "fatG": 2.4,
+   "carbsG": 23.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo a la olla con ensalada y arroz (restaurante)",
+   "kcal": 121,
+   "proteinG": 6.0,
+   "fatG": 1.8,
+   "carbsG": 19.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo a la olla con menestra y arroz (restaurante)",
+   "kcal": 159,
+   "proteinG": 8.3,
+   "fatG": 2.0,
+   "carbsG": 26.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo a la olla con puré y arroz (restaurante)",
+   "kcal": 120,
+   "proteinG": 4.9,
+   "fatG": 1.8,
+   "carbsG": 20.7,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo a la parrilla con arroz y papas fritas (restaurante)",
+   "kcal": 273,
+   "proteinG": 7.4,
+   "fatG": 20.7,
+   "carbsG": 14.6,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo a la parrilla con ensalada rusa y arroz (restaurante)",
+   "kcal": 128,
+   "proteinG": 6.6,
+   "fatG": 5.6,
+   "carbsG": 12.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo a la parrilla con ensalada y arroz (restaurante)",
+   "kcal": 150,
+   "proteinG": 6.3,
+   "fatG": 3.3,
+   "carbsG": 23.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo a la parrilla con puré y arroz (restaurante)",
+   "kcal": 133,
+   "proteinG": 5.6,
+   "fatG": 3.8,
+   "carbsG": 18.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo a la plancha con arroz (restaurante)",
+   "kcal": 81,
+   "proteinG": 4.8,
+   "fatG": 0.9,
+   "carbsG": 13.7,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo a la plancha con ensalada y arroz (restaurante)",
+   "kcal": 140,
+   "proteinG": 5.8,
+   "fatG": 0.8,
+   "carbsG": 27.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo a la plancha con menestra y arroz (restaurante)",
+   "kcal": 172,
+   "proteinG": 10.1,
+   "fatG": 1.4,
+   "carbsG": 29.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo a la plancha con papas doradas y arroz (restaurante)",
+   "kcal": 158,
+   "proteinG": 3.1,
+   "fatG": 4.0,
+   "carbsG": 26.7,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo a la plancha con papas fritas y arroz (restaurante)",
+   "kcal": 136,
+   "proteinG": 5.5,
+   "fatG": 2.4,
+   "carbsG": 22.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo a la plancha con papas fritas, ensalada y arroz (restaurante)",
+   "kcal": 165,
+   "proteinG": 7.3,
+   "fatG": 7.1,
+   "carbsG": 18.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo a la plancha con puré y arroz (restaurante)",
+   "kcal": 133,
+   "proteinG": 9.0,
+   "fatG": 3.6,
+   "carbsG": 15.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo al ají con menestra y arroz (restaurante)",
+   "kcal": 137,
+   "proteinG": 5.2,
+   "fatG": 0.9,
+   "carbsG": 26.7,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo al horno con arroz (restaurante)",
+   "kcal": 150,
+   "proteinG": 7.5,
+   "fatG": 2.4,
+   "carbsG": 24.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo al horno con ensalada rusa y arroz (restaurante)",
+   "kcal": 146,
+   "proteinG": 7.6,
+   "fatG": 3.3,
+   "carbsG": 21.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo al horno con ensalada y arroz (restaurante)",
+   "kcal": 144,
+   "proteinG": 6.8,
+   "fatG": 3.1,
+   "carbsG": 21.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo al horno con menestra y arroz (restaurante)",
+   "kcal": 149,
+   "proteinG": 8.4,
+   "fatG": 2.6,
+   "carbsG": 22.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo al horno con menestra, ensalada y arroz (restaurante)",
+   "kcal": 116,
+   "proteinG": 6.1,
+   "fatG": 2.1,
+   "carbsG": 17.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo al horno con puré y arroz (restaurante)",
+   "kcal": 144,
+   "proteinG": 7.2,
+   "fatG": 3.2,
+   "carbsG": 21.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo al horno con puré, ensalada y arroz (restaurante)",
+   "kcal": 132,
+   "proteinG": 8.0,
+   "fatG": 2.8,
+   "carbsG": 18.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo al huacatay con arroz (restaurante)",
+   "kcal": 145,
+   "proteinG": 10.4,
+   "fatG": 1.3,
+   "carbsG": 22.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo al jugo con menestra y arroz (restaurante)",
+   "kcal": 123,
+   "proteinG": 7.7,
+   "fatG": 1.9,
+   "carbsG": 18.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo al maní con arroz (restaurante)",
+   "kcal": 142,
+   "proteinG": 6.4,
+   "fatG": 1.7,
+   "carbsG": 25.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo al maní con ensalada y arroz (restaurante)",
+   "kcal": 164,
+   "proteinG": 3.2,
+   "fatG": 7.7,
+   "carbsG": 20.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo al maní con menestra y arroz (restaurante)",
+   "kcal": 140,
+   "proteinG": 9.0,
+   "fatG": 2.0,
+   "carbsG": 21.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo al sillao con arroz (restaurante)",
+   "kcal": 142,
+   "proteinG": 6.8,
+   "fatG": 3.1,
+   "carbsG": 21.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo al sillao con ensalada y arroz (restaurante)",
+   "kcal": 120,
+   "proteinG": 5.3,
+   "fatG": 1.4,
+   "carbsG": 21.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo al vino con arroz (restaurante)",
+   "kcal": 137,
+   "proteinG": 3.0,
+   "fatG": 1.1,
+   "carbsG": 32.7,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo al vino con ensalada y arroz (restaurante)",
+   "kcal": 131,
+   "proteinG": 6.2,
+   "fatG": 1.1,
+   "carbsG": 24.7,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo al vino con menestra y arroz (restaurante)",
+   "kcal": 144,
+   "proteinG": 9.3,
+   "fatG": 2.7,
+   "carbsG": 20.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo broaster (restaurante)",
+   "kcal": 192,
+   "proteinG": 5.4,
+   "fatG": 10.2,
+   "carbsG": 20.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo broaster con ensalada rusa y arroz (restaurante)",
+   "kcal": 184,
+   "proteinG": 7.1,
+   "fatG": 8.3,
+   "carbsG": 20.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo broaster con papas fritas y arroz (restaurante)",
+   "kcal": 143,
+   "proteinG": 7.9,
+   "fatG": 4.0,
+   "carbsG": 18.6,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo broaster con papas fritas, ensalada y arroz (restaurante)",
+   "kcal": 169,
+   "proteinG": 5.9,
+   "fatG": 7.0,
+   "carbsG": 20.6,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo con arroz (restaurante)",
+   "kcal": 146,
+   "proteinG": 6.8,
+   "fatG": 3.6,
+   "carbsG": 21.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo con maní y arroz (restaurante)",
+   "kcal": 136,
+   "proteinG": 6.6,
+   "fatG": 3.7,
+   "carbsG": 18.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo con verduras y arroz (restaurante)",
+   "kcal": 174,
+   "proteinG": 7.7,
+   "fatG": 6.9,
+   "carbsG": 19.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo con verduras y arroz chaufa (restaurante)",
+   "kcal": 144,
+   "proteinG": 4.6,
+   "fatG": 0.7,
+   "carbsG": 29.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo dorado con papas fritas y arroz (restaurante)",
+   "kcal": 180,
+   "proteinG": 7.9,
+   "fatG": 5.5,
+   "carbsG": 24.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo enrollado con arroz (restaurante)",
+   "kcal": 156,
+   "proteinG": 6.8,
+   "fatG": 3.6,
+   "carbsG": 23.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo frito con arroz (restaurante)",
+   "kcal": 162,
+   "proteinG": 6.4,
+   "fatG": 4.2,
+   "carbsG": 24.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo frito con ensalada rusa y arroz (restaurante)",
+   "kcal": 183,
+   "proteinG": 5.7,
+   "fatG": 5.5,
+   "carbsG": 27.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo frito con ensalada y arroz (restaurante)",
+   "kcal": 155,
+   "proteinG": 6.5,
+   "fatG": 5.7,
+   "carbsG": 19.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo frito con menestra y arroz (restaurante)",
+   "kcal": 168,
+   "proteinG": 5.5,
+   "fatG": 4.6,
+   "carbsG": 25.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo frito con papas fritas y arroz (restaurante)",
+   "kcal": 189,
+   "proteinG": 4.4,
+   "fatG": 8.6,
+   "carbsG": 23.6,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo frito con papas fritas, ensalada y arroz (restaurante)",
+   "kcal": 165,
+   "proteinG": 5.5,
+   "fatG": 6.6,
+   "carbsG": 20.7,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo frito con puré y arroz (restaurante)",
+   "kcal": 171,
+   "proteinG": 7.8,
+   "fatG": 5.4,
+   "carbsG": 22.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Pollo saltado con arroz (restaurante)",
+   "kcal": 183,
+   "proteinG": 5.5,
+   "fatG": 9.6,
+   "carbsG": 18.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Puré con asado con arroz (restaurante)",
+   "kcal": 130,
+   "proteinG": 5.8,
+   "fatG": 3.1,
+   "carbsG": 19.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Puré con asado y arroz integral (restaurante)",
+   "kcal": 156,
+   "proteinG": 4.9,
+   "fatG": 3.3,
+   "carbsG": 26.7,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Puré con bisteck y arroz (restaurante)",
+   "kcal": 127,
+   "proteinG": 4.8,
+   "fatG": 2.3,
+   "carbsG": 21.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Puré con churrasco y arroz (restaurante)",
+   "kcal": 167,
+   "proteinG": 5.7,
+   "fatG": 6.9,
+   "carbsG": 20.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Puré con pavita y arroz (restaurante)",
+   "kcal": 133,
+   "proteinG": 4.8,
+   "fatG": 3.7,
+   "carbsG": 19.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Puré con pollo al sillao y arroz (restaurante)",
+   "kcal": 147,
+   "proteinG": 5.4,
+   "fatG": 1.9,
+   "carbsG": 28.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Puré con pollo y arroz (restaurante)",
+   "kcal": 160,
+   "proteinG": 6.6,
+   "fatG": 4.8,
+   "carbsG": 22.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Puré con pollo, ensalada y arroz (restaurante)",
+   "kcal": 134,
+   "proteinG": 8.1,
+   "fatG": 2.6,
+   "carbsG": 19.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Puré de brócoli con papa y guiso de carne más arroz (restaurante)",
+   "kcal": 125,
+   "proteinG": 4.8,
+   "fatG": 1.5,
+   "carbsG": 23.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Puré de espinaca con huevo sancochado y arroz blanco (restaurante)",
+   "kcal": 108,
+   "proteinG": 4.1,
+   "fatG": 2.1,
+   "carbsG": 18.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Puré de papa con huevo sancochado y arroz (restaurante)",
+   "kcal": 116,
+   "proteinG": 4.3,
+   "fatG": 3.9,
+   "carbsG": 15.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Puré de papa con hígado al jugo y arroz (restaurante)",
+   "kcal": 125,
+   "proteinG": 4.1,
+   "fatG": 2.8,
+   "carbsG": 20.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Quinua guisada con pollo y arroz (restaurante)",
+   "kcal": 134,
+   "proteinG": 7.0,
+   "fatG": 2.4,
+   "carbsG": 20.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Ravioles con carne (restaurante)",
+   "kcal": 191,
+   "proteinG": 9.8,
+   "fatG": 9.4,
+   "carbsG": 16.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Refresco de carambola (restaurante)",
+   "kcal": 24,
+   "proteinG": 0.1,
+   "fatG": 0.0,
+   "carbsG": 5.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Refresco de cebada (restaurante)",
+   "kcal": 39,
+   "proteinG": 0.3,
+   "fatG": 0.1,
+   "carbsG": 9.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Refresco de cebada con linaza (restaurante)",
+   "kcal": 35,
+   "proteinG": 0.3,
+   "fatG": 0.3,
+   "carbsG": 7.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Refresco de durazno (restaurante)",
+   "kcal": 20,
+   "proteinG": 0.0,
+   "fatG": 0.0,
+   "carbsG": 5.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Refresco de linaza (restaurante)",
+   "kcal": 29,
+   "proteinG": 0.5,
+   "fatG": 0.7,
+   "carbsG": 5.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Refresco de mango (restaurante)",
+   "kcal": 27,
+   "proteinG": 0.0,
+   "fatG": 0.0,
+   "carbsG": 6.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Refresco de manzana (restaurante)",
+   "kcal": 27,
+   "proteinG": 0.0,
+   "fatG": 0.0,
+   "carbsG": 7.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Refresco de maracuyá (restaurante)",
+   "kcal": 29,
+   "proteinG": 0.1,
+   "fatG": 0.0,
+   "carbsG": 7.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Refresco de membrillo (restaurante)",
+   "kcal": 28,
+   "proteinG": 0.0,
+   "fatG": 0.0,
+   "carbsG": 7.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Refresco de naranja (restaurante)",
+   "kcal": 23,
+   "proteinG": 0.1,
+   "fatG": 0.0,
+   "carbsG": 5.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Refresco de papaya (restaurante)",
+   "kcal": 27,
+   "proteinG": 0.0,
+   "fatG": 0.0,
+   "carbsG": 6.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Refresco de piña (restaurante)",
+   "kcal": 23,
+   "proteinG": 0.0,
+   "fatG": 0.0,
+   "carbsG": 5.7,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Refresco de soya (restaurante)",
+   "kcal": 53,
+   "proteinG": 2.4,
+   "fatG": 1.3,
+   "carbsG": 8.6,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Rocoto relleno (restaurante)",
+   "kcal": 136,
+   "proteinG": 6.6,
+   "fatG": 7.5,
+   "carbsG": 10.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Rocoto relleno con arroz (restaurante)",
+   "kcal": 148,
+   "proteinG": 5.2,
+   "fatG": 2.9,
+   "carbsG": 25.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Salpicón de atún (restaurante)",
+   "kcal": 253,
+   "proteinG": 7.9,
+   "fatG": 11.0,
+   "carbsG": 29.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Salpicón de pollo (restaurante)",
+   "kcal": 93,
+   "proteinG": 4.8,
+   "fatG": 3.5,
+   "carbsG": 11.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Salpicón de verduras (restaurante)",
+   "kcal": 169,
+   "proteinG": 3.3,
+   "fatG": 10.9,
+   "carbsG": 14.7,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Saltado de brócoli con arroz (restaurante)",
+   "kcal": 156,
+   "proteinG": 4.1,
+   "fatG": 6.8,
+   "carbsG": 19.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Saltado de fideos con sangrecita de pollo (restaurante)",
+   "kcal": 140,
+   "proteinG": 5.4,
+   "fatG": 3.7,
+   "carbsG": 21.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Saltado de pollo con arroz (restaurante)",
+   "kcal": 135,
+   "proteinG": 5.6,
+   "fatG": 2.8,
+   "carbsG": 21.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Saltado de pollo con papas fritas y arroz (restaurante)",
+   "kcal": 215,
+   "proteinG": 3.7,
+   "fatG": 10.3,
+   "carbsG": 26.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Saltado de vainita con guiso de corazón más arroz (restaurante)",
+   "kcal": 143,
+   "proteinG": 4.3,
+   "fatG": 4.6,
+   "carbsG": 21.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Saltado de vainita y papa con guiso de corazón más arroz blanco (restaurante)",
+   "kcal": 133,
+   "proteinG": 3.9,
+   "fatG": 3.5,
+   "carbsG": 21.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Sancochado con pollo (restaurante)",
+   "kcal": 52,
+   "proteinG": 3.4,
+   "fatG": 0.7,
+   "carbsG": 7.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Sancochado con res (restaurante)",
+   "kcal": 36,
+   "proteinG": 1.7,
+   "fatG": 0.2,
+   "carbsG": 6.7,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Seco a la huachana con menestra y arroz (restaurante)",
+   "kcal": 152,
+   "proteinG": 7.2,
+   "fatG": 1.8,
+   "carbsG": 26.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Seco a la norteña con arroz (restaurante)",
+   "kcal": 140,
+   "proteinG": 6.6,
+   "fatG": 1.2,
+   "carbsG": 25.6,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Seco a la norteña con menestra y arroz (restaurante)",
+   "kcal": 125,
+   "proteinG": 6.6,
+   "fatG": 1.2,
+   "carbsG": 21.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Seco a la norteña con menestra, ensalada y arroz (restaurante)",
+   "kcal": 104,
+   "proteinG": 4.3,
+   "fatG": 1.1,
+   "carbsG": 19.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Seco a la norteña con menestra, sarsa criolla y arroz (restaurante)",
+   "kcal": 136,
+   "proteinG": 5.7,
+   "fatG": 1.6,
+   "carbsG": 24.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Seco a la norteña con sarsa criolla y arroz (restaurante)",
+   "kcal": 122,
+   "proteinG": 4.5,
+   "fatG": 1.7,
+   "carbsG": 21.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Seco a la norteña de pollo con menestra y arroz (restaurante)",
+   "kcal": 113,
+   "proteinG": 7.1,
+   "fatG": 1.9,
+   "carbsG": 16.7,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Seco a la norteña de res con menestra y arroz (restaurante)",
+   "kcal": 130,
+   "proteinG": 6.9,
+   "fatG": 1.4,
+   "carbsG": 22.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Seco a la norteña de res con menestra, sarsa criolla y arroz (restaurante)",
+   "kcal": 127,
+   "proteinG": 6.0,
+   "fatG": 1.9,
+   "carbsG": 21.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Seco con menestra y arroz (restaurante)",
+   "kcal": 133,
+   "proteinG": 6.2,
+   "fatG": 0.7,
+   "carbsG": 25.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Seco de cabrito a la norteña con menestra y arroz (restaurante)",
+   "kcal": 151,
+   "proteinG": 8.7,
+   "fatG": 1.8,
+   "carbsG": 24.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Seco de cabrito con arroz (restaurante)",
+   "kcal": 124,
+   "proteinG": 6.4,
+   "fatG": 1.7,
+   "carbsG": 20.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Seco de cabrito con menestra y arroz (restaurante)",
+   "kcal": 129,
+   "proteinG": 7.5,
+   "fatG": 1.8,
+   "carbsG": 20.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Seco de cabrito con menestra, sarsa criolla y arroz (restaurante)",
+   "kcal": 122,
+   "proteinG": 6.4,
+   "fatG": 1.4,
+   "carbsG": 20.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Seco de cordero con arroz (restaurante)",
+   "kcal": 172,
+   "proteinG": 7.2,
+   "fatG": 5.4,
+   "carbsG": 23.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Seco de cordero con menestra y arroz (restaurante)",
+   "kcal": 145,
+   "proteinG": 6.5,
+   "fatG": 3.8,
+   "carbsG": 21.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Seco de cordero con menestra, sarsa criolla y arroz (restaurante)",
+   "kcal": 161,
+   "proteinG": 7.2,
+   "fatG": 3.4,
+   "carbsG": 25.7,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Seco de costillar con menestra y arroz (restaurante)",
+   "kcal": 126,
+   "proteinG": 7.5,
+   "fatG": 1.4,
+   "carbsG": 20.6,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Seco de pato con arroz (restaurante)",
+   "kcal": 203,
+   "proteinG": 8.0,
+   "fatG": 11.1,
+   "carbsG": 17.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Seco de pollo con arroz (restaurante)",
+   "kcal": 125,
+   "proteinG": 7.2,
+   "fatG": 1.9,
+   "carbsG": 19.6,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Seco de pollo con menestra y arroz (restaurante)",
+   "kcal": 136,
+   "proteinG": 7.7,
+   "fatG": 1.9,
+   "carbsG": 22.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Seco de pollo con sarsa criolla y arroz (restaurante)",
+   "kcal": 132,
+   "proteinG": 7.6,
+   "fatG": 1.6,
+   "carbsG": 22.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Seco de res a la huachana con menestra y arroz (restaurante)",
+   "kcal": 124,
+   "proteinG": 7.3,
+   "fatG": 2.0,
+   "carbsG": 18.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Seco de res a la norteña con menestra y arroz (restaurante)",
+   "kcal": 130,
+   "proteinG": 6.7,
+   "fatG": 1.6,
+   "carbsG": 22.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Seco de res con arroz (restaurante)",
+   "kcal": 128,
+   "proteinG": 6.9,
+   "fatG": 1.6,
+   "carbsG": 21.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Seco de res con menestra y arroz (restaurante)",
+   "kcal": 143,
+   "proteinG": 7.2,
+   "fatG": 1.7,
+   "carbsG": 24.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Seco de res con menestra, ensalada y arroz (restaurante)",
+   "kcal": 126,
+   "proteinG": 5.6,
+   "fatG": 2.6,
+   "carbsG": 19.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Seco de res con menestra, sarsa criolla y arroz (restaurante)",
+   "kcal": 122,
+   "proteinG": 6.4,
+   "fatG": 1.3,
+   "carbsG": 21.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Seco de ternera con menestra y arroz (restaurante)",
+   "kcal": 125,
+   "proteinG": 7.7,
+   "fatG": 1.7,
+   "carbsG": 19.6,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Seco huachano con menestra y arroz (restaurante)",
+   "kcal": 113,
+   "proteinG": 5.7,
+   "fatG": 1.2,
+   "carbsG": 20.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Shambar (restaurante)",
+   "kcal": 56,
+   "proteinG": 4.2,
+   "fatG": 1.4,
+   "carbsG": 6.7,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Solterito (restaurante)",
+   "kcal": 85,
+   "proteinG": 5.0,
+   "fatG": 2.6,
+   "carbsG": 10.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Sopa a la minuta (restaurante)",
+   "kcal": 49,
+   "proteinG": 3.2,
+   "fatG": 0.6,
+   "carbsG": 7.7,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Sopa a la minuta de pollo (restaurante)",
+   "kcal": 60,
+   "proteinG": 2.9,
+   "fatG": 1.3,
+   "carbsG": 9.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Sopa campesina (restaurante)",
+   "kcal": 45,
+   "proteinG": 2.2,
+   "fatG": 0.4,
+   "carbsG": 8.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Sopa chilena (restaurante)",
+   "kcal": 21,
+   "proteinG": 2.1,
+   "fatG": 0.3,
+   "carbsG": 2.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Sopa criolla con pollo (restaurante)",
+   "kcal": 19,
+   "proteinG": 1.0,
+   "fatG": 0.5,
+   "carbsG": 2.6,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Sopa criolla con res (restaurante)",
+   "kcal": 41,
+   "proteinG": 3.1,
+   "fatG": 0.6,
+   "carbsG": 6.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Sopa de arroz (restaurante)",
+   "kcal": 26,
+   "proteinG": 1.4,
+   "fatG": 0.5,
+   "carbsG": 3.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Sopa de arroz con res (restaurante)",
+   "kcal": 30,
+   "proteinG": 1.3,
+   "fatG": 0.1,
+   "carbsG": 5.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Sopa de arverja (restaurante)",
+   "kcal": 94,
+   "proteinG": 2.9,
+   "fatG": 0.4,
+   "carbsG": 19.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Sopa de cangrejo (restaurante)",
+   "kcal": 35,
+   "proteinG": 1.4,
+   "fatG": 0.1,
+   "carbsG": 7.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Sopa de casa (restaurante)",
+   "kcal": 44,
+   "proteinG": 2.0,
+   "fatG": 0.4,
+   "carbsG": 8.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Sopa de casa con res (restaurante)",
+   "kcal": 39,
+   "proteinG": 1.9,
+   "fatG": 0.2,
+   "carbsG": 7.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Sopa de choro (restaurante)",
+   "kcal": 38,
+   "proteinG": 1.6,
+   "fatG": 0.2,
+   "carbsG": 7.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Sopa de fideos (restaurante)",
+   "kcal": 34,
+   "proteinG": 1.9,
+   "fatG": 0.7,
+   "carbsG": 5.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Sopa de fideos con res (restaurante)",
+   "kcal": 46,
+   "proteinG": 2.3,
+   "fatG": 0.2,
+   "carbsG": 8.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Sopa de frejoles (restaurante)",
+   "kcal": 58,
+   "proteinG": 3.4,
+   "fatG": 0.5,
+   "carbsG": 10.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Sopa de gallina (restaurante)",
+   "kcal": 33,
+   "proteinG": 2.1,
+   "fatG": 0.2,
+   "carbsG": 5.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Sopa de habas (restaurante)",
+   "kcal": 54,
+   "proteinG": 2.2,
+   "fatG": 0.7,
+   "carbsG": 10.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Sopa de hueso de res (restaurante)",
+   "kcal": 20,
+   "proteinG": 0.4,
+   "fatG": 0.2,
+   "carbsG": 4.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Sopa de leche (restaurante)",
+   "kcal": 41,
+   "proteinG": 1.5,
+   "fatG": 0.8,
+   "carbsG": 6.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Sopa de menudencia (restaurante)",
+   "kcal": 45,
+   "proteinG": 2.5,
+   "fatG": 0.7,
+   "carbsG": 7.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Sopa de morón con pollo (restaurante)",
+   "kcal": 48,
+   "proteinG": 2.3,
+   "fatG": 0.9,
+   "carbsG": 7.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Sopa de morón con res (restaurante)",
+   "kcal": 25,
+   "proteinG": 1.3,
+   "fatG": 0.3,
+   "carbsG": 4.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Sopa de mote (restaurante)",
+   "kcal": 56,
+   "proteinG": 2.2,
+   "fatG": 0.6,
+   "carbsG": 10.6,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Sopa de mote con res (restaurante)",
+   "kcal": 38,
+   "proteinG": 1.5,
+   "fatG": 0.4,
+   "carbsG": 7.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Sopa de papa (restaurante)",
+   "kcal": 77,
+   "proteinG": 3.1,
+   "fatG": 3.2,
+   "carbsG": 8.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Sopa de pescado (restaurante)",
+   "kcal": 44,
+   "proteinG": 1.6,
+   "fatG": 0.3,
+   "carbsG": 8.6,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Sopa de pollo (restaurante)",
+   "kcal": 42,
+   "proteinG": 2.3,
+   "fatG": 0.7,
+   "carbsG": 6.6,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Sopa de res (restaurante)",
+   "kcal": 42,
+   "proteinG": 2.1,
+   "fatG": 0.2,
+   "carbsG": 8.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Sopa de sémola (restaurante)",
+   "kcal": 39,
+   "proteinG": 2.2,
+   "fatG": 0.8,
+   "carbsG": 6.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Sopa de sémola con pollo (restaurante)",
+   "kcal": 37,
+   "proteinG": 2.1,
+   "fatG": 0.7,
+   "carbsG": 5.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Sopa de sémola con res (restaurante)",
+   "kcal": 36,
+   "proteinG": 1.6,
+   "fatG": 0.2,
+   "carbsG": 6.7,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Sopa de trigo (restaurante)",
+   "kcal": 23,
+   "proteinG": 1.2,
+   "fatG": 0.2,
+   "carbsG": 4.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Sopa de trigo con pollo (restaurante)",
+   "kcal": 32,
+   "proteinG": 1.9,
+   "fatG": 0.6,
+   "carbsG": 4.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Sopa de trigo con res (restaurante)",
+   "kcal": 32,
+   "proteinG": 1.6,
+   "fatG": 0.2,
+   "carbsG": 6.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Sopa de verduras (restaurante)",
+   "kcal": 34,
+   "proteinG": 2.5,
+   "fatG": 0.2,
+   "carbsG": 5.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Sopa de verduras con pollo (restaurante)",
+   "kcal": 41,
+   "proteinG": 2.4,
+   "fatG": 0.5,
+   "carbsG": 7.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Sopa de verduras con res (restaurante)",
+   "kcal": 39,
+   "proteinG": 1.5,
+   "fatG": 0.1,
+   "carbsG": 7.7,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Sopa seca con carapulcra y arroz (restaurante)",
+   "kcal": 222,
+   "proteinG": 12.7,
+   "fatG": 11.1,
+   "carbsG": 17.7,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Sopa wantán (restaurante)",
+   "kcal": 92,
+   "proteinG": 4.6,
+   "fatG": 3.2,
+   "carbsG": 11.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Spaguetti con crema (restaurante)",
+   "kcal": 176,
+   "proteinG": 13.9,
+   "fatG": 4.3,
+   "carbsG": 19.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Steak al tequila (restaurante)",
+   "kcal": 108,
+   "proteinG": 5.6,
+   "fatG": 0.5,
+   "carbsG": 20.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Sudado de pescado con arroz (restaurante)",
+   "kcal": 126,
+   "proteinG": 5.3,
+   "fatG": 1.4,
+   "carbsG": 22.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Suprema de pescado con arroz y ensalada (restaurante)",
+   "kcal": 161,
+   "proteinG": 8.0,
+   "fatG": 1.7,
+   "carbsG": 28.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Suprema de pollo con arroz (restaurante)",
+   "kcal": 177,
+   "proteinG": 8.1,
+   "fatG": 2.6,
+   "carbsG": 30.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Sustancia (restaurante)",
+   "kcal": 60,
+   "proteinG": 3.3,
+   "fatG": 1.1,
+   "carbsG": 9.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Sustancia de pollo (restaurante)",
+   "kcal": 47,
+   "proteinG": 2.9,
+   "fatG": 0.6,
+   "carbsG": 7.7,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Sustancia de res (restaurante)",
+   "kcal": 45,
+   "proteinG": 1.9,
+   "fatG": 0.6,
+   "carbsG": 8.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Tacacho con cecina (restaurante)",
+   "kcal": 213,
+   "proteinG": 5.4,
+   "fatG": 10.2,
+   "carbsG": 26.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Tacu tacu con churrasco (restaurante)",
+   "kcal": 160,
+   "proteinG": 7.1,
+   "fatG": 3.8,
+   "carbsG": 24.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Tacu tacu con filete de pollo (restaurante)",
+   "kcal": 129,
+   "proteinG": 7.2,
+   "fatG": 1.9,
+   "carbsG": 20.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Tacu tacu con lomito (restaurante)",
+   "kcal": 150,
+   "proteinG": 7.7,
+   "fatG": 3.6,
+   "carbsG": 21.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Tacu tacu con lomo y arroz (restaurante)",
+   "kcal": 152,
+   "proteinG": 6.1,
+   "fatG": 2.5,
+   "carbsG": 25.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Tacu tacu con pescado (restaurante)",
+   "kcal": 160,
+   "proteinG": 9.5,
+   "fatG": 4.3,
+   "carbsG": 20.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Tallarines al pesto con bisteck (restaurante)",
+   "kcal": 140,
+   "proteinG": 6.1,
+   "fatG": 4.8,
+   "carbsG": 18.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Tallarines al pesto con res (restaurante)",
+   "kcal": 226,
+   "proteinG": 16.3,
+   "fatG": 8.3,
+   "carbsG": 21.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Tallarines chifa (restaurante)",
+   "kcal": 189,
+   "proteinG": 7.5,
+   "fatG": 1.0,
+   "carbsG": 36.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Tallarines con pollo (restaurante)",
+   "kcal": 159,
+   "proteinG": 10.5,
+   "fatG": 1.9,
+   "carbsG": 24.6,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Tallarines con pollo y crema a la huancaína (restaurante)",
+   "kcal": 152,
+   "proteinG": 10.8,
+   "fatG": 3.2,
+   "carbsG": 19.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Tallarines con salsa de tomate, carne, hígado de pollo (restaurante)",
+   "kcal": 131,
+   "proteinG": 9.4,
+   "fatG": 2.8,
+   "carbsG": 17.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Tallarines rojos con atún (restaurante)",
+   "kcal": 107,
+   "proteinG": 4.3,
+   "fatG": 1.0,
+   "carbsG": 20.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Tallarines rojos con carne y rodajas de camote (restaurante)",
+   "kcal": 106,
+   "proteinG": 9.6,
+   "fatG": 2.6,
+   "carbsG": 11.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Tallarines rojos con conserva de anchoveta (restaurante)",
+   "kcal": 93,
+   "proteinG": 3.9,
+   "fatG": 1.9,
+   "carbsG": 15.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Tallarines rojos con hígado de pollo (restaurante)",
+   "kcal": 118,
+   "proteinG": 6.9,
+   "fatG": 1.7,
+   "carbsG": 18.6,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Tallarines rojos con pollo (restaurante)",
+   "kcal": 133,
+   "proteinG": 8.4,
+   "fatG": 2.2,
+   "carbsG": 20.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Tallarines saltado (restaurante)",
+   "kcal": 190,
+   "proteinG": 8.5,
+   "fatG": 1.6,
+   "carbsG": 33.7,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Tallarines saltados con pollo (restaurante)",
+   "kcal": 174,
+   "proteinG": 8.2,
+   "fatG": 4.2,
+   "carbsG": 26.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Tallarines verdes con chuleta (restaurante)",
+   "kcal": 245,
+   "proteinG": 8.6,
+   "fatG": 11.2,
+   "carbsG": 27.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Tallarines verdes con churrasco (restaurante)",
+   "kcal": 218,
+   "proteinG": 8.8,
+   "fatG": 7.8,
+   "carbsG": 28.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Tallarines verdes con churrasco y crema a la huancaína (restaurante)",
+   "kcal": 185,
+   "proteinG": 7.4,
+   "fatG": 4.0,
+   "carbsG": 31.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Tallarines verdes con hígado (restaurante)",
+   "kcal": 165,
+   "proteinG": 7.0,
+   "fatG": 6.1,
+   "carbsG": 21.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Tallarines verdes con hígado al jugo más camote (restaurante)",
+   "kcal": 119,
+   "proteinG": 5.2,
+   "fatG": 2.4,
+   "carbsG": 19.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Tallarines verdes con milanesa (restaurante)",
+   "kcal": 111,
+   "proteinG": 6.6,
+   "fatG": 4.2,
+   "carbsG": 11.4,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Tallarines verdes con pollo (restaurante)",
+   "kcal": 194,
+   "proteinG": 9.7,
+   "fatG": 6.1,
+   "carbsG": 24.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Tallarines verdes con pollo y crema a la huancaína (restaurante)",
+   "kcal": 179,
+   "proteinG": 9.2,
+   "fatG": 2.3,
+   "carbsG": 30.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Tallarines verdes con res (restaurante)",
+   "kcal": 177,
+   "proteinG": 8.7,
+   "fatG": 4.7,
+   "carbsG": 24.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Tallarín saltado más papa frita y sangrecita (restaurante)",
+   "kcal": 135,
+   "proteinG": 4.1,
+   "fatG": 2.7,
+   "carbsG": 23.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Tamal de pollo (restaurante)",
+   "kcal": 201,
+   "proteinG": 5.0,
+   "fatG": 11.5,
+   "carbsG": 20.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Tamal verde (restaurante)",
+   "kcal": 156,
+   "proteinG": 3.7,
+   "fatG": 6.9,
+   "carbsG": 20.7,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Tequeños (restaurante)",
+   "kcal": 534,
+   "proteinG": 7.8,
+   "fatG": 42.7,
+   "carbsG": 30.7,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Tequeños con crema a la huancaína (restaurante)",
+   "kcal": 277,
+   "proteinG": 8.4,
+   "fatG": 14.4,
+   "carbsG": 28.6,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Tequeños con guacamole (restaurante)",
+   "kcal": 402,
+   "proteinG": 8.0,
+   "fatG": 25.4,
+   "carbsG": 36.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Tequeños de queso (restaurante)",
+   "kcal": 351,
+   "proteinG": 6.7,
+   "fatG": 22.0,
+   "carbsG": 35.1,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Ternera a la chiclayana con arroz (restaurante)",
+   "kcal": 96,
+   "proteinG": 3.9,
+   "fatG": 0.7,
+   "carbsG": 18.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Tiradito de pejerrey (restaurante)",
+   "kcal": 94,
+   "proteinG": 6.7,
+   "fatG": 1.1,
+   "carbsG": 14.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Tiramisú (restaurante)",
+   "kcal": 297,
+   "proteinG": 8.7,
+   "fatG": 23.6,
+   "carbsG": 12.0,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Trigo con adobo de pollo y arroz (restaurante)",
+   "kcal": 138,
+   "proteinG": 5.5,
+   "fatG": 4.5,
+   "carbsG": 18.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Trigo con pollo y arroz (restaurante)",
+   "kcal": 129,
+   "proteinG": 8.1,
+   "fatG": 2.1,
+   "carbsG": 18.3,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Trigo guisado con pollo y arroz (restaurante)",
+   "kcal": 118,
+   "proteinG": 7.9,
+   "fatG": 3.3,
+   "carbsG": 13.5,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Trucha con arroz (restaurante)",
+   "kcal": 299,
+   "proteinG": 4.2,
+   "fatG": 18.8,
+   "carbsG": 27.9,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Trucha con menestra y arroz (restaurante)",
+   "kcal": 142,
+   "proteinG": 5.2,
+   "fatG": 4.7,
+   "carbsG": 20.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Virado paulista (restaurante)",
+   "kcal": 86,
+   "proteinG": 3.5,
+   "fatG": 2.6,
+   "carbsG": 11.8,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Wantán frito (restaurante)",
+   "kcal": 360,
+   "proteinG": 8.6,
+   "fatG": 22.1,
+   "carbsG": 32.2,
+   "unit": null,
+   "prepared": true
+  },
+  {
+   "name": "Yucas rellenas (restaurante)",
+   "kcal": 147,
+   "proteinG": 4.0,
+   "fatG": 8.2,
+   "carbsG": 14.8,
+   "unit": null,
+   "prepared": true
+  }
+ ]
+}

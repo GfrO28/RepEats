@@ -1,0 +1,152 @@
+@import 'tailwindcss';
+
+/* ── Paleta ────────────────────────────────────────────────────────────────────────────────
+   Dos temas: oscuro (grafito, el de base) y claro (data-theme="light" en <html>, ver src/app/theme.ts).
+   Los nombres de Tailwind se remapean a estas variables más abajo (@theme inline), así que los
+   componentes no cambian: bg-slate-800 es "campo/superficie elevada" en ambos temas.
+
+   Roles de la escala slate-*:  950 texto sobre un botón de color · 900 tarjeta · 800 campo o chip ·
+   700 borde · 600 texto atenuado · 500 a 50 texto, de más suave a más fuerte. En el tema claro la
+   escala se invierte para mantener esos roles.
+   primary = acción (botones, enlaces, selección). emerald = éxito / completado. */
+:root,
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --app-bg: #0f1115;
+  --slate-50: #f5f6f8;
+  --slate-100: #ecedf1;
+  --slate-200: #e8eaee;
+  --slate-300: #c5cad3;
+  --slate-400: #aeb4c0;
+  --slate-500: #9aa1ae;
+  --slate-600: #6b7280;
+  --slate-700: #2a2f3a;
+  --slate-800: #1f232c;
+  --slate-900: #171a21;
+  --slate-950: #0b0d12;
+  --primary: #5b9bff;
+  --emerald-400: #3dcb86;
+  --emerald-500: #3dcb86;
+  --emerald-950: #12281f;
+  --amber-400: #f2b04a;
+  --amber-500: #f2b04a;
+  --red-400: #f2706a;
+  --red-500: #f2706a;
+  --red-950: #2a1416;
+  --violet-400: #a78bfa;
+  --violet-500: #a78bfa;
+  --cyan-400: #4dd0e8;
+  --cyan-500: #4dd0e8;
+}
+
+:root[data-theme='light'] {
+  color-scheme: light;
+  --app-bg: #f1f3f6;
+  --slate-50: #0b0d12;
+  --slate-100: #14171c;
+  --slate-200: #1f232c;
+  --slate-300: #3a404b;
+  --slate-400: #4a505c;
+  --slate-500: #5b6270;
+  --slate-600: #9aa1ae;
+  --slate-700: #cdd3dc;
+  --slate-800: #e2e6ec;
+  --slate-900: #ffffff;
+  --slate-950: #ffffff;
+  --primary: #2563eb;
+  --emerald-400: #166534;
+  --emerald-500: #166534;
+  --emerald-950: #dcf3e5;
+  --amber-400: #b45309;
+  --amber-500: #b45309;
+  --red-400: #b91c1c;
+  --red-500: #dc2626;
+  --red-950: #fde8e7;
+  --violet-400: #6d28d9;
+  --violet-500: #6d28d9;
+  --cyan-400: #0e7490;
+  --cyan-500: #0891b2;
+}
+
+@theme inline {
+  --color-slate-50: var(--slate-50);
+  --color-slate-100: var(--slate-100);
+  --color-slate-200: var(--slate-200);
+  --color-slate-300: var(--slate-300);
+  --color-slate-400: var(--slate-400);
+  --color-slate-500: var(--slate-500);
+  --color-slate-600: var(--slate-600);
+  --color-slate-700: var(--slate-700);
+  --color-slate-800: var(--slate-800);
+  --color-slate-900: var(--slate-900);
+  --color-slate-950: var(--slate-950);
+  --color-primary: var(--primary);
+  --color-emerald-400: var(--emerald-400);
+  --color-emerald-500: var(--emerald-500);
+  --color-emerald-950: var(--emerald-950);
+  --color-amber-400: var(--amber-400);
+  --color-amber-500: var(--amber-500);
+  --color-red-400: var(--red-400);
+  --color-red-500: var(--red-500);
+  --color-red-950: var(--red-950);
+  --color-violet-400: var(--violet-400);
+  --color-violet-500: var(--violet-500);
+  --color-cyan-400: var(--cyan-400);
+  --color-cyan-500: var(--cyan-500);
+}
+
+:root {
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: var(--app-bg);
+  color: var(--slate-200);
+  font-family:
+    system-ui,
+    -apple-system,
+    'Segoe UI',
+    Roboto,
+    sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Anillo de foco para quien navega con teclado o lector de pantalla. Con :focus-visible no aparece al tocar
+   con el dedo ni con el ratón, solo al moverse con Tab. Los campos ya tienen su propio fondo, así que el anillo
+   va por fuera (offset). El campo de archivo oculto (sr-only) muestra el foco en su <label>. */
+:where(button, a, input, select, textarea, summary, [tabindex]):focus-visible,
+label:has(:focus-visible) {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+
+/* El mapa del Resumen es solo para mirar: sin cursor de "tocar" */
+.rbh-static polygon {
+  cursor: default !important;
+}
+
+/* react-body-highlighter no expone clase por músculo individual, así que el hover
+   es genérico (misma señal visual para cualquier región, no distingue cuál). El
+   !important es necesario porque la librería fija el color con un style inline. */
+.rbh-interactive .rbh polygon:hover {
+  fill: #34d399 !important;
+  opacity: 0.75;
+}
+
+/* Ruedas de hora (MealTimePicker): se deslizan con el dedo o el mouse, la barra de scroll no aporta nada y
+   rompe el efecto de "rueda". */
+.no-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* versiones viejas de Edge */
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}

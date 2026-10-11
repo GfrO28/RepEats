@@ -1,0 +1,120 @@
+{
+  "_readme": "Datos semilla de la rutina real del usuario (5 días con rutina + descanso, 39 ejercicios en la biblioteca). Los músculos usan los slugs de src/domain/muscleGroups.ts. Los 'exercises[].exerciseName' de cada rutina se resuelven por nombre contra el id real del ejercicio ya creado (los ids se generan en el cliente, no existen todavía aquí). Pensado como entrada para una futura función de 'Importar JSON' (Fase 7) o como referencia para carga manual vía la UI. Algunos ejercicios (marcados 'variante, no usada en esta rutina') están en la biblioteca porque el usuario los usa en otras semanas, pero no ocupan un día de este split de 5 días.",
+  "exercises": [
+    { "name": "Hack squat profundo", "equipment": "Máquina de palanca", "primaryMuscles": ["recto_femoral", "vasto_lateral"], "secondaryMuscles": ["aductor_mayor", "gluteo_mayor"], "notes": "Muslo por debajo de la paralela: activa aductor y glúteo. Ver: https://www.youtube.com/watch?v=klXcoivzGf8" },
+    { "name": "Búlgara con mancuernas", "equipment": "Mancuernas", "primaryMuscles": ["gluteo_mayor"], "secondaryMuscles": ["recto_femoral", "vasto_lateral", "biceps_femoral", "aductor_mayor"], "notes": "Enfoque en glúteo: pie delantero más adelantado, cadera en bisagra (hip hinge) y torso inclinado adelante, empujando con el talón. Pie trasero apoyado en un banco. Contar por pierna." },
+    { "name": "Extensión de rodilla", "equipment": "Máquina", "primaryMuscles": ["recto_femoral"], "secondaryMuscles": ["vasto_lateral"], "notes": "" },
+    { "name": "Curl femoral sentado", "equipment": "Máquina", "primaryMuscles": ["biceps_femoral"], "secondaryMuscles": ["semitendinoso"], "notes": "Cadera flexionada = isquio en estiramiento. El más valioso" },
+    { "name": "Hiperextensión 45°, enfoque glúteo", "equipment": "Máquina", "primaryMuscles": ["gluteo_mayor"], "secondaryMuscles": ["biceps_femoral", "erectores_espinales"], "notes": "Cadera en bisagra, rodillas algo flexionadas, glúteo en contracción arriba. Es la que se usa los lunes (distinta de la enfocada en espalda baja)." },
+    { "name": "Aductores en máquina", "equipment": "Máquina", "primaryMuscles": ["aductor_mayor"], "secondaryMuscles": ["aductor_largo"], "notes": "NUEVO: empezar con carga ligera. Ver: https://www.tiktok.com/@jeffnippardfitness/video/7445679252759923973" },
+    { "name": "Gemelos de pie en máquina", "equipment": "Máquina", "primaryMuscles": ["gemelos", "soleo"], "secondaryMuscles": [], "notes": "La presión se ejerce con la rodilla totalmente extendida (más gemelo) o ligeramente flexionada (más sóleo); ambos entran según la posición." },
+
+    { "name": "Press inclinado con mancuernas (30-45°)", "equipment": "Mancuernas", "primaryMuscles": ["pectoral_superior"], "secondaryMuscles": ["deltoides_anterior", "triceps_cabeza_lateral"], "notes": "Torso claramente reclinado, no erguido" },
+    { "name": "Fondos en paralelas", "equipment": "Peso corporal", "primaryMuscles": ["pectoral_inferior"], "secondaryMuscles": ["triceps_cabeza_larga", "deltoides_anterior"], "notes": "Pecho inferior + tríceps" },
+    { "name": "Press de hombro sentado con mancuernas", "equipment": "Mancuernas", "primaryMuscles": ["deltoides_anterior"], "secondaryMuscles": ["deltoides_medio", "triceps_cabeza_lateral"], "notes": "Sentado con respaldo por la lumbar" },
+    { "name": "Elevación lateral en polea", "equipment": "Polea", "primaryMuscles": ["deltoides_medio"], "secondaryMuscles": [], "notes": "" },
+    { "name": "Extensión de tríceps sobre cabeza en polea", "equipment": "Polea", "primaryMuscles": ["triceps_cabeza_larga"], "secondaryMuscles": ["triceps_cabeza_lateral"], "notes": "Codo fijo apuntando adelante" },
+    { "name": "Crunch en máquina, sentado", "equipment": "Máquina", "primaryMuscles": ["recto_abdominal"], "secondaryMuscles": [], "notes": "Sentado, tiras de una palanca hacia abajo (distinto del tumbado). Es el que se usa los martes." },
+    { "name": "Crunch en máquina, tumbado", "equipment": "Máquina", "primaryMuscles": ["recto_abdominal"], "secondaryMuscles": [], "notes": "Espalda apoyada, te curvas hacia adelante contra la resistencia (distinto del sentado). Es el que se usa los viernes." },
+    { "name": "Elevación de piernas en silla romana", "equipment": "Peso corporal", "primaryMuscles": ["recto_abdominal"], "secondaryMuscles": ["psoas_iliaco"], "notes": "Antebrazos apoyados, cuelgas de la cadera hacia abajo (no es una máquina con peso)." },
+    { "name": "Oblicuos en silla romana", "equipment": "Peso corporal", "primaryMuscles": ["oblicuo_externo"], "secondaryMuscles": ["oblicuo_interno"], "notes": "" },
+
+    { "name": "Jalón al pecho pronado ancho", "equipment": "Polea", "primaryMuscles": ["dorsal_ancho"], "secondaryMuscles": ["biceps_cabeza_larga", "redondo_mayor"], "notes": "Vertical" },
+    { "name": "Remo en máquina con apoyo pectoral, pronado ancho", "equipment": "Máquina", "primaryMuscles": ["romboides"], "secondaryMuscles": ["trapecio_medio", "biceps_cabeza_corta"], "notes": "Horizontal alto: romboides y trapecio medio. Asiento a altura de esternón" },
+    { "name": "Jalón arrodillado con apoyo de cadera (unilateral)", "equipment": "Polea", "primaryMuscles": ["dorsal_ancho"], "secondaryMuscles": ["redondo_mayor", "biceps_cabeza_larga"], "notes": "Horizontal bajo. Rotar ligeramente el torso torácico para más rango" },
+    { "name": "Pullover en polea", "equipment": "Polea", "primaryMuscles": ["dorsal_ancho"], "secondaryMuscles": ["triceps_cabeza_larga", "pectoral_inferior"], "notes": "Dorsal en estiramiento" },
+    { "name": "Rear fly en polea", "equipment": "Polea", "primaryMuscles": ["deltoides_posterior"], "secondaryMuscles": ["romboides", "trapecio_medio"], "notes": "" },
+    { "name": "Curl con barra Z", "equipment": "Barra Z", "primaryMuscles": ["biceps_cabeza_corta"], "secondaryMuscles": ["braquial"], "notes": "" },
+
+    { "name": "Hip thrust", "equipment": "Barra olímpica", "primaryMuscles": ["gluteo_mayor"], "secondaryMuscles": ["biceps_femoral"], "notes": "Glúteo en contracción" },
+    { "name": "Curl femoral arrodillado", "equipment": "Máquina", "primaryMuscles": ["biceps_femoral"], "secondaryMuscles": ["semitendinoso"], "notes": "Pecho apoyado, cadera no se flexiona" },
+    { "name": "Abductores en máquina", "equipment": "Máquina", "primaryMuscles": ["gluteo_medio"], "secondaryMuscles": ["tensor_fascia_lata"], "notes": "" },
+    { "name": "Gemelos sentado", "equipment": "Máquina", "primaryMuscles": ["soleo"], "secondaryMuscles": ["gemelos"], "notes": "Rodilla flexionada: a diferencia de la de pie, aquí el énfasis es sóleo." },
+    { "name": "Curl martillo", "equipment": "Mancuernas", "primaryMuscles": ["braquial"], "secondaryMuscles": ["braquiorradial"], "notes": "NO el 21-killer: carga que deje a 1-2 del fallo" },
+
+    { "name": "Press plano con barra", "equipment": "Barra", "primaryMuscles": ["pectoral_medio"], "secondaryMuscles": ["triceps_cabeza_lateral", "deltoides_anterior"], "notes": "Banca horizontal. Agarre a la altura de pecho medio, barra hasta rozar el pecho." },
+    { "name": "Aperturas en máquina", "equipment": "Máquina", "primaryMuscles": ["pectoral_medio"], "secondaryMuscles": ["deltoides_anterior"], "notes": "Distinta de las aperturas en polea: el recorrido y la resistencia no son iguales. Es la que se usa los sábados." },
+    { "name": "Aperturas en polea (cruce de poleas)", "equipment": "Polea", "primaryMuscles": ["pectoral_medio"], "secondaryMuscles": ["deltoides_anterior"], "notes": "" },
+    { "name": "Dominadas asistidas", "equipment": "Máquina", "primaryMuscles": ["dorsal_ancho"], "secondaryMuscles": ["biceps_cabeza_larga", "redondo_mayor"], "notes": "Máquina de contrapeso. Ejercicio aparte del jalón con agarre neutro (misma familia, distinto patrón)." },
+    { "name": "Jalón al pecho agarre neutro", "equipment": "Polea", "primaryMuscles": ["dorsal_ancho"], "secondaryMuscles": ["biceps_cabeza_larga", "redondo_mayor"], "notes": "" },
+    { "name": "Remo sentado en máquina, agarre pronado", "equipment": "Máquina", "primaryMuscles": ["romboides"], "secondaryMuscles": ["trapecio_medio", "biceps_cabeza_corta"], "notes": "Agarre pronado a propósito: suma volumen a espalda alta (romboides y trapecio), no a dorsales (para eso ya están los jalones y el pullover)." },
+    { "name": "Jalón unilateral en polea alta", "equipment": "Polea", "primaryMuscles": ["dorsal_ancho"], "secondaryMuscles": ["redondo_mayor"], "notes": "Vertical unilateral" },
+    { "name": "Face pull", "equipment": "Polea", "primaryMuscles": ["deltoides_posterior"], "secondaryMuscles": ["trapecio_medio", "romboides"], "notes": "Se puede agrupar con la elevación lateral si falta tiempo" },
+
+    { "name": "Press inclinado con máquina", "equipment": "Máquina", "primaryMuscles": ["pectoral_superior"], "secondaryMuscles": ["deltoides_anterior", "triceps_cabeza_lateral"], "notes": "Variante, no usada en esta rutina: misma zona que el press inclinado con mancuernas." },
+    { "name": "Press inclinado con barra", "equipment": "Barra", "primaryMuscles": ["pectoral_superior"], "secondaryMuscles": ["deltoides_anterior", "triceps_cabeza_lateral"], "notes": "Variante, no usada en esta rutina: banco inclinado con barra." },
+    { "name": "Press de hombro con barra", "equipment": "Barra", "primaryMuscles": ["deltoides_anterior"], "secondaryMuscles": ["deltoides_medio", "triceps_cabeza_lateral"], "notes": "Variante, no usada en esta rutina: sentado en banco con respaldo." },
+    { "name": "Press de hombro en máquina", "equipment": "Máquina", "primaryMuscles": ["deltoides_anterior"], "secondaryMuscles": ["deltoides_medio", "triceps_cabeza_lateral"], "notes": "Variante, no usada en esta rutina." },
+    { "name": "Hiperextensión 45°, enfoque espalda baja", "equipment": "Máquina", "primaryMuscles": ["erectores_espinales"], "secondaryMuscles": ["gluteo_mayor", "biceps_femoral"], "notes": "Variante, no usada en esta rutina: torso más erguido, sin cadera en bisagra. Es la otra hiperextensión, enfocada en espalda baja." }
+  ],
+  "routines": [
+    {
+      "name": "Lunes — Piernas (cuádriceps dominante)",
+      "suggestedDay": "Lunes",
+      "exercises": [
+        { "exerciseName": "Hack squat profundo", "setCount": 4, "repsMin": 8, "repsMax": 10, "weight": 0, "restSeconds": 180, "type": "Normal" },
+        { "exerciseName": "Búlgara con mancuernas", "setCount": 3, "repsMin": 8, "repsMax": 10, "weight": 0, "restSeconds": 120, "type": "Normal" },
+        { "exerciseName": "Extensión de rodilla", "setCount": 3, "repsMin": 12, "repsMax": 15, "weight": 0, "restSeconds": 90, "type": "Normal" },
+        { "exerciseName": "Curl femoral sentado", "setCount": 4, "repsMin": 10, "repsMax": 12, "weight": 0, "restSeconds": 120, "type": "Normal" },
+        { "exerciseName": "Hiperextensión 45°, enfoque glúteo", "setCount": 3, "repsMin": 12, "repsMax": 15, "weight": 0, "restSeconds": 90, "type": "Normal" },
+        { "exerciseName": "Aductores en máquina", "setCount": 3, "repsMin": 12, "repsMax": 15, "weight": 0, "restSeconds": 90, "type": "Normal" },
+        { "exerciseName": "Gemelos de pie en máquina", "setCount": 4, "repsMin": 12, "repsMax": 15, "weight": 0, "restSeconds": 90, "type": "Normal" }
+      ]
+    },
+    {
+      "name": "Martes — Push + Abdomen",
+      "suggestedDay": "Martes",
+      "exercises": [
+        { "exerciseName": "Press inclinado con mancuernas (30-45°)", "setCount": 4, "repsMin": 8, "repsMax": 10, "weight": 0, "restSeconds": 180, "type": "Normal" },
+        { "exerciseName": "Fondos en paralelas", "setCount": 3, "repsMin": 6, "repsMax": 10, "weight": 0, "restSeconds": 120, "type": "Normal" },
+        { "exerciseName": "Press de hombro sentado con mancuernas", "setCount": 3, "repsMin": 8, "repsMax": 10, "weight": 0, "restSeconds": 120, "type": "Normal" },
+        { "exerciseName": "Elevación lateral en polea", "setCount": 4, "repsMin": 12, "repsMax": 15, "weight": 0, "restSeconds": 90, "type": "Normal" },
+        { "exerciseName": "Extensión de tríceps sobre cabeza en polea", "setCount": 3, "repsMin": 12, "repsMax": 15, "weight": 0, "restSeconds": 90, "type": "Normal" },
+        { "exerciseName": "Crunch en máquina, sentado", "setCount": 3, "repsMin": 12, "repsMax": 15, "weight": 0, "restSeconds": 60, "type": "Normal" },
+        { "exerciseName": "Elevación de piernas en silla romana", "setCount": 3, "repsMin": 12, "repsMax": 15, "weight": 0, "restSeconds": 60, "type": "Normal" },
+        { "exerciseName": "Oblicuos en silla romana", "setCount": 3, "repsMin": 10, "repsMax": 12, "weight": 0, "restSeconds": 60, "type": "Normal" }
+      ]
+    },
+    {
+      "name": "Miércoles — Pull",
+      "suggestedDay": "Miércoles",
+      "exercises": [
+        { "exerciseName": "Jalón al pecho pronado ancho", "setCount": 4, "repsMin": 8, "repsMax": 10, "weight": 0, "restSeconds": 150, "type": "Normal" },
+        { "exerciseName": "Remo en máquina con apoyo pectoral, pronado ancho", "setCount": 4, "repsMin": 8, "repsMax": 10, "weight": 0, "restSeconds": 150, "type": "Normal" },
+        { "exerciseName": "Jalón arrodillado con apoyo de cadera (unilateral)", "setCount": 3, "repsMin": 10, "repsMax": 12, "weight": 0, "restSeconds": 90, "type": "Normal" },
+        { "exerciseName": "Pullover en polea", "setCount": 3, "repsMin": 12, "repsMax": 15, "weight": 0, "restSeconds": 90, "type": "Normal" },
+        { "exerciseName": "Rear fly en polea", "setCount": 3, "repsMin": 15, "repsMax": 20, "weight": 0, "restSeconds": 60, "type": "Normal" },
+        { "exerciseName": "Curl con barra Z", "setCount": 3, "repsMin": 8, "repsMax": 12, "weight": 0, "restSeconds": 90, "type": "Normal" }
+      ]
+    },
+    {
+      "name": "Viernes — Glúteos, Brazos + Abdomen",
+      "suggestedDay": "Viernes",
+      "exercises": [
+        { "exerciseName": "Hip thrust", "setCount": 4, "repsMin": 8, "repsMax": 12, "weight": 0, "restSeconds": 150, "type": "Normal" },
+        { "exerciseName": "Curl femoral arrodillado", "setCount": 3, "repsMin": 10, "repsMax": 12, "weight": 0, "restSeconds": 120, "type": "Normal" },
+        { "exerciseName": "Abductores en máquina", "setCount": 3, "repsMin": 15, "repsMax": 20, "weight": 0, "restSeconds": 90, "type": "Normal" },
+        { "exerciseName": "Aductores en máquina", "setCount": 3, "repsMin": 12, "repsMax": 15, "weight": 0, "restSeconds": 90, "type": "Normal" },
+        { "exerciseName": "Gemelos sentado", "setCount": 3, "repsMin": 15, "repsMax": 20, "weight": 0, "restSeconds": 90, "type": "Normal" },
+        { "exerciseName": "Extensión de tríceps sobre cabeza en polea", "setCount": 3, "repsMin": 10, "repsMax": 12, "weight": 0, "restSeconds": 90, "type": "Normal" },
+        { "exerciseName": "Curl martillo", "setCount": 3, "repsMin": 10, "repsMax": 12, "weight": 0, "restSeconds": 90, "type": "Normal" },
+        { "exerciseName": "Crunch en máquina, tumbado", "setCount": 3, "repsMin": 12, "repsMax": 15, "weight": 0, "restSeconds": 60, "type": "Normal" },
+        { "exerciseName": "Elevación de piernas en silla romana", "setCount": 3, "repsMin": 12, "repsMax": 15, "weight": 0, "restSeconds": 60, "type": "Normal" },
+        { "exerciseName": "Oblicuos en silla romana", "setCount": 3, "repsMin": 10, "repsMax": 12, "weight": 0, "restSeconds": 60, "type": "Normal" }
+      ]
+    },
+    {
+      "name": "Sábado — Pecho, Espalda, Hombros",
+      "suggestedDay": "Sábado",
+      "exercises": [
+        { "exerciseName": "Press plano con barra", "setCount": 4, "repsMin": 8, "repsMax": 10, "weight": 0, "restSeconds": 150, "type": "Normal" },
+        { "exerciseName": "Aperturas en máquina", "setCount": 3, "repsMin": 12, "repsMax": 15, "weight": 0, "restSeconds": 90, "type": "Normal" },
+        { "exerciseName": "Dominadas asistidas", "setCount": 3, "repsMin": 8, "repsMax": 12, "weight": 0, "restSeconds": 120, "type": "Normal" },
+        { "exerciseName": "Remo sentado en máquina, agarre pronado", "setCount": 4, "repsMin": 10, "repsMax": 12, "weight": 0, "restSeconds": 120, "type": "Normal" },
+        { "exerciseName": "Jalón unilateral en polea alta", "setCount": 3, "repsMin": 12, "repsMax": 12, "weight": 0, "restSeconds": 90, "type": "Normal" },
+        { "exerciseName": "Elevación lateral en polea", "setCount": 4, "repsMin": 12, "repsMax": 15, "weight": 0, "restSeconds": 90, "type": "Normal" },
+        { "exerciseName": "Face pull", "setCount": 3, "repsMin": 15, "repsMax": 20, "weight": 0, "restSeconds": 60, "type": "Normal" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es-PE">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#0f1115" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="RepEats" />
+    <meta name="color-scheme" content="dark light" />
+    <title>RepEats</title>
+    <script>
+      // Aplica el tema antes del primer pintado, para que no haya un parpadeo de color.
+      // Misma regla que src/app/theme.ts: la preferencia guardada, o el modo del teléfono si es Automático.
+      ;(function () {
+        var theme = 'dark'
+        try {
+          var saved = localStorage.getItem('repeats-theme')
+          var systemDark = !window.matchMedia || window.matchMedia('(prefers-color-scheme: dark)').matches
+          theme = saved === 'light' || saved === 'dark' ? saved : systemDark ? 'dark' : 'light'
+        } catch (e) {}
+        document.documentElement.setAttribute('data-theme', theme)
+      })()
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

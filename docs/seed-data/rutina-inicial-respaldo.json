@@ -1,0 +1,1620 @@
+{
+ "app": "RepEats",
+ "version": 1,
+ "exportedAt": "2026-09-28T12:00:00.000Z",
+ "collections": {
+  "profile": {},
+  "exercises": {
+   "ej-hack-squat-profundo": {
+    "id": "ej-hack-squat-profundo",
+    "name": "Hack squat profundo",
+    "primaryMuscles": [
+     "recto_femoral",
+     "vasto_lateral"
+    ],
+    "secondaryMuscles": [
+     "aductor_mayor",
+     "gluteo_mayor"
+    ],
+    "equipment": "Máquina de palanca",
+    "notes": "Muslo por debajo de la paralela: activa aductor y glúteo. Ver: https://www.youtube.com/watch?v=klXcoivzGf8"
+   },
+   "ej-bulgara-con-mancuernas": {
+    "id": "ej-bulgara-con-mancuernas",
+    "name": "Búlgara con mancuernas",
+    "primaryMuscles": [
+     "gluteo_mayor"
+    ],
+    "secondaryMuscles": [
+     "recto_femoral",
+     "vasto_lateral",
+     "biceps_femoral",
+     "aductor_mayor"
+    ],
+    "equipment": "Mancuernas",
+    "notes": "Enfoque en glúteo: pie delantero más adelantado, cadera en bisagra (hip hinge) y torso inclinado adelante, empujando con el talón. Pie trasero apoyado en un banco. Contar por pierna."
+   },
+   "ej-extension-de-rodilla": {
+    "id": "ej-extension-de-rodilla",
+    "name": "Extensión de rodilla",
+    "primaryMuscles": [
+     "recto_femoral"
+    ],
+    "secondaryMuscles": [
+     "vasto_lateral"
+    ],
+    "equipment": "Máquina",
+    "notes": ""
+   },
+   "ej-curl-femoral-sentado": {
+    "id": "ej-curl-femoral-sentado",
+    "name": "Curl femoral sentado",
+    "primaryMuscles": [
+     "biceps_femoral"
+    ],
+    "secondaryMuscles": [
+     "semitendinoso"
+    ],
+    "equipment": "Máquina",
+    "notes": "Cadera flexionada = isquio en estiramiento. El más valioso"
+   },
+   "ej-hiperextension-45-enfoque-gluteo": {
+    "id": "ej-hiperextension-45-enfoque-gluteo",
+    "name": "Hiperextensión 45°, enfoque glúteo",
+    "primaryMuscles": [
+     "gluteo_mayor"
+    ],
+    "secondaryMuscles": [
+     "biceps_femoral",
+     "erectores_espinales"
+    ],
+    "equipment": "Máquina",
+    "notes": "Cadera en bisagra, rodillas algo flexionadas, glúteo en contracción arriba. Es la que se usa los lunes (distinta de la enfocada en espalda baja)."
+   },
+   "ej-aductores-en-maquina": {
+    "id": "ej-aductores-en-maquina",
+    "name": "Aductores en máquina",
+    "primaryMuscles": [
+     "aductor_mayor"
+    ],
+    "secondaryMuscles": [
+     "aductor_largo"
+    ],
+    "equipment": "Máquina",
+    "notes": "NUEVO: empezar con carga ligera. Ver: https://www.tiktok.com/@jeffnippardfitness/video/7445679252759923973"
+   },
+   "ej-gemelos-de-pie-en-maquina": {
+    "id": "ej-gemelos-de-pie-en-maquina",
+    "name": "Gemelos de pie en máquina",
+    "primaryMuscles": [
+     "gemelos",
+     "soleo"
+    ],
+    "secondaryMuscles": [],
+    "equipment": "Máquina",
+    "notes": "La presión se ejerce con la rodilla totalmente extendida (más gemelo) o ligeramente flexionada (más sóleo); ambos entran según la posición."
+   },
+   "ej-press-inclinado-con-mancuernas-30-45": {
+    "id": "ej-press-inclinado-con-mancuernas-30-45",
+    "name": "Press inclinado con mancuernas (30-45°)",
+    "primaryMuscles": [
+     "pectoral_superior"
+    ],
+    "secondaryMuscles": [
+     "deltoides_anterior",
+     "triceps_cabeza_lateral"
+    ],
+    "equipment": "Mancuernas",
+    "notes": "Torso claramente reclinado, no erguido"
+   },
+   "ej-fondos-en-paralelas": {
+    "id": "ej-fondos-en-paralelas",
+    "name": "Fondos en paralelas",
+    "primaryMuscles": [
+     "pectoral_inferior"
+    ],
+    "secondaryMuscles": [
+     "triceps_cabeza_larga",
+     "deltoides_anterior"
+    ],
+    "equipment": "Peso corporal",
+    "notes": "Pecho inferior + tríceps"
+   },
+   "ej-press-de-hombro-sentado-con-mancuernas": {
+    "id": "ej-press-de-hombro-sentado-con-mancuernas",
+    "name": "Press de hombro sentado con mancuernas",
+    "primaryMuscles": [
+     "deltoides_anterior"
+    ],
+    "secondaryMuscles": [
+     "deltoides_medio",
+     "triceps_cabeza_lateral"
+    ],
+    "equipment": "Mancuernas",
+    "notes": "Sentado con respaldo por la lumbar"
+   },
+   "ej-elevacion-lateral-en-polea": {
+    "id": "ej-elevacion-lateral-en-polea",
+    "name": "Elevación lateral en polea",
+    "primaryMuscles": [
+     "deltoides_medio"
+    ],
+    "secondaryMuscles": [],
+    "equipment": "Polea",
+    "notes": ""
+   },
+   "ej-extension-de-triceps-sobre-cabeza-en-polea": {
+    "id": "ej-extension-de-triceps-sobre-cabeza-en-polea",
+    "name": "Extensión de tríceps sobre cabeza en polea",
+    "primaryMuscles": [
+     "triceps_cabeza_larga"
+    ],
+    "secondaryMuscles": [
+     "triceps_cabeza_lateral"
+    ],
+    "equipment": "Polea",
+    "notes": "Codo fijo apuntando adelante"
+   },
+   "ej-crunch-en-maquina-sentado": {
+    "id": "ej-crunch-en-maquina-sentado",
+    "name": "Crunch en máquina, sentado",
+    "primaryMuscles": [
+     "recto_abdominal"
+    ],
+    "secondaryMuscles": [],
+    "equipment": "Máquina",
+    "notes": "Sentado, tiras de una palanca hacia abajo (distinto del tumbado). Es el que se usa los martes."
+   },
+   "ej-crunch-en-maquina-tumbado": {
+    "id": "ej-crunch-en-maquina-tumbado",
+    "name": "Crunch en máquina, tumbado",
+    "primaryMuscles": [
+     "recto_abdominal"
+    ],
+    "secondaryMuscles": [],
+    "equipment": "Máquina",
+    "notes": "Espalda apoyada, te curvas hacia adelante contra la resistencia (distinto del sentado). Es el que se usa los viernes."
+   },
+   "ej-elevacion-de-piernas-en-silla-romana": {
+    "id": "ej-elevacion-de-piernas-en-silla-romana",
+    "name": "Elevación de piernas en silla romana",
+    "primaryMuscles": [
+     "recto_abdominal"
+    ],
+    "secondaryMuscles": [
+     "psoas_iliaco"
+    ],
+    "equipment": "Peso corporal",
+    "notes": "Antebrazos apoyados, cuelgas de la cadera hacia abajo (no es una máquina con peso)."
+   },
+   "ej-oblicuos-en-silla-romana": {
+    "id": "ej-oblicuos-en-silla-romana",
+    "name": "Oblicuos en silla romana",
+    "primaryMuscles": [
+     "oblicuo_externo"
+    ],
+    "secondaryMuscles": [
+     "oblicuo_interno"
+    ],
+    "equipment": "Peso corporal",
+    "notes": ""
+   },
+   "ej-jalon-al-pecho-pronado-ancho": {
+    "id": "ej-jalon-al-pecho-pronado-ancho",
+    "name": "Jalón al pecho pronado ancho",
+    "primaryMuscles": [
+     "dorsal_ancho"
+    ],
+    "secondaryMuscles": [
+     "biceps_cabeza_larga",
+     "redondo_mayor"
+    ],
+    "equipment": "Polea",
+    "notes": "Vertical"
+   },
+   "ej-remo-en-maquina-con-apoyo-pectoral-pronado-ancho": {
+    "id": "ej-remo-en-maquina-con-apoyo-pectoral-pronado-ancho",
+    "name": "Remo en máquina con apoyo pectoral, pronado ancho",
+    "primaryMuscles": [
+     "romboides"
+    ],
+    "secondaryMuscles": [
+     "trapecio_medio",
+     "biceps_cabeza_corta"
+    ],
+    "equipment": "Máquina",
+    "notes": "Horizontal alto: romboides y trapecio medio. Asiento a altura de esternón"
+   },
+   "ej-jalon-arrodillado-con-apoyo-de-cadera-unilateral": {
+    "id": "ej-jalon-arrodillado-con-apoyo-de-cadera-unilateral",
+    "name": "Jalón arrodillado con apoyo de cadera (unilateral)",
+    "primaryMuscles": [
+     "dorsal_ancho"
+    ],
+    "secondaryMuscles": [
+     "redondo_mayor",
+     "biceps_cabeza_larga"
+    ],
+    "equipment": "Polea",
+    "notes": "Horizontal bajo. Rotar ligeramente el torso torácico para más rango"
+   },
+   "ej-pullover-en-polea": {
+    "id": "ej-pullover-en-polea",
+    "name": "Pullover en polea",
+    "primaryMuscles": [
+     "dorsal_ancho"
+    ],
+    "secondaryMuscles": [
+     "triceps_cabeza_larga",
+     "pectoral_inferior"
+    ],
+    "equipment": "Polea",
+    "notes": "Dorsal en estiramiento"
+   },
+   "ej-rear-fly-en-polea": {
+    "id": "ej-rear-fly-en-polea",
+    "name": "Rear fly en polea",
+    "primaryMuscles": [
+     "deltoides_posterior"
+    ],
+    "secondaryMuscles": [
+     "romboides",
+     "trapecio_medio"
+    ],
+    "equipment": "Polea",
+    "notes": ""
+   },
+   "ej-curl-con-barra-z": {
+    "id": "ej-curl-con-barra-z",
+    "name": "Curl con barra Z",
+    "primaryMuscles": [
+     "biceps_cabeza_corta"
+    ],
+    "secondaryMuscles": [
+     "braquial"
+    ],
+    "equipment": "Barra Z",
+    "notes": ""
+   },
+   "ej-hip-thrust": {
+    "id": "ej-hip-thrust",
+    "name": "Hip thrust",
+    "primaryMuscles": [
+     "gluteo_mayor"
+    ],
+    "secondaryMuscles": [
+     "biceps_femoral"
+    ],
+    "equipment": "Barra olímpica",
+    "notes": "Glúteo en contracción"
+   },
+   "ej-curl-femoral-arrodillado": {
+    "id": "ej-curl-femoral-arrodillado",
+    "name": "Curl femoral arrodillado",
+    "primaryMuscles": [
+     "biceps_femoral"
+    ],
+    "secondaryMuscles": [
+     "semitendinoso"
+    ],
+    "equipment": "Máquina",
+    "notes": "Pecho apoyado, cadera no se flexiona"
+   },
+   "ej-abductores-en-maquina": {
+    "id": "ej-abductores-en-maquina",
+    "name": "Abductores en máquina",
+    "primaryMuscles": [
+     "gluteo_medio"
+    ],
+    "secondaryMuscles": [
+     "tensor_fascia_lata"
+    ],
+    "equipment": "Máquina",
+    "notes": ""
+   },
+   "ej-gemelos-sentado": {
+    "id": "ej-gemelos-sentado",
+    "name": "Gemelos sentado",
+    "primaryMuscles": [
+     "soleo"
+    ],
+    "secondaryMuscles": [
+     "gemelos"
+    ],
+    "equipment": "Máquina",
+    "notes": "Rodilla flexionada: a diferencia de la de pie, aquí el énfasis es sóleo."
+   },
+   "ej-curl-martillo": {
+    "id": "ej-curl-martillo",
+    "name": "Curl martillo",
+    "primaryMuscles": [
+     "braquial"
+    ],
+    "secondaryMuscles": [
+     "braquiorradial"
+    ],
+    "equipment": "Mancuernas",
+    "notes": "NO el 21-killer: carga que deje a 1-2 del fallo"
+   },
+   "ej-press-plano-con-barra": {
+    "id": "ej-press-plano-con-barra",
+    "name": "Press plano con barra",
+    "primaryMuscles": [
+     "pectoral_medio"
+    ],
+    "secondaryMuscles": [
+     "triceps_cabeza_lateral",
+     "deltoides_anterior"
+    ],
+    "equipment": "Barra",
+    "notes": "Banca horizontal. Agarre a la altura de pecho medio, barra hasta rozar el pecho."
+   },
+   "ej-aperturas-en-maquina": {
+    "id": "ej-aperturas-en-maquina",
+    "name": "Aperturas en máquina",
+    "primaryMuscles": [
+     "pectoral_medio"
+    ],
+    "secondaryMuscles": [
+     "deltoides_anterior"
+    ],
+    "equipment": "Máquina",
+    "notes": "Distinta de las aperturas en polea: el recorrido y la resistencia no son iguales. Es la que se usa los sábados."
+   },
+   "ej-aperturas-en-polea-cruce-de-poleas": {
+    "id": "ej-aperturas-en-polea-cruce-de-poleas",
+    "name": "Aperturas en polea (cruce de poleas)",
+    "primaryMuscles": [
+     "pectoral_medio"
+    ],
+    "secondaryMuscles": [
+     "deltoides_anterior"
+    ],
+    "equipment": "Polea",
+    "notes": ""
+   },
+   "ej-dominadas-asistidas": {
+    "id": "ej-dominadas-asistidas",
+    "name": "Dominadas asistidas",
+    "primaryMuscles": [
+     "dorsal_ancho"
+    ],
+    "secondaryMuscles": [
+     "biceps_cabeza_larga",
+     "redondo_mayor"
+    ],
+    "equipment": "Máquina",
+    "notes": "Máquina de contrapeso. Ejercicio aparte del jalón con agarre neutro (misma familia, distinto patrón)."
+   },
+   "ej-jalon-al-pecho-agarre-neutro": {
+    "id": "ej-jalon-al-pecho-agarre-neutro",
+    "name": "Jalón al pecho agarre neutro",
+    "primaryMuscles": [
+     "dorsal_ancho"
+    ],
+    "secondaryMuscles": [
+     "biceps_cabeza_larga",
+     "redondo_mayor"
+    ],
+    "equipment": "Polea",
+    "notes": ""
+   },
+   "ej-remo-sentado-en-maquina-agarre-pronado": {
+    "id": "ej-remo-sentado-en-maquina-agarre-pronado",
+    "name": "Remo sentado en máquina, agarre pronado",
+    "primaryMuscles": [
+     "romboides"
+    ],
+    "secondaryMuscles": [
+     "trapecio_medio",
+     "biceps_cabeza_corta"
+    ],
+    "equipment": "Máquina",
+    "notes": "Agarre pronado a propósito: suma volumen a espalda alta (romboides y trapecio), no a dorsales (para eso ya están los jalones y el pullover)."
+   },
+   "ej-jalon-unilateral-en-polea-alta": {
+    "id": "ej-jalon-unilateral-en-polea-alta",
+    "name": "Jalón unilateral en polea alta",
+    "primaryMuscles": [
+     "dorsal_ancho"
+    ],
+    "secondaryMuscles": [
+     "redondo_mayor"
+    ],
+    "equipment": "Polea",
+    "notes": "Vertical unilateral"
+   },
+   "ej-face-pull": {
+    "id": "ej-face-pull",
+    "name": "Face pull",
+    "primaryMuscles": [
+     "deltoides_posterior"
+    ],
+    "secondaryMuscles": [
+     "trapecio_medio",
+     "romboides"
+    ],
+    "equipment": "Polea",
+    "notes": "Se puede agrupar con la elevación lateral si falta tiempo"
+   },
+   "ej-press-inclinado-con-maquina": {
+    "id": "ej-press-inclinado-con-maquina",
+    "name": "Press inclinado con máquina",
+    "primaryMuscles": [
+     "pectoral_superior"
+    ],
+    "secondaryMuscles": [
+     "deltoides_anterior",
+     "triceps_cabeza_lateral"
+    ],
+    "equipment": "Máquina",
+    "notes": "Variante, no usada en esta rutina: misma zona que el press inclinado con mancuernas."
+   },
+   "ej-press-inclinado-con-barra": {
+    "id": "ej-press-inclinado-con-barra",
+    "name": "Press inclinado con barra",
+    "primaryMuscles": [
+     "pectoral_superior"
+    ],
+    "secondaryMuscles": [
+     "deltoides_anterior",
+     "triceps_cabeza_lateral"
+    ],
+    "equipment": "Barra",
+    "notes": "Variante, no usada en esta rutina: banco inclinado con barra."
+   },
+   "ej-press-de-hombro-con-barra": {
+    "id": "ej-press-de-hombro-con-barra",
+    "name": "Press de hombro con barra",
+    "primaryMuscles": [
+     "deltoides_anterior"
+    ],
+    "secondaryMuscles": [
+     "deltoides_medio",
+     "triceps_cabeza_lateral"
+    ],
+    "equipment": "Barra",
+    "notes": "Variante, no usada en esta rutina: sentado en banco con respaldo."
+   },
+   "ej-press-de-hombro-en-maquina": {
+    "id": "ej-press-de-hombro-en-maquina",
+    "name": "Press de hombro en máquina",
+    "primaryMuscles": [
+     "deltoides_anterior"
+    ],
+    "secondaryMuscles": [
+     "deltoides_medio",
+     "triceps_cabeza_lateral"
+    ],
+    "equipment": "Máquina",
+    "notes": "Variante, no usada en esta rutina."
+   },
+   "ej-hiperextension-45-enfoque-espalda-baja": {
+    "id": "ej-hiperextension-45-enfoque-espalda-baja",
+    "name": "Hiperextensión 45°, enfoque espalda baja",
+    "primaryMuscles": [
+     "erectores_espinales"
+    ],
+    "secondaryMuscles": [
+     "gluteo_mayor",
+     "biceps_femoral"
+    ],
+    "equipment": "Máquina",
+    "notes": "Variante, no usada en esta rutina: torso más erguido, sin cadera en bisagra. Es la otra hiperextensión, enfocada en espalda baja."
+   }
+  },
+  "routines": {
+   "rut-lunes-piernas-cuadriceps-dominante": {
+    "id": "rut-lunes-piernas-cuadriceps-dominante",
+    "name": "Lunes — Piernas (cuádriceps dominante)",
+    "suggestedDay": "Lunes",
+    "exercises": [
+     {
+      "exerciseId": "ej-hack-squat-profundo",
+      "targetSets": [
+       {
+        "type": "Normal",
+        "repsMin": 8,
+        "repsMax": 10,
+        "weight": 0,
+        "restSeconds": 180
+       },
+       {
+        "type": "Normal",
+        "repsMin": 8,
+        "repsMax": 10,
+        "weight": 0,
+        "restSeconds": 180
+       },
+       {
+        "type": "Normal",
+        "repsMin": 8,
+        "repsMax": 10,
+        "weight": 0,
+        "restSeconds": 180
+       },
+       {
+        "type": "Normal",
+        "repsMin": 8,
+        "repsMax": 10,
+        "weight": 0,
+        "restSeconds": 180
+       }
+      ]
+     },
+     {
+      "exerciseId": "ej-bulgara-con-mancuernas",
+      "targetSets": [
+       {
+        "type": "Normal",
+        "repsMin": 8,
+        "repsMax": 10,
+        "weight": 0,
+        "restSeconds": 120
+       },
+       {
+        "type": "Normal",
+        "repsMin": 8,
+        "repsMax": 10,
+        "weight": 0,
+        "restSeconds": 120
+       },
+       {
+        "type": "Normal",
+        "repsMin": 8,
+        "repsMax": 10,
+        "weight": 0,
+        "restSeconds": 120
+       }
+      ]
+     },
+     {
+      "exerciseId": "ej-extension-de-rodilla",
+      "targetSets": [
+       {
+        "type": "Normal",
+        "repsMin": 12,
+        "repsMax": 15,
+        "weight": 0,
+        "restSeconds": 90
+       },
+       {
+        "type": "Normal",
+        "repsMin": 12,
+        "repsMax": 15,
+        "weight": 0,
+        "restSeconds": 90
+       },
+       {
+        "type": "Normal",
+        "repsMin": 12,
+        "repsMax": 15,
+        "weight": 0,
+        "restSeconds": 90
+       }
+      ]
+     },
+     {
+      "exerciseId": "ej-curl-femoral-sentado",
+      "targetSets": [
+       {
+        "type": "Normal",
+        "repsMin": 10,
+        "repsMax": 12,
+        "weight": 0,
+        "restSeconds": 120
+       },
+       {
+        "type": "Normal",
+        "repsMin": 10,
+        "repsMax": 12,
+        "weight": 0,
+        "restSeconds": 120
+       },
+       {
+        "type": "Normal",
+        "repsMin": 10,
+        "repsMax": 12,
+        "weight": 0,
+        "restSeconds": 120
+       },
+       {
+        "type": "Normal",
+        "repsMin": 10,
+        "repsMax": 12,
+        "weight": 0,
+        "restSeconds": 120
+       }
+      ]
+     },
+     {
+      "exerciseId": "ej-hiperextension-45-enfoque-gluteo",
+      "targetSets": [
+       {
+        "type": "Normal",
+        "repsMin": 12,
+        "repsMax": 15,
+        "weight": 0,
+        "restSeconds": 90
+       },
+       {
+        "type": "Normal",
+        "repsMin": 12,
+        "repsMax": 15,
+        "weight": 0,
+        "restSeconds": 90
+       },
+       {
+        "type": "Normal",
+        "repsMin": 12,
+        "repsMax": 15,
+        "weight": 0,
+        "restSeconds": 90
+       }
+      ]
+     },
+     {
+      "exerciseId": "ej-aductores-en-maquina",
+      "targetSets": [
+       {
+        "type": "Normal",
+        "repsMin": 12,
+        "repsMax": 15,
+        "weight": 0,
+        "restSeconds": 90
+       },
+       {
+        "type": "Normal",
+        "repsMin": 12,
+        "repsMax": 15,
+        "weight": 0,
+        "restSeconds": 90
+       },
+       {
+        "type": "Normal",
+        "repsMin": 12,
+        "repsMax": 15,
+        "weight": 0,
+        "restSeconds": 90
+       }
+      ]
+     },
+     {
+      "exerciseId": "ej-gemelos-de-pie-en-maquina",
+      "targetSets": [
+       {
+        "type": "Normal",
+        "repsMin": 12,
+        "repsMax": 15,
+        "weight": 0,
+        "restSeconds": 90
+       },
+       {
+        "type": "Normal",
+        "repsMin": 12,
+        "repsMax": 15,
+        "weight": 0,
+        "restSeconds": 90
+       },
+       {
+        "type": "Normal",
+        "repsMin": 12,
+        "repsMax": 15,
+        "weight": 0,
+        "restSeconds": 90
+       },
+       {
+        "type": "Normal",
+        "repsMin": 12,
+        "repsMax": 15,
+        "weight": 0,
+        "restSeconds": 90
+       }
+      ]
+     }
+    ],
+    "order": 0
+   },
+   "rut-martes-push-abdomen": {
+    "id": "rut-martes-push-abdomen",
+    "name": "Martes — Push + Abdomen",
+    "suggestedDay": "Martes",
+    "exercises": [
+     {
+      "exerciseId": "ej-press-inclinado-con-mancuernas-30-45",
+      "targetSets": [
+       {
+        "type": "Normal",
+        "repsMin": 8,
+        "repsMax": 10,
+        "weight": 0,
+        "restSeconds": 180
+       },
+       {
+        "type": "Normal",
+        "repsMin": 8,
+        "repsMax": 10,
+        "weight": 0,
+        "restSeconds": 180
+       },
+       {
+        "type": "Normal",
+        "repsMin": 8,
+        "repsMax": 10,
+        "weight": 0,
+        "restSeconds": 180
+       },
+       {
+        "type": "Normal",
+        "repsMin": 8,
+        "repsMax": 10,
+        "weight": 0,
+        "restSeconds": 180
+       }
+      ]
+     },
+     {
+      "exerciseId": "ej-fondos-en-paralelas",
+      "targetSets": [
+       {
+        "type": "Normal",
+        "repsMin": 6,
+        "repsMax": 10,
+        "weight": 0,
+        "restSeconds": 120
+       },
+       {
+        "type": "Normal",
+        "repsMin": 6,
+        "repsMax": 10,
+        "weight": 0,
+        "restSeconds": 120
+       },
+       {
+        "type": "Normal",
+        "repsMin": 6,
+        "repsMax": 10,
+        "weight": 0,
+        "restSeconds": 120
+       }
+      ]
+     },
+     {
+      "exerciseId": "ej-press-de-hombro-sentado-con-mancuernas",
+      "targetSets": [
+       {
+        "type": "Normal",
+        "repsMin": 8,
+        "repsMax": 10,
+        "weight": 0,
+        "restSeconds": 120
+       },
+       {
+        "type": "Normal",
+        "repsMin": 8,
+        "repsMax": 10,
+        "weight": 0,
+        "restSeconds": 120
+       },
+       {
+        "type": "Normal",
+        "repsMin": 8,
+        "repsMax": 10,
+        "weight": 0,
+        "restSeconds": 120
+       }
+      ]
+     },
+     {
+      "exerciseId": "ej-elevacion-lateral-en-polea",
+      "targetSets": [
+       {
+        "type": "Normal",
+        "repsMin": 12,
+        "repsMax": 15,
+        "weight": 0,
+        "restSeconds": 90
+       },
+       {
+        "type": "Normal",
+        "repsMin": 12,
+        "repsMax": 15,
+        "weight": 0,
+        "restSeconds": 90
+       },
+       {
+        "type": "Normal",
+        "repsMin": 12,
+        "repsMax": 15,
+        "weight": 0,
+        "restSeconds": 90
+       },
+       {
+        "type": "Normal",
+        "repsMin": 12,
+        "repsMax": 15,
+        "weight": 0,
+        "restSeconds": 90
+       }
+      ]
+     },
+     {
+      "exerciseId": "ej-extension-de-triceps-sobre-cabeza-en-polea",
+      "targetSets": [
+       {
+        "type": "Normal",
+        "repsMin": 12,
+        "repsMax": 15,
+        "weight": 0,
+        "restSeconds": 90
+       },
+       {
+        "type": "Normal",
+        "repsMin": 12,
+        "repsMax": 15,
+        "weight": 0,
+        "restSeconds": 90
+       },
+       {
+        "type": "Normal",
+        "repsMin": 12,
+        "repsMax": 15,
+        "weight": 0,
+        "restSeconds": 90
+       }
+      ]
+     },
+     {
+      "exerciseId": "ej-crunch-en-maquina-sentado",
+      "targetSets": [
+       {
+        "type": "Normal",
+        "repsMin": 12,
+        "repsMax": 15,
+        "weight": 0,
+        "restSeconds": 60
+       },
+       {
+        "type": "Normal",
+        "repsMin": 12,
+        "repsMax": 15,
+        "weight": 0,
+        "restSeconds": 60
+       },
+       {
+        "type": "Normal",
+        "repsMin": 12,
+        "repsMax": 15,
+        "weight": 0,
+        "restSeconds": 60
+       }
+      ]
+     },
+     {
+      "exerciseId": "ej-elevacion-de-piernas-en-silla-romana",
+      "targetSets": [
+       {
+        "type": "Normal",
+        "repsMin": 12,
+        "repsMax": 15,
+        "weight": 0,
+        "restSeconds": 60
+       },
+       {
+        "type": "Normal",
+        "repsMin": 12,
+        "repsMax": 15,
+        "weight": 0,
+        "restSeconds": 60
+       },
+       {
+        "type": "Normal",
+        "repsMin": 12,
+        "repsMax": 15,
+        "weight": 0,
+        "restSeconds": 60
+       }
+      ]
+     },
+     {
+      "exerciseId": "ej-oblicuos-en-silla-romana",
+      "targetSets": [
+       {
+        "type": "Normal",
+        "repsMin": 10,
+        "repsMax": 12,
+        "weight": 0,
+        "restSeconds": 60
+       },
+       {
+        "type": "Normal",
+        "repsMin": 10,
+        "repsMax": 12,
+        "weight": 0,
+        "restSeconds": 60
+       },
+       {
+        "type": "Normal",
+        "repsMin": 10,
+        "repsMax": 12,
+        "weight": 0,
+        "restSeconds": 60
+       }
+      ]
+     }
+    ],
+    "order": 1
+   },
+   "rut-miercoles-pull": {
+    "id": "rut-miercoles-pull",
+    "name": "Miércoles — Pull",
+    "suggestedDay": "Miércoles",
+    "exercises": [
+     {
+      "exerciseId": "ej-jalon-al-pecho-pronado-ancho",
+      "targetSets": [
+       {
+        "type": "Normal",
+        "repsMin": 8,
+        "repsMax": 10,
+        "weight": 0,
+        "restSeconds": 150
+       },
+       {
+        "type": "Normal",
+        "repsMin": 8,
+        "repsMax": 10,
+        "weight": 0,
+        "restSeconds": 150
+       },
+       {
+        "type": "Normal",
+        "repsMin": 8,
+        "repsMax": 10,
+        "weight": 0,
+        "restSeconds": 150
+       },
+       {
+        "type": "Normal",
+        "repsMin": 8,
+        "repsMax": 10,
+        "weight": 0,
+        "restSeconds": 150
+       }
+      ]
+     },
+     {
+      "exerciseId": "ej-remo-en-maquina-con-apoyo-pectoral-pronado-ancho",
+      "targetSets": [
+       {
+        "type": "Normal",
+        "repsMin": 8,
+        "repsMax": 10,
+        "weight": 0,
+        "restSeconds": 150
+       },
+       {
+        "type": "Normal",
+        "repsMin": 8,
+        "repsMax": 10,
+        "weight": 0,
+        "restSeconds": 150
+       },
+       {
+        "type": "Normal",
+        "repsMin": 8,
+        "repsMax": 10,
+        "weight": 0,
+        "restSeconds": 150
+       },
+       {
+        "type": "Normal",
+        "repsMin": 8,
+        "repsMax": 10,
+        "weight": 0,
+        "restSeconds": 150
+       }
+      ]
+     },
+     {
+      "exerciseId": "ej-jalon-arrodillado-con-apoyo-de-cadera-unilateral",
+      "targetSets": [
+       {
+        "type": "Normal",
+        "repsMin": 10,
+        "repsMax": 12,
+        "weight": 0,
+        "restSeconds": 90
+       },
+       {
+        "type": "Normal",
+        "repsMin": 10,
+        "repsMax": 12,
+        "weight": 0,
+        "restSeconds": 90
+       },
+       {
+        "type": "Normal",
+        "repsMin": 10,
+        "repsMax": 12,
+        "weight": 0,
+        "restSeconds": 90
+       }
+      ]
+     },
+     {
+      "exerciseId": "ej-pullover-en-polea",
+      "targetSets": [
+       {
+        "type": "Normal",
+        "repsMin": 12,
+        "repsMax": 15,
+        "weight": 0,
+        "restSeconds": 90
+       },
+       {
+        "type": "Normal",
+        "repsMin": 12,
+        "repsMax": 15,
+        "weight": 0,
+        "restSeconds": 90
+       },
+       {
+        "type": "Normal",
+        "repsMin": 12,
+        "repsMax": 15,
+        "weight": 0,
+        "restSeconds": 90
+       }
+      ]
+     },
+     {
+      "exerciseId": "ej-rear-fly-en-polea",
+      "targetSets": [
+       {
+        "type": "Normal",
+        "repsMin": 15,
+        "repsMax": 20,
+        "weight": 0,
+        "restSeconds": 60
+       },
+       {
+        "type": "Normal",
+        "repsMin": 15,
+        "repsMax": 20,
+        "weight": 0,
+        "restSeconds": 60
+       },
+       {
+        "type": "Normal",
+        "repsMin": 15,
+        "repsMax": 20,
+        "weight": 0,
+        "restSeconds": 60
+       }
+      ]
+     },
+     {
+      "exerciseId": "ej-curl-con-barra-z",
+      "targetSets": [
+       {
+        "type": "Normal",
+        "repsMin": 8,
+        "repsMax": 12,
+        "weight": 0,
+        "restSeconds": 90
+       },
+       {
+        "type": "Normal",
+        "repsMin": 8,
+        "repsMax": 12,
+        "weight": 0,
+        "restSeconds": 90
+       },
+       {
+        "type": "Normal",
+        "repsMin": 8,
+        "repsMax": 12,
+        "weight": 0,
+        "restSeconds": 90
+       }
+      ]
+     }
+    ],
+    "order": 2
+   },
+   "rut-viernes-gluteos-brazos-abdomen": {
+    "id": "rut-viernes-gluteos-brazos-abdomen",
+    "name": "Viernes — Glúteos, Brazos + Abdomen",
+    "suggestedDay": "Viernes",
+    "exercises": [
+     {
+      "exerciseId": "ej-hip-thrust",
+      "targetSets": [
+       {
+        "type": "Normal",
+        "repsMin": 8,
+        "repsMax": 12,
+        "weight": 0,
+        "restSeconds": 150
+       },
+       {
+        "type": "Normal",
+        "repsMin": 8,
+        "repsMax": 12,
+        "weight": 0,
+        "restSeconds": 150
+       },
+       {
+        "type": "Normal",
+        "repsMin": 8,
+        "repsMax": 12,
+        "weight": 0,
+        "restSeconds": 150
+       },
+       {
+        "type": "Normal",
+        "repsMin": 8,
+        "repsMax": 12,
+        "weight": 0,
+        "restSeconds": 150
+       }
+      ]
+     },
+     {
+      "exerciseId": "ej-curl-femoral-arrodillado",
+      "targetSets": [
+       {
+        "type": "Normal",
+        "repsMin": 10,
+        "repsMax": 12,
+        "weight": 0,
+        "restSeconds": 120
+       },
+       {
+        "type": "Normal",
+        "repsMin": 10,
+        "repsMax": 12,
+        "weight": 0,
+        "restSeconds": 120
+       },
+       {
+        "type": "Normal",
+        "repsMin": 10,
+        "repsMax": 12,
+        "weight": 0,
+        "restSeconds": 120
+       }
+      ]
+     },
+     {
+      "exerciseId": "ej-abductores-en-maquina",
+      "targetSets": [
+       {
+        "type": "Normal",
+        "repsMin": 15,
+        "repsMax": 20,
+        "weight": 0,
+        "restSeconds": 90
+       },
+       {
+        "type": "Normal",
+        "repsMin": 15,
+        "repsMax": 20,
+        "weight": 0,
+        "restSeconds": 90
+       },
+       {
+        "type": "Normal",
+        "repsMin": 15,
+        "repsMax": 20,
+        "weight": 0,
+        "restSeconds": 90
+       }
+      ]
+     },
+     {
+      "exerciseId": "ej-aductores-en-maquina",
+      "targetSets": [
+       {
+        "type": "Normal",
+        "repsMin": 12,
+        "repsMax": 15,
+        "weight": 0,
+        "restSeconds": 90
+       },
+       {
+        "type": "Normal",
+        "repsMin": 12,
+        "repsMax": 15,
+        "weight": 0,
+        "restSeconds": 90
+       },
+       {
+        "type": "Normal",
+        "repsMin": 12,
+        "repsMax": 15,
+        "weight": 0,
+        "restSeconds": 90
+       }
+      ]
+     },
+     {
+      "exerciseId": "ej-gemelos-sentado",
+      "targetSets": [
+       {
+        "type": "Normal",
+        "repsMin": 15,
+        "repsMax": 20,
+        "weight": 0,
+        "restSeconds": 90
+       },
+       {
+        "type": "Normal",
+        "repsMin": 15,
+        "repsMax": 20,
+        "weight": 0,
+        "restSeconds": 90
+       },
+       {
+        "type": "Normal",
+        "repsMin": 15,
+        "repsMax": 20,
+        "weight": 0,
+        "restSeconds": 90
+       }
+      ]
+     },
+     {
+      "exerciseId": "ej-extension-de-triceps-sobre-cabeza-en-polea",
+      "targetSets": [
+       {
+        "type": "Normal",
+        "repsMin": 10,
+        "repsMax": 12,
+        "weight": 0,
+        "restSeconds": 90
+       },
+       {
+        "type": "Normal",
+        "repsMin": 10,
+        "repsMax": 12,
+        "weight": 0,
+        "restSeconds": 90
+       },
+       {
+        "type": "Normal",
+        "repsMin": 10,
+        "repsMax": 12,
+        "weight": 0,
+        "restSeconds": 90
+       }
+      ]
+     },
+     {
+      "exerciseId": "ej-curl-martillo",
+      "targetSets": [
+       {
+        "type": "Normal",
+        "repsMin": 10,
+        "repsMax": 12,
+        "weight": 0,
+        "restSeconds": 90
+       },
+       {
+        "type": "Normal",
+        "repsMin": 10,
+        "repsMax": 12,
+        "weight": 0,
+        "restSeconds": 90
+       },
+       {
+        "type": "Normal",
+        "repsMin": 10,
+        "repsMax": 12,
+        "weight": 0,
+        "restSeconds": 90
+       }
+      ]
+     },
+     {
+      "exerciseId": "ej-crunch-en-maquina-tumbado",
+      "targetSets": [
+       {
+        "type": "Normal",
+        "repsMin": 12,
+        "repsMax": 15,
+        "weight": 0,
+        "restSeconds": 60
+       },
+       {
+        "type": "Normal",
+        "repsMin": 12,
+        "repsMax": 15,
+        "weight": 0,
+        "restSeconds": 60
+       },
+       {
+        "type": "Normal",
+        "repsMin": 12,
+        "repsMax": 15,
+        "weight": 0,
+        "restSeconds": 60
+       }
+      ]
+     },
+     {
+      "exerciseId": "ej-elevacion-de-piernas-en-silla-romana",
+      "targetSets": [
+       {
+        "type": "Normal",
+        "repsMin": 12,
+        "repsMax": 15,
+        "weight": 0,
+        "restSeconds": 60
+       },
+       {
+        "type": "Normal",
+        "repsMin": 12,
+        "repsMax": 15,
+        "weight": 0,
+        "restSeconds": 60
+       },
+       {
+        "type": "Normal",
+        "repsMin": 12,
+        "repsMax": 15,
+        "weight": 0,
+        "restSeconds": 60
+       }
+      ]
+     },
+     {
+      "exerciseId": "ej-oblicuos-en-silla-romana",
+      "targetSets": [
+       {
+        "type": "Normal",
+        "repsMin": 10,
+        "repsMax": 12,
+        "weight": 0,
+        "restSeconds": 60
+       },
+       {
+        "type": "Normal",
+        "repsMin": 10,
+        "repsMax": 12,
+        "weight": 0,
+        "restSeconds": 60
+       },
+       {
+        "type": "Normal",
+        "repsMin": 10,
+        "repsMax": 12,
+        "weight": 0,
+        "restSeconds": 60
+       }
+      ]
+     }
+    ],
+    "order": 3
+   },
+   "rut-sabado-pecho-espalda-hombros": {
+    "id": "rut-sabado-pecho-espalda-hombros",
+    "name": "Sábado — Pecho, Espalda, Hombros",
+    "suggestedDay": "Sábado",
+    "exercises": [
+     {
+      "exerciseId": "ej-press-plano-con-barra",
+      "targetSets": [
+       {
+        "type": "Normal",
+        "repsMin": 8,
+        "repsMax": 10,
+        "weight": 0,
+        "restSeconds": 150
+       },
+       {
+        "type": "Normal",
+        "repsMin": 8,
+        "repsMax": 10,
+        "weight": 0,
+        "restSeconds": 150
+       },
+       {
+        "type": "Normal",
+        "repsMin": 8,
+        "repsMax": 10,
+        "weight": 0,
+        "restSeconds": 150
+       },
+       {
+        "type": "Normal",
+        "repsMin": 8,
+        "repsMax": 10,
+        "weight": 0,
+        "restSeconds": 150
+       }
+      ]
+     },
+     {
+      "exerciseId": "ej-aperturas-en-maquina",
+      "targetSets": [
+       {
+        "type": "Normal",
+        "repsMin": 12,
+        "repsMax": 15,
+        "weight": 0,
+        "restSeconds": 90
+       },
+       {
+        "type": "Normal",
+        "repsMin": 12,
+        "repsMax": 15,
+        "weight": 0,
+        "restSeconds": 90
+       },
+       {
+        "type": "Normal",
+        "repsMin": 12,
+        "repsMax": 15,
+        "weight": 0,
+        "restSeconds": 90
+       }
+      ]
+     },
+     {
+      "exerciseId": "ej-dominadas-asistidas",
+      "targetSets": [
+       {
+        "type": "Normal",
+        "repsMin": 8,
+        "repsMax": 12,
+        "weight": 0,
+        "restSeconds": 120
+       },
+       {
+        "type": "Normal",
+        "repsMin": 8,
+        "repsMax": 12,
+        "weight": 0,
+        "restSeconds": 120
+       },
+       {
+        "type": "Normal",
+        "repsMin": 8,
+        "repsMax": 12,
+        "weight": 0,
+        "restSeconds": 120
+       }
+      ]
+     },
+     {
+      "exerciseId": "ej-remo-sentado-en-maquina-agarre-pronado",
+      "targetSets": [
+       {
+        "type": "Normal",
+        "repsMin": 10,
+        "repsMax": 12,
+        "weight": 0,
+        "restSeconds": 120
+       },
+       {
+        "type": "Normal",
+        "repsMin": 10,
+        "repsMax": 12,
+        "weight": 0,
+        "restSeconds": 120
+       },
+       {
+        "type": "Normal",
+        "repsMin": 10,
+        "repsMax": 12,
+        "weight": 0,
+        "restSeconds": 120
+       },
+       {
+        "type": "Normal",
+        "repsMin": 10,
+        "repsMax": 12,
+        "weight": 0,
+        "restSeconds": 120
+       }
+      ]
+     },
+     {
+      "exerciseId": "ej-jalon-unilateral-en-polea-alta",
+      "targetSets": [
+       {
+        "type": "Normal",
+        "repsMin": 12,
+        "repsMax": 12,
+        "weight": 0,
+        "restSeconds": 90
+       },
+       {
+        "type": "Normal",
+        "repsMin": 12,
+        "repsMax": 12,
+        "weight": 0,
+        "restSeconds": 90
+       },
+       {
+        "type": "Normal",
+        "repsMin": 12,
+        "repsMax": 12,
+        "weight": 0,
+        "restSeconds": 90
+       }
+      ]
+     },
+     {
+      "exerciseId": "ej-elevacion-lateral-en-polea",
+      "targetSets": [
+       {
+        "type": "Normal",
+        "repsMin": 12,
+        "repsMax": 15,
+        "weight": 0,
+        "restSeconds": 90
+       },
+       {
+        "type": "Normal",
+        "repsMin": 12,
+        "repsMax": 15,
+        "weight": 0,
+        "restSeconds": 90
+       },
+       {
+        "type": "Normal",
+        "repsMin": 12,
+        "repsMax": 15,
+        "weight": 0,
+        "restSeconds": 90
+       },
+       {
+        "type": "Normal",
+        "repsMin": 12,
+        "repsMax": 15,
+        "weight": 0,
+        "restSeconds": 90
+       }
+      ]
+     },
+     {
+      "exerciseId": "ej-face-pull",
+      "targetSets": [
+       {
+        "type": "Normal",
+        "repsMin": 15,
+        "repsMax": 20,
+        "weight": 0,
+        "restSeconds": 60
+       },
+       {
+        "type": "Normal",
+        "repsMin": 15,
+        "repsMax": 20,
+        "weight": 0,
+        "restSeconds": 60
+       },
+       {
+        "type": "Normal",
+        "repsMin": 15,
+        "repsMax": 20,
+        "weight": 0,
+        "restSeconds": 60
+       }
+      ]
+     }
+    ],
+    "order": 4
+   }
+  },
+  "sessions": {},
+  "weighIns": {},
+  "phases": {},
+  "savedMeals": {},
+  "diary": {},
+  "foods": {}
+ }
+}

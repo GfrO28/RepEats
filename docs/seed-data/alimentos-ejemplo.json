@@ -1,0 +1,69 @@
+{
+  "_nota": "Ejemplo del formato de importación. Valores aproximados por 100 g, solo para probar; la fuente de referencia para los datos reales serán las Tablas Peruanas de Composición de Alimentos (INS/CENAN).",
+  "foods": [
+    {
+      "name": "Arroz blanco cocido",
+      "kcal": 130,
+      "proteinG": 2.7,
+      "fatG": 0.3,
+      "carbsG": 28,
+      "unit": { "label": "taza", "grams": 158 }
+    },
+    {
+      "name": "Huevo entero cocido",
+      "kcal": 155,
+      "proteinG": 12.6,
+      "fatG": 10.6,
+      "carbsG": 1.1,
+      "unit": { "label": "huevo", "grams": 50 }
+    },
+    {
+      "name": "Pechuga de pollo cocida sin piel",
+      "kcal": 165,
+      "proteinG": 31,
+      "fatG": 3.6,
+      "carbsG": 0,
+      "unit": null
+    },
+    {
+      "name": "Plátano de seda",
+      "kcal": 89,
+      "proteinG": 1.1,
+      "fatG": 0.3,
+      "carbsG": 22.8,
+      "unit": { "label": "plátano mediano", "grams": 118 }
+    },
+    {
+      "name": "Palta",
+      "kcal": 160,
+      "proteinG": 2,
+      "fatG": 14.7,
+      "carbsG": 8.5,
+      "unit": null
+    },
+    {
+      "name": "Papa cocida",
+      "kcal": 87,
+      "proteinG": 1.9,
+      "fatG": 0.1,
+      "carbsG": 20.1,
+      "unit": { "label": "papa mediana", "grams": 150 }
+    },
+    {
+      "name": "Lentejas cocidas",
+      "kcal": 116,
+      "proteinG": 9,
+      "fatG": 0.4,
+      "carbsG": 20.1,
+      "unit": null
+    },
+    {
+      "name": "Avena en hojuelas",
+      "kcal": 389,
+      "proteinG": 16.9,
+      "fatG": 6.9,
+      "carbsG": 66.3,
+      "unit": null
+    }
+  ]
+}
