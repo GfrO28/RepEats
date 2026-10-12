@@ -144,4 +144,40 @@ describe('summarizeSets / formatSetGroup', () => {
     expect(formatSetGroup({ type: 'Al Fallo', count: 1, reps: 9, weight: 60 })).toBe('Al fallo: 1 × 9 @ 60 kg')
     expect(formatSetGroup({ type: 'Drop Set', count: 2, reps: 6, weight: 40 })).toBe('Drop set: 2 × 6 @ 40 kg')
   })
+
+  describe('Drop Set con bajadas anidadas', () => {
+    const at = new Date('2026-10-01T10:00:00')
+    const block = (weight: number, reps: number): CompletedSet => ({
+      type: 'Drop Set',
+      weight,
+      reps,
+      completedAt: at,
+      drops: [
+        { weight: 47.5, reps: 6, completedAt: at },
+        { weight: 37.5, reps: 5, completedAt: at },
+      ],
+    })
+
+    it('un bloque con bajadas es un grupo propio, aunque dos bloques sean idénticos', () => {
+      const groups = summarizeSets([block(60, 8), block(60, 8)])
+      expect(groups).toHaveLength(2)
+      expect(groups[0]?.drops).toHaveLength(2)
+    })
+
+    it('no se junta con una serie suelta del mismo tipo, peso y repeticiones', () => {
+      expect(summarizeSets([set(60, 8, 'Drop Set'), block(60, 8)])).toHaveLength(2)
+    })
+
+    it('una madre sin bajadas (bloque vacío) se agrupa como una serie normal', () => {
+      const empty: CompletedSet = { type: 'Drop Set', weight: 60, reps: 8, completedAt: at, drops: [] }
+      const groups = summarizeSets([empty, empty])
+      expect(groups).toHaveLength(1)
+      expect(groups[0]?.count).toBe(2)
+    })
+
+    it('se muestra el bloque completo en una línea', () => {
+      const [group] = summarizeSets([block(60, 8)])
+      expect(group && formatSetGroup(group)).toBe('Drop set: 60×8 → 47.5×6 → 37.5×5 kg')
+    })
+  })
 })

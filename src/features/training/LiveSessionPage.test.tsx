@@ -259,6 +259,180 @@ describe('LiveSessionPage: referencia de la última vez', () => {
   })
 })
 
+describe('LiveSessionPage: Drop Set con bajadas anidadas', () => {
+  const pressExercise: Exercise = {
+    id: 'press',
+    name: 'Press de banca',
+    primaryMuscles: ['pectoral_medio'],
+    secondaryMuscles: [],
+    equipment: 'Barra',
+    notes: '',
+  }
+  const target = { type: 'Normal', weight: 50, repsMin: 8, repsMax: 10, restSeconds: 60 } as const
+  const routine: Routine = {
+    id: 'r1',
+    name: 'Empuje',
+    suggestedDay: 'Lunes',
+    suggestedTime: null,
+    order: 0,
+    exercises: [{ exerciseId: 'press', targetSets: [target, target] }],
+  }
+  const liveSession: Session = {
+    id: 's4',
+    routineId: 'r1',
+    startedAt: new Date('2026-10-01T10:00:00'),
+    endedAt: null,
+    status: 'in_progress',
+    exercises: [{ exerciseId: 'press', notes: '', sets: [] }],
+    manualExerciseKcal: null,
+  }
+
+  function lastSavedSession(): Session {
+    return updateSession.mock.calls.at(-1)?.[0] as Session
+  }
+
+  // Cambia la serie 1 a Drop Set y la completa; devuelve la función para refrescar la pantalla con lo último guardado
+  async function completeDropSetMother() {
+    exercises = [pressExercise]
+    routines = [routine]
+    const view = render(<LiveSessionPage session={liveSession} />)
+    await userEvent.click(screen.getByRole('button', { name: /Serie 1, tipo Normal/ }))
+    await userEvent.click(screen.getByRole('button', { name: /Drop Set/ }))
+    await userEvent.click(screen.getByRole('button', { name: 'Completar serie 1' }))
+    const refresh = () => view.rerender(<LiveSessionPage session={lastSavedSession()} />)
+    refresh()
+    return refresh
+  }
+
+  it('al completar la madre se guarda con "drops" vacío y aparecen 2 bajadas, la primera con -20 % redondeado a 2.5', async () => {
+    await completeDropSetMother()
+
+    expect(lastSavedSession().exercises[0]?.sets[0]).toEqual(expect.objectContaining({ type: 'Drop Set', drops: [] }))
+    // 50 kg → 40 kg (la bajada propuesta); la segunda, 40 → 32.5, se ve bloqueada
+    expect(screen.getByLabelText('Press de banca, bajada 1: peso en kilogramos')).toHaveValue('40')
+    expect(screen.getByRole('button', { name: 'Press de banca: quitar bajada 2' })).toBeInTheDocument()
+    expect(screen.getByText('32.5')).toBeInTheDocument()
+  })
+
+  it('no hay descanso entre la madre y las bajadas, y la serie siguiente espera a que el bloque termine', async () => {
+    await completeDropSetMother()
+
+    expect(screen.queryByRole('progressbar', { name: 'Descanso' })).not.toBeInTheDocument()
+    expect(screen.queryByRole('button', { name: 'Completar serie 2' })).not.toBeInTheDocument()
+  })
+
+  it('cada bajada completada se guarda dentro de la madre; el descanso corre solo tras la última', async () => {
+    const refresh = await completeDropSetMother()
+
+    await userEvent.click(screen.getByRole('button', { name: 'Completar bajada 1' }))
+    expect(lastSavedSession().exercises[0]?.sets[0]?.drops).toEqual([
+      expect.objectContaining({ weight: 40, reps: 8 }),
+    ])
+    refresh()
+    expect(screen.queryByRole('progressbar', { name: 'Descanso' })).not.toBeInTheDocument()
+    // la segunda bajada continúa la cascada desde la primera: 40 → 32.5
+    expect(screen.getByLabelText('Press de banca, bajada 2: peso en kilogramos')).toHaveValue('32.5')
+
+    await userEvent.click(screen.getByRole('button', { name: 'Completar bajada 2' }))
+    expect(lastSavedSession().exercises[0]?.sets[0]?.drops).toHaveLength(2)
+    refresh()
+    expect(screen.getByRole('progressbar', { name: 'Descanso' })).toBeInTheDocument()
+    expect(screen.getByRole('button', { name: 'Completar serie 2' })).toBeInTheDocument()
+  })
+
+  it('un doble toque en ✓ no registra la misma bajada dos veces', async () => {
+    await completeDropSetMother()
+
+    const check = screen.getByRole('button', { name: 'Completar bajada 1' })
+    await userEvent.dblClick(check)
+    expect(lastSavedSession().exercises[0]?.sets[0]?.drops).toHaveLength(1)
+  })
+
+  it('"+ Otra bajada" agrega una tercera y ✕ quita cualquiera de las pendientes', async () => {
+    await completeDropSetMother()
+
+    await userEvent.click(screen.getByRole('button', { name: '+ Otra bajada' }))
+    expect(screen.getByRole('button', { name: 'Press de banca: quitar bajada 3' })).toBeInTheDocument()
+
+    await userEvent.click(screen.getByRole('button', { name: 'Press de banca: quitar bajada 2' }))
+    expect(screen.queryByRole('button', { name: 'Press de banca: quitar bajada 3' })).not.toBeInTheDocument()
+    expect(screen.getByRole('button', { name: 'Press de banca: quitar bajada 2' })).toBeInTheDocument()
+  })
+
+  it('quitar la última bajada pendiente da por terminado el bloque: corre el descanso y se libera la serie siguiente', async () => {
+    await completeDropSetMother()
+
+    await userEvent.click(screen.getByRole('button', { name: 'Press de banca: quitar bajada 2' }))
+    await userEvent.click(screen.getByRole('button', { name: 'Press de banca: quitar bajada 1' }))
+
+    expect(screen.getByRole('progressbar', { name: 'Descanso' })).toBeInTheDocument()
+    expect(screen.getByRole('button', { name: 'Completar serie 2' })).toBeInTheDocument()
+  })
+
+  it('se puede quitar una bajada ya completada: se borra de la sesión guardada', async () => {
+    const refresh = await completeDropSetMother()
+    await userEvent.click(screen.getByRole('button', { name: 'Completar bajada 1' }))
+    refresh()
+
+    await userEvent.click(screen.getByRole('button', { name: 'Press de banca: quitar bajada 1' }))
+    expect(lastSavedSession().exercises[0]?.sets[0]?.drops).toEqual([])
+  })
+
+  it('en la serie siguiente al bloque, el "Antes" no se desfasa por las bajadas', async () => {
+    const refresh = await completeDropSetMother()
+    await userEvent.click(screen.getByRole('button', { name: 'Completar bajada 1' }))
+    refresh()
+    await userEvent.click(screen.getByRole('button', { name: 'Completar bajada 2' }))
+    refresh()
+
+    // La serie 2 es Normal y la vez pasada no hubo historial: no hay nada que comparar
+    expect(screen.getByLabelText('Press de banca, serie 2: peso en kilogramos')).toBeInTheDocument()
+    expect(screen.queryByText(/Antes/)).not.toBeInTheDocument()
+  })
+
+  it('muestra el "Antes" de cada bajada y el bloque anterior completo', async () => {
+    exercises = [pressExercise]
+    routines = [routine]
+    pastSessions = [
+      {
+        id: 'old',
+        routineId: 'r1',
+        startedAt: new Date('2026-09-23T10:00:00'),
+        endedAt: new Date('2026-09-23T11:00:00'),
+        status: 'completed',
+        manualExerciseKcal: null,
+        exercises: [
+          {
+            exerciseId: 'press',
+            notes: '',
+            sets: [
+              {
+                type: 'Drop Set',
+                weight: 60,
+                reps: 8,
+                completedAt: new Date('2026-09-23T10:10:00'),
+                drops: [
+                  { weight: 45, reps: 6, completedAt: new Date('2026-09-23T10:11:00') },
+                  { weight: 30, reps: 5, completedAt: new Date('2026-09-23T10:12:00') },
+                ],
+              },
+            ],
+          },
+        ],
+      },
+    ]
+    const view = render(<LiveSessionPage session={liveSession} />)
+    await userEvent.click(screen.getByRole('button', { name: /Serie 1, tipo Normal/ }))
+    await userEvent.click(screen.getByRole('button', { name: /Drop Set/ }))
+    expect(screen.getByText('Bloque anterior: 60×8 → 45×6 → 30×5')).toBeInTheDocument()
+
+    await userEvent.click(screen.getByRole('button', { name: 'Completar serie 1' }))
+    view.rerender(<LiveSessionPage session={lastSavedSession()} />)
+    expect(screen.getByText('Antes 45')).toBeInTheDocument()
+    expect(screen.getByText('Antes 6')).toBeInTheDocument()
+  })
+})
+
 describe('LiveSessionPage: unidad de peso (kg/lb)', () => {
   const pressExercise: Exercise = {
     id: 'press',

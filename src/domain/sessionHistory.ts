@@ -1,4 +1,5 @@
-import type { CompletedSet, Session } from '@/repositories/SessionRepository'
+import type { CompletedSet, DropSet, Session } from '@/repositories/SessionRepository'
+import { formatDropChain } from './dropSet'
 import { getSessionDate } from './progressSummary'
 import type { SetTypes } from './setTypes'
 
@@ -79,6 +80,7 @@ export interface SetGroup {
   count: number
   reps: number
   weight: number
+  drops?: DropSet[] // un Drop Set con bajadas es siempre un grupo propio: cada bloque se muestra completo
 }
 
 // Series seguidas idénticas (mismo tipo, peso y repeticiones) se juntan: cuatro de 60 kg × 8 son "4 × 8 @ 60 kg"
@@ -86,10 +88,17 @@ export function summarizeSets(sets: readonly CompletedSet[]): SetGroup[] {
   const groups: SetGroup[] = []
   for (const set of sets) {
     const last = groups[groups.length - 1]
-    if (last && last.type === set.type && last.weight === set.weight && last.reps === set.reps) {
+    const hasDrops = set.drops !== undefined && set.drops.length > 0
+    if (!hasDrops && last && !last.drops && last.type === set.type && last.weight === set.weight && last.reps === set.reps) {
       last.count += 1
     } else {
-      groups.push({ type: set.type, count: 1, reps: set.reps, weight: set.weight })
+      groups.push({
+        type: set.type,
+        count: 1,
+        reps: set.reps,
+        weight: set.weight,
+        ...(hasDrops && { drops: set.drops }),
+      })
     }
   }
   return groups
@@ -104,6 +113,11 @@ const SET_TYPE_PREFIX: Record<SetTypes, string> = {
 
 // "4 × 8 @ 60 kg", "3 × 10 (peso corporal)" o "Calentamiento: 1 × 12 @ 20 kg"
 export function formatSetGroup(group: SetGroup): string {
+  // Drop Set con bajadas: "Drop set: 60×8 → 47.5×6 → 37.5×5 kg"
+  if (group.drops && group.drops.length > 0) {
+    const chain = formatDropChain({ type: group.type, weight: group.weight, reps: group.reps, drops: group.drops, completedAt: new Date(0) })
+    return `${SET_TYPE_PREFIX[group.type]}${chain} kg`
+  }
   const load = group.weight > 0 ? ` @ ${group.weight} kg` : ' (peso corporal)'
   return `${SET_TYPE_PREFIX[group.type]}${group.count} × ${group.reps}${load}`
 }

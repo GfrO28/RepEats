@@ -1,4 +1,5 @@
 import type { CompletedSet, Session } from '@/repositories/SessionRepository'
+import { getSetVolume } from './dropSet'
 import { bestOneRepMax } from './personalRecords'
 
 export interface ExerciseSessionStat {
@@ -27,7 +28,7 @@ export function getExerciseHistory(sessions: Session[], exerciseId: string): Exe
           bestOneRepMax: bestOneRepMax(sessionExercise.sets),
           volume: sessionExercise.sets
             .filter((set) => set.type !== 'Calentamiento')
-            .reduce((total, set) => total + set.weight * set.reps, 0),
+            .reduce((total, set) => total + getSetVolume(set), 0),
           sets: sessionExercise.sets,
         },
       ]

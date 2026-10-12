@@ -5,12 +5,14 @@ import { firebaseRoutineRepository } from '@/data/firestore/routineRepository'
 import { firebaseProfileRepository } from '@/data/firestore/profileRepository'
 import type { Exercise } from '@/repositories/WorkoutRepository'
 import type { Profile } from '@/repositories/ProfileRepository'
-import type { Session, CompletedSet } from '@/repositories/SessionRepository'
+import type { Session, CompletedSet, DropSet } from '@/repositories/SessionRepository'
 import type { Routine, TargetSet } from '@/repositories/RoutineRepository'
 import { SET_TYPES, type SetTypes } from '@/domain/setTypes'
 import { Modal } from '@/app/Modal'
 import { NumberField } from '@/app/NumberField'
 import { SetBadge, SetTypeChip } from './SetBadge'
+import { DropSetBlock, type DropDraft } from './DropSetBlock'
+import { DEFAULT_DROP_COUNT, countPendingDrops, formatDropChain, suggestDrop } from '@/domain/dropSet'
 import { useElapsedSeconds } from './useElapsedSeconds'
 import { useRemainingSeconds } from './useRemainingSeconds'
 import { KEEP_AWAKE_KEY, REST_SOUND_KEY, readBooleanPreference } from '@/app/devicePreferences'
@@ -61,6 +63,11 @@ export function LiveSessionPage({ session }: { session: Session }) {
   const [routines, setRoutines] = useState<Routine[]>([])
   const [overrides, setOverrides] = useState<RowDraft[]>([])
   const [extraRows, setExtraRows] = useState<Record<string, number>>({})
+  // Bloques Drop Set de esta sesión, por "ejercicio:índice de la serie madre": cuántas bajadas lleva planeadas el usuario
+  // (por defecto 2) y el descanso que corre al terminar la última. Si la app se recarga a mitad de un bloque, se pierde
+  // y vuelven los valores por defecto.
+  const [dropPlans, setDropPlans] = useState<Record<string, { count: number; restSeconds: number }>>({})
+  const [dropOverrides, setDropOverrides] = useState<Record<string, Partial<DropDraft>>>({})
   // Unidad en la que se MUESTRA/INGRESA el peso de cada ejercicio (no se guarda, dura solo esta sesión): algunas
   // máquinas del gym marcan en libras y otras en kilos para el mismo ejercicio, así que es por ejercicio, no global.
   // Todo se sigue guardando en kg (ver kgToLb/lbToKg): el resto de la app (volumen, 1RM, récords) no se entera.
@@ -182,26 +189,137 @@ export function LiveSessionPage({ session }: { session: Session }) {
     unlockAudio() // iOS solo permite iniciar el audio dentro de un toque: se prepara aquí para el aviso de fin de descanso
     const draft = getPendingRow(exerciseId, rowIndex, target)
 
+    const isDropSet = draft.type === 'Drop Set'
     const newSet: CompletedSet = {
       type: draft.type,
       reps: draft.reps,
       weight: draft.weight,
       rir: draft.rir,
       completedAt: new Date(),
+      ...(isDropSet && { drops: [] }),
     }
 
-    const updatedSession: Session = {
+    saveExerciseSets(exerciseId, (sets) => [...sets, newSet])
+    if (isDropSet) {
+      // Las bajadas siguen sin descanso: el temporizador arranca al completar la última (ver completeDrop)
+      setDropPlans((existing) => ({
+        ...existing,
+        [dropKey(exerciseId, rowIndex)]: { count: DEFAULT_DROP_COUNT, restSeconds: draft.restSeconds },
+      }))
+    } else {
+      startRest(draft.restSeconds)
+    }
+    setOverrides((existing) => existing.filter((o) => !(o.exerciseId === exerciseId && o.rowIndex === rowIndex)))
+  }
+
+  function startRest(seconds: number) {
+    setRestEndsAt(new Date(Date.now() + seconds * 1000))
+    setRestTotalSeconds(seconds)
+    setRestRunId((id) => id + 1)
+  }
+
+  function saveExerciseSets(exerciseId: string, update: (sets: CompletedSet[]) => CompletedSet[]) {
+    firebaseSessionRepository.updateSession({
       ...session,
       exercises: session.exercises.map((exercise) =>
-        exercise.exerciseId === exerciseId ? { ...exercise, sets: [...exercise.sets, newSet] } : exercise,
+        exercise.exerciseId === exerciseId ? { ...exercise, sets: update(exercise.sets) } : exercise,
       ),
+    })
+  }
+
+  // ── Drop Set: bajadas anidadas bajo la serie madre ──
+  const dropKey = (exerciseId: string, setIndex: number) => `${exerciseId}:${setIndex}`
+  const dropDraftKey = (exerciseId: string, setIndex: number, dropIndex: number) => `${exerciseId}:${setIndex}:${dropIndex}`
+
+  function getSets(exerciseId: string): CompletedSet[] {
+    return session.exercises.find((exercise) => exercise.exerciseId === exerciseId)?.sets ?? []
+  }
+
+  function getDropDraft(exerciseId: string, setIndex: number, madre: CompletedSet, dropIndex: number): DropDraft {
+    const suggestion = suggestDrop(madre, dropIndex)
+    return { ...suggestion, rir: undefined, ...dropOverrides[dropDraftKey(exerciseId, setIndex, dropIndex)] }
+  }
+
+  function updateDropDraft(exerciseId: string, setIndex: number, madre: CompletedSet, dropIndex: number, changes: Partial<DropDraft>) {
+    const key = dropDraftKey(exerciseId, setIndex, dropIndex)
+    const current = getDropDraft(exerciseId, setIndex, madre, dropIndex)
+    setDropOverrides((existing) => ({ ...existing, [key]: { ...existing[key], ...current, ...changes } }))
+  }
+
+  // Descanso al terminar el bloque: el que se guardó al completar la madre o, si la app se recargó, el de la rutina
+  function getBlockRestSeconds(exerciseId: string, setIndex: number): number {
+    const planned = dropPlans[dropKey(exerciseId, setIndex)]?.restSeconds
+    if (planned !== undefined) return planned
+    const routine = routines.find((r) => r.id === session.routineId)
+    const routineExercise = routine?.exercises.find((re) => re.exerciseId === exerciseId)
+    return routineExercise?.targetSets[setIndex]?.restSeconds ?? 60
+  }
+
+  function setPlannedDrops(exerciseId: string, setIndex: number, count: number) {
+    const key = dropKey(exerciseId, setIndex)
+    const restSeconds = getBlockRestSeconds(exerciseId, setIndex)
+    setDropPlans((existing) => ({ ...existing, [key]: { count, restSeconds } }))
+  }
+
+  function clearDropDrafts(exerciseId: string, setIndex: number) {
+    const prefix = `${dropKey(exerciseId, setIndex)}:`
+    setDropOverrides((existing) => Object.fromEntries(Object.entries(existing).filter(([key]) => !key.startsWith(prefix))))
+  }
+
+  function completeDrop(exerciseId: string, setIndex: number, dropIndex: number) {
+    const madre = getSets(exerciseId)[setIndex]
+    if (!madre?.drops) return
+    // Un doble toque en ✓ no debe registrar la misma bajada dos veces
+    const rowKey = dropDraftKey(exerciseId, setIndex, dropIndex)
+    const now = Date.now()
+    if (shouldIgnoreCompletion(madre.drops.length, dropIndex, lastCompletionRef.current.get(rowKey) ?? null, now)) return
+    lastCompletionRef.current.set(rowKey, now)
+
+    unlockAudio()
+    const draft = getDropDraft(exerciseId, setIndex, madre, dropIndex)
+    const drop: DropSet = {
+      reps: draft.reps,
+      weight: draft.weight,
+      ...(draft.rir !== undefined && { rir: draft.rir }),
+      completedAt: new Date(),
     }
 
-    firebaseSessionRepository.updateSession(updatedSession)
-    setRestEndsAt(new Date(Date.now() + draft.restSeconds * 1000))
-    setRestTotalSeconds(draft.restSeconds)
-    setRestRunId((id) => id + 1)
-    setOverrides((existing) => existing.filter((o) => !(o.exerciseId === exerciseId && o.rowIndex === rowIndex)))
+    saveExerciseSets(exerciseId, (sets) =>
+      sets.map((set, index) => (index === setIndex ? { ...set, drops: [...(set.drops ?? []), drop] } : set)),
+    )
+    if (countPendingDrops(madre, dropPlans[dropKey(exerciseId, setIndex)]?.count ?? null) <= 1) {
+      startRest(getBlockRestSeconds(exerciseId, setIndex)) // era la última bajada: ahora sí se descansa
+    }
+    setDropOverrides((existing) => Object.fromEntries(Object.entries(existing).filter(([key]) => key !== rowKey)))
+  }
+
+  function addDrop(exerciseId: string, setIndex: number) {
+    const madre = getSets(exerciseId)[setIndex]
+    if (!madre?.drops) return
+    const planned = Math.max(dropPlans[dropKey(exerciseId, setIndex)]?.count ?? DEFAULT_DROP_COUNT, madre.drops.length)
+    setPlannedDrops(exerciseId, setIndex, planned + 1)
+  }
+
+  function removeDrop(exerciseId: string, setIndex: number, dropIndex: number) {
+    const sets = getSets(exerciseId)
+    const madre = sets[setIndex]
+    if (!madre?.drops) return
+    const done = madre.drops.length
+    const planned = Math.max(dropPlans[dropKey(exerciseId, setIndex)]?.count ?? DEFAULT_DROP_COUNT, done)
+
+    if (dropIndex < done) {
+      saveExerciseSets(exerciseId, (current) =>
+        current.map((set, index) => (index === setIndex ? { ...set, drops: (set.drops ?? []).filter((_, i) => i !== dropIndex) } : set)),
+      )
+    }
+    setPlannedDrops(exerciseId, setIndex, planned - 1)
+    clearDropDrafts(exerciseId, setIndex)
+
+    // Quitaste la última bajada que faltaba: el bloque terminó, así que corre el descanso
+    const removedPending = dropIndex >= done
+    if (removedPending && setIndex === sets.length - 1 && planned - 1 <= done) {
+      startRest(getBlockRestSeconds(exerciseId, setIndex))
+    }
   }
 
   function finishSession() {
@@ -348,6 +466,12 @@ export function LiveSessionPage({ session }: { session: Session }) {
         const completedCount = sessionExercise.sets.length
         const totalTargets = routineExercise?.targetSets.length ?? 0
         const rowCount = totalTargets + (extraRows[sessionExercise.exerciseId] ?? 0)
+        // Bajadas que faltan en el último Drop Set: hasta resolverlas (hacerlas o quitarlas) no se pasa a la siguiente serie
+        const lastSetIndex = completedCount - 1
+        const lastDropSet = sessionExercise.sets[lastSetIndex]
+        const pendingDrops = lastDropSet?.drops
+          ? countPendingDrops(lastDropSet, dropPlans[dropKey(sessionExercise.exerciseId, lastSetIndex)]?.count ?? null)
+          : 0
 
         return (
           <div key={sessionExercise.exerciseId} className="mt-4 rounded-xl bg-slate-900 p-3">
@@ -380,17 +504,41 @@ export function LiveSessionPage({ session }: { session: Session }) {
             {Array.from({ length: rowCount }, (_, rowIndex) => {
               const target = routineExercise?.targetSets[rowIndex]
               const completedSet = sessionExercise.sets[rowIndex]
-              const isLocked = rowIndex > completedCount
+              const isLocked = rowIndex > completedCount || (rowIndex === completedCount && pendingDrops > 0)
 
-              // Fila ya completada: solo lectura, en verde
+              // Fila ya completada: solo lectura, en verde (si es un Drop Set, con sus bajadas anidadas debajo)
               if (completedSet) {
+                const previousBlock = completedSet.drops
+                  ? findPreviousSetForType(lastSets, sessionExercise.sets.slice(0, rowIndex), 'Drop Set')
+                  : null
                 return (
-                  <div key={rowIndex} className="mt-1 flex items-center gap-2 rounded-lg bg-emerald-950 px-1 py-2 text-sm">
-                    <SetBadge number={rowIndex + 1} type={completedSet.type} />
-                    <span className="flex-1 text-center">{displayWeight(completedSet.weight)}</span>
-                    <span className="flex-1 text-center">{completedSet.reps}</span>
-                    <span className="w-14 text-center text-slate-400">{completedSet.rir ?? '—'}</span>
-                    <span className="w-10 text-center text-emerald-400">✓</span>
+                  <div key={rowIndex}>
+                    <div className="mt-1 flex items-center gap-2 rounded-lg bg-emerald-950 px-1 py-2 text-sm">
+                      <SetBadge number={rowIndex + 1} type={completedSet.type} />
+                      <span className="flex-1 text-center">{displayWeight(completedSet.weight)}</span>
+                      <span className="flex-1 text-center">{completedSet.reps}</span>
+                      <span className="w-14 text-center text-slate-400">{completedSet.rir ?? '—'}</span>
+                      <span className="w-10 text-center text-emerald-400">✓</span>
+                    </div>
+                    {completedSet.drops && (
+                      <DropSetBlock
+                        exerciseName={exercise.name}
+                        madre={completedSet}
+                        pendingCount={rowIndex === lastSetIndex ? pendingDrops : 0}
+                        previousBlock={previousBlock}
+                        canAdd={rowIndex === lastSetIndex}
+                        unitLabel={unit === 'kg' ? 'kilogramos' : 'libras'}
+                        displayWeight={displayWeight}
+                        toKg={(value) => (unit === 'lb' ? lbToKg(value) : value)}
+                        getDraft={(dropIndex) => getDropDraft(sessionExercise.exerciseId, rowIndex, completedSet, dropIndex)}
+                        onChangeDraft={(dropIndex, changes) =>
+                          updateDropDraft(sessionExercise.exerciseId, rowIndex, completedSet, dropIndex, changes)
+                        }
+                        onCompleteDrop={(dropIndex) => completeDrop(sessionExercise.exerciseId, rowIndex, dropIndex)}
+                        onRemoveDrop={(dropIndex) => removeDrop(sessionExercise.exerciseId, rowIndex, dropIndex)}
+                        onAddDrop={() => addDrop(sessionExercise.exerciseId, rowIndex)}
+                      />
+                    )}
                   </div>
                 )
               }
@@ -478,6 +626,11 @@ export function LiveSessionPage({ session }: { session: Session }) {
                       <span className="w-14 shrink-0" aria-hidden="true" />
                       <span className="w-11 shrink-0" aria-hidden="true" />
                     </div>
+                  )}
+                  {draft.type === 'Drop Set' && lastSet?.drops && lastSet.drops.length > 0 && (
+                    <p className="mt-1 text-center text-xs text-slate-400">
+                      Bloque anterior: {formatDropChain(lastSet, displayWeight)}
+                    </p>
                   )}
                 </div>
               )

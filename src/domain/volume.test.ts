@@ -56,4 +56,30 @@ describe('calculateSessionVolume', () => {
 
     expect(calculateSessionVolume(sessionWithWarmup)).toBe(480)
   })
+
+  it('un Drop Set suma el volumen de la madre y de todas sus bajadas', () => {
+    const sessionWithDropSet: Session = {
+      ...exampleSession,
+      exercises: [
+        {
+          exerciseId: 'e1',
+          notes: '',
+          sets: [
+            {
+              type: 'Drop Set',
+              weight: 60,
+              reps: 8,
+              completedAt: new Date(),
+              drops: [
+                { weight: 47.5, reps: 6, completedAt: new Date() },
+                { weight: 37.5, reps: 5, completedAt: new Date() },
+              ],
+            },
+          ],
+        },
+      ],
+    }
+
+    expect(calculateSessionVolume(sessionWithDropSet)).toBe(480 + 285 + 187.5)
+  })
 })

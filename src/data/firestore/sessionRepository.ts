@@ -1,11 +1,25 @@
 import { auth, db } from '@/firebase'
 import { collection, doc, setDoc, deleteDoc, onSnapshot, Timestamp, type DocumentData } from 'firebase/firestore'
-import type { Session, SessionRepository, SessionExercise, CompletedSet } from '@/repositories/SessionRepository'
+import type { Session, SessionRepository, SessionExercise, CompletedSet, DropSet } from '@/repositories/SessionRepository'
 
 function sessionsCollection() {
   const uid = auth.currentUser?.uid
   if (!uid) throw new Error('No hay usuario autenticado')
   return collection(db, 'users', uid, 'sessions')
+}
+
+// Firestore rechaza los campos con valor undefined (aquí, un RIR que no se llenó): se omiten
+function dropToFirestore({ rir, completedAt, ...drop }: DropSet) {
+  return { ...drop, ...(rir !== undefined && { rir }), completedAt: Timestamp.fromDate(completedAt) }
+}
+
+function setToFirestore({ rir, completedAt, drops, ...set }: CompletedSet) {
+  return {
+    ...set,
+    ...(rir !== undefined && { rir }),
+    completedAt: Timestamp.fromDate(completedAt),
+    ...(drops !== undefined && { drops: drops.map(dropToFirestore) }),
+  }
 }
 
 // Session (con Date) → forma que Firestore espera (con Timestamp)
@@ -16,10 +30,7 @@ function sessionToFirestore(session: Session) {
     endedAt: session.endedAt ? Timestamp.fromDate(session.endedAt) : null,
     exercises: session.exercises.map((exercise) => ({
       ...exercise,
-      sets: exercise.sets.map((set) => ({
-        ...set,
-        completedAt: Timestamp.fromDate(set.completedAt),
-      })),
+      sets: exercise.sets.map(setToFirestore),
     })),
   }
 }
@@ -37,6 +48,12 @@ function sessionFromFirestore(id: string, data: DocumentData): Session {
       sets: exercise.sets.map((set: CompletedSet) => ({
         ...set,
         completedAt: (set.completedAt as unknown as Timestamp).toDate(),
+        ...(set.drops && {
+          drops: set.drops.map((drop: DropSet) => ({
+            ...drop,
+            completedAt: (drop.completedAt as unknown as Timestamp).toDate(),
+          })),
+        }),
       })),
     })),
   } as Session
