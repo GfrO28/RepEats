@@ -7,6 +7,7 @@ import { RoutineForm } from './RoutineForm'
 
 let exercises: Exercise[] = []
 const addRoutine = vi.fn()
+const updateRoutine = vi.fn()
 
 vi.mock('@/data/firestore/workoutRepository', () => ({
   firebaseWorkoutRepository: {
@@ -20,6 +21,7 @@ vi.mock('@/data/firestore/routineRepository', () => ({
   firebaseRoutineRepository: {
     generateRoutineId: () => 'nueva-rutina',
     addRoutine: (routine: Routine) => addRoutine(routine),
+    updateRoutine: (routine: Routine) => updateRoutine(routine),
   },
 }))
 
@@ -63,6 +65,7 @@ const editingRoutine: Routine = {
 afterEach(() => {
   exercises = []
   addRoutine.mockClear()
+  updateRoutine.mockClear()
 })
 
 describe('RoutineForm', () => {
@@ -137,5 +140,109 @@ describe('RoutineForm', () => {
     await userEvent.click(screen.getByRole('button', { name: 'Reemplazar ejercicio' }))
 
     expect(screen.queryByRole('button', { name: 'Remo con barra' })).not.toBeInTheDocument()
+  })
+})
+
+describe('RoutineForm: supersets', () => {
+  async function addExercises(...names: string[]) {
+    for (const name of names) {
+      await userEvent.click(screen.getByRole('button', { name: '+ Agregar ejercicio' }))
+      await userEvent.click(screen.getByRole('button', { name }))
+    }
+  }
+
+  async function createRoutine() {
+    await userEvent.type(screen.getByLabelText('Nombre de la rutina'), 'Mixta')
+    await userEvent.click(screen.getByRole('button', { name: 'Crear rutina' }))
+    return addRoutine.mock.calls.at(-1)?.[0] as Routine
+  }
+
+  it('se agregan dos ejercicios y se unen desde el menú (⋮): quedan marcados A y B y se guardan con el mismo grupo', async () => {
+    exercises = [pressBanca, remo, sentadilla]
+    render(<RoutineForm routineToEdit={null} onDone={vi.fn()} />)
+    await addExercises('Press de banca', 'Remo con barra', 'Sentadilla')
+
+    await userEvent.click(screen.getByRole('button', { name: 'Más opciones: Press de banca' }))
+    await userEvent.click(screen.getByRole('button', { name: 'Unir con Remo con barra (superset)' }))
+
+    expect(screen.getByText('Superset A')).toBeInTheDocument()
+    expect(screen.getByText('Superset B')).toBeInTheDocument()
+
+    const saved = await createRoutine()
+    expect(saved.exercises.map((e) => e.supersetGroup)).toEqual(['ss1', 'ss1', undefined])
+    // el campo no se guarda ni siquiera como undefined en el ejercicio suelto (Firestore lo rechaza)
+    expect('supersetGroup' in saved.exercises[2]!).toBe(false)
+  })
+
+  it('el último ejercicio no se puede unir con "el siguiente": la opción está deshabilitada y explica por qué', async () => {
+    exercises = [pressBanca, remo]
+    render(<RoutineForm routineToEdit={null} onDone={vi.fn()} />)
+    await addExercises('Press de banca', 'Remo con barra')
+
+    await userEvent.click(screen.getByRole('button', { name: 'Más opciones: Remo con barra' }))
+    expect(screen.getByRole('button', { name: 'Unir con el siguiente (superset)' })).toBeDisabled()
+    expect(screen.getByText(/debe estar justo debajo/)).toBeInTheDocument()
+  })
+
+  it('desde cualquiera de los dos, "Separar" los deja sueltos', async () => {
+    exercises = [pressBanca, remo]
+    render(<RoutineForm routineToEdit={null} onDone={vi.fn()} />)
+    await addExercises('Press de banca', 'Remo con barra')
+    await userEvent.click(screen.getByRole('button', { name: 'Más opciones: Press de banca' }))
+    await userEvent.click(screen.getByRole('button', { name: /Unir con Remo/ }))
+
+    await userEvent.click(screen.getByRole('button', { name: 'Más opciones: Remo con barra' }))
+    await userEvent.click(screen.getByRole('button', { name: 'Separar superset con Press de banca' }))
+
+    expect(screen.queryByText('Superset A')).not.toBeInTheDocument()
+    const saved = await createRoutine()
+    expect(saved.exercises.every((e) => !('supersetGroup' in e))).toBe(true)
+  })
+
+  it('un ejercicio que ya es parte de un superset no ofrece unirse con otro', async () => {
+    exercises = [pressBanca, remo, sentadilla]
+    render(<RoutineForm routineToEdit={null} onDone={vi.fn()} />)
+    await addExercises('Press de banca', 'Remo con barra', 'Sentadilla')
+    await userEvent.click(screen.getByRole('button', { name: 'Más opciones: Press de banca' }))
+    await userEvent.click(screen.getByRole('button', { name: /Unir con Remo/ }))
+
+    await userEvent.click(screen.getByRole('button', { name: 'Más opciones: Remo con barra' }))
+    expect(screen.queryByRole('button', { name: /^Unir con/ })).not.toBeInTheDocument()
+    expect(screen.getByRole('button', { name: 'Separar superset con Press de banca' })).toBeInTheDocument()
+  })
+
+  it('al editar una rutina con superset se muestran las marcas, y quitar un miembro deja suelto al otro', async () => {
+    exercises = [pressBanca, remo, sentadilla]
+    const withSuperset: Routine = {
+      ...editingRoutine,
+      exercises: editingRoutine.exercises.map((e) => ({ ...e, supersetGroup: 'ss1' })),
+    }
+    render(<RoutineForm routineToEdit={withSuperset} onDone={vi.fn()} />)
+    expect(screen.getByText('Superset A')).toBeInTheDocument()
+    expect(screen.getByText('Superset B')).toBeInTheDocument()
+
+    await userEvent.click(screen.getByRole('button', { name: 'Quitar Remo con barra de la rutina' }))
+    expect(screen.queryByText('Superset A')).not.toBeInTheDocument()
+
+    await userEvent.click(screen.getByRole('button', { name: 'Guardar cambios' }))
+    const saved = updateRoutine.mock.calls[0]?.[0] as Routine
+    expect(saved.exercises).toHaveLength(1)
+    expect('supersetGroup' in saved.exercises[0]!).toBe(false)
+  })
+
+  it('reemplazar un ejercicio de la pareja conserva el superset', async () => {
+    exercises = [pressBanca, remo, sentadilla]
+    const withSuperset: Routine = {
+      ...editingRoutine,
+      exercises: editingRoutine.exercises.map((e) => ({ ...e, supersetGroup: 'ss1' })),
+    }
+    render(<RoutineForm routineToEdit={withSuperset} onDone={vi.fn()} />)
+
+    await userEvent.click(screen.getByRole('button', { name: 'Más opciones: Press de banca' }))
+    await userEvent.click(screen.getByRole('button', { name: 'Reemplazar ejercicio' }))
+    await userEvent.click(screen.getByRole('button', { name: 'Sentadilla' }))
+
+    expect(screen.getByText('Superset A')).toBeInTheDocument()
+    expect(screen.getByText('Superset B')).toBeInTheDocument()
   })
 })

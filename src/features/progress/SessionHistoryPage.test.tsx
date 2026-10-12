@@ -123,6 +123,48 @@ describe('SessionHistoryPage', () => {
     expect(screen.queryByText('Dominadas')).not.toBeInTheDocument() // el ejercicio sin series no se lista
   })
 
+  it('indica con qué ejercicio se hizo en superset, y no marca a los sueltos', async () => {
+    const endedAt = new Date(2026, 2, 4, 19)
+    const set = { type: 'Normal', weight: 60, reps: 8, completedAt: endedAt } as const
+    sessions = [
+      makeSession('ss', endedAt, 60, {
+        exercises: [
+          { exerciseId: 'press', notes: '', sets: [set], supersetGroup: 'ss1' },
+          { exerciseId: 'dominadas', notes: '', sets: [set], supersetGroup: 'ss1' },
+        ],
+      }),
+    ]
+    render(<SessionHistoryPage />)
+    await userEvent.click(screen.getByRole('button', { expanded: false }))
+
+    expect(screen.getByText('Superset con Dominadas')).toBeInTheDocument()
+    expect(screen.getByText('Superset con Press de banca')).toBeInTheDocument()
+  })
+
+  it('un superset cuya pareja quedó sin series igual se indica', async () => {
+    const endedAt = new Date(2026, 2, 4, 19)
+    sessions = [
+      makeSession('ss', endedAt, 60, {
+        exercises: [
+          { exerciseId: 'press', notes: '', sets: [{ type: 'Normal', weight: 60, reps: 8, completedAt: endedAt }], supersetGroup: 'ss1' },
+          { exerciseId: 'dominadas', notes: '', sets: [], supersetGroup: 'ss1' },
+        ],
+      }),
+    ]
+    render(<SessionHistoryPage />)
+    await userEvent.click(screen.getByRole('button', { expanded: false }))
+
+    expect(screen.getByText('Superset con Dominadas')).toBeInTheDocument()
+    expect(screen.queryByText('Superset con Press de banca')).not.toBeInTheDocument() // Dominadas no se lista: sin series
+  })
+
+  it('sin superset no aparece ninguna marca', async () => {
+    sessions = [makeSession('a', new Date(2026, 2, 4, 19), 60)]
+    render(<SessionHistoryPage />)
+    await userEvent.click(screen.getByRole('button', { expanded: false }))
+    expect(screen.queryByText(/Superset con/)).not.toBeInTheDocument()
+  })
+
   it('marca la sesión donde se logró un récord', async () => {
     sessions = [makeSession('vieja', new Date(2026, 2, 2, 19), 60), makeSession('nueva', new Date(2026, 2, 4, 19), 70)]
     render(<SessionHistoryPage />)

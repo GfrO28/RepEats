@@ -1,17 +1,18 @@
-import { useEffect, useId, useRef, useState } from 'react'
+import { useEffect, useId, useRef, useState, type ReactNode } from 'react'
 import { firebaseWorkoutRepository } from '@/data/firestore/workoutRepository'
 import { firebaseSessionRepository } from '@/data/firestore/sessionRepository'
 import { firebaseRoutineRepository } from '@/data/firestore/routineRepository'
 import { firebaseProfileRepository } from '@/data/firestore/profileRepository'
 import type { Exercise } from '@/repositories/WorkoutRepository'
 import type { Profile } from '@/repositories/ProfileRepository'
-import type { Session, CompletedSet, DropSet } from '@/repositories/SessionRepository'
-import type { Routine, TargetSet } from '@/repositories/RoutineRepository'
+import type { Session, SessionExercise, CompletedSet, DropSet } from '@/repositories/SessionRepository'
+import type { Routine, RoutineExercise, TargetSet } from '@/repositories/RoutineRepository'
 import { SET_TYPES, type SetTypes } from '@/domain/setTypes'
 import { Modal } from '@/app/Modal'
 import { NumberField } from '@/app/NumberField'
 import { SetBadge, SetTypeChip } from './SetBadge'
 import { DropSetBlock, type DropDraft } from './DropSetBlock'
+import { buildSupersetSequence, getSupersetPartnerIndex, isRoundEnd } from '@/domain/superset'
 import { DEFAULT_DROP_COUNT, countPendingDrops, formatDropChain, suggestDrop } from '@/domain/dropSet'
 import { useElapsedSeconds } from './useElapsedSeconds'
 import { useRemainingSeconds } from './useRemainingSeconds'
@@ -55,6 +56,20 @@ interface TypePickerTarget {
   rowIndex: number
   target: TargetSet | undefined
   current: SetTypes
+}
+
+// Todo lo que hace falta para dibujar un ejercicio de la sesión (suelto o como parte de un superset)
+interface ExerciseView {
+  sessionExercise: SessionExercise
+  exercise: Exercise
+  routineExercise: RoutineExercise | undefined
+  lastSets: CompletedSet[] | null // lo que hiciste la última vez en este ejercicio, serie por serie
+  unit: WeightUnit
+  displayWeight: (kg: number) => number
+  completedCount: number
+  rowCount: number
+  lastSetIndex: number
+  pendingDrops: number // bajadas que faltan en el último Drop Set
 }
 
 export function LiveSessionPage({ session }: { session: Session }) {
@@ -207,7 +222,7 @@ export function LiveSessionPage({ session }: { session: Session }) {
         [dropKey(exerciseId, rowIndex)]: { count: DEFAULT_DROP_COUNT, restSeconds: draft.restSeconds },
       }))
     } else {
-      startRest(draft.restSeconds)
+      startRestAfter(exerciseId, rowIndex, draft.restSeconds)
     }
     setOverrides((existing) => existing.filter((o) => !(o.exerciseId === exerciseId && o.rowIndex === rowIndex)))
   }
@@ -216,6 +231,27 @@ export function LiveSessionPage({ session }: { session: Session }) {
     setRestEndsAt(new Date(Date.now() + seconds * 1000))
     setRestTotalSeconds(seconds)
     setRestRunId((id) => id + 1)
+  }
+
+  // Series (objetivo + extra) de un ejercicio de esta sesión
+  function getRowCount(exerciseId: string): number {
+    const routine = routines.find((r) => r.id === session.routineId)
+    const routineExercise = routine?.exercises.find((re) => re.exerciseId === exerciseId)
+    return (routineExercise?.targetSets.length ?? 0) + (extraRows[exerciseId] ?? 0)
+  }
+
+  // Dentro de un superset solo se descansa al cerrar la ronda (después de la serie del segundo ejercicio, o del
+  // primero si el segundo ya no tiene serie en esa ronda); fuera de uno, siempre.
+  function startRestAfter(exerciseId: string, setIndex: number, seconds: number) {
+    const index = session.exercises.findIndex((exercise) => exercise.exerciseId === exerciseId)
+    const partnerIndex = getSupersetPartnerIndex(session.exercises, index)
+    const partner = partnerIndex === null ? undefined : session.exercises[partnerIndex]
+    if (partnerIndex !== null && partner) {
+      const member = partnerIndex > index ? 0 : 1
+      const secondId = member === 0 ? partner.exerciseId : exerciseId
+      if (!isRoundEnd({ member, setIndex }, getRowCount(secondId))) return
+    }
+    startRest(seconds)
   }
 
   function saveExerciseSets(exerciseId: string, update: (sets: CompletedSet[]) => CompletedSet[]) {
@@ -288,7 +324,7 @@ export function LiveSessionPage({ session }: { session: Session }) {
       sets.map((set, index) => (index === setIndex ? { ...set, drops: [...(set.drops ?? []), drop] } : set)),
     )
     if (countPendingDrops(madre, dropPlans[dropKey(exerciseId, setIndex)]?.count ?? null) <= 1) {
-      startRest(getBlockRestSeconds(exerciseId, setIndex)) // era la última bajada: ahora sí se descansa
+      startRestAfter(exerciseId, setIndex, getBlockRestSeconds(exerciseId, setIndex)) // era la última bajada: ahora sí se descansa
     }
     setDropOverrides((existing) => Object.fromEntries(Object.entries(existing).filter(([key]) => key !== rowKey)))
   }
@@ -318,7 +354,7 @@ export function LiveSessionPage({ session }: { session: Session }) {
     // Quitaste la última bajada que faltaba: el bloque terminó, así que corre el descanso
     const removedPending = dropIndex >= done
     if (removedPending && setIndex === sets.length - 1 && planned - 1 <= done) {
-      startRest(getBlockRestSeconds(exerciseId, setIndex))
+      startRestAfter(exerciseId, setIndex, getBlockRestSeconds(exerciseId, setIndex))
     }
   }
 
@@ -346,6 +382,302 @@ export function LiveSessionPage({ session }: { session: Session }) {
     if (window.confirm('¿Descartar esta sesión? Se perderán todas las series registradas. No se puede deshacer.')) {
       firebaseSessionRepository.deleteSession(session.id)
     }
+  }
+
+  // ── Dibujo de los ejercicios (sueltos o en superset) ──
+  function buildExerciseView(sessionExercise: SessionExercise): ExerciseView | null {
+    const exercise = exercises.find((e) => e.id === sessionExercise.exerciseId)
+    if (!exercise) return null
+
+    const routine = routines.find((r) => r.id === session.routineId)
+    const routineExercise = routine?.exercises.find((re) => re.exerciseId === sessionExercise.exerciseId)
+    // Unidad de este ejercicio en esta sesión (kg por defecto); solo cambia cómo se muestra/ingresa el peso
+    const unit = getWeightUnit(sessionExercise.exerciseId)
+    const completedCount = sessionExercise.sets.length
+    // Bajadas que faltan en el último Drop Set: hasta resolverlas (hacerlas o quitarlas) no se pasa a la siguiente serie
+    const lastSetIndex = completedCount - 1
+    const lastDropSet = sessionExercise.sets[lastSetIndex]
+
+    return {
+      sessionExercise,
+      exercise,
+      routineExercise,
+      lastSets: getExerciseHistory(pastSessions, sessionExercise.exerciseId).at(-1)?.sets ?? null,
+      unit,
+      displayWeight: (kg) => (unit === 'lb' ? kgToLb(kg) : kg),
+      completedCount,
+      rowCount: getRowCount(sessionExercise.exerciseId),
+      lastSetIndex,
+      pendingDrops: lastDropSet?.drops
+        ? countPendingDrops(lastDropSet, dropPlans[dropKey(sessionExercise.exerciseId, lastSetIndex)]?.count ?? null)
+        : 0,
+    }
+  }
+
+  function renderExerciseHeader(view: ExerciseView, tag?: string) {
+    return (
+      <div className="flex items-center justify-between">
+        <div className="flex items-center gap-2">
+          {tag && <span className="rounded bg-violet-500/20 px-1.5 text-[11px] font-bold leading-5 text-violet-400">{tag}</span>}
+          <p className="font-medium">{view.exercise.name}</p>
+          <button
+            type="button"
+            onClick={() => toggleWeightUnit(view.sessionExercise.exerciseId)}
+            aria-label={`Unidad de peso: ${view.unit === 'kg' ? 'kilogramos' : 'libras'}. Toca para cambiar`}
+            className="rounded bg-slate-700/60 px-1.5 text-[11px] font-bold leading-5 text-slate-300"
+          >
+            {view.unit.toUpperCase()}
+          </button>
+        </div>
+        <p className="text-xs text-slate-500">
+          {view.completedCount}/{view.rowCount}
+        </p>
+      </div>
+    )
+  }
+
+  // Encabezados de columna: solo lo que se llena en cada serie
+  function renderColumnHeadings(weightLabel: string) {
+    return (
+      <div className="mt-3 flex items-center gap-2 px-1 text-[10px] uppercase text-slate-500">
+        <span className="w-16">Serie</span>
+        <span className="flex-1 text-center">{weightLabel}</span>
+        <span className="flex-1 text-center">Reps</span>
+        <span className="w-14 text-center">RIR</span>
+        <span className="w-10" />
+      </div>
+    )
+  }
+
+  function addExtraRow(exerciseId: string) {
+    setExtraRows((existing) => ({ ...existing, [exerciseId]: (existing[exerciseId] ?? 0) + 1 }))
+  }
+
+  // Una fila de serie de un ejercicio: ya completada (verde, con sus bajadas si es Drop Set), bloqueada o activa.
+  // "isLocked" lo decide quien dibuja, porque en un superset el turno depende de la pareja y no de un solo ejercicio.
+  function renderSetRow(view: ExerciseView, rowIndex: number, isLocked: boolean) {
+    const { sessionExercise, exercise, routineExercise, lastSets, unit, displayWeight, lastSetIndex, pendingDrops } = view
+    const target = routineExercise?.targetSets[rowIndex]
+    const completedSet = sessionExercise.sets[rowIndex]
+
+    // Fila ya completada: solo lectura, en verde (si es un Drop Set, con sus bajadas anidadas debajo)
+    if (completedSet) {
+      const previousBlock = completedSet.drops
+        ? findPreviousSetForType(lastSets, sessionExercise.sets.slice(0, rowIndex), 'Drop Set')
+        : null
+      return (
+        <div key={rowIndex}>
+          <div className="mt-1 flex items-center gap-2 rounded-lg bg-emerald-950 px-1 py-2 text-sm">
+            <SetBadge number={rowIndex + 1} type={completedSet.type} />
+            <span className="flex-1 text-center">{displayWeight(completedSet.weight)}</span>
+            <span className="flex-1 text-center">{completedSet.reps}</span>
+            <span className="w-14 text-center text-slate-400">{completedSet.rir ?? '—'}</span>
+            <span className="w-10 text-center text-emerald-400">✓</span>
+          </div>
+          {completedSet.drops && (
+            <DropSetBlock
+              exerciseName={exercise.name}
+              madre={completedSet}
+              pendingCount={rowIndex === lastSetIndex ? pendingDrops : 0}
+              previousBlock={previousBlock}
+              canAdd={rowIndex === lastSetIndex}
+              unitLabel={unit === 'kg' ? 'kilogramos' : 'libras'}
+              displayWeight={displayWeight}
+              toKg={(value) => (unit === 'lb' ? lbToKg(value) : value)}
+              getDraft={(dropIndex) => getDropDraft(sessionExercise.exerciseId, rowIndex, completedSet, dropIndex)}
+              onChangeDraft={(dropIndex, changes) =>
+                updateDropDraft(sessionExercise.exerciseId, rowIndex, completedSet, dropIndex, changes)
+              }
+              onCompleteDrop={(dropIndex) => completeDrop(sessionExercise.exerciseId, rowIndex, dropIndex)}
+              onRemoveDrop={(dropIndex) => removeDrop(sessionExercise.exerciseId, rowIndex, dropIndex)}
+              onAddDrop={() => addDrop(sessionExercise.exerciseId, rowIndex)}
+            />
+          )}
+        </div>
+      )
+    }
+
+    // Fila bloqueada: todavía no le toca, se ve pero no se puede tocar
+    if (isLocked) {
+      return (
+        <div key={rowIndex} className="mt-1 flex items-center gap-2 rounded-lg px-1 py-2 text-sm text-slate-600">
+          <SetBadge number={rowIndex + 1} type={target?.type ?? 'Normal'} />
+          <span className="flex-1 text-center">{target ? displayWeight(target.weight) : '—'}</span>
+          <span className="flex-1 text-center">{target ? formatReps(target.repsMin, target.repsMax) : '—'}</span>
+          <span className="w-14 text-center">—</span>
+          <span className="w-10 text-center">○</span>
+        </div>
+      )
+    }
+
+    // Fila activa: la única editable, lista para completar
+    const draft = getPendingRow(sessionExercise.exerciseId, rowIndex, target)
+    const lastSet = findPreviousSetForType(lastSets, sessionExercise.sets, draft.type)
+    const inputClass = 'h-10 min-w-0 rounded bg-slate-700 px-2 text-center text-base'
+
+    return (
+      <div key={rowIndex} className="mt-1 rounded-lg bg-slate-800 px-1 py-2">
+        <div className="flex items-center gap-2">
+          <SetBadge
+            number={rowIndex + 1}
+            type={draft.type}
+            onClick={() =>
+              setTypePicker({
+                exerciseId: sessionExercise.exerciseId,
+                rowIndex,
+                target,
+                current: draft.type,
+              })
+            }
+          />
+          <NumberField
+            value={displayWeight(draft.weight)}
+            onChange={(value) =>
+              updateRow(sessionExercise.exerciseId, rowIndex, target, {
+                weight: unit === 'lb' ? lbToKg(value) : value,
+              })
+            }
+            ariaLabel={`${exercise.name}, serie ${rowIndex + 1}: peso en ${unit === 'kg' ? 'kilogramos' : 'libras'}`}
+            className={`${inputClass} flex-1`}
+          />
+          <NumberField
+            value={draft.reps}
+            onChange={(reps) => updateRow(sessionExercise.exerciseId, rowIndex, target, { reps })}
+            allowDecimals={false}
+            ariaLabel={`${exercise.name}, serie ${rowIndex + 1}: repeticiones`}
+            className={`${inputClass} flex-1`}
+          />
+          <input
+            type="number"
+            inputMode="numeric"
+            value={draft.rir ?? ''}
+            onChange={(e) =>
+              updateRow(sessionExercise.exerciseId, rowIndex, target, {
+                rir: e.target.value === '' ? undefined : Number(e.target.value),
+              })
+            }
+            onFocus={(e) => e.target.select()}
+            aria-label={`${exercise.name}, serie ${rowIndex + 1}: RIR (repeticiones en reserva)`}
+            placeholder="—"
+            className={`${inputClass} w-14`}
+          />
+          <button
+            type="button"
+            onClick={() => completeRow(sessionExercise.exerciseId, rowIndex, target)}
+            aria-label={`Completar serie ${rowIndex + 1}`}
+            className="h-11 w-11 rounded-full bg-primary text-sm font-semibold text-slate-950"
+          >
+            ✓
+          </button>
+        </div>
+        {lastSet && (
+          // Lo que cargaste la vez pasada, justo debajo de cada campo (no un texto aparte): es el dato
+          // que de verdad se usa para decidir cuánto subir, por eso va grande y a la vista, no en gris
+          <div className="mt-1 flex items-center gap-2">
+            <span className="w-16 shrink-0" aria-hidden="true" />
+            <p className="flex-1 text-center text-sm font-bold text-primary">Antes {displayWeight(lastSet.weight)}</p>
+            <p className="flex-1 text-center text-sm font-bold text-primary">Antes {lastSet.reps}</p>
+            <span className="w-14 shrink-0" aria-hidden="true" />
+            <span className="w-11 shrink-0" aria-hidden="true" />
+          </div>
+        )}
+        {draft.type === 'Drop Set' && lastSet?.drops && lastSet.drops.length > 0 && (
+          <p className="mt-1 text-center text-xs text-slate-400">
+            Bloque anterior: {formatDropChain(lastSet, displayWeight)}
+          </p>
+        )}
+      </div>
+    )
+  }
+
+  // Un ejercicio suelto: su propia tarjeta, con las series una tras otra
+  function renderSingleExercise(view: ExerciseView) {
+    return (
+      <div key={view.sessionExercise.exerciseId} className="mt-4 rounded-xl bg-slate-900 p-3">
+        {renderExerciseHeader(view)}
+        {renderColumnHeadings(view.unit)}
+        {Array.from({ length: view.rowCount }, (_, rowIndex) =>
+          renderSetRow(
+            view,
+            rowIndex,
+            rowIndex > view.completedCount || (rowIndex === view.completedCount && view.pendingDrops > 0),
+          ),
+        )}
+        <button type="button" onClick={() => addExtraRow(view.sessionExercise.exerciseId)} className={`${linkButton} mt-2`}>
+          + Agregar serie
+        </button>
+      </div>
+    )
+  }
+
+  // Una pareja de superset: una sola tarjeta con las series intercaladas por ronda (A, B, A, B...).
+  // El turno es global: solo la primera serie sin hacer de la secuencia está activa.
+  function renderSuperset(first: ExerciseView, second: ExerciseView) {
+    const members = [first, second] as const
+    const sequence = buildSupersetSequence(first.rowCount, second.rowCount)
+    const activeStep = sequence.findIndex((step) => members[step.member].completedCount <= step.setIndex)
+    // Si una bajada de Drop Set está sin resolver, tampoco se pasa al otro ejercicio
+    const hasPendingDrops = first.pendingDrops > 0 || second.pendingDrops > 0
+
+    return (
+      <div key={`superset-${first.sessionExercise.exerciseId}`} className="mt-4 rounded-xl bg-slate-900 p-3 ring-1 ring-violet-500/40">
+        <p className="mb-2 text-xs font-bold uppercase text-violet-400">Superset</p>
+        <div className="flex flex-col gap-1">
+          {renderExerciseHeader(first, 'A')}
+          {renderExerciseHeader(second, 'B')}
+        </div>
+        {renderColumnHeadings('Peso')}
+        {sequence.map((step, stepIndex) => {
+          const view = members[step.member]
+          const isRoundStart = stepIndex === 0 || sequence[stepIndex - 1]?.setIndex !== step.setIndex
+          return (
+            <div key={`${step.member}-${step.setIndex}`}>
+              {isRoundStart && <p className="mt-3 text-xs font-semibold text-slate-400">Ronda {step.setIndex + 1}</p>}
+              <p className="mt-1 px-1 text-xs text-violet-400">
+                {step.member === 0 ? 'A' : 'B'} · {view.exercise.name}
+              </p>
+              {renderSetRow(view, step.setIndex, stepIndex !== activeStep || hasPendingDrops)}
+            </div>
+          )
+        })}
+        <div className="mt-2 flex flex-wrap gap-x-4">
+          {members.map((view) => (
+            <button
+              key={view.sessionExercise.exerciseId}
+              type="button"
+              onClick={() => addExtraRow(view.sessionExercise.exerciseId)}
+              className={linkButton}
+            >
+              + Serie en {view.exercise.name}
+            </button>
+          ))}
+        </div>
+      </div>
+    )
+  }
+
+  // Los ejercicios de la sesión en orden: cada pareja de superset se dibuja junta, en el lugar del primero
+  function renderExercises() {
+    const rendered: ReactNode[] = []
+    for (let index = 0; index < session.exercises.length; index += 1) {
+      const sessionExercise = session.exercises[index]
+      if (!sessionExercise) continue
+      const view = buildExerciseView(sessionExercise)
+      if (!view) continue
+
+      const partnerIndex = getSupersetPartnerIndex(session.exercises, index)
+      if (partnerIndex === index + 1) {
+        const partnerExercise = session.exercises[partnerIndex]
+        const partnerView = partnerExercise ? buildExerciseView(partnerExercise) : null
+        if (partnerView) {
+          rendered.push(renderSuperset(view, partnerView))
+          index += 1 // el compañero ya está dentro de la tarjeta
+          continue
+        }
+      }
+      rendered.push(renderSingleExercise(view))
+    }
+    return rendered
   }
 
   // ── 5. Resumen (corte condicional) ──
@@ -451,206 +783,7 @@ export function LiveSessionPage({ session }: { session: Session }) {
       </div>
       )}
 
-      {session.exercises.map((sessionExercise) => {
-        const exercise = exercises.find((e) => e.id === sessionExercise.exerciseId)
-        if (!exercise) return null
-
-        const routine = routines.find((r) => r.id === session.routineId)
-        const routineExercise = routine?.exercises.find((re) => re.exerciseId === sessionExercise.exerciseId)
-        // Lo que hiciste la última vez en este ejercicio, serie por serie (solo de referencia; no precarga nada)
-        const lastSets = getExerciseHistory(pastSessions, sessionExercise.exerciseId).at(-1)?.sets ?? null
-        // Unidad de este ejercicio en esta sesión (kg por defecto); solo cambia cómo se muestra/ingresa el peso
-        const unit = getWeightUnit(sessionExercise.exerciseId)
-        const displayWeight = (kg: number) => (unit === 'lb' ? kgToLb(kg) : kg)
-
-        const completedCount = sessionExercise.sets.length
-        const totalTargets = routineExercise?.targetSets.length ?? 0
-        const rowCount = totalTargets + (extraRows[sessionExercise.exerciseId] ?? 0)
-        // Bajadas que faltan en el último Drop Set: hasta resolverlas (hacerlas o quitarlas) no se pasa a la siguiente serie
-        const lastSetIndex = completedCount - 1
-        const lastDropSet = sessionExercise.sets[lastSetIndex]
-        const pendingDrops = lastDropSet?.drops
-          ? countPendingDrops(lastDropSet, dropPlans[dropKey(sessionExercise.exerciseId, lastSetIndex)]?.count ?? null)
-          : 0
-
-        return (
-          <div key={sessionExercise.exerciseId} className="mt-4 rounded-xl bg-slate-900 p-3">
-            <div className="flex items-center justify-between">
-              <div className="flex items-center gap-2">
-                <p className="font-medium">{exercise.name}</p>
-                <button
-                  type="button"
-                  onClick={() => toggleWeightUnit(sessionExercise.exerciseId)}
-                  aria-label={`Unidad de peso: ${unit === 'kg' ? 'kilogramos' : 'libras'}. Toca para cambiar`}
-                  className="rounded bg-slate-700/60 px-1.5 text-[11px] font-bold leading-5 text-slate-300"
-                >
-                  {unit.toUpperCase()}
-                </button>
-              </div>
-              <p className="text-xs text-slate-500">
-                {completedCount}/{rowCount}
-              </p>
-            </div>
-
-            {/* Encabezados de columna: solo lo que se llena en cada serie */}
-            <div className="mt-3 flex items-center gap-2 px-1 text-[10px] uppercase text-slate-500">
-              <span className="w-16">Serie</span>
-              <span className="flex-1 text-center">{unit}</span>
-              <span className="flex-1 text-center">Reps</span>
-              <span className="w-14 text-center">RIR</span>
-              <span className="w-10" />
-            </div>
-
-            {Array.from({ length: rowCount }, (_, rowIndex) => {
-              const target = routineExercise?.targetSets[rowIndex]
-              const completedSet = sessionExercise.sets[rowIndex]
-              const isLocked = rowIndex > completedCount || (rowIndex === completedCount && pendingDrops > 0)
-
-              // Fila ya completada: solo lectura, en verde (si es un Drop Set, con sus bajadas anidadas debajo)
-              if (completedSet) {
-                const previousBlock = completedSet.drops
-                  ? findPreviousSetForType(lastSets, sessionExercise.sets.slice(0, rowIndex), 'Drop Set')
-                  : null
-                return (
-                  <div key={rowIndex}>
-                    <div className="mt-1 flex items-center gap-2 rounded-lg bg-emerald-950 px-1 py-2 text-sm">
-                      <SetBadge number={rowIndex + 1} type={completedSet.type} />
-                      <span className="flex-1 text-center">{displayWeight(completedSet.weight)}</span>
-                      <span className="flex-1 text-center">{completedSet.reps}</span>
-                      <span className="w-14 text-center text-slate-400">{completedSet.rir ?? '—'}</span>
-                      <span className="w-10 text-center text-emerald-400">✓</span>
-                    </div>
-                    {completedSet.drops && (
-                      <DropSetBlock
-                        exerciseName={exercise.name}
-                        madre={completedSet}
-                        pendingCount={rowIndex === lastSetIndex ? pendingDrops : 0}
-                        previousBlock={previousBlock}
-                        canAdd={rowIndex === lastSetIndex}
-                        unitLabel={unit === 'kg' ? 'kilogramos' : 'libras'}
-                        displayWeight={displayWeight}
-                        toKg={(value) => (unit === 'lb' ? lbToKg(value) : value)}
-                        getDraft={(dropIndex) => getDropDraft(sessionExercise.exerciseId, rowIndex, completedSet, dropIndex)}
-                        onChangeDraft={(dropIndex, changes) =>
-                          updateDropDraft(sessionExercise.exerciseId, rowIndex, completedSet, dropIndex, changes)
-                        }
-                        onCompleteDrop={(dropIndex) => completeDrop(sessionExercise.exerciseId, rowIndex, dropIndex)}
-                        onRemoveDrop={(dropIndex) => removeDrop(sessionExercise.exerciseId, rowIndex, dropIndex)}
-                        onAddDrop={() => addDrop(sessionExercise.exerciseId, rowIndex)}
-                      />
-                    )}
-                  </div>
-                )
-              }
-
-              // Fila bloqueada: todavía no le toca, se ve pero no se puede tocar
-              if (isLocked) {
-                return (
-                  <div key={rowIndex} className="mt-1 flex items-center gap-2 rounded-lg px-1 py-2 text-sm text-slate-600">
-                    <SetBadge number={rowIndex + 1} type={target?.type ?? 'Normal'} />
-                    <span className="flex-1 text-center">{target ? displayWeight(target.weight) : '—'}</span>
-                    <span className="flex-1 text-center">{target ? formatReps(target.repsMin, target.repsMax) : '—'}</span>
-                    <span className="w-14 text-center">—</span>
-                    <span className="w-10 text-center">○</span>
-                  </div>
-                )
-              }
-
-              // Fila activa: la única editable, lista para completar
-              const draft = getPendingRow(sessionExercise.exerciseId, rowIndex, target)
-              const lastSet = findPreviousSetForType(lastSets, sessionExercise.sets, draft.type)
-              const inputClass = 'h-10 min-w-0 rounded bg-slate-700 px-2 text-center text-base'
-
-              return (
-                <div key={rowIndex} className="mt-1 rounded-lg bg-slate-800 px-1 py-2">
-                  <div className="flex items-center gap-2">
-                    <SetBadge
-                      number={rowIndex + 1}
-                      type={draft.type}
-                      onClick={() =>
-                        setTypePicker({
-                          exerciseId: sessionExercise.exerciseId,
-                          rowIndex,
-                          target,
-                          current: draft.type,
-                        })
-                      }
-                    />
-                    <NumberField
-                      value={displayWeight(draft.weight)}
-                      onChange={(value) =>
-                        updateRow(sessionExercise.exerciseId, rowIndex, target, {
-                          weight: unit === 'lb' ? lbToKg(value) : value,
-                        })
-                      }
-                      ariaLabel={`${exercise.name}, serie ${rowIndex + 1}: peso en ${unit === 'kg' ? 'kilogramos' : 'libras'}`}
-                      className={`${inputClass} flex-1`}
-                    />
-                    <NumberField
-                      value={draft.reps}
-                      onChange={(reps) => updateRow(sessionExercise.exerciseId, rowIndex, target, { reps })}
-                      allowDecimals={false}
-                      ariaLabel={`${exercise.name}, serie ${rowIndex + 1}: repeticiones`}
-                      className={`${inputClass} flex-1`}
-                    />
-                    <input
-                      type="number"
-                      inputMode="numeric"
-                      value={draft.rir ?? ''}
-                      onChange={(e) =>
-                        updateRow(sessionExercise.exerciseId, rowIndex, target, {
-                          rir: e.target.value === '' ? undefined : Number(e.target.value),
-                        })
-                      }
-                      onFocus={(e) => e.target.select()}
-                      aria-label={`${exercise.name}, serie ${rowIndex + 1}: RIR (repeticiones en reserva)`}
-                      placeholder="—"
-                      className={`${inputClass} w-14`}
-                    />
-                    <button
-                      type="button"
-                      onClick={() => completeRow(sessionExercise.exerciseId, rowIndex, target)}
-                      aria-label={`Completar serie ${rowIndex + 1}`}
-                      className="h-11 w-11 rounded-full bg-primary text-sm font-semibold text-slate-950"
-                    >
-                      ✓
-                    </button>
-                  </div>
-                  {lastSet && (
-                    // Lo que cargaste la vez pasada, justo debajo de cada campo (no un texto aparte): es el dato
-                    // que de verdad se usa para decidir cuánto subir, por eso va grande y a la vista, no en gris
-                    <div className="mt-1 flex items-center gap-2">
-                      <span className="w-16 shrink-0" aria-hidden="true" />
-                      <p className="flex-1 text-center text-sm font-bold text-primary">Antes {displayWeight(lastSet.weight)}</p>
-                      <p className="flex-1 text-center text-sm font-bold text-primary">Antes {lastSet.reps}</p>
-                      <span className="w-14 shrink-0" aria-hidden="true" />
-                      <span className="w-11 shrink-0" aria-hidden="true" />
-                    </div>
-                  )}
-                  {draft.type === 'Drop Set' && lastSet?.drops && lastSet.drops.length > 0 && (
-                    <p className="mt-1 text-center text-xs text-slate-400">
-                      Bloque anterior: {formatDropChain(lastSet, displayWeight)}
-                    </p>
-                  )}
-                </div>
-              )
-            })}
-
-            <button
-              type="button"
-              onClick={() =>
-                setExtraRows((existing) => ({
-                  ...existing,
-                  [sessionExercise.exerciseId]: (existing[sessionExercise.exerciseId] ?? 0) + 1,
-                }))
-              }
-              className={`${linkButton} mt-2`}
-            >
-              + Agregar serie
-            </button>
-          </div>
-        )
-      })}
+      {renderExercises()}
 
       <button
         type="button"

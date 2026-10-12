@@ -83,6 +83,27 @@ describe('RoutineLibraryPage', () => {
     expect(screen.queryByRole('heading', { name: 'Editar rutina' })).not.toBeInTheDocument()
   })
 
+  it('al iniciar la sesión copia la marca de superset de la rutina, y solo a los ejercicios que la tienen', async () => {
+    const set = { type: 'Normal', repsMin: 8, repsMax: 10, weight: 20, restSeconds: 60 } as const
+    routines = [
+      {
+        ...routine('a', 'Brazos'),
+        exercises: [
+          { exerciseId: 'curl', targetSets: [set], supersetGroup: 'ss1' },
+          { exerciseId: 'triceps', targetSets: [set], supersetGroup: 'ss1' },
+          { exerciseId: 'press', targetSets: [set] },
+        ],
+      },
+    ]
+    render(<RoutineLibraryPage />)
+    await selectMonday()
+
+    await userEvent.click(screen.getByRole('button', { name: 'Iniciar sesión: Brazos' }))
+    const started = addSession.mock.calls[0]?.[0] as Session
+    expect(started.exercises.map((e) => e.supersetGroup)).toEqual(['ss1', 'ss1', undefined])
+    expect('supersetGroup' in started.exercises[2]!).toBe(false) // Firestore rechaza undefined
+  })
+
   it('eliminar (el botón que revela el deslizar) pide confirmar y borra al aceptar', async () => {
     routines = [routine('a', 'Empuje')]
     render(<RoutineLibraryPage />)

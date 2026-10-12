@@ -11,6 +11,8 @@ export interface TargetSet {
 export interface RoutineExercise {
   exerciseId: string
   targetSets: TargetSet[]
+  // Dos ejercicios consecutivos con el mismo valor forman un superset (ver domain/superset). Ausente = ejercicio suelto.
+  supersetGroup?: string
 }
 
 export interface Routine {

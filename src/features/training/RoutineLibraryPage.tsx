@@ -30,6 +30,8 @@ function startSessionFromRoutine(routine: Routine) {
       exerciseId: routineExercise.exerciseId,
       notes: '',
       sets: [],
+      // Se copia a la sesión para que no dependa de cambios posteriores a la rutina (y sin undefined: Firestore lo rechaza)
+      ...(routineExercise.supersetGroup !== undefined && { supersetGroup: routineExercise.supersetGroup }),
     })),
   }
 

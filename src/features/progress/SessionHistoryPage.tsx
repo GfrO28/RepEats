@@ -22,6 +22,7 @@ import {
   groupSessionsByMonth,
   summarizeSets,
 } from '@/domain/sessionHistory'
+import { getSupersetPartnerIndex } from '@/domain/superset'
 import { calculateSessionVolume } from '@/domain/volume'
 
 interface SessionCardProps {
@@ -122,9 +123,13 @@ function SessionCard({
             {performedExercises.length === 0 && <p className="text-sm text-slate-400">Esta sesión no tiene series registradas.</p>}
             {performedExercises.map((sessionExercise) => {
               const record = records.find((event) => event.exerciseId === sessionExercise.exerciseId)
+              // Se busca en toda la lista de la sesión (no solo en los realizados): la pareja pudo quedar sin series
+              const partnerIndex = getSupersetPartnerIndex(session.exercises, session.exercises.indexOf(sessionExercise))
+              const partner = partnerIndex === null ? undefined : session.exercises[partnerIndex]
               return (
                 <div key={sessionExercise.exerciseId} className="py-2">
                   <p className="text-sm font-medium">{exerciseName(sessionExercise.exerciseId)}</p>
+                  {partner && <p className="text-xs text-violet-400">Superset con {exerciseName(partner.exerciseId)}</p>}
                   <ul className="mt-1 text-sm text-slate-400">
                     {summarizeSets(sessionExercise.sets).map((group, index) => (
                       <li key={index}>{formatSetGroup(group)}</li>

@@ -7,6 +7,13 @@ import type { SetTypes } from '@/domain/setTypes'
 import { DAYS_OF_WEEK } from '@/domain/daysOfWeek'
 import { MUSCLE_GROUPS, getMuscleGroup, type MuscleGroupName } from '@/domain/muscleGroups'
 import { EQUIPMENT_TYPES, type EquipmentType } from '@/domain/equipmentTypes'
+import {
+  canJoinWithNext,
+  getSupersetPartnerIndex,
+  joinWithNext,
+  normalizeSupersets,
+  separate,
+} from '@/domain/superset'
 import { Modal } from '@/app/Modal'
 import { NumberField } from '@/app/NumberField'
 import { SwipeToDeleteRow } from '@/app/SwipeToDeleteRow'
@@ -23,6 +30,7 @@ interface ExerciseConfig {
   weight: number
   restSeconds: number
   setCount: number
+  supersetGroup?: string // misma marca en dos ejercicios consecutivos = superset (ver domain/superset)
 }
 
 interface RoutineFormProps {
@@ -44,12 +52,13 @@ function createTargetSet(config: ExerciseConfig): TargetSet {
 interface SortableExerciseRowProps {
   config: ExerciseConfig
   exercise: Exercise
+  supersetPosition: 'A' | 'B' | null // null = ejercicio suelto
   onRemove: () => void
   onUpdate: (changes: Partial<ExerciseConfig>) => void
   onOpenMenu: () => void
 }
 
-function SortableExerciseRow({ config, exercise, onRemove, onUpdate, onOpenMenu }: SortableExerciseRowProps) {
+function SortableExerciseRow({ config, exercise, supersetPosition, onRemove, onUpdate, onOpenMenu }: SortableExerciseRowProps) {
   const fieldId = useId()
   const [isSwipeOpen, setIsSwipeOpen] = useState(false)
   const { attributes, listeners, setNodeRef, transform, transition, isDragging } = useSortable({
@@ -63,7 +72,11 @@ function SortableExerciseRow({ config, exercise, onRemove, onUpdate, onOpenMenu 
   }
 
   return (
-    <div ref={setNodeRef} style={style}>
+    <div
+      ref={setNodeRef}
+      style={style}
+      className={supersetPosition ? 'border-l-2 border-violet-500/60 pl-2' : undefined}
+    >
       {/* Deslizar quita el ejercicio de la rutina (sin confirmar: es un borrador, no se guarda hasta "Guardar cambios").
           El asa de mover (▲▼) queda fuera del área que se desliza, para no chocar con el arrastre de reordenar. */}
       <SwipeToDeleteRow
@@ -83,7 +96,14 @@ function SortableExerciseRow({ config, exercise, onRemove, onUpdate, onOpenMenu 
             <span>▲</span>
             <span>▼</span>
           </button>
-          <span className="flex-1">{exercise.name}</span>
+          <span className="flex-1">
+            {exercise.name}
+            {supersetPosition && (
+              <span className="ml-2 rounded bg-violet-500/20 px-1.5 text-[11px] font-bold leading-5 text-violet-400">
+                Superset {supersetPosition}
+              </span>
+            )}
+          </span>
           <button
             type="button"
             onClick={onOpenMenu}
@@ -151,6 +171,8 @@ function SortableExerciseRow({ config, exercise, onRemove, onUpdate, onOpenMenu 
     </div>
   )
 }
+
+const menuOptionClass = 'flex w-full items-center rounded-xl px-3 py-3 text-left text-sm text-slate-100 active:bg-slate-800'
 
 interface ExercisePickerProps {
   exercises: Exercise[]
@@ -235,6 +257,7 @@ export function RoutineForm({ routineToEdit, nextOrder = 0, onDone }: RoutineFor
           }
           return {
             exerciseId: routineExercise.exerciseId,
+            ...(routineExercise.supersetGroup !== undefined && { supersetGroup: routineExercise.supersetGroup }),
             type: firstSet.type,
             repsMin: firstSet.repsMin,
             repsMax: firstSet.repsMax,
@@ -270,7 +293,8 @@ export function RoutineForm({ routineToEdit, nextOrder = 0, onDone }: RoutineFor
   function toggleExercise(exerciseId: string) {
     const existing = configs.find((c) => c.exerciseId === exerciseId)
     if (existing) {
-      setConfigs(configs.filter((c) => c.exerciseId !== exerciseId))
+      // Quitar uno de una pareja de superset deja al otro suelto
+      setConfigs(normalizeSupersets(configs.filter((c) => c.exerciseId !== exerciseId)))
     } else {
       setConfigs([...configs, { exerciseId, type: 'Normal', repsMin: 8, repsMax: 12, weight: 0, restSeconds: 60, setCount: 3 }])
 
@@ -290,6 +314,17 @@ export function RoutineForm({ routineToEdit, nextOrder = 0, onDone }: RoutineFor
     )
   }
 
+  // Datos del menú (⋮) abierto: con quién se puede unir o con quién ya forma superset
+  const menuIndex = configs.findIndex((config) => config.exerciseId === menuExerciseId)
+  const nameOf = (index: number | null) =>
+    index === null ? null : (exercises.find((e) => e.id === configs[index]?.exerciseId)?.name ?? null)
+  const menuPartnerIndex = menuIndex === -1 ? null : getSupersetPartnerIndex(configs, menuIndex)
+  const menuSuperset = {
+    partnerName: nameOf(menuPartnerIndex),
+    canJoin: menuIndex !== -1 && canJoinWithNext(configs, menuIndex),
+    nextName: menuIndex !== -1 && menuIndex + 1 < configs.length ? nameOf(menuIndex + 1) : null,
+  }
+
   const sensors = useSensors(
     useSensor(PointerSensor, { activationConstraint: { delay: 150, tolerance: 5 } }),
   )
@@ -302,7 +337,8 @@ export function RoutineForm({ routineToEdit, nextOrder = 0, onDone }: RoutineFor
       const oldIndex = current.findIndex((c) => c.exerciseId === active.id)
       const newIndex = current.findIndex((c) => c.exerciseId === over.id)
       if (oldIndex === -1 || newIndex === -1) return current
-      return arrayMove(current, oldIndex, newIndex)
+      // Si el arrastre separó a una pareja de superset, ambos quedan sueltos
+      return normalizeSupersets(arrayMove(current, oldIndex, newIndex))
     })
   }
 
@@ -312,6 +348,7 @@ export function RoutineForm({ routineToEdit, nextOrder = 0, onDone }: RoutineFor
     const routineExercises: RoutineExercise[] = configs.map((config) => ({
       exerciseId: config.exerciseId,
       targetSets: Array.from({ length: config.setCount }, () => createTargetSet(config)),
+      ...(config.supersetGroup !== undefined && { supersetGroup: config.supersetGroup }),
     }))
 
     const routine: Routine = {
@@ -375,15 +412,18 @@ export function RoutineForm({ routineToEdit, nextOrder = 0, onDone }: RoutineFor
         <p className="text-sm text-slate-400">Ejercicios de la rutina (en orden)</p>
         <DndContext sensors={sensors} collisionDetection={closestCenter} onDragEnd={handleDragEnd}>
           <SortableContext items={configs.map((c) => c.exerciseId)} strategy={verticalListSortingStrategy}>
-            {configs.map((config) => {
+            {configs.map((config, index) => {
               const exercise = exercises.find((e) => e.id === config.exerciseId)
               if (!exercise) return null
+              const partnerIndex = getSupersetPartnerIndex(configs, index)
+              const supersetPosition = partnerIndex === null ? null : partnerIndex > index ? 'A' : 'B'
 
               return (
                 <SortableExerciseRow
                   key={config.exerciseId}
                   config={config}
                   exercise={exercise}
+                  supersetPosition={supersetPosition}
                   onRemove={() => toggleExercise(exercise.id)}
                   onUpdate={(changes) => updateConfig(exercise.id, changes)}
                   onOpenMenu={() => setMenuExerciseId(exercise.id)}
@@ -416,8 +456,8 @@ export function RoutineForm({ routineToEdit, nextOrder = 0, onDone }: RoutineFor
         />
       </Modal>
 
-      {/* Menú (⋮) de un ejercicio ya agregado. Por ahora una sola opción; deja lugar para más sin volver a
-          un botón por acción en la fila (que ya iba justa de espacio). */}
+      {/* Menú (⋮) de un ejercicio ya agregado: reemplazarlo y armar o deshacer un superset, sin volver a un botón
+          por acción en la fila (que ya iba justa de espacio). */}
       <Modal
         isOpen={menuExerciseId !== null}
         onClose={() => setMenuExerciseId(null)}
@@ -429,10 +469,41 @@ export function RoutineForm({ routineToEdit, nextOrder = 0, onDone }: RoutineFor
             setReplacingExerciseId(menuExerciseId)
             setMenuExerciseId(null)
           }}
-          className="flex w-full items-center rounded-xl px-3 py-3 text-left text-sm text-slate-100 active:bg-slate-800"
+          className={menuOptionClass}
         >
           Reemplazar ejercicio
         </button>
+        {menuSuperset.partnerName ? (
+          <button
+            type="button"
+            onClick={() => {
+              setConfigs(separate(configs, menuIndex))
+              setMenuExerciseId(null)
+            }}
+            className={menuOptionClass}
+          >
+            Separar superset con {menuSuperset.partnerName}
+          </button>
+        ) : (
+          <>
+            <button
+              type="button"
+              disabled={!menuSuperset.canJoin}
+              onClick={() => {
+                setConfigs(joinWithNext(configs, menuIndex))
+                setMenuExerciseId(null)
+              }}
+              className={`${menuOptionClass} disabled:text-slate-600`}
+            >
+              {menuSuperset.nextName ? `Unir con ${menuSuperset.nextName} (superset)` : 'Unir con el siguiente (superset)'}
+            </button>
+            {!menuSuperset.canJoin && (
+              <p className="px-3 text-xs text-slate-500">
+                Para armar un superset, el otro ejercicio debe estar justo debajo y sin superset. Arrástralo para acercarlo.
+              </p>
+            )}
+          </>
+        )}
       </Modal>
 
       <Modal isOpen={replacingExerciseId !== null} onClose={() => setReplacingExerciseId(null)} title="Reemplazar ejercicio">

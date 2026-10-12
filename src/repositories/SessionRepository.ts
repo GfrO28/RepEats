@@ -23,6 +23,8 @@ export interface SessionExercise {
   exerciseId: string
   notes: string
   sets: CompletedSet[]
+  // Copiado de la rutina al iniciar la sesión, para que no dependa de cambios posteriores a la rutina
+  supersetGroup?: string
 }
 
 export interface Session {

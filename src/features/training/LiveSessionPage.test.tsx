@@ -433,6 +433,159 @@ describe('LiveSessionPage: Drop Set con bajadas anidadas', () => {
   })
 })
 
+describe('LiveSessionPage: superset', () => {
+  const curl: Exercise = {
+    id: 'curl',
+    name: 'Curl de bíceps',
+    primaryMuscles: ['biceps_cabeza_corta'],
+    secondaryMuscles: [],
+    equipment: 'Mancuernas',
+    notes: '',
+  }
+  const triceps: Exercise = {
+    id: 'triceps',
+    name: 'Extensión de tríceps',
+    primaryMuscles: ['triceps_cabeza_larga'],
+    secondaryMuscles: [],
+    equipment: 'Polea',
+    notes: '',
+  }
+  const press: Exercise = {
+    id: 'press',
+    name: 'Press de banca',
+    primaryMuscles: ['pectoral_medio'],
+    secondaryMuscles: [],
+    equipment: 'Barra',
+    notes: '',
+  }
+  const targetOf = (restSeconds: number) => ({ type: 'Normal', weight: 20, repsMin: 8, repsMax: 10, restSeconds }) as const
+  const routine: Routine = {
+    id: 'r9',
+    name: 'Brazos',
+    suggestedDay: 'Lunes',
+    suggestedTime: null,
+    order: 0,
+    exercises: [
+      { exerciseId: 'curl', targetSets: [targetOf(90), targetOf(90)], supersetGroup: 'ss1' },
+      { exerciseId: 'triceps', targetSets: [targetOf(90), targetOf(90)], supersetGroup: 'ss1' },
+      { exerciseId: 'press', targetSets: [targetOf(60)] },
+    ],
+  }
+  const liveSession: Session = {
+    id: 's5',
+    routineId: 'r9',
+    startedAt: new Date('2026-10-02T10:00:00'),
+    endedAt: null,
+    status: 'in_progress',
+    exercises: [
+      { exerciseId: 'curl', notes: '', sets: [], supersetGroup: 'ss1' },
+      { exerciseId: 'triceps', notes: '', sets: [], supersetGroup: 'ss1' },
+      { exerciseId: 'press', notes: '', sets: [] },
+    ],
+    manualExerciseKcal: null,
+  }
+
+  function setup(routineToUse: Routine = routine) {
+    exercises = [curl, triceps, press]
+    routines = [routineToUse]
+    const view = render(<LiveSessionPage session={liveSession} />)
+    // Completa la serie activa y refresca la pantalla con lo último guardado (el mock no actualiza solo)
+    async function completeActive(label: string) {
+      // El ejercicio suelto (Press) también tiene su serie activa; la del superset es siempre la primera en pantalla
+      await userEvent.click(screen.getAllByRole('button', { name: label })[0]!)
+      const saved = updateSession.mock.calls.at(-1)?.[0] as Session
+      view.rerender(<LiveSessionPage session={saved} />)
+      return saved
+    }
+    return { completeActive }
+  }
+
+  it('la pareja se dibuja en una sola tarjeta "Superset", y el ejercicio suelto aparte', () => {
+    setup()
+    expect(screen.getByText('Superset')).toBeInTheDocument()
+    expect(screen.getAllByText('Superset')).toHaveLength(1)
+    expect(screen.getByText('Ronda 1')).toBeInTheDocument()
+    expect(screen.getByText('Ronda 2')).toBeInTheDocument()
+    expect(screen.getByText('Press de banca')).toBeInTheDocument()
+  })
+
+  it('el turno es A, B, A, B: solo la primera serie sin hacer es editable', async () => {
+    const { completeActive } = setup()
+
+    expect(screen.getByLabelText('Curl de bíceps, serie 1: peso en kilogramos')).toBeInTheDocument()
+    expect(screen.queryByLabelText('Extensión de tríceps, serie 1: peso en kilogramos')).not.toBeInTheDocument()
+
+    await completeActive('Completar serie 1') // A1
+    expect(screen.getByLabelText('Extensión de tríceps, serie 1: peso en kilogramos')).toBeInTheDocument()
+    expect(screen.queryByLabelText('Curl de bíceps, serie 2: peso en kilogramos')).not.toBeInTheDocument()
+
+    await completeActive('Completar serie 1') // B1
+    expect(screen.getByLabelText('Curl de bíceps, serie 2: peso en kilogramos')).toBeInTheDocument()
+  })
+
+  it('no hay descanso entre A y B; corre al cerrar la ronda, con el descanso de la serie de B', async () => {
+    const { completeActive } = setup()
+
+    await completeActive('Completar serie 1') // A1
+    expect(screen.queryByRole('progressbar', { name: 'Descanso' })).not.toBeInTheDocument()
+
+    await completeActive('Completar serie 1') // B1: cierra la ronda 1
+    expect(screen.getByRole('progressbar', { name: 'Descanso' })).toBeInTheDocument()
+    expect(screen.getByText('1:30')).toBeInTheDocument()
+  })
+
+  it('con rondas desiguales, la serie de A sin pareja en esa ronda cierra la ronda y descansa', async () => {
+    const uneven: Routine = {
+      ...routine,
+      exercises: [
+        { exerciseId: 'curl', targetSets: [targetOf(90), targetOf(45)], supersetGroup: 'ss1' },
+        { exerciseId: 'triceps', targetSets: [targetOf(90)], supersetGroup: 'ss1' },
+      ],
+    }
+    const { completeActive } = setup(uneven)
+    await completeActive('Completar serie 1') // A1
+    await completeActive('Completar serie 1') // B1: cierra la ronda 1
+    expect(screen.getByText('1:30')).toBeInTheDocument()
+
+    await completeActive('Completar serie 2') // A2: B ya no tiene serie en la ronda 2, así que descansa de inmediato
+    expect(screen.getByText('0:45')).toBeInTheDocument()
+  })
+
+  it('un Drop Set en A resuelve primero sus bajadas; recién después le toca a B', async () => {
+    const { completeActive } = setup()
+
+    await userEvent.click(screen.getAllByRole('button', { name: /Serie 1, tipo Normal/ })[0]!)
+    await userEvent.click(screen.getByRole('button', { name: /Drop Set/ }))
+    await completeActive('Completar serie 1') // A1 (madre del Drop Set)
+
+    // Con bajadas pendientes, B todavía no está activo y no hay descanso
+    expect(screen.getByRole('button', { name: 'Completar bajada 1' })).toBeInTheDocument()
+    expect(screen.queryByLabelText('Extensión de tríceps, serie 1: peso en kilogramos')).not.toBeInTheDocument()
+    expect(screen.queryByRole('progressbar', { name: 'Descanso' })).not.toBeInTheDocument()
+
+    await completeActive('Completar bajada 1')
+    await completeActive('Completar bajada 2')
+    // Terminadas las bajadas se pasa a B; el descanso todavía no corre porque la ronda no se cerró
+    expect(screen.getByLabelText('Extensión de tríceps, serie 1: peso en kilogramos')).toBeInTheDocument()
+    expect(screen.queryByRole('progressbar', { name: 'Descanso' })).not.toBeInTheDocument()
+  })
+
+  it('"+ Serie en [ejercicio]" agrega una ronda extra a ese ejercicio', async () => {
+    setup()
+    await userEvent.click(screen.getByRole('button', { name: '+ Serie en Curl de bíceps' }))
+    expect(screen.getByText('Ronda 3')).toBeInTheDocument()
+  })
+
+  it('al terminar todas las rondas del superset, se pasa al ejercicio suelto', async () => {
+    const { completeActive } = setup()
+    await completeActive('Completar serie 1') // A1
+    await completeActive('Completar serie 1') // B1
+    await completeActive('Completar serie 2') // A2
+    await completeActive('Completar serie 2') // B2
+    expect(screen.getByLabelText('Press de banca, serie 1: peso en kilogramos')).toBeInTheDocument()
+  })
+})
+
 describe('LiveSessionPage: unidad de peso (kg/lb)', () => {
   const pressExercise: Exercise = {
     id: 'press',
