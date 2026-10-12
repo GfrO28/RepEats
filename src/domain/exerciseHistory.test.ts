@@ -1,6 +1,12 @@
 import { describe, it, expect } from 'vitest'
-import { getExerciseHistory, getLastPerformedDates, summarizeExercise, type ExerciseSessionStat } from './exerciseHistory'
-import type { Session } from '@/repositories/SessionRepository'
+import {
+  findPreviousSetForType,
+  getExerciseHistory,
+  getLastPerformedDates,
+  summarizeExercise,
+  type ExerciseSessionStat,
+} from './exerciseHistory'
+import type { CompletedSet, Session } from '@/repositories/SessionRepository'
 
 const completedSessionOld: Session = {
   id: 'session-old',
@@ -112,6 +118,47 @@ describe('getExerciseHistory: calentamiento y series', () => {
 
   it('devuelve las series de esa sesión, para poder mostrarlas', () => {
     expect(getExerciseHistory([session], 'e1')[0]?.sets).toHaveLength(2)
+  })
+})
+
+describe('findPreviousSetForType', () => {
+  const set = (type: CompletedSet['type'], weight: number, reps: number): CompletedSet => ({
+    type,
+    weight,
+    reps,
+    completedAt: new Date('2026-02-01'),
+  })
+  const lastTime = [set('Calentamiento', 20, 12), set('Normal', 60, 8), set('Normal', 60, 8), set('Normal', 60, 7)]
+
+  it('sin sesión anterior no hay referencia', () => {
+    expect(findPreviousSetForType(null, [], 'Normal')).toBeNull()
+    expect(findPreviousSetForType([], [], 'Normal')).toBeNull()
+  })
+
+  it('hoy sin calentamiento: la 1.ª Normal se compara con la 1.ª Normal, no con el calentamiento', () => {
+    expect(findPreviousSetForType(lastTime, [], 'Normal')).toBe(lastTime[1])
+    expect(findPreviousSetForType(lastTime, [set('Normal', 60, 8)], 'Normal')).toBe(lastTime[2])
+    expect(findPreviousSetForType(lastTime, [set('Normal', 60, 8), set('Normal', 60, 8)], 'Normal')).toBe(lastTime[3])
+  })
+
+  it('hoy con calentamiento y la vez pasada sin él: el calentamiento no tiene referencia y las Normal no se desfasan', () => {
+    const withoutWarmup = [set('Normal', 60, 8), set('Normal', 60, 7)]
+    expect(findPreviousSetForType(withoutWarmup, [], 'Calentamiento')).toBeNull()
+    expect(findPreviousSetForType(withoutWarmup, [set('Calentamiento', 20, 10)], 'Normal')).toBe(withoutWarmup[0])
+  })
+
+  it('el calentamiento se compara con el calentamiento', () => {
+    expect(findPreviousSetForType(lastTime, [], 'Calentamiento')).toBe(lastTime[0])
+  })
+
+  it('si hoy haces más series de un tipo que la vez pasada, las extra no tienen referencia', () => {
+    const done = [set('Normal', 60, 8), set('Normal', 60, 8), set('Normal', 60, 8)]
+    expect(findPreviousSetForType(lastTime, done, 'Normal')).toBeNull()
+  })
+
+  it('cuenta por tipo al intercalar tipos distintos', () => {
+    const previous = [set('Normal', 60, 8), set('Drop Set', 40, 10), set('Normal', 60, 6)]
+    expect(findPreviousSetForType(previous, [set('Normal', 60, 8), set('Drop Set', 40, 9)], 'Normal')).toBe(previous[2])
   })
 })
 

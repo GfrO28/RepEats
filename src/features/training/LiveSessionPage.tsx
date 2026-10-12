@@ -20,7 +20,7 @@ import { getRestBannerHideDelayMs, shouldAlertRestEnd } from '@/domain/restAlert
 import { shouldIgnoreCompletion } from '@/domain/setCompletion'
 import { formatDuration } from '@/domain/duration'
 import { estimateExerciseKcal } from '@/domain/exerciseCalories'
-import { getExerciseHistory } from '@/domain/exerciseHistory'
+import { findPreviousSetForType, getExerciseHistory } from '@/domain/exerciseHistory'
 import { kgToLb, lbToKg, type WeightUnit } from '@/domain/weightUnit'
 import { calculateSessionVolume } from '@/domain/volume'
 import { findNewRecords } from '@/domain/personalRecords'
@@ -410,7 +410,7 @@ export function LiveSessionPage({ session }: { session: Session }) {
 
               // Fila activa: la única editable, lista para completar
               const draft = getPendingRow(sessionExercise.exerciseId, rowIndex, target)
-              const lastSet = lastSets?.[rowIndex]
+              const lastSet = findPreviousSetForType(lastSets, sessionExercise.sets, draft.type)
               const inputClass = 'h-10 min-w-0 rounded bg-slate-700 px-2 text-center text-base'
 
               return (

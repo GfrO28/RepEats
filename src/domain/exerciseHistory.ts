@@ -35,6 +35,19 @@ export function getExerciseHistory(sessions: Session[], exerciseId: string): Exe
     .sort((a, b) => a.date.getTime() - b.date.getTime())
 }
 
+// La serie de la sesión anterior con la que se compara la fila activa. Se empareja por tipo y por orden dentro de ese tipo:
+// la 2.ª Normal de hoy contra la 2.ª Normal de la vez pasada, así un calentamiento que sumas o quitas no desfasa las demás.
+// "currentSets" son las series ya completadas hoy (las anteriores a la fila activa). null si no hay una equivalente.
+export function findPreviousSetForType(
+  previousSets: readonly CompletedSet[] | null,
+  currentSets: readonly CompletedSet[],
+  type: CompletedSet['type'],
+): CompletedSet | null {
+  if (!previousSets) return null
+  const sameTypeIndex = currentSets.filter((set) => set.type === type).length
+  return previousSets.filter((set) => set.type === type)[sameTypeIndex] ?? null
+}
+
 // Cuándo se hizo por última vez cada ejercicio (solo sesiones completadas). Sirve para ofrecer primero los que usas.
 export function getLastPerformedDates(sessions: readonly Session[]): Map<string, Date> {
   const lastDates = new Map<string, Date>()
